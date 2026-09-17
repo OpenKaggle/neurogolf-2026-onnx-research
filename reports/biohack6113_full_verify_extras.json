@@ -1,0 +1,49 @@
+{
+  "source": "submissions/biohack44_6113_onnx",
+  "n_tested": 6,
+  "n_pass_all": 5,
+  "results": [
+    {
+      "task": 84,
+      "ok": true,
+      "pass": 175,
+      "total": 175,
+      "first_fail": null
+    },
+    {
+      "task": 129,
+      "ok": true,
+      "pass": 265,
+      "total": 265,
+      "first_fail": null
+    },
+    {
+      "task": 191,
+      "ok": false,
+      "pass": 227,
+      "total": 267,
+      "first_fail": 11
+    },
+    {
+      "task": 200,
+      "ok": true,
+      "pass": 84,
+      "total": 84,
+      "first_fail": null
+    },
+    {
+      "task": 216,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 338,
+      "ok": true,
+      "pass": 267,
+      "total": 267,
+      "first_fail": null
+    }
+  ]
+}

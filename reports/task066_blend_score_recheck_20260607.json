@@ -1,0 +1,17 @@
+{
+  "source": "submissions/blend_v360",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 66,
+      "score": 15.028480037072045,
+      "cost": 21408,
+      "memory": 16962,
+      "params": 4446,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 70,
+      "error": ""
+    }
+  ]
+}

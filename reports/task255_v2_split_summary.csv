@@ -1,0 +1,10 @@
+solver,split,exact,total,exact_rate,pixel_errors,false_positive_3,false_negative_3,target_3,predicted_3
+core8_upper_bound,arc-gen,0,261,0.0,4209,4209,0,60965,65174
+core8_upper_bound,test,0,1,0.0,32,32,0,210,242
+core8_upper_bound,train,0,3,0.0,61,61,0,802,863
+legacy_stub,arc-gen,0,261,0.0,60965,0,60965,60965,0
+legacy_stub,test,0,1,0.0,210,0,210,210,0
+legacy_stub,train,0,3,0.0,802,0,802,802,0
+v2_train_only_rect_corridor,arc-gen,209,261,0.8007662835249042,2212,14,2198,60965,58781
+v2_train_only_rect_corridor,test,1,1,1.0,0,0,0,210,210
+v2_train_only_rect_corridor,train,3,3,1.0,0,0,0,802,802

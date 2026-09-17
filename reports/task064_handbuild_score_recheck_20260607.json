@@ -1,0 +1,17 @@
+{
+  "source": "submissions/task064_recheck_dir",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 64,
+      "score": 12.698767185916626,
+      "cost": 219967,
+      "memory": 218124,
+      "params": 1843,
+      "local_pass": 0,
+      "local_total": 267,
+      "nodes": 78,
+      "error": ""
+    }
+  ]
+}

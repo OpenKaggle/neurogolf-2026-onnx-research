@@ -1,0 +1,3815 @@
+[
+  {
+    "task_id": 1,
+    "kept": false,
+    "error": "",
+    "original_cost": 2861,
+    "original_score": 17.04107350694989,
+    "candidate_cost": 2861,
+    "candidate_score": 17.04107350694989,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 2,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_ch. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 3,
+    "kept": false,
+    "error": "",
+    "original_cost": 9104,
+    "original_score": 15.883530843633888,
+    "candidate_cost": 9104,
+    "candidate_score": 15.883530843633888,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 4,
+    "kept": false,
+    "error": "",
+    "original_cost": 55020,
+    "original_score": 14.084547965521434,
+    "candidate_cost": 55020,
+    "candidate_score": 14.084547965521434,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 5,
+    "kept": false,
+    "error": "",
+    "original_cost": 117225,
+    "original_score": 13.328149556042213,
+    "candidate_cost": 117225,
+    "candidate_score": 13.328149556042213,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 6,
+    "kept": false,
+    "error": "",
+    "original_cost": 1631,
+    "original_score": 17.603051397378987,
+    "candidate_cost": 1631,
+    "candidate_score": 17.603051397378987,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 7,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Concat): inputs has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 8,
+    "kept": false,
+    "error": "",
+    "original_cost": 23289,
+    "original_score": 14.94426357492621,
+    "candidate_cost": 23289,
+    "candidate_score": 14.94426357492621,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 9,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:GatherND, node name: ): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 10,
+    "kept": false,
+    "error": "",
+    "original_cost": 5016,
+    "original_score": 16.479611917687244,
+    "candidate_cost": 5016,
+    "candidate_score": 16.479611917687244,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 11,
+    "kept": false,
+    "error": "",
+    "original_cost": 66247,
+    "original_score": 13.898854540195707,
+    "candidate_cost": 66247,
+    "candidate_score": 13.898854540195707,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 12,
+    "kept": false,
+    "error": "",
+    "original_cost": 13782,
+    "original_score": 15.468881328082846,
+    "candidate_cost": 13782,
+    "candidate_score": 15.468881328082846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 13,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 280): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 281): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 14,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:Reshape): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Add): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Neg): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 15,
+    "kept": false,
+    "error": "",
+    "original_cost": 900,
+    "original_score": 18.197605236675688,
+    "candidate_cost": 900,
+    "candidate_score": 18.197605236675688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 16,
+    "kept": false,
+    "error": "",
+    "original_cost": 10,
+    "original_score": 22.697414907005953,
+    "candidate_cost": 10,
+    "candidate_score": 22.697414907005953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 17,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 18,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: /ReduceSum_1): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_80. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_2): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_86. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_3): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_171. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_4): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_226. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_5): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_80. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_6): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_86. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_7): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_171. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: /ReduceSum_8): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::ReduceSum_226. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 19,
+    "kept": false,
+    "error": "",
+    "original_cost": 137868,
+    "original_score": 13.165948015358635,
+    "candidate_cost": 137868,
+    "candidate_score": 13.165948015358635,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 20,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 446): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 448): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 452): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 21,
+    "kept": false,
+    "error": "",
+    "original_cost": 60768,
+    "original_score": 13.985181386387987,
+    "candidate_cost": 60768,
+    "candidate_score": 13.985181386387987,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 22,
+    "kept": false,
+    "error": "",
+    "original_cost": 44933,
+    "original_score": 14.287072229632908,
+    "candidate_cost": 44933,
+    "candidate_score": 14.287072229632908,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 23,
+    "kept": false,
+    "error": "",
+    "original_cost": 605720,
+    "original_score": 11.685826887929409,
+    "candidate_cost": 605720,
+    "candidate_score": 11.685826887929409,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 24,
+    "kept": false,
+    "error": "",
+    "original_cost": 9080,
+    "original_score": 15.88617052840466,
+    "candidate_cost": 9080,
+    "candidate_score": 15.88617052840466,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 25,
+    "kept": false,
+    "error": "",
+    "original_cost": 340764,
+    "original_score": 12.261054565445162,
+    "candidate_cost": 340764,
+    "candidate_score": 12.261054565445162,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 26,
+    "kept": false,
+    "error": "",
+    "original_cost": 738,
+    "original_score": 18.39605617539953,
+    "candidate_cost": 738,
+    "candidate_score": 18.39605617539953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 27,
+    "kept": false,
+    "error": "",
+    "original_cost": 36791,
+    "original_score": 14.486991470971319,
+    "candidate_cost": 36791,
+    "candidate_score": 14.486991470971319,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 28,
+    "kept": false,
+    "error": "",
+    "original_cost": 8990,
+    "original_score": 15.896131872534333,
+    "candidate_cost": 8990,
+    "candidate_score": 15.896131872534333,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 29,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: task029_row_start): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_row_last_from_end): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_col_start): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_col_last_from_end): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_row_start_keep): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_row_last_from_end_keep): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_col_start_keep): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task029_col_last_from_end_keep): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 30,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 31,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: row_counts): [ShapeInferenceError] ParseData type mismatch for tensor: row_reduce_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: col_counts): [ShapeInferenceError] ParseData type mismatch for tensor: col_reduce_axes. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: first_row): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: first_col): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: last_row): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: last_col): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 32,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 41): [ShapeInferenceError] ParseData type mismatch for tensor: axes_2_1d. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 33,
+    "kept": false,
+    "error": "",
+    "original_cost": 55161,
+    "original_score": 14.081988539178049,
+    "candidate_cost": 55161,
+    "candidate_score": 14.081988539178049,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 34,
+    "kept": false,
+    "error": "",
+    "original_cost": 106796,
+    "original_score": 13.421324248376678,
+    "candidate_cost": 106796,
+    "candidate_score": 13.421324248376678,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 35,
+    "kept": false,
+    "error": "",
+    "original_cost": 25693,
+    "original_score": 14.846026139757955,
+    "candidate_cost": 25693,
+    "candidate_score": 14.846026139757955,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 36,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 88): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 89): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 91): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 94): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 109): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 37,
+    "kept": false,
+    "error": "",
+    "original_cost": 63726,
+    "original_score": 13.937652078450405,
+    "candidate_cost": 63726,
+    "candidate_score": 13.937652078450405,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 38,
+    "kept": false,
+    "error": "",
+    "original_cost": 2193,
+    "original_score": 17.306974251582112,
+    "candidate_cost": 2193,
+    "candidate_score": 17.306974251582112,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 39,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: row_counts): [ShapeInferenceError] ParseData type mismatch for tensor: row_reduce_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: col_counts): [ShapeInferenceError] ParseData type mismatch for tensor: col_reduce_axes. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: first_row): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: first_col): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 40,
+    "kept": false,
+    "error": "",
+    "original_cost": 10118,
+    "original_score": 15.777928705148119,
+    "candidate_cost": 10118,
+    "candidate_score": 15.777928705148119,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 41,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:Split): [ShapeInferenceError] ParseData type mismatch for tensor: split_9x1. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 42,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 142): [ShapeInferenceError] ParseData type mismatch for tensor: spatial_axes. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 43,
+    "kept": false,
+    "error": "",
+    "original_cost": 7119,
+    "original_score": 16.129477454896126,
+    "candidate_cost": 7119,
+    "candidate_score": 16.129477454896126,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 44,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:Col2Im, node name: /Col2Im): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::Col2Im_4889. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 45,
+    "kept": false,
+    "error": "",
+    "original_cost": 7782,
+    "original_score": 16.0404313464555,
+    "candidate_cost": 7782,
+    "candidate_score": 16.0404313464555,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 46,
+    "kept": false,
+    "error": "",
+    "original_cost": 33426,
+    "original_score": 14.58291068075113,
+    "candidate_cost": 33426,
+    "candidate_score": 14.58291068075113,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 47,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 49): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 51): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 53): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 55): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 48,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: first_two_index): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 49,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: 56): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 50,
+    "kept": false,
+    "error": "",
+    "original_cost": 9475,
+    "original_score": 15.843587970049374,
+    "candidate_cost": 9475,
+    "candidate_score": 15.843587970049374,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 51,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 52,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: ax3. Expected:int64 Actual:int32\\n(op_type:ReduceMax): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 53,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 54,
+    "kept": false,
+    "error": "",
+    "original_cost": 182056,
+    "original_score": 12.887930388960946,
+    "candidate_cost": 182056,
+    "candidate_score": 12.887930388960946,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 55,
+    "kept": false,
+    "error": "",
+    "original_cost": 26490,
+    "original_score": 14.815477417733884,
+    "candidate_cost": 26490,
+    "candidate_score": 14.815477417733884,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 56,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: mask_3x3): [ShapeInferenceError] ParseData type mismatch for tensor: channel_axis. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: class_index): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 57,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 58,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:Sub): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 59,
+    "kept": false,
+    "error": "",
+    "original_cost": 20411,
+    "original_score": 15.076170749805957,
+    "candidate_cost": 20411,
+    "candidate_score": 15.076170749805957,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 60,
+    "kept": false,
+    "error": "",
+    "original_cost": 5581,
+    "original_score": 16.372876749211567,
+    "candidate_cost": 5581,
+    "candidate_score": 16.372876749211567,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 61,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: presence_counts): [ShapeInferenceError] ParseData type mismatch for tensor: spatial_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: present_count): [ShapeInferenceError] ParseData type mismatch for tensor: color_axis. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 62,
+    "kept": false,
+    "error": "",
+    "original_cost": 30609,
+    "original_score": 14.670950637656585,
+    "candidate_cost": 30609,
+    "candidate_score": 14.670950637656585,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 63,
+    "kept": false,
+    "error": "",
+    "original_cost": 30732,
+    "original_score": 14.666940264012474,
+    "candidate_cost": 30732,
+    "candidate_score": 14.666940264012474,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 64,
+    "kept": false,
+    "error": "",
+    "original_cost": 131816,
+    "original_score": 13.210837710262732,
+    "candidate_cost": 131816,
+    "candidate_score": 13.210837710262732,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 65,
+    "kept": false,
+    "error": "",
+    "original_cost": 34777,
+    "original_score": 14.543288472281265,
+    "candidate_cost": 34777,
+    "candidate_score": 14.543288472281265,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 66,
+    "kept": false,
+    "error": "",
+    "original_cost": 499535,
+    "original_score": 11.878567055313978,
+    "candidate_cost": 499535,
+    "candidate_score": 11.878567055313978,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 67,
+    "kept": false,
+    "error": "",
+    "original_cost": 315,
+    "original_score": 19.247427361174367,
+    "candidate_cost": 315,
+    "candidate_score": 19.247427361174367,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 68,
+    "kept": false,
+    "error": "",
+    "original_cost": 12589,
+    "original_score": 15.55942130423374,
+    "candidate_cost": 12589,
+    "candidate_score": 15.55942130423374,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 69,
+    "kept": false,
+    "error": "",
+    "original_cost": 84370,
+    "original_score": 13.657032832840327,
+    "candidate_cost": 84370,
+    "candidate_score": 13.657032832840327,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 70,
+    "kept": false,
+    "error": "",
+    "original_cost": 66138,
+    "original_score": 13.90050125280863,
+    "candidate_cost": 66138,
+    "candidate_score": 13.90050125280863,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 71,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 68): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 69): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 71): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 73): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 96): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 98): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 72,
+    "kept": false,
+    "error": "",
+    "original_cost": 1338,
+    "original_score": 17.801068759311825,
+    "candidate_cost": 1338,
+    "candidate_score": 17.801068759311825,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 73,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 74,
+    "kept": false,
+    "error": "",
+    "original_cost": 21825,
+    "original_score": 15.009188619292196,
+    "candidate_cost": 21825,
+    "candidate_score": 15.009188619292196,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 75,
+    "kept": false,
+    "error": "",
+    "original_cost": 28487,
+    "original_score": 14.742796878157792,
+    "candidate_cost": 28487,
+    "candidate_score": 14.742796878157792,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 76,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Div, node name: /Div): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 77,
+    "kept": false,
+    "error": "",
+    "original_cost": 192353,
+    "original_score": 12.83291249537243,
+    "candidate_cost": 192353,
+    "candidate_score": 12.83291249537243,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 78,
+    "kept": false,
+    "error": "",
+    "original_cost": 11496,
+    "original_score": 15.65024557224114,
+    "candidate_cost": 11496,
+    "candidate_score": 15.65024557224114,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 79,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 80,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 240): [ShapeInferenceError] ParseData type mismatch for tensor: axes_row. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 243): [ShapeInferenceError] ParseData type mismatch for tensor: axes_col. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 248): [ShapeInferenceError] ParseData type mismatch for tensor: axes23. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 251): [ShapeInferenceError] ParseData type mismatch for tensor: axes23. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 254): [ShapeInferenceError] ParseData type mismatch for tensor: axes23. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: 257): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 258): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ReduceSum, node name: 273): [ShapeInferenceError] ParseData type mismatch for tensor: axes_zero. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: 282): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 81,
+    "kept": false,
+    "error": "",
+    "original_cost": 2307,
+    "original_score": 17.256296741826247,
+    "candidate_cost": 2307,
+    "candidate_score": 17.256296741826247,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 82,
+    "kept": false,
+    "error": "",
+    "original_cost": 23479,
+    "original_score": 14.936138316402742,
+    "candidate_cost": 23479,
+    "candidate_score": 14.936138316402742,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 83,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 84,
+    "kept": false,
+    "error": "",
+    "original_cost": 30168,
+    "original_score": 14.685462961061807,
+    "candidate_cost": 30168,
+    "candidate_score": 14.685462961061807,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 85,
+    "kept": false,
+    "error": "",
+    "original_cost": 113178,
+    "original_score": 13.36328292042622,
+    "candidate_cost": 113178,
+    "candidate_score": 13.36328292042622,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 86,
+    "kept": false,
+    "error": "",
+    "original_cost": 24705,
+    "original_score": 14.88523906872015,
+    "candidate_cost": 24705,
+    "candidate_score": 14.88523906872015,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 87,
+    "kept": false,
+    "error": "",
+    "original_cost": 376,
+    "original_score": 19.070410856610106,
+    "candidate_cost": 376,
+    "candidate_score": 19.070410856610106,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 88,
+    "kept": false,
+    "error": "",
+    "original_cost": 101870,
+    "original_score": 13.468547230415888,
+    "candidate_cost": 101870,
+    "candidate_score": 13.468547230415888,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 89,
+    "kept": false,
+    "error": "",
+    "original_cost": 50042,
+    "original_score": 14.179382068192274,
+    "candidate_cost": 50042,
+    "candidate_score": 14.179382068192274,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 90,
+    "kept": false,
+    "error": "",
+    "original_cost": 63354,
+    "original_score": 13.94350667496543,
+    "candidate_cost": 63354,
+    "candidate_score": 13.94350667496543,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 91,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 67): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 68): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 70): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 75): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 92,
+    "kept": false,
+    "error": "",
+    "original_cost": 151526,
+    "original_score": 13.071487493631263,
+    "candidate_cost": 151526,
+    "candidate_score": 13.071487493631263,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 93,
+    "kept": false,
+    "error": "",
+    "original_cost": 33543,
+    "original_score": 14.579416523184522,
+    "candidate_cost": 33543,
+    "candidate_score": 14.579416523184522,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 94,
+    "kept": false,
+    "error": "",
+    "original_cost": 42120,
+    "original_score": 14.351722033752088,
+    "candidate_cost": 42120,
+    "candidate_score": 14.351722033752088,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 95,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 96,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: /ScatterND): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 97,
+    "kept": false,
+    "error": "",
+    "original_cost": 69322,
+    "original_score": 13.85348240488441,
+    "candidate_cost": 69322,
+    "candidate_score": 13.85348240488441,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 98,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 99,
+    "kept": false,
+    "error": "",
+    "original_cost": 4910,
+    "original_score": 16.500970779211436,
+    "candidate_cost": 4910,
+    "candidate_score": 16.500970779211436,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 100,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: task100_bbox_row_counts): [ShapeInferenceError] ParseData type mismatch for tensor: task100_bbox_col_axis. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: task100_bbox_first_row): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task100_bbox_last_row): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ReduceSum, node name: task100_bbox_col_counts): [ShapeInferenceError] ParseData type mismatch for tensor: task100_bbox_row_axis. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: task100_bbox_first_col): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: task100_bbox_last_col): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: largest_bbox_color): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 101,
+    "kept": false,
+    "error": "",
+    "original_cost": 1261888,
+    "original_score": 10.95188042987406,
+    "candidate_cost": null,
+    "candidate_score": 0.0,
+    "save": 1261888,
+    "delta": -10.95188042987406,
+    "same": false
+  },
+  {
+    "task_id": 102,
+    "kept": false,
+    "error": "",
+    "original_cost": 44691,
+    "original_score": 14.292472581952298,
+    "candidate_cost": 44691,
+    "candidate_score": 14.292472581952298,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 103,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: asym_count): [ShapeInferenceError] ParseData type mismatch for tensor: pair_axis. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 104,
+    "kept": false,
+    "error": "",
+    "original_cost": 3762,
+    "original_score": 16.767293990139024,
+    "candidate_cost": 3762,
+    "candidate_score": 16.767293990139024,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 105,
+    "kept": false,
+    "error": "",
+    "original_cost": 36480,
+    "original_score": 14.495480555811731,
+    "candidate_cost": 36480,
+    "candidate_score": 14.495480555811731,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 106,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ArgMax_0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 107,
+    "kept": false,
+    "error": "",
+    "original_cost": 72651,
+    "original_score": 13.806577566471388,
+    "candidate_cost": 72651,
+    "candidate_score": 13.806577566471388,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 108,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 109,
+    "kept": false,
+    "error": "",
+    "original_cost": 94651,
+    "original_score": 13.542048278177983,
+    "candidate_cost": 94651,
+    "candidate_score": 13.542048278177983,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 110,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 111,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 112,
+    "kept": false,
+    "error": "",
+    "original_cost": 59270,
+    "original_score": 14.010141445218116,
+    "candidate_cost": 59270,
+    "candidate_score": 14.010141445218116,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 113,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 114,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ArgMax_0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 115,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: ReduceSum_0): [ShapeInferenceError] ParseData type mismatch for tensor: Constant_4_output. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: ReduceSum_1): [ShapeInferenceError] ParseData type mismatch for tensor: Constant_4_output. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: ArgMax_0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ArgMax_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:TopK, node name: TopK_0): [ShapeInferenceError] K input must be of type int64.\\n')"
+  },
+  {
+    "task_id": 116,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 117,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ArgMax_0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 118,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: /ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_3): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_4): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_5): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_6): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_7): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_8): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_9): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_10): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_11): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_12): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_13): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_14): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_15): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_16): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_17): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_18): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_19): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_20): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_21): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_22): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_23): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_24): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_25): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_26): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: /ArgMax_27): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 119,
+    "kept": false,
+    "error": "",
+    "original_cost": 47848,
+    "original_score": 14.224215401275607,
+    "candidate_cost": 47848,
+    "candidate_score": 14.224215401275607,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 120,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 121,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: target_color): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 122,
+    "kept": false,
+    "error": "",
+    "original_cost": 2510,
+    "original_score": 17.17196196787417,
+    "candidate_cost": 2510,
+    "candidate_score": 17.17196196787417,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 123,
+    "kept": false,
+    "error": "",
+    "original_cost": 4104,
+    "original_score": 16.680282613149394,
+    "candidate_cost": 4104,
+    "candidate_score": 16.680282613149394,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 124,
+    "kept": false,
+    "error": "",
+    "original_cost": 10873,
+    "original_score": 15.70596206900225,
+    "candidate_cost": 10873,
+    "candidate_score": 15.70596206900225,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 125,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_w. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_h. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 126,
+    "kept": false,
+    "error": "",
+    "original_cost": 86091,
+    "original_score": 13.636839844664504,
+    "candidate_cost": 86091,
+    "candidate_score": 13.636839844664504,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 127,
+    "kept": false,
+    "error": "",
+    "original_cost": 900,
+    "original_score": 18.197605236675688,
+    "candidate_cost": 900,
+    "candidate_score": 18.197605236675688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 128,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 129,
+    "kept": false,
+    "error": "",
+    "original_cost": 818,
+    "original_score": 18.293137663397253,
+    "candidate_cost": 818,
+    "candidate_score": 18.293137663397253,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 130,
+    "kept": false,
+    "error": "",
+    "original_cost": 15948,
+    "original_score": 15.322911291498754,
+    "candidate_cost": 15948,
+    "candidate_score": 15.322911291498754,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 131,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Sub): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 132,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: 85): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 133,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: best_index_raw): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:Reshape, node name: patch_starts): [TypeInferenceError] Inferred elem type differs from existing elem type: (6) vs (7)\\n(op_type:Reshape, node name: patch_ends): [TypeInferenceError] Inferred elem type differs from existing elem type: (6) vs (7)\\n')"
+  },
+  {
+    "task_id": 134,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: 132): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 135,
+    "kept": false,
+    "error": "",
+    "original_cost": 366,
+    "original_score": 19.097366666598635,
+    "candidate_cost": 366,
+    "candidate_score": 19.097366666598635,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 136,
+    "kept": false,
+    "error": "",
+    "original_cost": 12433,
+    "original_score": 15.571890493047063,
+    "candidate_cost": 12433,
+    "candidate_score": 15.571890493047063,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 137,
+    "kept": false,
+    "error": "",
+    "original_cost": 58034,
+    "original_score": 14.031215675327037,
+    "candidate_cost": 58034,
+    "candidate_score": 14.031215675327037,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 138,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: ): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 139,
+    "kept": false,
+    "error": "",
+    "original_cost": 3630,
+    "original_score": 16.803012072741105,
+    "candidate_cost": 3630,
+    "candidate_score": 16.803012072741105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 140,
+    "kept": false,
+    "error": "",
+    "original_cost": 376,
+    "original_score": 19.070410856610106,
+    "candidate_cost": 376,
+    "candidate_score": 19.070410856610106,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 141,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_2_arr. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 142,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 143,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: 66): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 144,
+    "kept": false,
+    "error": "",
+    "original_cost": 786,
+    "original_score": 18.333043207570793,
+    "candidate_cost": 786,
+    "candidate_score": 18.333043207570793,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 145,
+    "kept": false,
+    "error": "",
+    "original_cost": 73357,
+    "original_score": 13.796906788126128,
+    "candidate_cost": 73357,
+    "candidate_score": 13.796906788126128,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 146,
+    "kept": false,
+    "error": "",
+    "original_cost": 2256,
+    "original_score": 17.27865138738205,
+    "candidate_cost": 2256,
+    "candidate_score": 17.27865138738205,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 147,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 148,
+    "kept": false,
+    "error": "",
+    "original_cost": 22029,
+    "original_score": 14.99988495388028,
+    "candidate_cost": 22029,
+    "candidate_score": 14.99988495388028,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 149,
+    "kept": false,
+    "error": "",
+    "original_cost": 5139,
+    "original_score": 16.45538621300777,
+    "candidate_cost": 5139,
+    "candidate_score": 16.45538621300777,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 150,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: 28): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 151,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 152,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 153,
+    "kept": false,
+    "error": "",
+    "original_cost": 755558,
+    "original_score": 11.464788171901,
+    "candidate_cost": 755558,
+    "candidate_score": 11.464788171901,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 154,
+    "kept": false,
+    "error": "",
+    "original_cost": 55718,
+    "original_score": 14.07194146650494,
+    "candidate_cost": 55718,
+    "candidate_score": 14.07194146650494,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 155,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: 28): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 156,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 90): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 94): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 99): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 102): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 157,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ArgMax_1040): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ArgMax_1099): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ArgMax_1158): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ArgMax_1217): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ArgMax_1276): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 158,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 159,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 160,
+    "kept": false,
+    "error": "",
+    "original_cost": 11195,
+    "original_score": 15.676777470967144,
+    "candidate_cost": 11195,
+    "candidate_score": 15.676777470967144,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 161,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_h. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_w. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_w. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_w. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_h. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_h. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 162,
+    "kept": false,
+    "error": "",
+    "original_cost": 63291,
+    "original_score": 13.944501582071068,
+    "candidate_cost": 63291,
+    "candidate_score": 13.944501582071068,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 163,
+    "kept": false,
+    "error": "",
+    "original_cost": 23949,
+    "original_score": 14.916318151686092,
+    "candidate_cost": 23949,
+    "candidate_score": 14.916318151686092,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 164,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 165,
+    "kept": false,
+    "error": "",
+    "original_cost": 67524,
+    "original_score": 13.87976163077872,
+    "candidate_cost": 67524,
+    "candidate_score": 13.87976163077872,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 166,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:Split, node name: /GatherSliceToSplitFusion): [ShapeInferenceError] ParseData type mismatch for tensor: splits. Expected:int64 Actual:int32\\n(op_type:ReduceMax, node name: ): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:ReduceMax, node name: ): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:ReduceMax, node name: ): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul, node name: ): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul, node name: ): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Conv, node name: ): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 167,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: present_count): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 168,
+    "kept": false,
+    "error": "",
+    "original_cost": 20503,
+    "original_score": 15.071673504116953,
+    "candidate_cost": 20503,
+    "candidate_score": 15.071673504116953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 169,
+    "kept": false,
+    "error": "",
+    "original_cost": 34489,
+    "original_score": 14.551604288400723,
+    "candidate_cost": 34489,
+    "candidate_score": 14.551604288400723,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 170,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: ): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 171,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 172,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 173,
+    "kept": false,
+    "error": "",
+    "original_cost": 181492,
+    "original_score": 12.89103314541937,
+    "candidate_cost": 181492,
+    "candidate_score": 12.89103314541937,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 174,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 175,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: ax3. Expected:int64 Actual:int32\\n(op_type:Gather): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 176,
+    "kept": false,
+    "error": "",
+    "original_cost": 7920,
+    "original_score": 16.022853515191528,
+    "candidate_cost": 7920,
+    "candidate_score": 16.022853515191528,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 177,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 56): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 57): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 59): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 62): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 178,
+    "kept": false,
+    "error": "",
+    "original_cost": 29331,
+    "original_score": 14.713599743826219,
+    "candidate_cost": 29331,
+    "candidate_score": 14.713599743826219,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 179,
+    "kept": false,
+    "error": "",
+    "original_cost": 0,
+    "original_score": 25.0,
+    "candidate_cost": 0,
+    "candidate_score": 25.0,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 180,
+    "kept": false,
+    "error": "",
+    "original_cost": 7450,
+    "original_score": 16.084030688626395,
+    "candidate_cost": 7450,
+    "candidate_score": 16.084030688626395,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 181,
+    "kept": false,
+    "error": "",
+    "original_cost": 1194,
+    "original_score": 17.91493570604745,
+    "candidate_cost": 1194,
+    "candidate_score": 17.91493570604745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 182,
+    "kept": false,
+    "error": "",
+    "original_cost": 765146,
+    "original_score": 11.452178055727607,
+    "candidate_cost": 765146,
+    "candidate_score": 11.452178055727607,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 183,
+    "kept": false,
+    "error": "",
+    "original_cost": 24854,
+    "original_score": 14.87922601563406,
+    "candidate_cost": 24854,
+    "candidate_score": 14.87922601563406,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 184,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: room_mass_reduce): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 185,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: n_ArgMax_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ReduceSum, node name: n_ReduceSum_9): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_17): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_25): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_33): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_41): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_49): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_57): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_65): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: n_ReduceSum_73): [ShapeInferenceError] ParseData type mismatch for tensor: a01_1. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: n_ArgMax_77): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ReduceSum, node name: n_ReduceSum_92): [ShapeInferenceError] ParseData type mismatch for tensor: ax_1. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 186,
+    "kept": false,
+    "error": "",
+    "original_cost": 626,
+    "original_score": 18.560649628899903,
+    "candidate_cost": 626,
+    "candidate_score": 18.560649628899903,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 187,
+    "kept": false,
+    "error": "",
+    "original_cost": 106213,
+    "original_score": 13.426798209155445,
+    "candidate_cost": 106213,
+    "candidate_score": 13.426798209155445,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 188,
+    "kept": false,
+    "error": "",
+    "original_cost": 10664,
+    "original_score": 15.725371138141455,
+    "candidate_cost": 10664,
+    "candidate_score": 15.725371138141455,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 189,
+    "kept": false,
+    "error": "",
+    "original_cost": 24684,
+    "original_score": 14.886089460559042,
+    "candidate_cost": 24684,
+    "candidate_score": 14.886089460559042,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 190,
+    "kept": false,
+    "error": "",
+    "original_cost": 11204,
+    "original_score": 15.675973863620001,
+    "candidate_cost": 11204,
+    "candidate_score": 15.675973863620001,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 191,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: /ScatterND): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 192,
+    "kept": false,
+    "error": "",
+    "original_cost": 54535,
+    "original_score": 14.093402023637157,
+    "candidate_cost": 54535,
+    "candidate_score": 14.093402023637157,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 193,
+    "kept": false,
+    "error": "",
+    "original_cost": 53661,
+    "original_score": 14.109558240338645,
+    "candidate_cost": 53661,
+    "candidate_score": 14.109558240338645,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 194,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 195,
+    "kept": false,
+    "error": "",
+    "original_cost": 14229,
+    "original_score": 15.436962585454308,
+    "candidate_cost": 14229,
+    "candidate_score": 15.436962585454308,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 196,
+    "kept": false,
+    "error": "",
+    "original_cost": 32242,
+    "original_score": 14.618974770564057,
+    "candidate_cost": 32242,
+    "candidate_score": 14.618974770564057,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 197,
+    "kept": false,
+    "error": "",
+    "original_cost": 50688,
+    "original_score": 14.166555524825903,
+    "candidate_cost": 50688,
+    "candidate_score": 14.166555524825903,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 198,
+    "kept": false,
+    "error": "",
+    "original_cost": 103821,
+    "original_score": 13.449576458609688,
+    "candidate_cost": 103821,
+    "candidate_score": 13.449576458609688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 199,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 200,
+    "kept": false,
+    "error": "",
+    "original_cost": 81967,
+    "original_score": 13.685927993778316,
+    "candidate_cost": 81967,
+    "candidate_score": 13.685927993778316,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 201,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 202,
+    "kept": false,
+    "error": "",
+    "original_cost": 125720,
+    "original_score": 13.258187509088495,
+    "candidate_cost": 125720,
+    "candidate_score": 13.258187509088495,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 203,
+    "kept": false,
+    "error": "",
+    "original_cost": 86534,
+    "original_score": 13.631707320725468,
+    "candidate_cost": 86534,
+    "candidate_score": 13.631707320725468,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 204,
+    "kept": false,
+    "error": "",
+    "original_cost": 165194,
+    "original_score": 12.98512418020315,
+    "candidate_cost": 165194,
+    "candidate_score": 12.98512418020315,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 205,
+    "kept": false,
+    "error": "",
+    "original_cost": 332837,
+    "original_score": 12.284591840365996,
+    "candidate_cost": 332837,
+    "candidate_score": 12.284591840365996,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 206,
+    "kept": false,
+    "error": "",
+    "original_cost": 66480,
+    "original_score": 13.89534357047067,
+    "candidate_cost": 66480,
+    "candidate_score": 13.89534357047067,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 207,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 52): [ShapeInferenceError] ParseData type mismatch for tensor: red_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 53): [ShapeInferenceError] ParseData type mismatch for tensor: red_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 54): [ShapeInferenceError] ParseData type mismatch for tensor: red_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 55): [ShapeInferenceError] ParseData type mismatch for tensor: red_axes. Expected:int64 Actual:int32\\n(op_type:Concat, node name: 56): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Neg, node name: 57): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Reshape, node name: 58): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 208,
+    "kept": false,
+    "error": "",
+    "original_cost": 92408,
+    "original_score": 13.566031166031484,
+    "candidate_cost": 92408,
+    "candidate_score": 13.566031166031484,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 209,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Sub, node name: Sub_180): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 210,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 211,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 212,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: 73): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 213,
+    "kept": false,
+    "error": "",
+    "original_cost": 52361,
+    "original_score": 14.134082681610028,
+    "candidate_cost": 52361,
+    "candidate_score": 14.134082681610028,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 214,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 215,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_c. Expected:int64 Actual:int32\\n(op_type:Slice): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Slice): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Slice): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Slice): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Sum, node name: sum_v56_row0_enc): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Sum, node name: sum_v56_row1_enc): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Sum, node name: sum_v56_row2_enc): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Sum, node name: add_chain_sum_35): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Where, node name: boolmask_where_37): [TypeInferenceError] Input 1 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 216,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 217,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 50): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 51): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 218,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Concat, node name: ): inputs has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 219,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMin, node name: /ArgMin): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_3): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_4): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 220,
+    "kept": false,
+    "error": "",
+    "original_cost": 900,
+    "original_score": 18.197605236675688,
+    "candidate_cost": 900,
+    "candidate_score": 18.197605236675688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 221,
+    "kept": false,
+    "error": "",
+    "original_cost": 55865,
+    "original_score": 14.069306655018561,
+    "candidate_cost": 55865,
+    "candidate_score": 14.069306655018561,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 222,
+    "kept": false,
+    "error": "",
+    "original_cost": 58035,
+    "original_score": 14.031198444197276,
+    "candidate_cost": 58035,
+    "candidate_score": 14.031198444197276,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 223,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 224,
+    "kept": false,
+    "error": "",
+    "original_cost": 45522,
+    "original_score": 14.274048995433871,
+    "candidate_cost": 45522,
+    "candidate_score": 14.274048995433871,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 225,
+    "kept": false,
+    "error": "",
+    "original_cost": 11240,
+    "original_score": 15.672765876552319,
+    "candidate_cost": 11240,
+    "candidate_score": 15.672765876552319,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 226,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 227,
+    "kept": false,
+    "error": "",
+    "original_cost": 2927,
+    "original_score": 17.018266713308115,
+    "candidate_cost": 2927,
+    "candidate_score": 17.018266713308115,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 228,
+    "kept": false,
+    "error": "",
+    "original_cost": 25086,
+    "original_score": 14.86993479941538,
+    "candidate_cost": 25086,
+    "candidate_score": 14.86993479941538,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 229,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal, node name: 35): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 230,
+    "kept": false,
+    "error": "",
+    "original_cost": 900,
+    "original_score": 18.197605236675688,
+    "candidate_cost": 900,
+    "candidate_score": 18.197605236675688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 231,
+    "kept": false,
+    "error": "",
+    "original_cost": 38220,
+    "original_score": 14.448885782205735,
+    "candidate_cost": 38220,
+    "candidate_score": 14.448885782205735,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 232,
+    "kept": false,
+    "error": "",
+    "original_cost": 29497,
+    "original_score": 14.707956157758622,
+    "candidate_cost": 29497,
+    "candidate_score": 14.707956157758622,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 233,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: /ScatterND): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 234,
+    "kept": false,
+    "error": "",
+    "original_cost": 139937,
+    "original_score": 13.151052399688943,
+    "candidate_cost": 139937,
+    "candidate_score": 13.151052399688943,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 235,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: class0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: class1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: class2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 236,
+    "kept": false,
+    "error": "",
+    "original_cost": 722,
+    "original_score": 18.417974861107176,
+    "candidate_cost": 722,
+    "candidate_score": 18.417974861107176,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 237,
+    "kept": false,
+    "error": "",
+    "original_cost": 14324,
+    "original_score": 15.430308268881676,
+    "candidate_cost": 14324,
+    "candidate_score": 15.430308268881676,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 238,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 239,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: 62): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 240,
+    "kept": false,
+    "error": "",
+    "original_cost": 47734,
+    "original_score": 14.22660078877651,
+    "candidate_cost": 47734,
+    "candidate_score": 14.22660078877651,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 241,
+    "kept": false,
+    "error": "",
+    "original_cost": 0,
+    "original_score": 25.0,
+    "candidate_cost": 0,
+    "candidate_score": 25.0,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 242,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 29): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 32): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 243,
+    "kept": false,
+    "error": "",
+    "original_cost": 218713,
+    "original_score": 12.704484352943549,
+    "candidate_cost": 218713,
+    "candidate_score": 12.704484352943549,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 244,
+    "kept": false,
+    "error": "",
+    "original_cost": 32612,
+    "original_score": 14.607564402217198,
+    "candidate_cost": 32612,
+    "candidate_score": 14.607564402217198,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 245,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 73): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 74): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 75): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 76): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 246,
+    "kept": false,
+    "error": "",
+    "original_cost": 13391,
+    "original_score": 15.497661881504435,
+    "candidate_cost": 13391,
+    "candidate_score": 15.497661881504435,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 247,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 248,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_c. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 249,
+    "kept": false,
+    "error": "",
+    "original_cost": 10499,
+    "original_score": 15.740964706485059,
+    "candidate_cost": 10499,
+    "candidate_score": 15.740964706485059,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 250,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: 180): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 251,
+    "kept": false,
+    "error": "",
+    "original_cost": 101479,
+    "original_score": 13.47239284049379,
+    "candidate_cost": 101479,
+    "candidate_score": 13.47239284049379,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 252,
+    "kept": false,
+    "error": "",
+    "original_cost": 38286,
+    "original_score": 14.447160426903599,
+    "candidate_cost": 38286,
+    "candidate_score": 14.447160426903599,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 253,
+    "kept": false,
+    "error": "",
+    "original_cost": 48269,
+    "original_score": 14.215455188361384,
+    "candidate_cost": 48269,
+    "candidate_score": 14.215455188361384,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 254,
+    "kept": false,
+    "error": "",
+    "original_cost": 7956,
+    "original_score": 16.018318360026136,
+    "candidate_cost": 7956,
+    "candidate_score": 16.018318360026136,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 255,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Div, node name: /Div): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 256,
+    "kept": false,
+    "error": "",
+    "original_cost": 21291,
+    "original_score": 15.033960272806908,
+    "candidate_cost": 21291,
+    "candidate_score": 15.033960272806908,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 257,
+    "kept": false,
+    "error": "",
+    "original_cost": 1077,
+    "original_score": 18.01806532284361,
+    "candidate_cost": 1077,
+    "candidate_score": 18.01806532284361,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 258,
+    "kept": false,
+    "error": "",
+    "original_cost": 160,
+    "original_score": 19.924826184766175,
+    "candidate_cost": 160,
+    "candidate_score": 19.924826184766175,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 259,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: row_indices): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 260,
+    "kept": false,
+    "error": "",
+    "original_cost": 12474,
+    "original_score": 15.568598242913932,
+    "candidate_cost": 12474,
+    "candidate_score": 15.568598242913932,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 261,
+    "kept": false,
+    "error": "",
+    "original_cost": 200,
+    "original_score": 19.701682633451963,
+    "candidate_cost": 200,
+    "candidate_score": 19.701682633451963,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 262,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: col_with_5): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 263,
+    "kept": false,
+    "error": "",
+    "original_cost": 8056,
+    "original_score": 16.0058275656016,
+    "candidate_cost": 8056,
+    "candidate_score": 16.0058275656016,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 264,
+    "kept": false,
+    "error": "",
+    "original_cost": 139436,
+    "original_score": 13.154639006390818,
+    "candidate_cost": 139436,
+    "candidate_score": 13.154639006390818,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 265,
+    "kept": false,
+    "error": "",
+    "original_cost": 39812,
+    "original_score": 14.408076346634045,
+    "candidate_cost": 39812,
+    "candidate_score": 14.408076346634045,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 266,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 267,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 268,
+    "kept": false,
+    "error": "",
+    "original_cost": 22387,
+    "original_score": 14.983764287772118,
+    "candidate_cost": 22387,
+    "candidate_score": 14.983764287772118,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 269,
+    "kept": false,
+    "error": "",
+    "original_cost": 8602,
+    "original_score": 15.940249986656319,
+    "candidate_cost": 8602,
+    "candidate_score": 15.940249986656319,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 270,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 113): [ShapeInferenceError] ParseData type mismatch for tensor: axis_col. Expected:int64 Actual:int32\\n(op_type:Sub, node name: 114): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:ReduceSum, node name: 121): [ShapeInferenceError] ParseData type mismatch for tensor: axis_row. Expected:int64 Actual:int32\\n(op_type:Sub, node name: 122): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:ReduceSum, node name: 146): [ShapeInferenceError] ParseData type mismatch for tensor: axis_col. Expected:int64 Actual:int32\\n(op_type:Sub, node name: 147): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:ReduceSum, node name: 154): [ShapeInferenceError] ParseData type mismatch for tensor: axis_row. Expected:int64 Actual:int32\\n(op_type:Sub, node name: 155): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 271,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 272,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 273,
+    "kept": false,
+    "error": "",
+    "original_cost": 6037,
+    "original_score": 16.294337521203573,
+    "candidate_cost": 6037,
+    "candidate_score": 16.294337521203573,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 274,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Sub, node name: gap_index): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 275,
+    "kept": false,
+    "error": "",
+    "original_cost": 83884,
+    "original_score": 13.66280982894899,
+    "candidate_cost": 83884,
+    "candidate_score": 13.66280982894899,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 276,
+    "kept": false,
+    "error": "",
+    "original_cost": 10,
+    "original_score": 22.697414907005953,
+    "candidate_cost": 10,
+    "candidate_score": 22.697414907005953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 277,
+    "kept": false,
+    "error": "",
+    "original_cost": 70600,
+    "original_score": 13.835214576518666,
+    "candidate_cost": 70600,
+    "candidate_score": 13.835214576518666,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 278,
+    "kept": false,
+    "error": "",
+    "original_cost": 34383,
+    "original_score": 14.55468246483519,
+    "candidate_cost": 34383,
+    "candidate_score": 14.55468246483519,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 279,
+    "kept": false,
+    "error": "",
+    "original_cost": 27422,
+    "original_score": 14.7808991100834,
+    "candidate_cost": 27422,
+    "candidate_score": 14.7808991100834,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 280,
+    "kept": false,
+    "error": "",
+    "original_cost": 139246,
+    "original_score": 13.156002567937232,
+    "candidate_cost": 139246,
+    "candidate_score": 13.156002567937232,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 281,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 84): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 85): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 87): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 90): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 282,
+    "kept": false,
+    "error": "",
+    "original_cost": 900,
+    "original_score": 18.197605236675688,
+    "candidate_cost": 900,
+    "candidate_score": 18.197605236675688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 283,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 284,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 193): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 194): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 195): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 196): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 197): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 285,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 286,
+    "kept": false,
+    "error": "",
+    "original_cost": 160931,
+    "original_score": 13.011269019324953,
+    "candidate_cost": 160931,
+    "candidate_score": 13.011269019324953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 287,
+    "kept": false,
+    "error": "",
+    "original_cost": 22566,
+    "original_score": 14.975800372301608,
+    "candidate_cost": 22566,
+    "candidate_score": 14.975800372301608,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 288,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_col. Expected:int64 Actual:int32\\n(op_type:Sub): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 289,
+    "kept": false,
+    "error": "",
+    "original_cost": 25332,
+    "original_score": 14.86017630236368,
+    "candidate_cost": 25332,
+    "candidate_score": 14.86017630236368,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 290,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:TopK, node name: topk_values): [ShapeInferenceError] K input must be of type int64.\\n(op_type:ArgMax, node name: best_pos_raw_0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: best_pos_raw_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: best_pos_raw_2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: best_pos_raw_3): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: best_shape_raw): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 291,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 72): [ShapeInferenceError] ParseData type mismatch for tensor: ax_hw. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: 75): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 76): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 77): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 78): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 90): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 292,
+    "kept": false,
+    "error": "",
+    "original_cost": 6345,
+    "original_score": 16.244577619851512,
+    "candidate_cost": 6345,
+    "candidate_score": 16.244577619851512,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 293,
+    "kept": false,
+    "error": "",
+    "original_cost": 25277,
+    "original_score": 14.86234982966723,
+    "candidate_cost": 25277,
+    "candidate_score": 14.86234982966723,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 294,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 295,
+    "kept": false,
+    "error": "",
+    "original_cost": 12226,
+    "original_score": 15.58867988941133,
+    "candidate_cost": 12226,
+    "candidate_score": 15.58867988941133,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 296,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: occupancy): [ShapeInferenceError] ParseData type mismatch for tensor: channel_axis. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 297,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ReduceSum, node name: ReduceSum_node_17): axes typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 298,
+    "kept": false,
+    "error": "",
+    "original_cost": 14912,
+    "original_score": 15.390078463074628,
+    "candidate_cost": 14912,
+    "candidate_score": 15.390078463074628,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 299,
+    "kept": false,
+    "error": "",
+    "original_cost": 1790,
+    "original_score": 17.5100291011652,
+    "candidate_cost": 1790,
+    "candidate_score": 17.5100291011652,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 300,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 65): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 71): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 72): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 74): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 77): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 301,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:TopK, node name: 92): [ShapeInferenceError] K input must be of type int64.\\n(op_type:Squeeze, node name: 93): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 302,
+    "kept": false,
+    "error": "",
+    "original_cost": 21341,
+    "original_score": 15.03161461588603,
+    "candidate_cost": 21341,
+    "candidate_score": 15.03161461588603,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 303,
+    "kept": false,
+    "error": "",
+    "original_cost": 80710,
+    "original_score": 13.701382237681582,
+    "candidate_cost": 80710,
+    "candidate_score": 13.701382237681582,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 304,
+    "kept": false,
+    "error": "",
+    "original_cost": 14574,
+    "original_score": 15.413005601769772,
+    "candidate_cost": 14574,
+    "candidate_score": 15.413005601769772,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 305,
+    "kept": false,
+    "error": "",
+    "original_cost": 3952,
+    "original_score": 16.71802294113224,
+    "candidate_cost": 3952,
+    "candidate_score": 16.71802294113224,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 306,
+    "kept": false,
+    "error": "",
+    "original_cost": 89643,
+    "original_score": 13.596409605443009,
+    "candidate_cost": 89643,
+    "candidate_score": 13.596409605443009,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 307,
+    "kept": false,
+    "error": "",
+    "original_cost": 1800,
+    "original_score": 17.504458056115745,
+    "candidate_cost": 1800,
+    "candidate_score": 17.504458056115745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 308,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Sub): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 309,
+    "kept": false,
+    "error": "",
+    "original_cost": 10,
+    "original_score": 22.697414907005953,
+    "candidate_cost": 10,
+    "candidate_score": 22.697414907005953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 310,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 311,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 312,
+    "kept": false,
+    "error": "",
+    "original_cost": 9979,
+    "original_score": 15.791761836115688,
+    "candidate_cost": 9979,
+    "candidate_score": 15.791761836115688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 313,
+    "kept": false,
+    "error": "",
+    "original_cost": 76100,
+    "original_score": 13.760196456150222,
+    "candidate_cost": 76100,
+    "candidate_score": 13.760196456150222,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 314,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 367): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 376): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 392): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 401): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 423): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 432): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 442): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 447): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 460): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 465): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 479): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 488): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 498): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 507): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 517): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 522): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 535): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 540): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 554): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 563): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 585): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 594): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 610): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 619): [ShapeInferenceError] ParseData type mismatch for tensor: axes_c. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 315,
+    "kept": false,
+    "error": "",
+    "original_cost": 13779,
+    "original_score": 15.469099027006097,
+    "candidate_cost": 13779,
+    "candidate_score": 15.469099027006097,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 316,
+    "kept": false,
+    "error": "",
+    "original_cost": 51510,
+    "original_score": 14.150468757440368,
+    "candidate_cost": 51510,
+    "candidate_score": 14.150468757440368,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 317,
+    "kept": false,
+    "error": "",
+    "original_cost": 900,
+    "original_score": 18.197605236675688,
+    "candidate_cost": 900,
+    "candidate_score": 18.197605236675688,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 318,
+    "kept": false,
+    "error": "",
+    "original_cost": 754,
+    "original_score": 18.374607631992042,
+    "candidate_cost": 754,
+    "candidate_score": 18.374607631992042,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 319,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:GatherND): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 320,
+    "kept": false,
+    "error": "",
+    "original_cost": 5190,
+    "original_score": 16.445511023840066,
+    "candidate_cost": 5190,
+    "candidate_score": 16.445511023840066,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 321,
+    "kept": false,
+    "error": "",
+    "original_cost": 5511,
+    "original_score": 16.385498626116764,
+    "candidate_cost": 5511,
+    "candidate_score": 16.385498626116764,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 322,
+    "kept": false,
+    "error": "",
+    "original_cost": 1128,
+    "original_score": 17.971798567941995,
+    "candidate_cost": 1128,
+    "candidate_score": 17.971798567941995,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 323,
+    "kept": false,
+    "error": "",
+    "original_cost": 30073,
+    "original_score": 14.688616961783998,
+    "candidate_cost": 30073,
+    "candidate_score": 14.688616961783998,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 324,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 325,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: q1_sum): [ShapeInferenceError] ParseData type mismatch for tensor: q1_sum_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: q3_sum): [ShapeInferenceError] ParseData type mismatch for tensor: q1_sum_axes. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: qd_sum): [ShapeInferenceError] ParseData type mismatch for tensor: q1_sum_axes. Expected:int64 Actual:int32\\n(op_type:Sub, node name: q1_minus_q3): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Mul, node name: two_qd): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Add, node name: euler_num): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Div, node name: euler): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:ReduceSum, node name: holes_sum): [ShapeInferenceError] ParseData type mismatch for tensor: q1_sum_axes. Expected:int64 Actual:int32\\n(op_type:Add, node name: component_count): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 326,
+    "kept": false,
+    "error": "",
+    "original_cost": 166,
+    "original_score": 19.888012211643456,
+    "candidate_cost": 166,
+    "candidate_score": 19.888012211643456,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 327,
+    "kept": false,
+    "error": "",
+    "original_cost": 7548,
+    "original_score": 16.07096209351156,
+    "candidate_cost": 7548,
+    "candidate_score": 16.07096209351156,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 328,
+    "kept": false,
+    "error": "",
+    "original_cost": 67238,
+    "original_score": 13.884006157119696,
+    "candidate_cost": 67238,
+    "candidate_score": 13.884006157119696,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 329,
+    "kept": false,
+    "error": "",
+    "original_cost": 10260,
+    "original_score": 15.76399188127524,
+    "candidate_cost": 10260,
+    "candidate_score": 15.76399188127524,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 330,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: scatter_hist): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 331,
+    "kept": false,
+    "error": "",
+    "original_cost": 910,
+    "original_score": 18.186555400489105,
+    "candidate_cost": 910,
+    "candidate_score": 18.186555400489105,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 332,
+    "kept": false,
+    "error": "",
+    "original_cost": 8500,
+    "original_score": 15.952178557521592,
+    "candidate_cost": 8500,
+    "candidate_score": 15.952178557521592,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 333,
+    "kept": false,
+    "error": "",
+    "original_cost": 24893,
+    "original_score": 14.877658081568091,
+    "candidate_cost": 24893,
+    "candidate_score": 14.877658081568091,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 334,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: color_counts): [ShapeInferenceError] ParseData type mismatch for tensor: spatial_axes. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 335,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 66): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 68): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 70): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 72): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 336,
+    "kept": false,
+    "error": "",
+    "original_cost": 6036,
+    "original_score": 16.294503180112258,
+    "candidate_cost": 6036,
+    "candidate_score": 16.294503180112258,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 337,
+    "kept": false,
+    "error": "",
+    "original_cost": 10,
+    "original_score": 22.697414907005953,
+    "candidate_cost": 10,
+    "candidate_score": 22.697414907005953,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 338,
+    "kept": false,
+    "error": "",
+    "original_cost": 46899,
+    "original_score": 14.244248367754565,
+    "candidate_cost": 46899,
+    "candidate_score": 14.244248367754565,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 339,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Add, node name: restore_color_index): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 340,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 341,
+    "kept": false,
+    "error": "",
+    "original_cost": 18865,
+    "original_score": 15.15493636760159,
+    "candidate_cost": 18865,
+    "candidate_score": 15.15493636760159,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 342,
+    "kept": false,
+    "error": "",
+    "original_cost": 12153,
+    "original_score": 15.5946686681292,
+    "candidate_cost": 12153,
+    "candidate_score": 15.5946686681292,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 343,
+    "kept": false,
+    "error": "",
+    "original_cost": 28531,
+    "original_score": 14.741253505583026,
+    "candidate_cost": 28531,
+    "candidate_score": 14.741253505583026,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 344,
+    "kept": false,
+    "error": "",
+    "original_cost": 2510,
+    "original_score": 17.17196196787417,
+    "candidate_cost": 2510,
+    "candidate_score": 17.17196196787417,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 345,
+    "kept": false,
+    "error": "",
+    "original_cost": 45155,
+    "original_score": 14.2821437053151,
+    "candidate_cost": 45155,
+    "candidate_score": 14.2821437053151,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 346,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: sparsest_color): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 347,
+    "kept": false,
+    "error": "",
+    "original_cost": 1631,
+    "original_score": 17.603051397378987,
+    "candidate_cost": 1631,
+    "candidate_score": 17.603051397378987,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 348,
+    "kept": false,
+    "error": "",
+    "original_cost": 7307,
+    "original_score": 16.103411928208782,
+    "candidate_cost": 7307,
+    "candidate_score": 16.103411928208782,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 349,
+    "kept": false,
+    "error": "",
+    "original_cost": 146782,
+    "original_score": 13.103296228159195,
+    "candidate_cost": 146782,
+    "candidate_score": 13.103296228159195,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 350,
+    "kept": false,
+    "error": "",
+    "original_cost": 28729,
+    "original_score": 14.734337655454574,
+    "candidate_cost": 28729,
+    "candidate_score": 14.734337655454574,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 351,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 39): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 42): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 352,
+    "kept": false,
+    "error": "",
+    "original_cost": 6626,
+    "original_score": 16.20124341714016,
+    "candidate_cost": 6626,
+    "candidate_score": 16.20124341714016,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 353,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_2_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_2_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_2_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_2_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 354,
+    "kept": false,
+    "error": "",
+    "original_cost": 31151,
+    "original_score": 14.653398373570951,
+    "candidate_cost": 31151,
+    "candidate_score": 14.653398373570951,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 355,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 356,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_w. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_h. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 357,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_c. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 358,
+    "kept": false,
+    "error": "",
+    "original_cost": 112341,
+    "original_score": 13.370705832404326,
+    "candidate_cost": 112341,
+    "candidate_score": 13.370705832404326,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 359,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 48): [ShapeInferenceError] ParseData type mismatch for tensor: ax_c. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 63): [ShapeInferenceError] ParseData type mismatch for tensor: ax_2. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 64): [ShapeInferenceError] ParseData type mismatch for tensor: ax_3. Expected:int64 Actual:int32\\n(op_type:ArgMax, node name: 65): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 66): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ReduceSum, node name: 69): [ShapeInferenceError] ParseData type mismatch for tensor: ax_3. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 70): [ShapeInferenceError] ParseData type mismatch for tensor: ax_2. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 360,
+    "kept": false,
+    "error": "",
+    "original_cost": 11156,
+    "original_score": 15.680267251252621,
+    "candidate_cost": 11156,
+    "candidate_score": 15.680267251252621,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 361,
+    "kept": false,
+    "error": "",
+    "original_cost": 16493,
+    "original_score": 15.289308672551847,
+    "candidate_cost": 16493,
+    "candidate_score": 15.289308672551847,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 362,
+    "kept": false,
+    "error": "",
+    "original_cost": 12038,
+    "original_score": 15.604176407892284,
+    "candidate_cost": 12038,
+    "candidate_score": 15.604176407892284,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 363,
+    "kept": true,
+    "error": "",
+    "original_cost": 513477,
+    "original_score": 11.851039483304767,
+    "candidate_cost": 513469,
+    "candidate_score": 11.85105506348133,
+    "save": 8,
+    "delta": 1.5580176562224324e-05,
+    "same": true
+  },
+  {
+    "task_id": 364,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: scatter_end): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 365,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 366,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: /ScatterND): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  },
+  {
+    "task_id": 367,
+    "kept": false,
+    "error": "",
+    "original_cost": 1012506,
+    "original_score": 11.1720609961288,
+    "candidate_cost": 1012506,
+    "candidate_score": 11.1720609961288,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 368,
+    "kept": false,
+    "error": "",
+    "original_cost": 32339,
+    "original_score": 14.615970788806473,
+    "candidate_cost": 32339,
+    "candidate_score": 14.615970788806473,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 369,
+    "kept": false,
+    "error": "",
+    "original_cost": 7729,
+    "original_score": 16.04726523289313,
+    "candidate_cost": 7729,
+    "candidate_score": 16.04726523289313,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 370,
+    "kept": false,
+    "error": "",
+    "original_cost": 354422,
+    "original_score": 12.221756427464182,
+    "candidate_cost": 354422,
+    "candidate_score": 12.221756427464182,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 371,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 43): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:ReduceSum, node name: 45): [ShapeInferenceError] ParseData type mismatch for tensor: axes_hw. Expected:int64 Actual:int32\\n(op_type:Div, node name: 46): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Div, node name: 47): [TypeInferenceError] Input 0 expected to have type but instead is null\\n')"
+  },
+  {
+    "task_id": 372,
+    "kept": false,
+    "error": "",
+    "original_cost": 11690,
+    "original_score": 15.633510945533885,
+    "candidate_cost": 11690,
+    "candidate_score": 15.633510945533885,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 373,
+    "kept": false,
+    "error": "",
+    "original_cost": 627,
+    "original_score": 18.559053459367078,
+    "candidate_cost": 627,
+    "candidate_score": 18.559053459367078,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 374,
+    "kept": false,
+    "error": "",
+    "original_cost": 52037,
+    "original_score": 14.140289716998371,
+    "candidate_cost": 52037,
+    "candidate_score": 14.140289716998371,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 375,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_3_arr. Expected:int64 Actual:int32\\n(op_type:ReduceSum): [ShapeInferenceError] ParseData type mismatch for tensor: axis_2_arr. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 376,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Sub, node name: 42): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 377,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: ): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 378,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ReduceSum, node name: 133): [ShapeInferenceError] ParseData type mismatch for tensor: reduce_spatial_axes. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 379,
+    "kept": false,
+    "error": "",
+    "original_cost": 72499,
+    "original_score": 13.808671952355807,
+    "candidate_cost": 72499,
+    "candidate_score": 13.808671952355807,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 380,
+    "kept": false,
+    "error": "",
+    "original_cost": 737,
+    "original_score": 18.397412107810663,
+    "candidate_cost": 737,
+    "candidate_score": 18.397412107810663,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 381,
+    "kept": false,
+    "error": "",
+    "original_cost": 42217,
+    "original_score": 14.3494217374937,
+    "candidate_cost": 42217,
+    "candidate_score": 14.3494217374937,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 382,
+    "kept": false,
+    "error": "",
+    "original_cost": 194026,
+    "original_score": 12.824252550315938,
+    "candidate_cost": 194026,
+    "candidate_score": 12.824252550315938,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 383,
+    "kept": false,
+    "error": "",
+    "original_cost": 129967,
+    "original_score": 13.224964148940515,
+    "candidate_cost": 129967,
+    "candidate_score": 13.224964148940515,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 384,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 59): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 60): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 62): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 65): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 385,
+    "kept": false,
+    "error": "",
+    "original_cost": 30,
+    "original_score": 21.598802618337846,
+    "candidate_cost": 30,
+    "candidate_score": 21.598802618337846,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 386,
+    "kept": false,
+    "error": "",
+    "original_cost": 2207,
+    "original_score": 17.300610593743265,
+    "candidate_cost": 2207,
+    "candidate_score": 17.300610593743265,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 387,
+    "kept": false,
+    "error": "",
+    "original_cost": 577003,
+    "original_score": 11.734397255216521,
+    "candidate_cost": 577003,
+    "candidate_score": 11.734397255216521,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 388,
+    "kept": false,
+    "error": "",
+    "original_cost": 10779,
+    "original_score": 15.714644924218371,
+    "candidate_cost": 10779,
+    "candidate_score": 15.714644924218371,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 389,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 390,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Less, node name: 78): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 391,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: skip_largest_color): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: pick_color0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: pick_color1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: pick_color2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 392,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Mod, node name: packed_v47_digits): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 393,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: pick_color0): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: pick_color1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: pick_color2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 394,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Less): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 395,
+    "kept": false,
+    "error": "",
+    "original_cost": 1667,
+    "original_score": 17.581219117249205,
+    "candidate_cost": 1667,
+    "candidate_score": 17.581219117249205,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 396,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal, node name: marker_is_1): B has inconsistent type tensor(int64)')"
+  },
+  {
+    "task_id": 397,
+    "kept": false,
+    "error": "",
+    "original_cost": 21241,
+    "original_score": 15.036311444773116,
+    "candidate_cost": 21241,
+    "candidate_score": 15.036311444773116,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 398,
+    "kept": false,
+    "error": "",
+    "original_cost": 84267,
+    "original_score": 13.658254391724892,
+    "candidate_cost": 84267,
+    "candidate_score": 13.658254391724892,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 399,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 400,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMax, node name: 39): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMax, node name: 42): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  }
+]

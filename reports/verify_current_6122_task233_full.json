@@ -1,0 +1,14 @@
+{
+  "source": "submissions/current_best_6122_onnx",
+  "n_tested": 1,
+  "n_pass_all": 0,
+  "results": [
+    {
+      "task": 233,
+      "ok": false,
+      "pass": 182,
+      "total": 266,
+      "first_fail": 20
+    }
+  ]
+}

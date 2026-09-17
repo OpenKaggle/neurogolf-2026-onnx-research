@@ -1,0 +1,7 @@
+task_id,kept,rewrite,original_cost,candidate_cost,cost_save,original_score,candidate_score,score_gain,original_memory,candidate_memory,original_params,candidate_params,local_pass,local_total,equiv_train,equiv_test,equiv_arc_gen,error
+333,True,"replace final float one-hot Sum/Concat with bool logic, then Cast before opset11 Pad",24893,23213,1680,14.877658081568091,14.947532254452554,0.06987417288446274,24840,23140,53,73,265,265,3/3,1/1,261/261,
+374,True,bool ch0/ch1/ch2/ch4 concat; Pad bool out10_b,15441,11042,4399,15.355218411679136,15.69053853715601,0.3353201254768745,15208,10808,233,234,267,267,4/4,1/1,262/262,
+301,True,replace final OneHot/Where with bool Equal tail index against color ids,64988,59594,5394,13.91804208355036,14.004689823155179,0.08664773960481931,63140,57740,1848,1854,266,266,3/3,1/1,262/262,
+316,True,drop Cast(onehot_b->float); Pad bool onehot_b directly,3903,3543,360,16.730499232819383,16.82727089513453,0.09677166231514533,3748,3388,155,155,266,266,3/3,1/1,262/262,
+308,True,drop Cast(out7_b->float); Pad bool out7_b directly,21799,19839,1960,15.010380623834585,15.104595023657227,0.09421439982264168,21698,19738,101,101,266,266,3/3,1/1,262/262,
+240,True,convert base_bg/updates to bool and ScatterND bool output,27847,22177,5670,14.765519480374964,14.99318900523197,0.22766952485700642,14112,8442,13735,13735,266,266,3/3,1/1,262/262,

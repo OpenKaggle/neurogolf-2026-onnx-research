@@ -1,0 +1,17 @@
+{
+  "source": "submissions/task153_rebuild_dir",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 153,
+      "score": 10.494257005217179,
+      "cost": 1994179,
+      "memory": 1994082,
+      "params": 97,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 6891,
+      "error": ""
+    }
+  ]
+}

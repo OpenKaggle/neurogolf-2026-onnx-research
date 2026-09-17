@@ -1,0 +1,556 @@
+{
+  "picks": [
+    {
+      "task": 319,
+      "source": "afr",
+      "path": "data/afr1ste_6335/task319.onnx",
+      "uplift": 7.229530616122226,
+      "cost_before": 26465763,
+      "cost_after": 19184
+    },
+    {
+      "task": 285,
+      "source": "afr",
+      "path": "data/afr1ste_6335/task285.onnx",
+      "uplift": 6.35404779151483,
+      "cost_before": 99785539,
+      "cost_after": 173596
+    },
+    {
+      "task": 219,
+      "source": "afr",
+      "path": "data/afr1ste_6335/task219.onnx",
+      "uplift": 5.796396322216163,
+      "cost_before": 15842765,
+      "cost_after": 48138
+    },
+    {
+      "task": 255,
+      "source": "afr",
+      "path": "data/afr1ste_6335/task255.onnx",
+      "uplift": 5.690882767107938,
+      "cost_before": 43358268,
+      "cost_after": 146404
+    },
+    {
+      "task": 44,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task044.onnx",
+      "uplift": 3.9345205146716165,
+      "cost_before": 2380303,
+      "cost_after": 46547
+    },
+    {
+      "task": 118,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task118.onnx",
+      "uplift": 2.592806985493926,
+      "cost_before": 2155775,
+      "cost_after": 161273
+    },
+    {
+      "task": 133,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task133.onnx",
+      "uplift": 2.5724152169201826,
+      "cost_before": 9344642,
+      "cost_after": 713472
+    },
+    {
+      "task": 153,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task153.onnx",
+      "uplift": 2.532845737126028,
+      "cost_before": 762004,
+      "cost_after": 60528
+    },
+    {
+      "task": 381,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task381.onnx",
+      "uplift": 2.439366900713278,
+      "cost_before": 42217,
+      "cost_after": 3682
+    },
+    {
+      "task": 209,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task209.onnx",
+      "uplift": 2.3839582887338135,
+      "cost_before": 2926562,
+      "cost_after": 269785
+    },
+    {
+      "task": 23,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task023.onnx",
+      "uplift": 2.179242249206485,
+      "cost_before": 647121,
+      "cost_after": 73207
+    },
+    {
+      "task": 158,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task158.onnx",
+      "uplift": 2.022682957095384,
+      "cost_before": 3523597,
+      "cost_after": 466172
+    },
+    {
+      "task": 323,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task323.onnx",
+      "uplift": 1.904143574011595,
+      "cost_before": 30433,
+      "cost_after": 4533
+    },
+    {
+      "task": 363,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task363.onnx",
+      "uplift": 1.8259888821072234,
+      "cost_before": 551943,
+      "cost_after": 88895
+    },
+    {
+      "task": 105,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task105.onnx",
+      "uplift": 1.6426024399530519,
+      "cost_before": 36480,
+      "cost_after": 7058
+    },
+    {
+      "task": 66,
+      "source": "afr",
+      "path": "data/afr1ste_6335/task066.onnx",
+      "uplift": 1.6024359488191653,
+      "cost_before": 499535,
+      "cost_after": 100609
+    },
+    {
+      "task": 277,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task277.onnx",
+      "uplift": 1.5749015652108778,
+      "cost_before": 70604,
+      "cost_after": 14617
+    },
+    {
+      "task": 367,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task367.onnx",
+      "uplift": 1.4182715985967302,
+      "cost_before": 1027823,
+      "cost_after": 248869
+    },
+    {
+      "task": 94,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task094.onnx",
+      "uplift": 1.3936336687152053,
+      "cost_before": 42120,
+      "cost_after": 10453
+    },
+    {
+      "task": 182,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task182.onnx",
+      "uplift": 1.3132007153378034,
+      "cost_before": 765146,
+      "cost_after": 205792
+    },
+    {
+      "task": 76,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task076.onnx",
+      "uplift": 1.307881214405537,
+      "cost_before": 1438321,
+      "cost_after": 388911
+    },
+    {
+      "task": 324,
+      "source": "afr",
+      "path": "data/afr1ste_6335/task324.onnx",
+      "uplift": 1.2733353157368672,
+      "cost_before": 681484,
+      "cost_after": 190745
+    },
+    {
+      "task": 102,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task102.onnx",
+      "uplift": 1.2655199238164325,
+      "cost_before": 44691,
+      "cost_after": 12607
+    },
+    {
+      "task": 101,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task101.onnx",
+      "uplift": 1.2149433973166968,
+      "cost_before": 1261888,
+      "cost_after": 374436
+    },
+    {
+      "task": 245,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task245.onnx",
+      "uplift": 1.1237517247223252,
+      "cost_before": 89261,
+      "cost_after": 29015
+    },
+    {
+      "task": 233,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task233.onnx",
+      "uplift": 1.0821903573235208,
+      "cost_before": 4897656,
+      "cost_after": 1659583
+    },
+    {
+      "task": 302,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task302.onnx",
+      "uplift": 1.007019323486519,
+      "cost_before": 21341,
+      "cost_after": 7796
+    },
+    {
+      "task": 136,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task136.onnx",
+      "uplift": 0.9374656507702372,
+      "cost_before": 12433,
+      "cost_after": 4869
+    },
+    {
+      "task": 96,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task096.onnx",
+      "uplift": 0.9069247419894708,
+      "cost_before": 480075,
+      "cost_after": 193837
+    },
+    {
+      "task": 160,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task160.onnx",
+      "uplift": 0.8924590656150055,
+      "cost_before": 11195,
+      "cost_after": 4586
+    },
+    {
+      "task": 370,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task370.onnx",
+      "uplift": 0.8020621930272362,
+      "cost_before": 354422,
+      "cost_after": 158924
+    },
+    {
+      "task": 156,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task156.onnx",
+      "uplift": 0.800159690369334,
+      "cost_before": 59102,
+      "cost_after": 26552
+    },
+    {
+      "task": 93,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task093.onnx",
+      "uplift": 0.7747015291486612,
+      "cost_before": 33543,
+      "cost_after": 15458
+    },
+    {
+      "task": 42,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task042.onnx",
+      "uplift": 0.6852682988672782,
+      "cost_before": 17067,
+      "cost_after": 8601
+    },
+    {
+      "task": 364,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task364.onnx",
+      "uplift": 0.6809967709241604,
+      "cost_before": 153871,
+      "cost_after": 77876
+    },
+    {
+      "task": 205,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task205.onnx",
+      "uplift": 0.5301510687888609,
+      "cost_before": 332917,
+      "cost_after": 195927
+    },
+    {
+      "task": 382,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task382.onnx",
+      "uplift": 0.5274697508273753,
+      "cost_before": 194026,
+      "cost_after": 114494
+    },
+    {
+      "task": 47,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task047.onnx",
+      "uplift": 0.4928071182633076,
+      "cost_before": 4950,
+      "cost_after": 3024
+    },
+    {
+      "task": 157,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task157.onnx",
+      "uplift": 0.4765543420901128,
+      "cost_before": 3963271,
+      "cost_after": 2460871
+    },
+    {
+      "task": 204,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task204.onnx",
+      "uplift": 0.3909682249006483,
+      "cost_before": 195823,
+      "cost_after": 132455
+    },
+    {
+      "task": 169,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task169.onnx",
+      "uplift": 0.37715047582967287,
+      "cost_before": 34489,
+      "cost_after": 23653
+    },
+    {
+      "task": 350,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task350.onnx",
+      "uplift": 0.3706606956595966,
+      "cost_before": 28729,
+      "cost_after": 19831
+    },
+    {
+      "task": 306,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task306.onnx",
+      "uplift": 0.3300384859461136,
+      "cost_before": 89643,
+      "cost_after": 64444
+    },
+    {
+      "task": 40,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task040.onnx",
+      "uplift": 0.2515121153429316,
+      "cost_before": 10118,
+      "cost_after": 7868
+    },
+    {
+      "task": 185,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task185.onnx",
+      "uplift": 0.2412124046364177,
+      "cost_before": 75838,
+      "cost_after": 59584
+    },
+    {
+      "task": 154,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task154.onnx",
+      "uplift": 0.23955270276778506,
+      "cost_before": 57910,
+      "cost_after": 45574
+    },
+    {
+      "task": 57,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task057.onnx",
+      "uplift": 0.22429234720870816,
+      "cost_before": 46815,
+      "cost_after": 37409
+    },
+    {
+      "task": 355,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task355.onnx",
+      "uplift": 0.22120469299441403,
+      "cost_before": 18292,
+      "cost_after": 14662
+    },
+    {
+      "task": 41,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task041.onnx",
+      "uplift": 0.15956536589876436,
+      "cost_before": 16327,
+      "cost_after": 13919
+    },
+    {
+      "task": 79,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task079.onnx",
+      "uplift": 0.1543978416426839,
+      "cost_before": 24953,
+      "cost_after": 21383
+    },
+    {
+      "task": 301,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task301.onnx",
+      "uplift": 0.15134623402414604,
+      "cost_before": 75607,
+      "cost_after": 64988
+    },
+    {
+      "task": 242,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task242.onnx",
+      "uplift": 0.15014724296744753,
+      "cost_before": 24430,
+      "cost_after": 21024
+    },
+    {
+      "task": 64,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task064.onnx",
+      "uplift": 0.14386735691573627,
+      "cost_before": 131816,
+      "cost_after": 114153
+    },
+    {
+      "task": 17,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task017.onnx",
+      "uplift": 0.11306379294577873,
+      "cost_before": 39558,
+      "cost_after": 35329
+    },
+    {
+      "task": 12,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task012.onnx",
+      "uplift": 0.08649700421630513,
+      "cost_before": 13782,
+      "cost_after": 12640
+    },
+    {
+      "task": 100,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task100.onnx",
+      "uplift": 0.07938341873983745,
+      "cost_before": 7076,
+      "cost_after": 6536
+    },
+    {
+      "task": 110,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task110.onnx",
+      "uplift": 0.06988928677090378,
+      "cost_before": 117106,
+      "cost_after": 109201
+    },
+    {
+      "task": 49,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task049.onnx",
+      "uplift": 0.0611936140693814,
+      "cost_before": 32413,
+      "cost_after": 30489
+    },
+    {
+      "task": 361,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task361.onnx",
+      "uplift": 0.06086848910949705,
+      "cost_before": 16917,
+      "cost_after": 15918
+    },
+    {
+      "task": 150,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task150.onnx",
+      "uplift": 0.05934755657060364,
+      "cost_before": 1076,
+      "cost_after": 1014
+    },
+    {
+      "task": 155,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task155.onnx",
+      "uplift": 0.05934755657060364,
+      "cost_before": 1076,
+      "cost_after": 1014
+    },
+    {
+      "task": 332,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task332.onnx",
+      "uplift": 0.05180484316820788,
+      "cost_before": 9468,
+      "cost_after": 8990
+    },
+    {
+      "task": 54,
+      "source": "octv",
+      "path": "data/octaviograu_6154/submission/task054.onnx",
+      "uplift": 0.050699090516527434,
+      "cost_before": 182056,
+      "cost_after": 173056
+    }
+  ],
+  "unsafe": [
+    {
+      "task": 18,
+      "source": "octv",
+      "reason": "0/266"
+    },
+    {
+      "task": 21,
+      "source": "octv",
+      "reason": "0/266"
+    },
+    {
+      "task": 25,
+      "source": "octv",
+      "reason": "skipped-handbuild"
+    },
+    {
+      "task": 84,
+      "source": "octv",
+      "reason": "skipped-handbuild"
+    },
+    {
+      "task": 191,
+      "source": "afr",
+      "reason": "227/267"
+    },
+    {
+      "task": 200,
+      "source": "octv",
+      "reason": "skipped-handbuild"
+    },
+    {
+      "task": 243,
+      "source": "octv",
+      "reason": "skipped-handbuild"
+    },
+    {
+      "task": 366,
+      "source": "octv",
+      "reason": "0/266"
+    },
+    {
+      "task": 387,
+      "source": "octv",
+      "reason": "skipped-handbuild"
+    }
+  ],
+  "total_uplift": 79.2835470565752
+}

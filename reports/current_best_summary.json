@@ -1,0 +1,802 @@
+{
+  "timestamp_cst": "2026-06-06 19:45 CST",
+  "competition": "neurogolf-2026",
+  "team": "Jiayi Du",
+  "kaggle_username": "jahyee",
+  "current_public_best": 6260.89,
+  "current_public_rank": 229,
+  "leaderboard_total_teams": 1549,
+  "leaderboard_snapshot": "reports/leaderboard/current/neurogolf-2026-publicleaderboard-2026-06-02T12:49:44.csv",
+  "local_predicted_total": 6260.896515,
+  "best_zip": "submissions/submission_candidate_v4_plus16_seddik_t001.zip",
+  "best_zip_sha256": "e7ac37d6240fca04b603db46bfa52475b15be024f626d60f71b07988cab18db7",
+  "best_zip_source": "v4_plus16_seddik_t001. Ref 53421634 COMPLETE 6260.89 -- local 6260.896515; v15 bio superior micro2 also matched at 6260.89.",
+  "latest_pending_candidate": {
+    "ref": 53421634,
+    "submitted_at_utc": "2026-06-06 11:41:10.920000",
+    "zip": "submissions/submission_candidate_v4_plus16_seddik_t001.zip",
+    "zip_sha256": "e7ac37d6240fca04b603db46bfa52475b15be024f626d60f71b07988cab18db7",
+    "onnx_dir": "submissions/candidate_v4_plus16_seddik_t001_onnx",
+    "score_csv": "reports/candidate_v4_plus16_seddik_t001_score_n3.csv",
+    "local_predicted_total": 6260.896515,
+    "local_delta_vs_6122": 38.30353889725957,
+    "description": "v4_plus16 seddik task001 tiny exact micro; local 6260.8965",
+    "task_deltas": {
+      "001_vs_v15": 0.006311381399109812,
+      "bio_micro2_vs_v14": 0.142763
+    },
+    "status": "COMPLETE",
+    "public_score": 6260.89,
+    "official_outcome": "Matched local prediction to two displayed decimals; v16 is the latest complete LB-verified anchor."
+  },
+  "onnx_dir": "submissions/candidate_v4_plus16_seddik_t001_onnx",
+  "score_csv": "reports/candidate_v4_plus16_seddik_t001_score_n3.csv",
+  "fp16_report": "reports/current_best_6103_fp16_report.json",
+  "previous_bests": [
+    {
+      "ref": 53279581,
+      "score": 6120.10,
+      "zip": "submissions/submission_current_best_6120plus.zip",
+      "sha256": "e2cd12ab4402b03d89b43689cecb9ef123325b2d6fdb91589b13e55e0a5672b4"
+    },
+    {
+      "ref": 53279087,
+      "score": 6120.03,
+      "zip": "submissions/submission_current_best_6120.zip",
+      "sha256": "848a43d1b34aaa516bd2a7d6d522e35dccb549fd25c2ac2ace533431fd53606c"
+    },
+    {
+      "ref": 53277370,
+      "score": 6119.51,
+      "zip": "submissions/submission_current_best_6119.zip",
+      "sha256": "e348bddb9eb5d9234b7f6234ed39e24915ed60701da5772db6f5b7808bf2c268"
+    },
+    {
+      "ref": 53277088,
+      "score": 6118.58,
+      "zip": "submissions/submission_current_best_6118.zip",
+      "sha256": "9351934e4fe15b6622e1cb41e3fe4b78c17cc1d2214ff02f1f92c1840e9209b2"
+    },
+    {
+      "ref": 53264646,
+      "score": 6117.56,
+      "zip": "submissions/submission_current_best_6117.zip",
+      "sha256": "5130b79219d26a89b053e988724898f17cd77f25b9870ed0e00eea623835e382"
+    },
+    {
+      "ref": 53251105,
+      "score": 6109.56,
+      "zip": "submissions/submission_current_best_6109.zip",
+      "sha256": "8c6387367978dd72c141262c8e8821ed8bb1a22125ffecc4780e784e732fd7d1"
+    },
+    {
+      "ref": 53250965,
+      "score": 6106.97,
+      "zip": "submissions/submission_current_best_6107.zip",
+      "sha256": "43918fa99efeeae73bd70cf44fcaac59211160f3d7d78d7382dc057d5a1f0ff1"
+    },
+    {
+      "ref": 53238770,
+      "score": 6103.94,
+      "zip": "submissions/submission_current_best_6103.zip",
+      "sha256": "cd1f58022e084f39b66c89e2b76363538090839ab6f7eb971e425e533230b4b8"
+    }
+  ],
+  "merged_semantic_tasks": [
+    25,
+    243,
+    387
+  ],
+  "merged_semantic_tasks_replaced_by_biohack": [
+    84,
+    200
+  ],
+  "merged_external_tasks": [
+    {
+      "task": 151,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53250965,
+      "official_score_uplift": 3.03,
+      "structure": "single 10->10 3x3 Conv (W float32 [10,10,3,3], B float32 [10])",
+      "cost_before": 18805,
+      "cost_after": 910,
+      "rule_independently_verified": "266/266 in prototype: intersection of horiz+vert lines, paint 8 neighbors with color 4, keep center"
+    },
+    {
+      "task": 28,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53251105,
+      "official_score_uplift": 2.59,
+      "structure": "Slice x2 + Cast + ReduceMax + Slice + Mul(mask) + Add + Concat + Pad (13 nodes, float16 masks)",
+      "cost_before": 120690,
+      "cost_after": 8994,
+      "local_verified": "biohack network passes 265/265"
+    },
+    {
+      "task": 258,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53264646,
+      "official_score_uplift_estimate": 1.74,
+      "cost_before": 910,
+      "cost_after": 160,
+      "local_verified": "biohack network passes 266/266"
+    },
+    {
+      "task": 111,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53264646,
+      "official_score_uplift_estimate": 1.74,
+      "cost_before": 4532,
+      "cost_after": 797,
+      "local_verified": "biohack network passes 265/265"
+    },
+    {
+      "task": 150,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53264646,
+      "official_score_uplift_estimate": 1.47,
+      "cost_before": 4674,
+      "cost_after": 1076,
+      "local_verified": "biohack network passes 266/266"
+    },
+    {
+      "task": 155,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53264646,
+      "official_score_uplift_estimate": 1.47,
+      "cost_before": 4675,
+      "cost_after": 1076,
+      "local_verified": "biohack network passes 266/266"
+    },
+    {
+      "task": 14,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53264646,
+      "official_score_uplift_estimate": 1.13,
+      "cost_before": 235688,
+      "cost_after": 76080,
+      "local_verified": "biohack network passes 266/266"
+    },
+    {
+      "task": 204,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53264646,
+      "official_score_uplift_estimate": 0.46,
+      "cost_before": 308848,
+      "cost_after": 195823,
+      "local_verified": "biohack network passes 268/268",
+      "note": "task204 Python rule was independently solved 268/268; biohack provides a working ONNX implementation"
+    },
+    {
+      "task": 322,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53279581,
+      "official_score_uplift": 0.07,
+      "cost_before": 1128,
+      "cost_after": 1047,
+      "local_verified": "biohack network passes 266/266"
+    },
+    {
+      "task": 200,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53283290,
+      "official_score_uplift_estimate": 2.05,
+      "cost_before": 81842,
+      "cost_after": 10511,
+      "local_verified": "biohack network passes 84/84; replaces our semantic hand-build with cheaper equivalent"
+    },
+    {
+      "task": 84,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "ref_in": 53283290,
+      "official_score_uplift_estimate": 0.44,
+      "cost_before": 30168,
+      "cost_after": 19513,
+      "local_verified": "biohack network passes 175/175; replaces our semantic hand-build with cheaper equivalent"
+    }
+  ],
+  "rejected_external_swaps": [
+    {
+      "task": 191,
+      "source": "biohack44/neurogolf-6113-bundle",
+      "reason": "biohack network fails 40/267 local examples (227/267); not safe even though cost-only score appears higher"
+    },
+    {
+      "source": "afr1ste/neurogolf-6335-19 + octaviograu/neurogolf-manual-rewrites-v205",
+      "reason": "MEGA-SWAP 63 tasks ref 53266001 REGRESSED -2.43 official (expected +79.28). All 63 pass full local examples but cherry-picking from these high-scoring public bundles fails hidden set en masse. Bundle-level 6335/6154 official does NOT imply individual networks are hidden-safe. Bisecting these 63 swaps would need many submissions. NEVER REPEAT THIS PATTERN without per-task official verification first.",
+      "scope": "63 tasks: afr1ste {66,219,255,285,319,324}, octv {many}",
+      "rejected_zip": "submissions/submission_candidate_mega_swap_6197.zip"
+    },
+    {
+      "source": "konbu17/neurogolf-2026-blend-source-v3-6-0 -- single-task probe",
+      "reason": "konbu t101 swap ref 53283416 REGRESSED -10.95 official vs 6122.59 base (expected +2.95). Confirms konbu17 cherry-pick is UNSAFE at single-task scale, same class as afr1ste/octv despite passing all local examples and algorithmic-looking graph structure. NEVER cherry-pick from konbu17.",
+      "scope": "single-task swap from konbu17-v36 for ANY task",
+      "rejected_zip": "submissions/submission_candidate_konbu_t101_on_6122.zip"
+    },
+    {
+      "source": "afr1ste/neurogolf-6335-19 -- bisection probe",
+      "reason": "Bisection 4 afr-monster swap (319/285/219/255) ref 53276801 REGRESSED -30.32 official (expected +25.07). Confirms afr1ste networks UNSAFE for cherry-pick even at single-task scale. The reverse signal averages -13.8/task regardless of network count.",
+      "scope": "single-task swap from afr1ste-6335 for ANY task",
+      "rejected_zip": "submissions/submission_candidate_afr_monsters_6143.zip"
+    }
+  ],
+  "merged_safe_fp16_tasks": [
+    1,
+    3,
+    6,
+    7,
+    12,
+    21,
+    25,
+    26,
+    30,
+    40,
+    50,
+    51,
+    52,
+    58,
+    59,
+    72,
+    76,
+    82,
+    103,
+    123,
+    129,
+    143,
+    144,
+    148,
+    154,
+    158,
+    167,
+    168,
+    175,
+    180,
+    186,
+    187,
+    188,
+    197,
+    200,
+    207,
+    224,
+    227,
+    229,
+    235,
+    236,
+    240,
+    243,
+    254,
+    256,
+    257,
+    263,
+    267,
+    268,
+    277,
+    285,
+    292,
+    297,
+    299,
+    301,
+    302,
+    306,
+    308,
+    318,
+    321,
+    322,
+    334,
+    335,
+    339,
+    340,
+    342,
+    345,
+    347,
+    360,
+    371,
+    373,
+    386,
+    387,
+    394,
+    395,
+    397
+  ],
+  "newly_confirmed_full_fp16_tasks_from_6094": [
+    1,
+    3,
+    6,
+    7,
+    12,
+    25,
+    26,
+    40,
+    50,
+    52,
+    58,
+    72,
+    103,
+    123,
+    129,
+    144,
+    167,
+    180,
+    186,
+    188,
+    200,
+    207,
+    227,
+    229,
+    235,
+    236,
+    243,
+    254,
+    257,
+    263,
+    267,
+    292,
+    297,
+    299,
+    318,
+    321,
+    322,
+    334,
+    339,
+    340,
+    342,
+    347,
+    360,
+    373,
+    386,
+    387,
+    394,
+    395
+  ],
+  "known_unsafe_fp16_tasks": [
+    303
+  ],
+  "official_probe_results": [
+    {
+      "ref": 53283416,
+      "description": "konbu17 task101 swap on 6122 (konbu cherry-pick safety probe, 19x cost reduction).",
+      "status": "COMPLETE",
+      "public_score": 6111.64,
+      "candidate_zip": "submissions/submission_candidate_konbu_t101_on_6122.zip",
+      "candidate_zip_sha256": "cadd8939b6196ed7e603ab6b58ece54cfe8d99f0191cd0b151cd15adfe3db2c4",
+      "promoted_to_current_best": false,
+      "local_predicted": 6125.55,
+      "local_actual_delta": -13.91,
+      "lesson": "konbu17 cherry-pick UNSAFE even for single low-reduction task. Reverse signal ~-14/task similar to afr1ste. Current best remains 6122.59."
+    },
+    {
+      "ref": 53283290,
+      "description": "biohack-6113 task200+084 swap on 6120 (previously-skipped hand-build replacements).",
+      "status": "COMPLETE",
+      "public_score": 6122.59,
+      "candidate_zip": "submissions/submission_candidate_bio_t200_t084.zip",
+      "candidate_zip_sha256": "4aaab23d56f0b6494fad2743ed99927a2dd3cf3cfb4d5841fd5a511e8a870e8c",
+      "promoted_to_current_best": true,
+      "local_predicted": 6122.60,
+      "local_actual_delta": 0.0,
+      "note": "PERFECT match (+2.49). biohack source remains hidden-safe (11/11 swaps)."
+    },
+    {
+      "ref": 53279581,
+      "description": "biohack-6113 task322 swap on 6120 (single safe swap to extract last marginal biohack-6113 win).",
+      "status": "COMPLETE",
+      "public_score": 6120.10,
+      "candidate_zip": "submissions/submission_candidate_t322_swap_6120.zip",
+      "candidate_zip_sha256": "e2cd12ab4402b03d89b43689cecb9ef123325b2d6fdb91589b13e55e0a5672b4",
+      "promoted_to_current_best": true,
+      "local_predicted": 6120.1081,
+      "local_actual_delta": 0.0,
+      "note": "PERFECT match. Final biohack-6113 win extracted. All known biohack-6113 swap candidates exhausted."
+    },
+    {
+      "ref": 53279087,
+      "description": "onnxsim simplify on 6119 (17 tasks: task233 +0.18, task367 +0.09, task175 +0.08).",
+      "status": "COMPLETE",
+      "public_score": 6120.03,
+      "candidate_zip": "submissions/submission_candidate_onnxsim_stack_6120.zip",
+      "candidate_zip_sha256": "848a43d1b34aaa516bd2a7d6d522e35dccb549fd25c2ac2ace533431fd53606c",
+      "promoted_to_current_best": true,
+      "local_predicted": 6120.0335,
+      "local_actual_delta": 0.0,
+      "note": "PERFECT match. Structural simplification (deeper than onnxoptimizer) is hidden-safe."
+    },
+    {
+      "ref": 53277370,
+      "description": "onnxoptimizer safe passes on 6118 (32 tasks: eliminate dead/unused/dup, fuse pad/bias/consec, CSE).",
+      "status": "COMPLETE",
+      "public_score": 6119.51,
+      "candidate_zip": "submissions/submission_candidate_opt_stack_6120.zip",
+      "candidate_zip_sha256": "e348bddb9eb5d9234b7f6234ed39e24915ed60701da5772db6f5b7808bf2c268",
+      "promoted_to_current_best": true,
+      "local_predicted": 6119.5144,
+      "local_actual_delta": 0.0,
+      "note": "PERFECT match. Structural cleanup is hidden-safe (no semantic change). Top wins: task209 (+0.348), task204 (+0.170), task233 (+0.102)."
+    },
+    {
+      "ref": 53277088,
+      "description": "int64 -> int32 surgery on 41 tasks of 6117 (lossless type narrowing via tools/int_surgery_probe.py). All tasks verified same decoded outputs.",
+      "status": "COMPLETE",
+      "public_score": 6118.58,
+      "candidate_zip": "submissions/submission_candidate_int_surgery_6119.zip",
+      "candidate_zip_sha256": "9351934e4fe15b6622e1cb41e3fe4b78c17cc1d2214ff02f1f92c1840e9209b2",
+      "promoted_to_current_best": true,
+      "local_predicted": 6118.58,
+      "local_actual_delta": 0.0,
+      "note": "PERFECT match local vs official. Lossless transformation as expected. New best."
+    },
+    {
+      "ref": 53276801,
+      "description": "Bisection probe: 4 afr1ste-6335 monsters only (t319 t285 t219 t255). Local +25.07 to ~6142.64.",
+      "status": "COMPLETE",
+      "public_score": 6087.24,
+      "candidate_zip": "submissions/submission_candidate_afr_monsters_6143.zip",
+      "candidate_zip_sha256": "8a82966b7345bc053428cb5c8171fda54fb592769945c9b00e961302b4dc564c",
+      "promoted_to_current_best": false,
+      "local_predicted": 6142.64,
+      "local_actual_delta": -55.40,
+      "lesson": "afr1ste-6335 cherry-pick is UNSAFE EVEN FOR A SINGLE MONSTER. The 4-task probe (319/285/219/255) regressed -30.32 vs 6117 best while predicted +25. Confirms afr1ste networks overfit hidden examples in cost-cheap ways that local pass-rate cannot detect. Only biohack-6113 networks have proven cherry-pick safe (3/3 perfect match across 8 swaps)."
+    },
+    {
+      "ref": 53266001,
+      "description": "MEGA-SWAP 63 tasks from afr1ste-6335 + octv-6154 onto 6117 (6 afr + 57 octv). Local predicted +79.28 to ~6196.85.",
+      "status": "COMPLETE",
+      "public_score": 6115.13,
+      "candidate_zip": "submissions/submission_candidate_mega_swap_6197.zip",
+      "candidate_zip_sha256": "d1f80a0b49b3eff5a26baaa9cc346031d203b98cd1fd38bcdffe0aa783bdc6e8",
+      "promoted_to_current_best": false,
+      "local_predicted": 6196.85,
+      "local_actual_delta": -81.72,
+      "lesson": "BIG NEGATIVE SIGNAL: afr1ste 6335 and octv 6154 networks DO NOT cherry-pick safely. Their bundles score high officially because of compensation across all 400 tasks; individual networks overfit hidden examples in cost-only-equivalent ways that local pass-rate check cannot detect. Reverted to 6117. Do NOT repeat this swap pattern; biohack 6113 networks were genuinely hidden-safe (3/3 perfect local-official match across 8 swaps) but afr/octv are not."
+    },
+    {
+      "ref": 53264646,
+      "description": "Batch 6 biohack-6113 swaps on top of 6109: t258 t111 t155 t150 t014 t204 (skipped t191: fails 40/267 local).",
+      "status": "COMPLETE",
+      "public_score": 6117.56,
+      "candidate_zip": "submissions/submission_candidate_batch_b6_6118.zip",
+      "candidate_zip_sha256": "5130b79219d26a89b053e988724898f17cd77f25b9870ed0e00eea623835e382",
+      "promoted_to_current_best": true,
+      "local_predicted": 6117.5675,
+      "local_actual_match_error": 0.01
+    },
+    {
+      "ref": 53251105,
+      "description": "task028 stack-swap probe on top of 6107: biohack 6113-bundle slice+reducemax (cost 8994 vs ours 120690). Local +2.60 to ~6109.57.",
+      "status": "COMPLETE",
+      "public_score": 6109.56,
+      "candidate_zip": "submissions/submission_candidate_task028_6110.zip",
+      "candidate_zip_sha256": "8c6387367978dd72c141262c8e8821ed8bb1a22125ffecc4780e784e732fd7d1",
+      "promoted_to_current_best": true
+    },
+    {
+      "ref": 53250965,
+      "description": "task151 single-swap probe: replace 6103 best task151 (18,805 cost) with biohack 6113-bundle 1-Conv (910 cost). Local predicted total 6106.97.",
+      "status": "COMPLETE",
+      "public_score": 6106.97,
+      "candidate_zip": "submissions/submission_candidate_task151_6107.zip",
+      "candidate_zip_sha256": "43918fa99efeeae73bd70cf44fcaac59211160f3d7d78d7382dc057d5a1f0ff1",
+      "promoted_to_current_best": true
+    },
+    {
+      "ref": 53238466,
+      "description": "6103.94 probe: current 6094.17 plus 48 local-safe fp16 v2/v1 compressions",
+      "status": "COMPLETE",
+      "public_score": 6103.94
+    },
+    {
+      "ref": 53238519,
+      "description": "6094.17 fp16 group A probe +2.44 tasks 373 299 387 321 207 386 006 297 050 123 360 394",
+      "status": "COMPLETE",
+      "public_score": 6096.61
+    },
+    {
+      "ref": 53238523,
+      "description": "6094.17 fp16 group B probe +2.44 tasks 144 001 257 243 292 322 254 339 003 103 012 200",
+      "status": "COMPLETE",
+      "public_score": 6096.61
+    },
+    {
+      "ref": 53238527,
+      "description": "6094.17 fp16 group C probe +2.44 tasks 026 236 229 052 227 167 347 267 040 334 188 058",
+      "status": "COMPLETE",
+      "public_score": 6096.61
+    },
+    {
+      "ref": 53238532,
+      "description": "6094.17 fp16 group D probe +2.44 tasks 318 072 235 025 186 395 180 007 342 129 263 340",
+      "status": "COMPLETE",
+      "public_score": 6096.61
+    }
+  ],
+  "checked_not_merged": [
+    {
+      "task": 64,
+      "reason": "fails local examples and lower than current best"
+    },
+    {
+      "task": 153,
+      "reason": "passes local examples but costs more than current best"
+    },
+    {
+      "task": 182,
+      "reason": "passes local examples but costs more than current best"
+    },
+    {
+      "task": "182_raw",
+      "reason": "invalid ONNX shape inference"
+    }
+  ],
+  "top_remaining_cost_tasks": [
+    {
+      "task": 285,
+      "score": 6.581466,
+      "cost": 99785539,
+      "nodes": 478,
+      "file_size": 39101
+    },
+    {
+      "task": 366,
+      "score": 7.083011,
+      "cost": 60429553,
+      "nodes": 12512,
+      "file_size": 1269927
+    },
+    {
+      "task": 255,
+      "score": 7.414992,
+      "cost": 43358268,
+      "nodes": 851,
+      "file_size": 106804
+    },
+    {
+      "task": 319,
+      "score": 7.908638,
+      "cost": 26465763,
+      "nodes": 2709,
+      "file_size": 247340
+    },
+    {
+      "task": 219,
+      "score": 8.421777,
+      "cost": 15842765,
+      "nodes": 532,
+      "file_size": 87016
+    },
+    {
+      "task": 133,
+      "score": 8.949686,
+      "cost": 9344642,
+      "nodes": 368,
+      "file_size": 783434
+    },
+    {
+      "task": 233,
+      "score": 9.595733,
+      "cost": 4897656,
+      "nodes": 1372,
+      "file_size": 938774
+    },
+    {
+      "task": 157,
+      "score": 9.80742,
+      "cost": 3963271,
+      "nodes": 436,
+      "file_size": 851186
+    },
+    {
+      "task": 158,
+      "score": 9.925007,
+      "cost": 3523597,
+      "nodes": 833,
+      "file_size": 62475
+    },
+    {
+      "task": 209,
+      "score": 10.110661,
+      "cost": 2926562,
+      "nodes": 4286,
+      "file_size": 1294052
+    },
+    {
+      "task": 44,
+      "score": 10.317262,
+      "cost": 2380303,
+      "nodes": 1054,
+      "file_size": 148684
+    },
+    {
+      "task": 118,
+      "score": 10.416339,
+      "cost": 2155775,
+      "nodes": 1163,
+      "file_size": 160396
+    },
+    {
+      "task": 76,
+      "score": 10.821013,
+      "cost": 1438321,
+      "nodes": 232,
+      "file_size": 482032
+    },
+    {
+      "task": 101,
+      "score": 10.95188,
+      "cost": 1261888,
+      "nodes": 206,
+      "file_size": 39301
+    },
+    {
+      "task": 367,
+      "score": 11.157046,
+      "cost": 1027823,
+      "nodes": 705,
+      "file_size": 176797
+    },
+    {
+      "task": 18,
+      "score": 11.323875,
+      "cost": 869893,
+      "nodes": 219,
+      "file_size": 32157
+    },
+    {
+      "task": 182,
+      "score": 11.452178,
+      "cost": 765146,
+      "nodes": 522,
+      "file_size": 70465
+    },
+    {
+      "task": 153,
+      "score": 11.456293,
+      "cost": 762004,
+      "nodes": 14753,
+      "file_size": 854197
+    },
+    {
+      "task": 191,
+      "score": 11.527907,
+      "cost": 709342,
+      "nodes": 1037,
+      "file_size": 132233
+    },
+    {
+      "task": 324,
+      "score": 11.567972,
+      "cost": 681484,
+      "nodes": 260,
+      "file_size": 30635
+    },
+    {
+      "task": 23,
+      "score": 11.619711,
+      "cost": 647121,
+      "nodes": 397,
+      "file_size": 20318
+    },
+    {
+      "task": 387,
+      "score": 11.727298,
+      "cost": 581114,
+      "nodes": 178,
+      "file_size": 13870
+    },
+    {
+      "task": 363,
+      "score": 11.7788,
+      "cost": 551943,
+      "nodes": 260,
+      "file_size": 170389
+    },
+    {
+      "task": 66,
+      "score": 11.878567,
+      "cost": 499535,
+      "nodes": 1642,
+      "file_size": 180173
+    },
+    {
+      "task": 96,
+      "score": 11.918302,
+      "cost": 480075,
+      "nodes": 480,
+      "file_size": 64252
+    }
+  ],
+  "next_targets": [
+    "task219: promising partial semantic rule; large current cost 15.84M, needs better row/template matching",
+    "task363: Python rule closed at 265/265; ONNX blocked on variable footprint + overlap filter",
+    "task204: Python rule passes 268/268 but current ONNX cost is already modest; build only if low-cost graph is quick",
+    "task285/task366/task255/task319: highest-cost monsters; major upside if semantic rule closes"
+  ],
+  "last_submission_ref": 53283416,
+  "last_submission_note": "53283416 COMPLETE 6111.64 -- konbu t101 REJECTED (-10.95 vs 6122.59). konbu17 cherry-pick closed (same failure class as afr/octv). Current best remains 6122.59 (53283290). Cumulative from 6103.94: +18.65. Remaining quota: 3/5 today.",
+  "final_resubmission_ref": 53264646,
+  "final_resubmission_status": "COMPLETE",
+  "final_resubmission_public_score": 6117.56,
+  "final_resubmission_note": "batch 6 biohack-6113 single-task swaps; SHA 5130b792...; current best 6117.56 (mega-swap probe rejected)",
+  "konbu17_v36_swap_plan": {
+    "doc": "reports/konbu17_swap_plan.md",
+    "source": "data/konbu17_v36 (kaggle konbu17/neurogolf-2026-v36, official public score 6196.55)",
+    "untested_status": "no kaggle probe yet; treated as risky (afr/octv pattern possible) until first probe matches local",
+    "wins_fully_passing_local": 30,
+    "wins_failing_local_excluded": [191, 366],
+    "max_cumulative_local_gain": 90.0,
+    "top_15_full_verified_pass": [319, 285, 219, 255, 44, 153, 233, 133, 157, 76, 118, 23, 209, 66, 101],
+    "additional_15_full_verified_pass": [158, 367, 96, 363, 200, 18, 387, 25, 182, 324, 243, 175, 84, 277, 204],
+    "prebuilt_candidates": [
+      {
+        "zip": "submissions/submission_candidate_bio_t200_t084.zip",
+        "sha256": "4aaab23d56f0b6494fad2743ed99927a2dd3cf3cfb4d5841fd5a511e8a870e8c",
+        "source": "biohack44/neurogolf-6113-bundle (proven safe in 9/9 prior swaps)",
+        "swaps": ["task200", "task084"],
+        "local_predicted_total": 6122.5961,
+        "local_gain_vs_current": 2.488,
+        "risk": "low",
+        "purpose": "Untapped biohack-6113 wins (re-audit found two non-noise wins were skipped because they overlap our hand-builds 200/084). Near-zero risk first probe.",
+        "rule_audit": "task200: hand-build rule preserved via existing onnx; biohack provides cheaper graph. task084: same. Both pass full local 175/175 and 84/84 respectively."
+      },
+      {
+        "zip": "submissions/submission_candidate_konbu_t101.zip",
+        "sha256": "06aeed4113618af5efea12bb363637009afc545748c18a18e03308559028ba82",
+        "source": "konbu17_v36 (untested; official 6196.55)",
+        "swaps": ["task101"],
+        "reduction_ratio_max": 19,
+        "local_predicted_total": 6123.0606,
+        "local_gain_vs_current": 2.952,
+        "risk": "low",
+        "purpose": "Smallest konbu cherry-pick probe. Tests safety of konbu networks at lowest cost-reduction ratio."
+      },
+      {
+        "zip": "submissions/submission_candidate_konbu_3task_lowred.zip",
+        "sha256": "8a03323f1bfa4df80ce99bd272e3805334492fd175796eb01b982deea0d1dfa3",
+        "source": "konbu17_v36",
+        "swaps": ["task101", "task066", "task023"],
+        "reduction_ratio_max": 28,
+        "local_predicted_total": 6129.5337,
+        "local_gain_vs_current": 9.426,
+        "risk": "low",
+        "purpose": "Conservative batch if user wants more quota efficiency than single probe"
+      },
+      {
+        "zip": "submissions/submission_candidate_konbu_5task_lowred.zip",
+        "sha256": "f69839fb4c394e42aff17cd1f7113293e7c61d65df7628de533263734ecff103",
+        "source": "konbu17_v36",
+        "swaps": ["task101", "task066", "task023", "task209", "task118"],
+        "reduction_ratio_max": 36,
+        "local_predicted_total": 6136.3776,
+        "local_gain_vs_current": 16.270,
+        "risk": "medium"
+      },
+      {
+        "zip": "submissions/submission_candidate_combo_bio2_konbu5.zip",
+        "sha256": "43d8d6ae1e96d356",
+        "source": "biohack44_6113 + konbu17_v36 combo",
+        "swaps": ["bio:task200", "bio:task084", "konbu:task101", "konbu:task066", "konbu:task023", "konbu:task209", "konbu:task118"],
+        "local_predicted_total": 6138.8657,
+        "local_gain_vs_current": 18.758,
+        "risk": "medium",
+        "purpose": "Stack proven-safe biohack extras with konbu low-reduction; one probe to lock in both bets"
+      },
+      {
+        "zip": "submissions/submission_candidate_max_safe.zip",
+        "sha256": "a366a6cd60b54650e931c03a7b7dd5c6",
+        "source": "konbu17_v36 (28 tasks) + biohack44_6113 (5 tasks) = 33 swaps total",
+        "local_predicted_total": 6208.2525,
+        "local_gain_vs_current": 88.144,
+        "risk": "high",
+        "purpose": "DREAM MAX. Includes all monster swaps (task319 1372x, task285 574x). Submit only if multiple low-risk probes confirm konbu cherry-pick is hidden-safe.",
+        "warning": "If konbu networks behave like afr1ste in hidden (passes local but fails hidden), this regresses ~-88. Do not submit before bisection probes."
+      }
+    ],
+    "note_task233": "our current 6120 best task233 ONNX only passes 182/266 local examples — konbu task233 passes 266/266 and would also fix this local gap, in addition to +3.89 score gain",
+    "biohack_6113_untapped_wins": [
+      {"task": 200, "gain": 2.052, "note": "cost 81842->10511; biohack ONNX, preserves rule"},
+      {"task": 84, "gain": 0.436, "note": "cost 30168->19513"},
+      {"task": 129, "gain": 0.014, "note": "noise tier"},
+      {"task": 216, "gain": 0.006, "note": "noise tier"},
+      {"task": 338, "gain": 0.027, "note": "noise tier"}
+    ],
+    "score_bundle_bugfix": "tools/score_bundle.py now wipes stale ng_task*.json profile traces at startup. Without this, ORT can pick up a malformed trace from a previous run and report score=0 for that task. Caught silently scoring task356/task358 as 0.0 in earlier staging runs."
+  }
+}

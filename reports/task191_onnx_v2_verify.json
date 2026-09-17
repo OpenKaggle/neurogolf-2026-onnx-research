@@ -1,0 +1,31 @@
+{
+  "anchor": "submissions/candidate_v4_plus9_compiler_onnx/task191.onnx",
+  "checker_full": true,
+  "cost": 691342,
+  "failures": [],
+  "file_size": 95228,
+  "memory": 691177,
+  "nodes": 1036,
+  "output_elem_type": 10,
+  "params": 165,
+  "path": "submissions/handbuilds/task191_v2.onnx",
+  "score": 11.553610084813071,
+  "sha256": "a77bdb6d5f6448fd14db8776780f89f5a64a1aabd7abd220732c005af961b9e7",
+  "splits": {
+    "arc-gen": [
+      262,
+      262
+    ],
+    "test": [
+      1,
+      1
+    ],
+    "train": [
+      4,
+      4
+    ]
+  },
+  "strict_shape_inference": true,
+  "visible_pass": 267,
+  "visible_total": 267
+}

@@ -1,0 +1,13 @@
+{
+  "anchor": "submissions/candidate_v4_plus12_task285_onnx",
+  "task366_overlay": "submissions/handbuilds/task366_compact_v3.onnx",
+  "candidate": "submissions/candidate_v4_plus13_task366_onnx",
+  "zip": "submissions/submission_candidate_v4_plus13_task366.zip",
+  "zip_sha256": "e986cb000846c19e1c6d2caa5d801a6fd98e46e51cf06c9acbb5b214c64aa9b2",
+  "task_count": 400,
+  "changed_count": 1,
+  "changed_tasks": [
+    "task366"
+  ],
+  "strict_checked_changed_models": 1
+}

@@ -1,0 +1,126 @@
+{
+  "source": "data/konbu17_v36",
+  "n_tested": 17,
+  "n_pass_all": 15,
+  "results": [
+    {
+      "task": 158,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 367,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 96,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 363,
+      "ok": true,
+      "pass": 265,
+      "total": 265,
+      "first_fail": null
+    },
+    {
+      "task": 200,
+      "ok": true,
+      "pass": 84,
+      "total": 84,
+      "first_fail": null
+    },
+    {
+      "task": 18,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 191,
+      "ok": false,
+      "pass": 227,
+      "total": 267,
+      "first_fail": 11
+    },
+    {
+      "task": 387,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 25,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 182,
+      "ok": true,
+      "pass": 267,
+      "total": 267,
+      "first_fail": null
+    },
+    {
+      "task": 324,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 243,
+      "ok": true,
+      "pass": 265,
+      "total": 265,
+      "first_fail": null
+    },
+    {
+      "task": 366,
+      "ok": false,
+      "pass": 255,
+      "total": 266,
+      "first_fail": 8
+    },
+    {
+      "task": 175,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 84,
+      "ok": true,
+      "pass": 175,
+      "total": 175,
+      "first_fail": null
+    },
+    {
+      "task": 277,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    },
+    {
+      "task": 204,
+      "ok": true,
+      "pass": 268,
+      "total": 268,
+      "first_fail": null
+    }
+  ]
+}

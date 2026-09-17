@@ -1,0 +1,17 @@
+{
+  "source": "data/konbu17_v36",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 64,
+      "score": 12.535308557053478,
+      "cost": 259028,
+      "memory": 258798,
+      "params": 230,
+      "local_pass": 267,
+      "local_total": 267,
+      "nodes": 45,
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "task": 285,
+  "anchor": {
+    "task_id": 285,
+    "cost": 395468,
+    "score": 12.112174847323766,
+    "memory": 390848,
+    "params": 4620,
+    "local_pass": 265,
+    "local_total": 265,
+    "nodes": 279,
+    "file_size": 36534,
+    "path": "$HOME/Desktop/kaggleonnx/submissions/candidate_v4_plus10_compiler2_onnx/task285.onnx",
+    "error": ""
+  },
+  "candidate": {
+    "task_id": 285,
+    "cost": 326044,
+    "score": 12.305212379433542,
+    "memory": 319624,
+    "params": 6420,
+    "local_pass": 265,
+    "local_total": 265,
+    "nodes": 262,
+    "file_size": 39813,
+    "path": "$HOME/Desktop/kaggleonnx/submissions/handbuilds/task285_v2.onnx",
+    "error": ""
+  },
+  "decoded_equivalence_vs_anchor": {
+    "exact": 265,
+    "total": 265,
+    "mismatches": []
+  },
+  "delta": {
+    "cost": -69424,
+    "score": 0.19303753210977526,
+    "memory": -71224,
+    "params": 1800,
+    "nodes": -17,
+    "file_size": 3279
+  },
+  "can_stage": true,
+  "pseudo_hidden": {
+    "summary": {
+      "total": 3445,
+      "passed": 3375,
+      "failed": 0,
+      "skipped": 70
+    },
+    "failures_sample": []
+  }
+}

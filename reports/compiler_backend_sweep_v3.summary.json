@@ -1,0 +1,55 @@
+{
+  "anchor_dir": "submissions/candidate_v4_plus10_compiler2_onnx",
+  "output_dir": "submissions/compiler_backend_sweep_v3_onnx",
+  "candidate_count": 47,
+  "gate_passed_count": 46,
+  "applied_count": 10,
+  "applied_tasks": [
+    157,
+    295
+  ],
+  "applied_by_rule": {
+    "exact Cast-chain collapse": 9,
+    "ReduceSum-axis fusion/collapse": 1
+  },
+  "anchor_total_n3": 6260.1626587991395,
+  "final_total_n3": 6260.17181760164,
+  "total_gain_n3": 0.009158802500678576,
+  "theory": [
+    {
+      "rule": "same-shape Transpose",
+      "candidate_count": 72,
+      "estimated_intermediate_bytes": 89375,
+      "note": "rejected: same shape is not a semantic proof",
+      "task_count": 12
+    },
+    {
+      "rule": "exact Cast-chain collapse",
+      "candidate_count": 10,
+      "estimated_intermediate_bytes": 1555,
+      "note": "active: bool source has all-values cast proof",
+      "task_count": 2
+    },
+    {
+      "rule": "ReduceSum-axis fusion/collapse",
+      "candidate_count": 1,
+      "estimated_intermediate_bytes": 36,
+      "note": "active: static axes and keepdims=1 only",
+      "task_count": 1
+    },
+    {
+      "rule": "unsafe Cast-chain collapse",
+      "candidate_count": 19,
+      "estimated_intermediate_bytes": 33648,
+      "note": "rejected: rounding/overflow/domain effects possible",
+      "task_count": 14
+    },
+    {
+      "rule": "unsafe/shared ReduceSum chain",
+      "candidate_count": 9,
+      "estimated_intermediate_bytes": 5532,
+      "note": "rejected: shared inner or rank-changing keepdims",
+      "task_count": 5
+    }
+  ]
+}

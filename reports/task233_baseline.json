@@ -1,0 +1,17 @@
+{
+  "source": "submissions/candidate_v4_plus4_onnx",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 233,
+      "score": 10.808278082702646,
+      "cost": 1456755,
+      "memory": 1444504,
+      "params": 12251,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 2141,
+      "error": ""
+    }
+  ]
+}

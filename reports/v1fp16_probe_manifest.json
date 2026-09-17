@@ -1,0 +1,27 @@
+[
+  {
+    "task": 51,
+    "file": "submissions/probe_best_readd_v1fp16_051/submission.zip",
+    "size": 1418984
+  },
+  {
+    "task": 175,
+    "file": "submissions/probe_best_readd_v1fp16_175/submission.zip",
+    "size": 1418906
+  },
+  {
+    "task": 345,
+    "file": "submissions/probe_best_readd_v1fp16_345/submission.zip",
+    "size": 1418791
+  },
+  {
+    "task": 306,
+    "file": "submissions/probe_best_readd_v1fp16_306/submission.zip",
+    "size": 1418799
+  },
+  {
+    "task": 30,
+    "file": "submissions/probe_best_readd_v1fp16_030/submission.zip",
+    "size": 1418701
+  }
+]

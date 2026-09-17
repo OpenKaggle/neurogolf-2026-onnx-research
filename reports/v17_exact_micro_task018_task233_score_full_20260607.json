@@ -1,0 +1,28 @@
+{
+  "source": "submissions/opt_probe_v16_targeted_onnx",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 18,
+      "score": 11.926440386857584,
+      "cost": 476184,
+      "memory": 475190,
+      "params": 994,
+      "local_pass": 0,
+      "local_total": 266,
+      "nodes": 192,
+      "error": ""
+    },
+    {
+      "task": 233,
+      "score": 10.812401884984515,
+      "cost": 1450760,
+      "memory": 1444504,
+      "params": 6256,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 2141,
+      "error": ""
+    }
+  ]
+}

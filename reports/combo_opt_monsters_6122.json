@@ -1,0 +1,66 @@
+[
+  {
+    "task_id": 219,
+    "original_cost": 15842765,
+    "original_score": 8.421776512802126,
+    "best_cost": 15842765,
+    "best_score": 8.421776512802126,
+    "delta": 0.0,
+    "pipeline": [],
+    "kept": false
+  },
+  {
+    "task_id": 255,
+    "original_cost": 42917144,
+    "original_score": 7.425218068891745,
+    "best_cost": 42917144,
+    "best_score": 7.425218068891745,
+    "delta": 0.0,
+    "pipeline": [],
+    "kept": false
+  },
+  {
+    "task_id": 285,
+    "original_cost": 99576167,
+    "original_score": 6.583566593227506,
+    "best_cost": 99576167,
+    "best_score": 6.583566593227506,
+    "delta": 0.0,
+    "pipeline": [],
+    "kept": false
+  },
+  {
+    "task_id": 319,
+    "original_cost": 26325352,
+    "original_score": 7.913957012785044,
+    "best_cost": 26325352,
+    "best_score": 7.913957012785044,
+    "delta": 0.0,
+    "pipeline": [],
+    "kept": false
+  },
+  {
+    "task_id": 363,
+    "original_cost": 512771,
+    "original_score": 11.852415369272633,
+    "best_cost": 512763,
+    "best_score": 11.852430970900663,
+    "delta": 1.5601628030381676e-05,
+    "pipeline": [
+      "int"
+    ],
+    "kept": true
+  },
+  {
+    "task_id": 366,
+    "original_cost": 60083225,
+    "original_score": 7.0887587575917195,
+    "best_cost": 60025477,
+    "best_score": 7.089720353271105,
+    "delta": 0.000961595679385141,
+    "pipeline": [
+      "opt"
+    ],
+    "kept": true
+  }
+]

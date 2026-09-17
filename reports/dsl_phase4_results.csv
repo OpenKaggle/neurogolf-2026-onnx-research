@@ -1,0 +1,11 @@
+task_id,dsl_program,dsl_cost,dsl_train_pass,dsl_test_pass,dsl_arcgen_pass,baseline_cost,baseline_pass,cost_ratio,status
+87,rotate180,37664,4/4,1/1,261/261,376,3,0.01,ok
+140,rotate180,37664,2/2,1/1,262/262,376,3,0.01,ok
+150,flip_h,832,3/3,1/1,262/262,1076,3,1.293,ok
+155,flip_v,832,3/3,1/1,262/262,1076,3,1.293,ok
+179,transpose,0,4/4,1/1,262/262,0,3,1.0,ok
+241,transpose,0,3/3,1/1,262/262,0,3,1.0,ok
+380,rotate90,36832,4/4,1/1,262/262,737,3,0.02,ok
+276,"swap_colors(c1=6,c2=2)",10,3/3,1/1,262/262,10,3,1.0,ok
+309,"swap_colors(c1=7,c2=5)",10,3/3,1/1,261/261,10,3,1.0,ok
+337,"swap_colors(c1=5,c2=8)",10,3/3,1/1,262/262,10,3,1.0,ok

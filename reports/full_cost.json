@@ -1,0 +1,17 @@
+{
+  "source": "submissions/current_best_6122_onnx",
+  "n_runs": 4,
+  "results": [
+    {
+      "task": 366,
+      "score": 7.0887587575917195,
+      "cost": 60083225,
+      "memory": 60031966,
+      "params": 51259,
+      "local_pass": 4,
+      "local_total": 4,
+      "nodes": 12414,
+      "error": ""
+    }
+  ]
+}

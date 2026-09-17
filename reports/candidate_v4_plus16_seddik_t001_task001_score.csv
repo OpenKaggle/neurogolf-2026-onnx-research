@@ -1,0 +1,2 @@
+task_id,score,cost,memory,params,local_pass,local_total,nodes,file_size,path,error
+1,17.047384888349,2843,2819,24,3,3,13,1082,/var/folders/06/wl9jy4y51rdcrb6p2xy05sj80000gq/T/tmp.ZawWVeC1Nl/task001.onnx,

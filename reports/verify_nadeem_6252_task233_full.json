@@ -1,0 +1,14 @@
+{
+  "source": "submissions/nadeem_6252_onnx",
+  "n_tested": 1,
+  "n_pass_all": 1,
+  "results": [
+    {
+      "task": 233,
+      "ok": true,
+      "pass": 266,
+      "total": 266,
+      "first_fail": null
+    }
+  ]
+}

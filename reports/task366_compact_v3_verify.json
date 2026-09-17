@@ -1,0 +1,33 @@
+{
+  "model": "$HOME/Desktop/kaggleonnx/submissions/handbuilds/task366_compact_v3.onnx",
+  "checker_full_check": true,
+  "strict_shape_inference": true,
+  "equivalence": {
+    "total": 266,
+    "target_exact": 255,
+    "semantic_exact": 266,
+    "encodable_total": 255,
+    "encodable_target_exact": 255,
+    "encodable_semantic_exact": 255,
+    "skipped_shape": 11
+  },
+  "pseudo_hidden": {
+    "total": 1862,
+    "passed": 1456,
+    "failed": 0,
+    "skipped": 406
+  },
+  "pseudo_hidden_failures": "",
+  "score": {
+    "task": 366,
+    "score": 11.493032942114981,
+    "cost": 734516,
+    "memory": 729063,
+    "params": 5453,
+    "local_pass": 3,
+    "local_total": 3,
+    "nodes": 683,
+    "file_size": 82795,
+    "error": ""
+  }
+}

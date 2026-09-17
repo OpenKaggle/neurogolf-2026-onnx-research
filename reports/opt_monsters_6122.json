@@ -1,0 +1,74 @@
+[
+  {
+    "task_id": 219,
+    "kept": true,
+    "error": "",
+    "original_cost": null,
+    "original_score": 0.0,
+    "candidate_cost": 15842765,
+    "candidate_score": 8.421776512802126,
+    "save": -15842765,
+    "delta": 8.421776512802126,
+    "same": true
+  },
+  {
+    "task_id": 255,
+    "kept": false,
+    "error": "",
+    "original_cost": 42917144,
+    "original_score": 7.425218068891745,
+    "candidate_cost": 42917144,
+    "candidate_score": 7.425218068891745,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 285,
+    "kept": false,
+    "error": "",
+    "original_cost": 99576167,
+    "original_score": 6.583566593227506,
+    "candidate_cost": 99576167,
+    "candidate_score": 6.583566593227506,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 319,
+    "kept": false,
+    "error": "",
+    "original_cost": 26325352,
+    "original_score": 7.913957012785044,
+    "candidate_cost": 26325352,
+    "candidate_score": 7.913957012785044,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 363,
+    "kept": false,
+    "error": "",
+    "original_cost": 512771,
+    "original_score": 11.852415369272633,
+    "candidate_cost": 512771,
+    "candidate_score": 11.852415369272633,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  },
+  {
+    "task_id": 366,
+    "kept": true,
+    "error": "",
+    "original_cost": 60083225,
+    "original_score": 7.0887587575917195,
+    "candidate_cost": 60025477,
+    "candidate_score": 7.089720353271105,
+    "save": 57748,
+    "delta": 0.000961595679385141,
+    "same": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "anchor": "submissions/candidate_v4_plus13_task366_onnx",
+  "source": "submissions/biohack44_superior_onnx",
+  "candidate": "submissions/candidate_v4_plus14_bio_micro_onnx",
+  "zip": "submissions/submission_candidate_v4_plus14_bio_micro.zip",
+  "zip_sha256": "fa068ef49bbcdea4e26186148d175417e3a2100a635787e9cc11e990e7200d82",
+  "task_count": 400,
+  "changed_count": 4,
+  "changed_tasks": [
+    "task145",
+    "task153",
+    "task248",
+    "task357"
+  ],
+  "strict_checked_changed_models": 4
+}

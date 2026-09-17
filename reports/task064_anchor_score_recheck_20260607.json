@@ -1,0 +1,17 @@
+{
+  "source": "submissions/candidate_v4_plus16_seddik_t001_onnx",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 64,
+      "score": 13.354705067178468,
+      "cost": 114153,
+      "memory": 114061,
+      "params": 92,
+      "local_pass": 267,
+      "local_total": 267,
+      "nodes": 68,
+      "error": ""
+    }
+  ]
+}

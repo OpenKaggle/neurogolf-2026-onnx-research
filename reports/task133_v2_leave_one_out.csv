@@ -1,0 +1,36 @@
+source_index,source_label,contract_name,passed,skipped,reason,input_shape,expected_shape,actual_shape,mismatch_count,rule_label
+0,ex0,original,True,False,ok,"(16, 12)","(16, 12)","(16, 12)",0,loo_0
+0,ex0,task133_color_bijection,True,False,ok,"(16, 12)","(16, 12)","(16, 12)",0,loo_0
+0,ex0,task133_transpose,True,False,ok,"(12, 16)","(12, 16)","(12, 16)",0,loo_0
+0,ex0,task133_mirror_lr,True,False,ok,"(16, 12)","(16, 12)","(16, 12)",0,loo_0
+0,ex0,task133_mirror_ud,True,False,ok,"(16, 12)","(16, 12)","(16, 12)",0,loo_0
+0,ex0,task133_zero_pad_top_left,True,False,ok,"(17, 13)","(17, 13)","(17, 13)",0,loo_0
+0,ex0,task133_zero_pad_bottom_right,True,False,ok,"(17, 13)","(17, 13)","(17, 13)",0,loo_0
+0,ex1,original,True,False,ok,"(16, 18)","(16, 18)","(16, 18)",0,loo_1
+0,ex1,task133_color_bijection,True,False,ok,"(16, 18)","(16, 18)","(16, 18)",0,loo_1
+0,ex1,task133_transpose,True,False,ok,"(18, 16)","(18, 16)","(18, 16)",0,loo_1
+0,ex1,task133_mirror_lr,True,False,ok,"(16, 18)","(16, 18)","(16, 18)",0,loo_1
+0,ex1,task133_mirror_ud,True,False,ok,"(16, 18)","(16, 18)","(16, 18)",0,loo_1
+0,ex1,task133_zero_pad_top_left,True,False,ok,"(17, 19)","(17, 19)","(17, 19)",0,loo_1
+0,ex1,task133_zero_pad_bottom_right,True,False,ok,"(17, 19)","(17, 19)","(17, 19)",0,loo_1
+0,ex2,original,True,False,ok,"(17, 18)","(17, 18)","(17, 18)",0,loo_2
+0,ex2,task133_color_bijection,True,False,ok,"(17, 18)","(17, 18)","(17, 18)",0,loo_2
+0,ex2,task133_transpose,True,False,ok,"(18, 17)","(18, 17)","(18, 17)",0,loo_2
+0,ex2,task133_mirror_lr,True,False,ok,"(17, 18)","(17, 18)","(17, 18)",0,loo_2
+0,ex2,task133_mirror_ud,True,False,ok,"(17, 18)","(17, 18)","(17, 18)",0,loo_2
+0,ex2,task133_zero_pad_top_left,True,False,ok,"(18, 19)","(18, 19)","(18, 19)",0,loo_2
+0,ex2,task133_zero_pad_bottom_right,True,False,ok,"(18, 19)","(18, 19)","(18, 19)",0,loo_2
+0,ex3,original,True,False,ok,"(15, 18)","(15, 18)","(15, 18)",0,loo_3
+0,ex3,task133_color_bijection,True,False,ok,"(15, 18)","(15, 18)","(15, 18)",0,loo_3
+0,ex3,task133_transpose,True,False,ok,"(18, 15)","(18, 15)","(18, 15)",0,loo_3
+0,ex3,task133_mirror_lr,True,False,ok,"(15, 18)","(15, 18)","(15, 18)",0,loo_3
+0,ex3,task133_mirror_ud,True,False,ok,"(15, 18)","(15, 18)","(15, 18)",0,loo_3
+0,ex3,task133_zero_pad_top_left,True,False,ok,"(16, 19)","(16, 19)","(16, 19)",0,loo_3
+0,ex3,task133_zero_pad_bottom_right,True,False,ok,"(16, 19)","(16, 19)","(16, 19)",0,loo_3
+0,ex4,original,True,False,ok,"(19, 30)","(19, 30)","(19, 30)",0,loo_4
+0,ex4,task133_color_bijection,True,False,ok,"(19, 30)","(19, 30)","(19, 30)",0,loo_4
+0,ex4,task133_transpose,True,False,ok,"(30, 19)","(30, 19)","(30, 19)",0,loo_4
+0,ex4,task133_mirror_lr,True,False,ok,"(19, 30)","(19, 30)","(19, 30)",0,loo_4
+0,ex4,task133_mirror_ud,True,False,ok,"(19, 30)","(19, 30)","(19, 30)",0,loo_4
+0,ex4,task133_zero_pad_top_left,False,True,"input_shape_exceeds_limit:(20, 31)>(30, 30)","(20, 31)","(20, 31)",,,
+0,ex4,task133_zero_pad_bottom_right,False,True,"input_shape_exceeds_limit:(20, 31)>(30, 30)","(20, 31)","(20, 31)",,,
