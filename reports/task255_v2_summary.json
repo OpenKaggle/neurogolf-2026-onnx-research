@@ -1,0 +1,264 @@
+{
+  "hypothesis": {
+    "arc_gen_id_special_cases": 0,
+    "core": "zero cell with no 8-neighbor foreground",
+    "min_major_run": 14,
+    "name": "v2_train_only_rect_corridor",
+    "rectangles": "long overlapping core runs grouped by axis; fill stable intersections"
+  },
+  "pseudo_hidden_summary": [
+    {
+      "check": "clipped_zero_padded_translation",
+      "eligible": 2088,
+      "exact": 245,
+      "exact_rate": 0.11733716475095786,
+      "false_negative_3": 16508,
+      "false_positive_3": 39732,
+      "pixel_errors": 56240,
+      "split": "arc-gen",
+      "total_rows": 2088
+    },
+    {
+      "check": "clipped_zero_padded_translation",
+      "eligible": 8,
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 150,
+      "pixel_errors": 150,
+      "split": "test",
+      "total_rows": 8
+    },
+    {
+      "check": "clipped_zero_padded_translation",
+      "eligible": 24,
+      "exact": 3,
+      "exact_rate": 0.125,
+      "false_negative_3": 0,
+      "false_positive_3": 460,
+      "pixel_errors": 460,
+      "split": "train",
+      "total_rows": 24
+    },
+    {
+      "check": "far_additive_foreground_noise",
+      "eligible": 601,
+      "exact": 473,
+      "exact_rate": 0.7870216306156406,
+      "false_negative_3": 5453,
+      "false_positive_3": 34,
+      "pixel_errors": 5487,
+      "split": "arc-gen",
+      "total_rows": 783
+    },
+    {
+      "check": "far_additive_foreground_noise",
+      "eligible": 3,
+      "exact": 3,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "test",
+      "total_rows": 3
+    },
+    {
+      "check": "far_additive_foreground_noise",
+      "eligible": 8,
+      "exact": 8,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "train",
+      "total_rows": 9
+    },
+    {
+      "check": "foreground_color_permutation",
+      "eligible": 1827,
+      "exact": 1463,
+      "exact_rate": 0.8007662835249042,
+      "false_negative_3": 15386,
+      "false_positive_3": 98,
+      "pixel_errors": 15484,
+      "split": "arc-gen",
+      "total_rows": 1827
+    },
+    {
+      "check": "foreground_color_permutation",
+      "eligible": 7,
+      "exact": 7,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "test",
+      "total_rows": 7
+    },
+    {
+      "check": "foreground_color_permutation",
+      "eligible": 21,
+      "exact": 21,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "train",
+      "total_rows": 21
+    },
+    {
+      "check": "leave_one_out_fixed_geometry",
+      "eligible": 3,
+      "exact": 3,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "train",
+      "total_rows": 3
+    },
+    {
+      "check": "safe_zero_padded_translation",
+      "eligible": 0,
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "arc-gen",
+      "total_rows": 2088
+    },
+    {
+      "check": "safe_zero_padded_translation",
+      "eligible": 0,
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "test",
+      "total_rows": 8
+    },
+    {
+      "check": "safe_zero_padded_translation",
+      "eligible": 0,
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "split": "train",
+      "total_rows": 24
+    }
+  ],
+  "split_summary": [
+    {
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 4209,
+      "pixel_errors": 4209,
+      "predicted_3": 65174,
+      "solver": "core8_upper_bound",
+      "split": "arc-gen",
+      "target_3": 60965,
+      "total": 261
+    },
+    {
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 32,
+      "pixel_errors": 32,
+      "predicted_3": 242,
+      "solver": "core8_upper_bound",
+      "split": "test",
+      "target_3": 210,
+      "total": 1
+    },
+    {
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 0,
+      "false_positive_3": 61,
+      "pixel_errors": 61,
+      "predicted_3": 863,
+      "solver": "core8_upper_bound",
+      "split": "train",
+      "target_3": 802,
+      "total": 3
+    },
+    {
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 60965,
+      "false_positive_3": 0,
+      "pixel_errors": 60965,
+      "predicted_3": 0,
+      "solver": "legacy_stub",
+      "split": "arc-gen",
+      "target_3": 60965,
+      "total": 261
+    },
+    {
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 210,
+      "false_positive_3": 0,
+      "pixel_errors": 210,
+      "predicted_3": 0,
+      "solver": "legacy_stub",
+      "split": "test",
+      "target_3": 210,
+      "total": 1
+    },
+    {
+      "exact": 0,
+      "exact_rate": 0.0,
+      "false_negative_3": 802,
+      "false_positive_3": 0,
+      "pixel_errors": 802,
+      "predicted_3": 0,
+      "solver": "legacy_stub",
+      "split": "train",
+      "target_3": 802,
+      "total": 3
+    },
+    {
+      "exact": 209,
+      "exact_rate": 0.8007662835249042,
+      "false_negative_3": 2198,
+      "false_positive_3": 14,
+      "pixel_errors": 2212,
+      "predicted_3": 58781,
+      "solver": "v2_train_only_rect_corridor",
+      "split": "arc-gen",
+      "target_3": 60965,
+      "total": 261
+    },
+    {
+      "exact": 1,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "predicted_3": 210,
+      "solver": "v2_train_only_rect_corridor",
+      "split": "test",
+      "target_3": 210,
+      "total": 1
+    },
+    {
+      "exact": 3,
+      "exact_rate": 1.0,
+      "false_negative_3": 0,
+      "false_positive_3": 0,
+      "pixel_errors": 0,
+      "predicted_3": 802,
+      "solver": "v2_train_only_rect_corridor",
+      "split": "train",
+      "target_3": 802,
+      "total": 3
+    }
+  ]
+}

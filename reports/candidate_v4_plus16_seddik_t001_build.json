@@ -1,0 +1,13 @@
+{
+  "anchor": "submissions/candidate_v4_plus15_bio_micro2_onnx",
+  "source_task": "/tmp/ng_seddik_precision/submission/task001.onnx",
+  "candidate": "submissions/candidate_v4_plus16_seddik_t001_onnx",
+  "zip": "submissions/submission_candidate_v4_plus16_seddik_t001.zip",
+  "zip_sha256": "e7ac37d6240fca04b603db46bfa52475b15be024f626d60f71b07988cab18db7",
+  "task_count": 400,
+  "changed_count": 1,
+  "changed_tasks": [
+    "task001"
+  ],
+  "strict_checked_changed_models": 1
+}

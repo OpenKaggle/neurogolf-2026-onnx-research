@@ -1,0 +1,2 @@
+task_id,score,cost,memory,params,local_pass,local_total,nodes,file_size,path,error
+366,11.369951926382248,830720,824263,6457,3,3,713,90138,submissions/candidate_v4_plus12_task285_onnx/task366.onnx,

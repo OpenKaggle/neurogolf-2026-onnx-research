@@ -1,0 +1,591 @@
+{
+  "best_non_anchor": {
+    "name": "priority_semantic_v2",
+    "pseudo_pass": 62,
+    "pseudo_total": 62,
+    "score_delta_vs_anchor": -1.352913387131082
+  },
+  "category_counts": {
+    "border_adjacency": 4,
+    "horizontal_color_count_1": 7,
+    "horizontal_color_count_2": 7,
+    "horizontal_color_count_3": 7,
+    "horizontal_color_count_4": 7,
+    "no_stray_and_distractor_controls": 2,
+    "vertical_color_count_1": 7,
+    "vertical_color_count_2": 7,
+    "vertical_color_count_3": 7,
+    "vertical_color_count_4": 7
+  },
+  "models": [
+    {
+      "checker_error": "",
+      "checker_ok": true,
+      "cost_delta_vs_anchor": 0,
+      "exists": true,
+      "name": "anchor_v4_plus13_task366",
+      "path": "submissions/candidate_v4_plus13_task366_onnx/task025.onnx",
+      "pseudo_failures": [],
+      "pseudo_pass": 62,
+      "pseudo_total": 62,
+      "score": {
+        "cost": 140093,
+        "error": "",
+        "file_size": 13460,
+        "local_pass": 266,
+        "local_total": 266,
+        "memory": 140028,
+        "nodes": 127,
+        "params": 65,
+        "score": 13.149938233234366
+      },
+      "score_delta_vs_anchor": 0.0,
+      "source_class": "lb_verified_anchor",
+      "stageable": false,
+      "stageable_reason": "not cheaper than anchor",
+      "visible_failures": [],
+      "visible_pass": 266,
+      "visible_total": 266
+    },
+    {
+      "checker_error": "",
+      "checker_ok": true,
+      "cost_delta_vs_anchor": -50807,
+      "exists": true,
+      "name": "konbu17_v36_public_family",
+      "path": "data/konbu17_v36/task025.onnx",
+      "pseudo_failures": [
+        {
+          "case_id": "h_00_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 21,
+          "note": "horizontal, 1 active line colors, size 12x12"
+        },
+        {
+          "case_id": "h_00_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 29,
+          "note": "horizontal, 2 active line colors, size 12x12"
+        },
+        {
+          "case_id": "h_00_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 28,
+          "note": "horizontal, 3 active line colors, size 12x12"
+        },
+        {
+          "case_id": "h_00_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 39,
+          "note": "horizontal, 4 active line colors, size 12x12"
+        },
+        {
+          "case_id": "h_01_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 19,
+          "note": "horizontal, 1 active line colors, size 14x14"
+        },
+        {
+          "case_id": "h_01_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 24,
+          "note": "horizontal, 2 active line colors, size 14x14"
+        },
+        {
+          "case_id": "h_01_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 33,
+          "note": "horizontal, 3 active line colors, size 14x14"
+        },
+        {
+          "case_id": "h_01_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 38,
+          "note": "horizontal, 4 active line colors, size 14x14"
+        },
+        {
+          "case_id": "h_02_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 20,
+          "note": "horizontal, 1 active line colors, size 15x22"
+        },
+        {
+          "case_id": "h_02_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 28,
+          "note": "horizontal, 2 active line colors, size 15x22"
+        },
+        {
+          "case_id": "h_02_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 34,
+          "note": "horizontal, 3 active line colors, size 15x22"
+        },
+        {
+          "case_id": "h_02_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 35,
+          "note": "horizontal, 4 active line colors, size 15x22"
+        },
+        {
+          "case_id": "h_03_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 20,
+          "note": "horizontal, 1 active line colors, size 22x15"
+        },
+        {
+          "case_id": "h_03_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 29,
+          "note": "horizontal, 2 active line colors, size 22x15"
+        },
+        {
+          "case_id": "h_03_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 36,
+          "note": "horizontal, 3 active line colors, size 22x15"
+        },
+        {
+          "case_id": "h_03_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 43,
+          "note": "horizontal, 4 active line colors, size 22x15"
+        },
+        {
+          "case_id": "h_04_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 21,
+          "note": "horizontal, 1 active line colors, size 29x14"
+        },
+        {
+          "case_id": "h_04_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 29,
+          "note": "horizontal, 2 active line colors, size 29x14"
+        },
+        {
+          "case_id": "h_04_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 37,
+          "note": "horizontal, 3 active line colors, size 29x14"
+        },
+        {
+          "case_id": "h_04_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 45,
+          "note": "horizontal, 4 active line colors, size 29x14"
+        },
+        {
+          "case_id": "h_05_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 20,
+          "note": "horizontal, 1 active line colors, size 14x29"
+        },
+        {
+          "case_id": "h_05_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 26,
+          "note": "horizontal, 2 active line colors, size 14x29"
+        },
+        {
+          "case_id": "h_05_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 34,
+          "note": "horizontal, 3 active line colors, size 14x29"
+        },
+        {
+          "case_id": "h_05_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 35,
+          "note": "horizontal, 4 active line colors, size 14x29"
+        },
+        {
+          "case_id": "h_06_1c",
+          "category": "horizontal_color_count_1",
+          "error": "",
+          "mismatch_cells": 20,
+          "note": "horizontal, 1 active line colors, size 30x30"
+        },
+        {
+          "case_id": "h_06_2c",
+          "category": "horizontal_color_count_2",
+          "error": "",
+          "mismatch_cells": 28,
+          "note": "horizontal, 2 active line colors, size 30x30"
+        },
+        {
+          "case_id": "h_06_3c",
+          "category": "horizontal_color_count_3",
+          "error": "",
+          "mismatch_cells": 36,
+          "note": "horizontal, 3 active line colors, size 30x30"
+        },
+        {
+          "case_id": "h_06_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 44,
+          "note": "horizontal, 4 active line colors, size 30x30"
+        },
+        {
+          "case_id": "v_00_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 19,
+          "note": "vertical, 1 active line colors, size 12x12"
+        },
+        {
+          "case_id": "v_00_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 30,
+          "note": "vertical, 2 active line colors, size 12x12"
+        },
+        {
+          "case_id": "v_00_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 35,
+          "note": "vertical, 3 active line colors, size 12x12"
+        },
+        {
+          "case_id": "v_00_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 41,
+          "note": "vertical, 4 active line colors, size 12x12"
+        },
+        {
+          "case_id": "v_01_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 17,
+          "note": "vertical, 1 active line colors, size 14x14"
+        },
+        {
+          "case_id": "v_01_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 26,
+          "note": "vertical, 2 active line colors, size 14x14"
+        },
+        {
+          "case_id": "v_01_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 33,
+          "note": "vertical, 3 active line colors, size 14x14"
+        },
+        {
+          "case_id": "v_01_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 37,
+          "note": "vertical, 4 active line colors, size 14x14"
+        },
+        {
+          "case_id": "v_02_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 16,
+          "note": "vertical, 1 active line colors, size 15x22"
+        },
+        {
+          "case_id": "v_02_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 28,
+          "note": "vertical, 2 active line colors, size 15x22"
+        },
+        {
+          "case_id": "v_02_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 34,
+          "note": "vertical, 3 active line colors, size 15x22"
+        },
+        {
+          "case_id": "v_02_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 46,
+          "note": "vertical, 4 active line colors, size 15x22"
+        },
+        {
+          "case_id": "v_03_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 22,
+          "note": "vertical, 1 active line colors, size 22x15"
+        },
+        {
+          "case_id": "v_03_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 29,
+          "note": "vertical, 2 active line colors, size 22x15"
+        },
+        {
+          "case_id": "v_03_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 39,
+          "note": "vertical, 3 active line colors, size 22x15"
+        },
+        {
+          "case_id": "v_03_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 42,
+          "note": "vertical, 4 active line colors, size 22x15"
+        },
+        {
+          "case_id": "v_04_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 22,
+          "note": "vertical, 1 active line colors, size 29x14"
+        },
+        {
+          "case_id": "v_04_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 27,
+          "note": "vertical, 2 active line colors, size 29x14"
+        },
+        {
+          "case_id": "v_04_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 37,
+          "note": "vertical, 3 active line colors, size 29x14"
+        },
+        {
+          "case_id": "v_04_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 37,
+          "note": "vertical, 4 active line colors, size 29x14"
+        },
+        {
+          "case_id": "v_05_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 17,
+          "note": "vertical, 1 active line colors, size 14x29"
+        },
+        {
+          "case_id": "v_05_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 27,
+          "note": "vertical, 2 active line colors, size 14x29"
+        },
+        {
+          "case_id": "v_05_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 33,
+          "note": "vertical, 3 active line colors, size 14x29"
+        },
+        {
+          "case_id": "v_05_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 44,
+          "note": "vertical, 4 active line colors, size 14x29"
+        },
+        {
+          "case_id": "v_06_1c",
+          "category": "vertical_color_count_1",
+          "error": "",
+          "mismatch_cells": 20,
+          "note": "vertical, 1 active line colors, size 30x30"
+        },
+        {
+          "case_id": "v_06_2c",
+          "category": "vertical_color_count_2",
+          "error": "",
+          "mismatch_cells": 28,
+          "note": "vertical, 2 active line colors, size 30x30"
+        },
+        {
+          "case_id": "v_06_3c",
+          "category": "vertical_color_count_3",
+          "error": "",
+          "mismatch_cells": 36,
+          "note": "vertical, 3 active line colors, size 30x30"
+        },
+        {
+          "case_id": "v_06_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 44,
+          "note": "vertical, 4 active line colors, size 30x30"
+        },
+        {
+          "case_id": "border_00_top_line",
+          "category": "border_adjacency",
+          "error": "",
+          "mismatch_cells": 22,
+          "note": "top_line with legal inside-side relocation"
+        },
+        {
+          "case_id": "border_01_bottom_line",
+          "category": "border_adjacency",
+          "error": "",
+          "mismatch_cells": 21,
+          "note": "bottom_line with legal inside-side relocation"
+        },
+        {
+          "case_id": "border_02_left_line",
+          "category": "border_adjacency",
+          "error": "",
+          "mismatch_cells": 22,
+          "note": "left_line with legal inside-side relocation"
+        },
+        {
+          "case_id": "border_03_right_line",
+          "category": "border_adjacency",
+          "error": "",
+          "mismatch_cells": 17,
+          "note": "right_line with legal inside-side relocation"
+        },
+        {
+          "case_id": "nomove_00_horizontal",
+          "category": "no_stray_and_distractor_controls",
+          "error": "",
+          "mismatch_cells": 14,
+          "note": "active line has no strays; all non-line singletons disappear"
+        },
+        {
+          "case_id": "nomove_01_vertical",
+          "category": "no_stray_and_distractor_controls",
+          "error": "",
+          "mismatch_cells": 14,
+          "note": "active line has no strays; all non-line singletons disappear"
+        }
+      ],
+      "pseudo_pass": 0,
+      "pseudo_total": 62,
+      "score": {
+        "cost": 89286,
+        "error": "",
+        "file_size": 61508,
+        "local_pass": 266,
+        "local_total": 266,
+        "memory": 74054,
+        "nodes": 10,
+        "params": 15232,
+        "score": 13.600400020341894
+      },
+      "score_delta_vs_anchor": 0.45046178710752827,
+      "source_class": "konbu17_v36_public_family",
+      "stageable": false,
+      "stageable_reason": "pseudo-hidden contract miss",
+      "visible_failures": [],
+      "visible_pass": 266,
+      "visible_total": 266
+    },
+    {
+      "checker_error": "",
+      "checker_ok": true,
+      "cost_delta_vs_anchor": 302881,
+      "exists": true,
+      "name": "probe_best6090_task025_semantic",
+      "path": "submissions/probe_best6090_task025_semantic_onnx/task025.onnx",
+      "pseudo_failures": [
+        {
+          "case_id": "h_00_4c",
+          "category": "horizontal_color_count_4",
+          "error": "",
+          "mismatch_cells": 2,
+          "note": "horizontal, 4 active line colors, size 12x12"
+        },
+        {
+          "case_id": "v_00_4c",
+          "category": "vertical_color_count_4",
+          "error": "",
+          "mismatch_cells": 2,
+          "note": "vertical, 4 active line colors, size 12x12"
+        }
+      ],
+      "pseudo_pass": 60,
+      "pseudo_total": 62,
+      "score": {
+        "cost": 442974,
+        "error": "",
+        "file_size": 8010,
+        "local_pass": 266,
+        "local_total": 266,
+        "memory": 442890,
+        "nodes": 72,
+        "params": 84,
+        "score": 11.998733643440017
+      },
+      "score_delta_vs_anchor": -1.1512045897943484,
+      "source_class": "older_probe",
+      "stageable": false,
+      "stageable_reason": "pseudo-hidden contract miss",
+      "visible_failures": [],
+      "visible_pass": 266,
+      "visible_total": 266
+    },
+    {
+      "checker_error": "",
+      "checker_ok": true,
+      "cost_delta_vs_anchor": 401882,
+      "exists": true,
+      "name": "priority_semantic_v2",
+      "path": "submissions/handbuilds/task025_priority.onnx",
+      "pseudo_failures": [],
+      "pseudo_pass": 62,
+      "pseudo_total": 62,
+      "score": {
+        "cost": 541975,
+        "error": "",
+        "file_size": 8678,
+        "local_pass": 266,
+        "local_total": 266,
+        "memory": 541890,
+        "nodes": 77,
+        "params": 85,
+        "score": 11.797024846103284
+      },
+      "score_delta_vs_anchor": -1.352913387131082,
+      "source_class": "local_semantic_prototype",
+      "stageable": false,
+      "stageable_reason": "not cheaper than anchor",
+      "visible_failures": [],
+      "visible_pass": 266,
+      "visible_total": 266
+    }
+  ],
+  "pseudo_total": 62,
+  "task_id": 25,
+  "visible_total": 266
+}

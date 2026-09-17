@@ -1,0 +1,2 @@
+task_id,score,cost,memory,params,local_pass,local_total,nodes,file_size,path,error
+366,11.493032942114981,734516,729063,5453,3,3,683,82795,/var/folders/06/wl9jy4y51rdcrb6p2xy05sj80000gq/T/tmp.aDMVfhqy1g/task366.onnx,

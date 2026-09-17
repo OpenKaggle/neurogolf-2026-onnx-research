@@ -1,0 +1,26 @@
+Direction 1 (Nadeem cherrypicks for ours-source v2 tasks):
+  pre-audit candidates: 0
+Direction 3 (biohack44_6113 LB-verified 11):
+  skip task151: bio=18.187 <= v4=18.187
+  skip task028: bio=15.896 <= v4=15.896
+  skip task200: bio=15.740 <= v4=15.977
+  skip task258: bio=19.925 <= v4=19.925
+  skip task111: bio=18.319 <= v4=18.319
+  skip task155: bio=18.019 <= v4=18.019
+  skip task150: bio=18.019 <= v4=18.019
+  skip task014: bio=13.760 <= v4=14.427
+  skip task204: bio=12.815 <= v4=13.314
+  skip task084: bio=15.121 <= v4=15.121
+  skip task322: bio=18.046 <= v4=18.237
+  pre-audit candidates: 0
+
+Auditing 0 candidates (isolated full-example)...
+
+Accepted (passed audit): 0
+Rejected (audit fail):    0
+
+v4_exp dir: submissions/candidate_v4_exp_onnx
+v4_exp zip: submissions/submission_candidate_v4_exp.zip  size=769813B  files=400
+decisions: reports/v4_exp_decisions.csv
+
+Summary: 0 accepted, 0 rejected.

@@ -1,0 +1,171 @@
+{
+  "source": "submissions/current_best_6120plus_onnx",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 319,
+      "score": 7.913957012785044,
+      "cost": 26325352,
+      "memory": 26322248,
+      "params": 3104,
+      "local_pass": 267,
+      "local_total": 267,
+      "nodes": 2696,
+      "error": ""
+    },
+    {
+      "task": 285,
+      "score": 6.583566593227506,
+      "cost": 99576167,
+      "memory": 99574200,
+      "params": 1967,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 467,
+      "error": ""
+    },
+    {
+      "task": 219,
+      "score": 8.421776512802126,
+      "cost": 15842765,
+      "memory": 15839317,
+      "params": 3448,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 532,
+      "error": ""
+    },
+    {
+      "task": 255,
+      "score": 7.425218068891745,
+      "cost": 42917144,
+      "memory": 42899424,
+      "params": 17720,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 648,
+      "error": ""
+    },
+    {
+      "task": 44,
+      "score": 10.317261651531322,
+      "cost": 2380303,
+      "memory": 2378888,
+      "params": 1415,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 1054,
+      "error": ""
+    },
+    {
+      "task": 153,
+      "score": 11.464788171901,
+      "cost": 755558,
+      "memory": 754902,
+      "params": 656,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 13700,
+      "error": ""
+    },
+    {
+      "task": 233,
+      "score": 9.8807984601455,
+      "cost": 3682865,
+      "memory": 3558406,
+      "params": 124459,
+      "local_pass": 182,
+      "local_total": 266,
+      "nodes": 804,
+      "error": ""
+    },
+    {
+      "task": 133,
+      "score": 8.949686311118306,
+      "cost": 9344642,
+      "memory": 9115748,
+      "params": 228894,
+      "local_pass": 267,
+      "local_total": 267,
+      "nodes": 368,
+      "error": ""
+    },
+    {
+      "task": 157,
+      "score": 9.81130742316206,
+      "cost": 3947893,
+      "memory": 3747476,
+      "params": 200417,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 415,
+      "error": ""
+    },
+    {
+      "task": 76,
+      "score": 10.834874662507726,
+      "cost": 1418521,
+      "memory": 1189023,
+      "params": 229498,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 221,
+      "error": ""
+    },
+    {
+      "task": 118,
+      "score": 10.416339154360639,
+      "cost": 2155775,
+      "memory": 2153888,
+      "params": 1887,
+      "local_pass": 267,
+      "local_total": 267,
+      "nodes": 1163,
+      "error": ""
+    },
+    {
+      "task": 23,
+      "score": 11.685826887929409,
+      "cost": 605720,
+      "memory": 605700,
+      "params": 20,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 372,
+      "error": ""
+    },
+    {
+      "task": 209,
+      "score": 10.46504313514188,
+      "cost": 2053296,
+      "memory": 2027590,
+      "params": 25706,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 2217,
+      "error": ""
+    },
+    {
+      "task": 66,
+      "score": 11.878567055313978,
+      "cost": 499535,
+      "memory": 499419,
+      "params": 116,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 1642,
+      "error": ""
+    },
+    {
+      "task": 101,
+      "score": 10.95188042987406,
+      "cost": 1261888,
+      "memory": 1257224,
+      "params": 4664,
+      "local_pass": 266,
+      "local_total": 266,
+      "nodes": 206,
+      "error": ""
+    }
+  ]
+}

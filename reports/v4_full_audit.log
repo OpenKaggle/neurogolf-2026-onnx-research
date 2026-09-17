@@ -1,0 +1,9 @@
+auditing 400 v4 tasks (full isolated)
+
+wrote reports/v4_full_audit.csv
+
+perfect: 399/400
+risk summary:
+  BOTH_LOCAL_FAIL             1
+    task018
+  ok                        399

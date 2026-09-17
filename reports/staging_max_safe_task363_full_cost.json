@@ -1,0 +1,17 @@
+{
+  "source": "submissions/staging_max_safe",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 363,
+      "score": 14.098807640977503,
+      "cost": 54241,
+      "memory": 47793,
+      "params": 6448,
+      "local_pass": 265,
+      "local_total": 265,
+      "nodes": 26,
+      "error": ""
+    }
+  ]
+}

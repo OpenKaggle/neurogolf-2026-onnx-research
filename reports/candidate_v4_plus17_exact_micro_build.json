@@ -1,0 +1,12 @@
+{
+  "anchor": "submissions/candidate_v4_plus16_seddik_t001_onnx",
+  "candidate": "submissions/candidate_v4_plus17_exact_micro_onnx",
+  "zip": "submissions/submission_candidate_v4_plus17_exact_micro.zip",
+  "zip_sha256": "5281022f128279bc7d85fa073c3b68366016b109ebdc39ed671bf36ad70ca48e",
+  "changed_tasks": [
+    "task018",
+    "task233"
+  ],
+  "changed_count": 2,
+  "strict_checked_changed_models": 2
+}

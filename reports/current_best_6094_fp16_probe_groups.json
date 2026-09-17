@@ -1,0 +1,78 @@
+[
+  {
+    "group": "A",
+    "delta": 2.44120495008805,
+    "tasks": [
+      373,
+      299,
+      387,
+      321,
+      207,
+      386,
+      6,
+      297,
+      50,
+      123,
+      360,
+      394
+    ],
+    "zip": "submissions/current_best_6094_fp16_probe_group_A.zip"
+  },
+  {
+    "group": "B",
+    "delta": 2.4422708785450595,
+    "tasks": [
+      144,
+      1,
+      257,
+      243,
+      292,
+      322,
+      254,
+      339,
+      3,
+      103,
+      12,
+      200
+    ],
+    "zip": "submissions/current_best_6094_fp16_probe_group_B.zip"
+  },
+  {
+    "group": "C",
+    "delta": 2.4410934287766786,
+    "tasks": [
+      26,
+      236,
+      229,
+      52,
+      227,
+      167,
+      347,
+      267,
+      40,
+      334,
+      188,
+      58
+    ],
+    "zip": "submissions/current_best_6094_fp16_probe_group_C.zip"
+  },
+  {
+    "group": "D",
+    "delta": 2.4413231779911246,
+    "tasks": [
+      318,
+      72,
+      235,
+      25,
+      186,
+      395,
+      180,
+      7,
+      342,
+      129,
+      263,
+      340
+    ],
+    "zip": "submissions/current_best_6094_fp16_probe_group_D.zip"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "task_id": 219,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMin, node name: /ArgMin): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_3): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_4): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 363,
+    "kept": true,
+    "error": "",
+    "original_cost": 512771,
+    "original_score": 11.852415369272633,
+    "candidate_cost": 512763,
+    "candidate_score": 11.852430970900663,
+    "save": 8,
+    "delta": 1.5601628030381676e-05,
+    "same": true
+  },
+  {
+    "task_id": 366,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:ScatterND, node name: /ScatterND): indices typestr: tensor(int64), has unsupported type: tensor(int32)')"
+  }
+]

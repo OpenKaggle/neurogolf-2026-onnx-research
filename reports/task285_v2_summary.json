@@ -1,0 +1,100 @@
+{
+  "task": 285,
+  "data": "data/neurogolf-2026/raw/task285.json",
+  "hypotheses": [
+    {
+      "solver": "semantic_majority_reflect",
+      "split": "all",
+      "exact": 265,
+      "total": 265,
+      "pixel_errors": 0
+    },
+    {
+      "solver": "weaker_same_color_any_marker",
+      "split": "all",
+      "exact": 243,
+      "total": 265,
+      "pixel_errors": 147
+    },
+    {
+      "solver": "weaker_same_color_singleton_marker",
+      "split": "all",
+      "exact": 257,
+      "total": 265,
+      "pixel_errors": 27
+    },
+    {
+      "solver": "weaker_majority_no_diagonal",
+      "split": "all",
+      "exact": 9,
+      "total": 265,
+      "pixel_errors": 2254
+    },
+    {
+      "solver": "weaker_majority_paints_body_color",
+      "split": "all",
+      "exact": 0,
+      "total": 265,
+      "pixel_errors": 6791
+    }
+  ],
+  "pseudo_hidden_summary": {
+    "total": 3445,
+    "passed": 3375,
+    "failed": 0,
+    "skipped": 70
+  },
+  "leave_one_out_summary": {
+    "total": 52,
+    "passed": 50,
+    "failed": 0,
+    "skipped": 2
+  },
+  "structure_summary": {
+    "examples": 265,
+    "shape_counts": {
+      "12x12": 4,
+      "13x13": 4,
+      "14x14": 5,
+      "15x15": 5,
+      "16x16": 1,
+      "17x17": 2,
+      "18x18": 6,
+      "19x19": 6,
+      "20x20": 14,
+      "21x21": 7,
+      "22x22": 12,
+      "23x23": 14,
+      "24x24": 17,
+      "25x25": 19,
+      "26x26": 22,
+      "27x27": 21,
+      "28x28": 32,
+      "29x29": 43,
+      "30x30": 31
+    },
+    "components": 524,
+    "anchor_cells": 1382,
+    "copied_cells": 8173,
+    "added_cells": 6791,
+    "unique_majority_examples": 265,
+    "max_body_cells": 9,
+    "max_markers": 3
+  },
+  "anchor": {
+    "available": true,
+    "path": "submissions/candidate_v4_plus9_compiler_onnx/task285.onnx",
+    "target_exact": 265,
+    "semantic_exact": 265,
+    "total": 265,
+    "cost": 395468,
+    "score": 12.112174847323766,
+    "memory": 390848,
+    "params": 4620,
+    "nodes": 279,
+    "file_size": 36534,
+    "error": ""
+  },
+  "onnx_built": false,
+  "onnx_decision": "not_justified_without_compact_component_majority_compiler"
+}

@@ -1,0 +1,8 @@
+task_id,depth,program_str,visible_train_pass,visible_test_pass,dsl_cost,dsl_status,dsl_train_pass,dsl_test_pass,dsl_arcgen_pass,baseline_cost,baseline_pass,cost_ratio
+150,1,flip_h,True,True,948,ok,3/3,1/1,262/262,1014,3,1.07
+155,1,flip_v,True,True,948,ok,3/3,1/1,262/262,1014,3,1.07
+179,1,transpose,True,True,0,ok,4/4,1/1,262/262,0,3,1.0
+241,1,transpose,True,True,0,ok,3/3,1/1,262/262,0,3,1.0
+276,1,"swap_colors(c1=2,c2=6)",True,True,10,ok,3/3,1/1,262/262,10,3,1.0
+309,1,"swap_colors(c1=5,c2=7)",True,True,10,ok,3/3,1/1,261/261,10,3,1.0
+337,1,"swap_colors(c1=5,c2=8)",True,True,10,ok,3/3,1/1,262/262,10,3,1.0

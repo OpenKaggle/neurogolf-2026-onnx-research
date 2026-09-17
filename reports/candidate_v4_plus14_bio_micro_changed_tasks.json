@@ -1,0 +1,54 @@
+[
+  {
+    "task_id": 145,
+    "cost": 69757,
+    "score": 13.847226946929018,
+    "memory": 68824,
+    "params": 933,
+    "local_pass": 267,
+    "local_total": 267,
+    "nodes": 325,
+    "file_size": 19982,
+    "path": "submissions/candidate_v4_plus14_bio_micro_onnx/task145.onnx",
+    "error": ""
+  },
+  {
+    "task_id": 153,
+    "cost": 20823,
+    "score": 15.056186575992307,
+    "memory": 20731,
+    "params": 92,
+    "local_pass": 265,
+    "local_total": 265,
+    "nodes": 70,
+    "file_size": 6433,
+    "path": "submissions/candidate_v4_plus14_bio_micro_onnx/task153.onnx",
+    "error": ""
+  },
+  {
+    "task_id": 248,
+    "cost": 6581,
+    "score": 16.208058011543883,
+    "memory": 6532,
+    "params": 49,
+    "local_pass": 13,
+    "local_total": 13,
+    "nodes": 24,
+    "file_size": 1784,
+    "path": "submissions/candidate_v4_plus14_bio_micro_onnx/task248.onnx",
+    "error": ""
+  },
+  {
+    "task_id": 357,
+    "cost": 6581,
+    "score": 16.208058011543883,
+    "memory": 6532,
+    "params": 49,
+    "local_pass": 13,
+    "local_total": 13,
+    "nodes": 24,
+    "file_size": 1784,
+    "path": "submissions/candidate_v4_plus14_bio_micro_onnx/task357.onnx",
+    "error": ""
+  }
+]

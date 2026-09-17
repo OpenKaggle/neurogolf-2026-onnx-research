@@ -1,0 +1,4674 @@
+{
+  "kept": 9,
+  "predicted_delta": 0.8349063428778649,
+  "records": [
+    {
+      "task_id": 1,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4339,
+      "original_score": 16.62460081420165
+    },
+    {
+      "task_id": 2,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 97693,
+      "original_score": 13.5104148124377
+    },
+    {
+      "task_id": 3,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10036,
+      "original_score": 15.786066092513687
+    },
+    {
+      "task_id": 4,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 55020,
+      "original_score": 14.084547965521434
+    },
+    {
+      "task_id": 5,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 118989,
+      "original_score": 13.313213669153685
+    },
+    {
+      "task_id": 6,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1919,
+      "original_score": 17.4404405039923
+    },
+    {
+      "task_id": 7,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9231,
+      "original_score": 15.869677336009849
+    },
+    {
+      "task_id": 8,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 23545,
+      "original_score": 14.933331237322346
+    },
+    {
+      "task_id": 9,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 81241,
+      "original_score": 13.69482467517415
+    },
+    {
+      "task_id": 10,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5016,
+      "original_score": 16.479611917687244,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however '_rch_ch5__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 11,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 66247,
+      "original_score": 13.898854540195707
+    },
+    {
+      "task_id": 12,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 14070,
+      "original_score": 15.448199849891566
+    },
+    {
+      "task_id": 13,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 116882,
+      "original_score": 13.3310798421544
+    },
+    {
+      "task_id": 14,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 235688,
+      "original_score": 12.629735824548343,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float tensor attribute exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float tensor attribute exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 15,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 900,
+      "original_score": 18.197605236675688
+    },
+    {
+      "task_id": 16,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10,
+      "original_score": 22.697414907005953
+    },
+    {
+      "task_id": 17,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 39558,
+      "original_score": 14.414476771658645
+    },
+    {
+      "task_id": 18,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": true,
+      "original_cost": 869893,
+      "original_score": 11.323874505438686
+    },
+    {
+      "task_id": 19,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 137884,
+      "original_score": 13.16583196905603
+    },
+    {
+      "task_id": 20,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 90133,
+      "original_score": 13.590958363748854
+    },
+    {
+      "task_id": 21,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 64184,
+      "original_score": 13.930490762566508,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 22,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 44933,
+      "original_score": 14.287072229632908
+    },
+    {
+      "task_id": 23,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 647121,
+      "original_score": 11.619711427000917,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'slice_10__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 24,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9080,
+      "original_score": 15.88617052840466
+    },
+    {
+      "task_id": 25,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 6012933,
+      "original_score": 9.390576792564902,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'slice_1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 26,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1188,
+      "original_score": 17.91997350007741
+    },
+    {
+      "task_id": 27,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 36791,
+      "original_score": 14.486991470971319,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'm__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 28,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 120690,
+      "original_score": 13.299019446388057,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 29,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 98377,
+      "original_score": 13.503437684118467
+    },
+    {
+      "task_id": 30,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 50547,
+      "original_score": 14.169341124493505,
+      "candidate_cost": 46587,
+      "candidate_score": 14.250923188762702,
+      "save": 3960,
+      "delta": 0.08158206426919712
+    },
+    {
+      "task_id": 31,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 18688,
+      "original_score": 15.164363114372046
+    },
+    {
+      "task_id": 32,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3405,
+      "original_score": 16.86699978141639
+    },
+    {
+      "task_id": 33,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 55161,
+      "original_score": 14.081988539178049
+    },
+    {
+      "task_id": 34,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 106796,
+      "original_score": 13.421324248376678
+    },
+    {
+      "task_id": 35,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 25693,
+      "original_score": 14.846026139757955,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v93__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 36,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 79991,
+      "original_score": 13.71033059267258
+    },
+    {
+      "task_id": 37,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 63726,
+      "original_score": 13.937652078450405
+    },
+    {
+      "task_id": 38,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2193,
+      "original_score": 17.306974251582112,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError(\"[ShapeInferenceError] Inference error(s): (op_type:Resize): [ShapeInferenceError] Input 'scales' must have float element type.\\n(op_type:Sub): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Relu): [TypeInferenceError] Input 0 expected to have type but instead is null\\n\")"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError(\"[ShapeInferenceError] Inference error(s): (op_type:Resize): [ShapeInferenceError] Input 'scales' must have float element type.\\n(op_type:Sub): [TypeInferenceError] Input 0 expected to have type but instead is null\\n(op_type:Relu): [TypeInferenceError] Input 0 expected to have type but instead is null\\n\")"
+        }
+      ]
+    },
+    {
+      "task_id": 39,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7832,
+      "original_score": 16.03402681578965
+    },
+    {
+      "task_id": 40,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11068,
+      "original_score": 15.688186659093184
+    },
+    {
+      "task_id": 41,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 16327,
+      "original_score": 15.299424541873835,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 42,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 17067,
+      "original_score": 15.255097946581243,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'x3__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 43,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7119,
+      "original_score": 16.129477454896126
+    },
+    {
+      "task_id": 44,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": true,
+      "original_cost": 2380303,
+      "original_score": 10.317261651531322
+    },
+    {
+      "task_id": 45,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7782,
+      "original_score": 16.0404313464555
+    },
+    {
+      "task_id": 46,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 33426,
+      "original_score": 14.58291068075113,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v38__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 47,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4950,
+      "original_score": 16.492857144437266,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch7__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 48,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5609,
+      "original_score": 16.367872270491663,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'twos__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 49,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 32413,
+      "original_score": 14.613685144124743,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 50,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10375,
+      "original_score": 15.752845654901101
+    },
+    {
+      "task_id": 51,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 90472,
+      "original_score": 13.587204310448836,
+      "candidate_cost": 68438,
+      "candidate_score": 13.866316495097658,
+      "save": 22034,
+      "delta": 0.27911218464882204
+    },
+    {
+      "task_id": 52,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1690,
+      "original_score": 17.56751619208288
+    },
+    {
+      "task_id": 53,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 54,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 182056,
+      "original_score": 12.887930388960946,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 55,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 26490,
+      "original_score": 14.815477417733884,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'zero__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 56,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 560,
+      "original_score": 18.672063216270807
+    },
+    {
+      "task_id": 57,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 46815,
+      "original_score": 14.24604105662701
+    },
+    {
+      "task_id": 58,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 16149,
+      "original_score": 15.310386592770932
+    },
+    {
+      "task_id": 59,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 20411,
+      "original_score": 15.076170749805957,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 60,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5581,
+      "original_score": 16.372876749211567,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'left_oh__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 61,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 18914,
+      "original_score": 15.152342332424542
+    },
+    {
+      "task_id": 62,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30609,
+      "original_score": 14.670950637656585,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'two_mask__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 63,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30732,
+      "original_score": 14.666940264012474
+    },
+    {
+      "task_id": 64,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 131816,
+      "original_score": 13.210837710262732
+    },
+    {
+      "task_id": 65,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 35109,
+      "original_score": 14.533787213157124,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v11__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 66,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 499535,
+      "original_score": 11.878567055313978,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: /CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: /CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 67,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 315,
+      "original_score": 19.247427361174367
+    },
+    {
+      "task_id": 68,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 12589,
+      "original_score": 15.55942130423374,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'c1_9__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 69,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 85170,
+      "original_score": 13.647595461864874
+    },
+    {
+      "task_id": 70,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 66138,
+      "original_score": 13.90050125280863
+    },
+    {
+      "task_id": 71,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 129780,
+      "original_score": 13.22640401182484
+    },
+    {
+      "task_id": 72,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2118,
+      "original_score": 17.34177247383865
+    },
+    {
+      "task_id": 73,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 74,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 21825,
+      "original_score": 15.009188619292196
+    },
+    {
+      "task_id": 75,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 28487,
+      "original_score": 14.742796878157792,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'marker_right__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 76,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1440121,
+      "original_score": 10.819762304200175,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however '/Slice_output_0__h16' has been used as output names multiple times.\")"
+        }
+      ],
+      "candidate_cost": 1438321,
+      "candidate_score": 10.82101298094449,
+      "save": 1800,
+      "delta": 0.0012506767443145606
+    },
+    {
+      "task_id": 77,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 192353,
+      "original_score": 12.83291249537243,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:QLinearMatMul): a_scale typestr: tensor(float), has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:QLinearMatMul): a_scale typestr: tensor(float), has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 78,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11496,
+      "original_score": 15.65024557224114,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 79,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24953,
+      "original_score": 14.87525066556768
+    },
+    {
+      "task_id": 80,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 155145,
+      "original_score": 13.047884557519986
+    },
+    {
+      "task_id": 81,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2307,
+      "original_score": 17.256296741826247
+    },
+    {
+      "task_id": 82,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 23479,
+      "original_score": 14.936138316402742,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'row0__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 83,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 84,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30176,
+      "original_score": 14.685197814566816
+    },
+    {
+      "task_id": 85,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 113178,
+      "original_score": 13.36328292042622
+    },
+    {
+      "task_id": 86,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 25857,
+      "original_score": 14.83966336368449,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v19__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 87,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 376,
+      "original_score": 19.070410856610106
+    },
+    {
+      "task_id": 88,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 101878,
+      "original_score": 13.468468702037654
+    },
+    {
+      "task_id": 89,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 50042,
+      "original_score": 14.179382068192274
+    },
+    {
+      "task_id": 90,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 63354,
+      "original_score": 13.94350667496543
+    },
+    {
+      "task_id": 91,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 51495,
+      "original_score": 14.150760005440098
+    },
+    {
+      "task_id": 92,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 151526,
+      "original_score": 13.071487493631263
+    },
+    {
+      "task_id": 93,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 33543,
+      "original_score": 14.579416523184522,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 94,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 42120,
+      "original_score": 14.351722033752088,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 95,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 96,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 480075,
+      "original_score": 11.918302379321686,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 97,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 69322,
+      "original_score": 13.85348240488441
+    },
+    {
+      "task_id": 98,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 99,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4910,
+      "original_score": 16.500970779211436
+    },
+    {
+      "task_id": 100,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7076,
+      "original_score": 16.135535944720324
+    },
+    {
+      "task_id": 101,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": true,
+      "original_cost": 1261888,
+      "original_score": 10.95188042987406
+    },
+    {
+      "task_id": 102,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 44691,
+      "original_score": 14.292472581952298
+    },
+    {
+      "task_id": 103,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 278,
+      "original_score": 19.372378886309363
+    },
+    {
+      "task_id": 104,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3762,
+      "original_score": 16.767293990139024,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'c0_3__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 105,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 36480,
+      "original_score": 14.495480555811731,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ones__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 106,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1164,
+      "original_score": 17.940382371708615
+    },
+    {
+      "task_id": 107,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 73131,
+      "original_score": 13.799992367549814
+    },
+    {
+      "task_id": 108,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 109,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 94907,
+      "original_score": 13.53934725626767
+    },
+    {
+      "task_id": 110,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 117106,
+      "original_score": 13.329165213468928
+    },
+    {
+      "task_id": 111,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4532,
+      "original_score": 16.5810813778521
+    },
+    {
+      "task_id": 112,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 59750,
+      "original_score": 14.002075530206243
+    },
+    {
+      "task_id": 113,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 114,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1254,
+      "original_score": 17.865906278807135
+    },
+    {
+      "task_id": 115,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4122,
+      "original_score": 16.675906238549594
+    },
+    {
+      "task_id": 116,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 117,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 18583,
+      "original_score": 15.169997536726349
+    },
+    {
+      "task_id": 118,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2155775,
+      "original_score": 10.416339154360639,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 119,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 47848,
+      "original_score": 14.224215401275607
+    },
+    {
+      "task_id": 120,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 121,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 6530,
+      "original_score": 16.215837777729526
+    },
+    {
+      "task_id": 122,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2510,
+      "original_score": 17.17196196787417
+    },
+    {
+      "task_id": 123,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4314,
+      "original_score": 16.630379173050898
+    },
+    {
+      "task_id": 124,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11673,
+      "original_score": 15.634966238347337,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v16__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 125,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 13417,
+      "original_score": 15.495722161409528,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 126,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 86091,
+      "original_score": 13.636839844664504
+    },
+    {
+      "task_id": 127,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 900,
+      "original_score": 18.197605236675688
+    },
+    {
+      "task_id": 128,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 95042,
+      "original_score": 13.537925821853902
+    },
+    {
+      "task_id": 129,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 878,
+      "original_score": 18.22235340636488
+    },
+    {
+      "task_id": 130,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 15948,
+      "original_score": 15.322911291498754
+    },
+    {
+      "task_id": 131,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 44550,
+      "original_score": 14.295632567101045,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'm2__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 132,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 29458,
+      "original_score": 14.709279200950512,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch0_in__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 133,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9344642,
+      "original_score": 8.949686311118306,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('unmeasurable')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('unmeasurable')"
+        }
+      ]
+    },
+    {
+      "task_id": 134,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 16997,
+      "original_score": 15.259207863122649
+    },
+    {
+      "task_id": 135,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 366,
+      "original_score": 19.097366666598635
+    },
+    {
+      "task_id": 136,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 12433,
+      "original_score": 15.571890493047063,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 137,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 72482,
+      "original_score": 13.808906465844856
+    },
+    {
+      "task_id": 138,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 197964,
+      "original_score": 12.804159525036075
+    },
+    {
+      "task_id": 139,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3630,
+      "original_score": 16.803012072741105
+    },
+    {
+      "task_id": 140,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 376,
+      "original_score": 19.070410856610106
+    },
+    {
+      "task_id": 141,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 15819,
+      "original_score": 15.33103297180142
+    },
+    {
+      "task_id": 142,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 143,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 19441,
+      "original_score": 15.12486048297936,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 144,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1266,
+      "original_score": 17.856382397295878
+    },
+    {
+      "task_id": 145,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 73357,
+      "original_score": 13.796906788126128
+    },
+    {
+      "task_id": 146,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2258,
+      "original_score": 17.277765255290394
+    },
+    {
+      "task_id": 147,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 148,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 22029,
+      "original_score": 14.99988495388028,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v51__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 149,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5139,
+      "original_score": 16.45538621300777
+    },
+    {
+      "task_id": 150,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4674,
+      "original_score": 16.550229484901195
+    },
+    {
+      "task_id": 151,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 18805,
+      "original_score": 15.158121929095563,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 152,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 153,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 762004,
+      "original_score": 11.456292916001162,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'slice_1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 154,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 57910,
+      "original_score": 14.033354639780164,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 155,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4675,
+      "original_score": 16.550015558277213
+    },
+    {
+      "task_id": 156,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 59102,
+      "original_score": 14.012979956230856
+    },
+    {
+      "task_id": 157,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3963271,
+      "original_score": 9.807419747626927,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'slice_4__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 158,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3646717,
+      "original_score": 9.89066213124584,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ],
+      "candidate_cost": 3523597,
+      "candidate_score": 9.92500709918456,
+      "save": 123120,
+      "delta": 0.03434496793872022
+    },
+    {
+      "task_id": 159,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 89501,
+      "original_score": 13.597994922615115
+    },
+    {
+      "task_id": 160,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11195,
+      "original_score": 15.676777470967144,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 161,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 136708,
+      "original_score": 13.174397456688691
+    },
+    {
+      "task_id": 162,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 63291,
+      "original_score": 13.944501582071068
+    },
+    {
+      "task_id": 163,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24085,
+      "original_score": 14.910655480935679,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_N__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 164,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 165,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 67524,
+      "original_score": 13.87976163077872
+    },
+    {
+      "task_id": 166,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24789,
+      "original_score": 14.881844714630706,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 167,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 817,
+      "original_score": 18.294360905139996
+    },
+    {
+      "task_id": 168,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 20503,
+      "original_score": 15.071673504116953,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'colors__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 169,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 34489,
+      "original_score": 14.551604288400723,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch5_10__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 170,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 82130,
+      "original_score": 13.683941363265761,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('unmeasurable')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('unmeasurable')"
+        }
+      ]
+    },
+    {
+      "task_id": 171,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 172,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 173,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 181492,
+      "original_score": 12.89103314541937,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:QLinearMatMul): a_scale typestr: tensor(float), has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:QLinearMatMul): a_scale typestr: tensor(float), has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 174,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 53099,
+      "original_score": 14.120086625339015
+    },
+    {
+      "task_id": 175,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 114825,
+      "original_score": 13.348835490806005,
+      "candidate_cost": 94823,
+      "candidate_score": 13.540232725149641,
+      "save": 20002,
+      "delta": 0.1913972343436363
+    },
+    {
+      "task_id": 176,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7920,
+      "original_score": 16.022853515191528,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 177,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 74705,
+      "original_score": 13.778697696714815
+    },
+    {
+      "task_id": 178,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 29331,
+      "original_score": 14.713599743826219,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v49__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 179,
+      "kept": false,
+      "method": "",
+      "error": "ValueError('original has no measurable cost')",
+      "excluded": false,
+      "original_cost": 0,
+      "original_score": 25.0
+    },
+    {
+      "task_id": 180,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 8858,
+      "original_score": 15.910923715516857
+    },
+    {
+      "task_id": 181,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1194,
+      "original_score": 17.91493570604745
+    },
+    {
+      "task_id": 182,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": true,
+      "original_cost": 765146,
+      "original_score": 11.452178055727607
+    },
+    {
+      "task_id": 183,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24878,
+      "original_score": 14.87826084223009
+    },
+    {
+      "task_id": 184,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 44248,
+      "original_score": 14.302434548325486,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 185,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 75838,
+      "original_score": 13.763645234726843
+    },
+    {
+      "task_id": 186,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 798,
+      "original_score": 18.31789140255019
+    },
+    {
+      "task_id": 187,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 108013,
+      "original_score": 13.409993130767205,
+      "candidate_cost": 106213,
+      "candidate_score": 13.426798209155445,
+      "save": 1800,
+      "delta": 0.016805078388239636
+    },
+    {
+      "task_id": 188,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11020,
+      "original_score": 15.692532917293095
+    },
+    {
+      "task_id": 189,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24684,
+      "original_score": 14.886089460559042,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v119__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 190,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11204,
+      "original_score": 15.675973863620001
+    },
+    {
+      "task_id": 191,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 709342,
+      "original_score": 11.527906941253965,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_48) of node (safe_name_48) does not match expected type (tensor(float16)).')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_48) of node (safe_name_48) does not match expected type (tensor(float16)).')"
+        }
+      ]
+    },
+    {
+      "task_id": 192,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 54535,
+      "original_score": 14.093402023637157
+    },
+    {
+      "task_id": 193,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 53661,
+      "original_score": 14.109558240338645
+    },
+    {
+      "task_id": 194,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 195,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 14229,
+      "original_score": 15.436962585454308,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_12) of node (safe_name_12) does not match expected type (tensor(float16)).')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_12) of node (safe_name_12) does not match expected type (tensor(float16)).')"
+        }
+      ]
+    },
+    {
+      "task_id": 196,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 32242,
+      "original_score": 14.618974770564057,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 197,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 50688,
+      "original_score": 14.166555524825903,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 198,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 103821,
+      "original_score": 13.449576458609688
+    },
+    {
+      "task_id": 199,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 16157,
+      "original_score": 15.30989132872317,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 200,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 82567,
+      "original_score": 13.678634636057105
+    },
+    {
+      "task_id": 201,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 93480,
+      "original_score": 13.554497211347206
+    },
+    {
+      "task_id": 202,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 125720,
+      "original_score": 13.258187509088495
+    },
+    {
+      "task_id": 203,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 89126,
+      "original_score": 13.602193622149995
+    },
+    {
+      "task_id": 204,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 308848,
+      "original_score": 12.359395474532343,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_17) of node (safe_name_17) does not match expected type (tensor(float16)).')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_17) of node (safe_name_17) does not match expected type (tensor(float16)).')"
+        }
+      ]
+    },
+    {
+      "task_id": 205,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 332917,
+      "original_score": 12.284351511354425,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 206,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 66480,
+      "original_score": 13.89534357047067
+    },
+    {
+      "task_id": 207,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2387,
+      "original_score": 17.22220737366117
+    },
+    {
+      "task_id": 208,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 92408,
+      "original_score": 13.566031166031484
+    },
+    {
+      "task_id": 209,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2926562,
+      "original_score": 10.110661086794275,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 210,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 211,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 212,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10069,
+      "original_score": 15.782783324084384,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'c1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 213,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 52469,
+      "original_score": 14.132022202010482
+    },
+    {
+      "task_id": 214,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 215,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 43419,
+      "original_score": 14.321347587694286,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_g__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 216,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 104412,
+      "original_score": 13.443900109645975,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 217,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 77061,
+      "original_score": 13.747647405002935
+    },
+    {
+      "task_id": 218,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 23202,
+      "original_score": 14.948006239164648,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 219,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 15842765,
+      "original_score": 8.421776512802126,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 220,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 900,
+      "original_score": 18.197605236675688
+    },
+    {
+      "task_id": 221,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 55869,
+      "original_score": 14.069235056400384
+    },
+    {
+      "task_id": 222,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 58035,
+      "original_score": 14.031198444197276
+    },
+    {
+      "task_id": 223,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 224,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 45522,
+      "original_score": 14.274048995433871,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 225,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11240,
+      "original_score": 15.672765876552319,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v38__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 226,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5559,
+      "original_score": 16.37682648504653,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'bg__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 227,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3503,
+      "original_score": 16.838624976802514
+    },
+    {
+      "task_id": 228,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 25086,
+      "original_score": 14.86993479941538,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v36__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 229,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2025,
+      "original_score": 17.38667502045936
+    },
+    {
+      "task_id": 230,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 900,
+      "original_score": 18.197605236675688
+    },
+    {
+      "task_id": 231,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 38348,
+      "original_score": 14.445542345803112,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v15__preconv_crop_0__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 232,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 29497,
+      "original_score": 14.707956157758622,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v16__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 233,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4897656,
+      "original_score": 9.595732718720246,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: /CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: /CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 234,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 139938,
+      "original_score": 13.151045253641602
+    },
+    {
+      "task_id": 235,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1938,
+      "original_score": 17.430588207549288
+    },
+    {
+      "task_id": 236,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1138,
+      "original_score": 17.962972385313723
+    },
+    {
+      "task_id": 237,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 14324,
+      "original_score": 15.430308268881676,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v11__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 238,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 64372,
+      "original_score": 13.927565965061614
+    },
+    {
+      "task_id": 239,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 96277,
+      "original_score": 13.525015267707683
+    },
+    {
+      "task_id": 240,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 47734,
+      "original_score": 14.22660078877651,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'quad_tl__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 241,
+      "kept": false,
+      "method": "",
+      "error": "ValueError('original has no measurable cost')",
+      "excluded": false,
+      "original_cost": 0,
+      "original_score": 25.0
+    },
+    {
+      "task_id": 242,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24430,
+      "original_score": 14.896432835748215
+    },
+    {
+      "task_id": 243,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 711932,
+      "original_score": 11.524262319784818,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'slice_1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 244,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 32624,
+      "original_score": 14.607196507185764
+    },
+    {
+      "task_id": 245,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 89261,
+      "original_score": 13.600680058652966
+    },
+    {
+      "task_id": 246,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 13391,
+      "original_score": 15.497661881504435,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 247,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 22175,
+      "original_score": 14.99327919282222
+    },
+    {
+      "task_id": 248,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7180,
+      "original_score": 16.12094533795773
+    },
+    {
+      "task_id": 249,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10499,
+      "original_score": 15.740964706485059,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'a__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 250,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 13401,
+      "original_score": 15.496915389979772,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch2__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 251,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 101479,
+      "original_score": 13.47239284049379
+    },
+    {
+      "task_id": 252,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 38286,
+      "original_score": 14.447160426903599,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 253,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 48269,
+      "original_score": 14.215455188361384
+    },
+    {
+      "task_id": 254,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9274,
+      "original_score": 15.865029935048593
+    },
+    {
+      "task_id": 255,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": true,
+      "original_cost": 43358268,
+      "original_score": 7.414992030351591
+    },
+    {
+      "task_id": 256,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 21291,
+      "original_score": 15.033960272806908,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 257,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1589,
+      "original_score": 17.629139833463285
+    },
+    {
+      "task_id": 258,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 259,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 6885,
+      "original_score": 16.162899588837245
+    },
+    {
+      "task_id": 260,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 12474,
+      "original_score": 15.568598242913932,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'x10__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 261,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 200,
+      "original_score": 19.701682633451963
+    },
+    {
+      "task_id": 262,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7433,
+      "original_score": 16.086315175274706
+    },
+    {
+      "task_id": 263,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 8258,
+      "original_score": 15.981062293553965
+    },
+    {
+      "task_id": 264,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 139436,
+      "original_score": 13.154639006390818
+    },
+    {
+      "task_id": 265,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 39812,
+      "original_score": 14.408076346634045
+    },
+    {
+      "task_id": 266,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 267,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1453,
+      "original_score": 17.718614336429717
+    },
+    {
+      "task_id": 268,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 22387,
+      "original_score": 14.983764287772118,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'fg_1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 269,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 8602,
+      "original_score": 15.940249986656319,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_3__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 270,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 28745,
+      "original_score": 14.733780881942609,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'center1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 271,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 28991,
+      "original_score": 14.725259284025897
+    },
+    {
+      "task_id": 272,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 273,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 6037,
+      "original_score": 16.294337521203573,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 274,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 8761,
+      "original_score": 15.921934667333636
+    },
+    {
+      "task_id": 275,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 83884,
+      "original_score": 13.66280982894899
+    },
+    {
+      "task_id": 276,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10,
+      "original_score": 22.697414907005953
+    },
+    {
+      "task_id": 277,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 70604,
+      "original_score": 13.83515792089983,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch0__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 278,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 34383,
+      "original_score": 14.55468246483519,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 279,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 27422,
+      "original_score": 14.7808991100834,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v9__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 280,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 139246,
+      "original_score": 13.156002567937232
+    },
+    {
+      "task_id": 281,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 89575,
+      "original_score": 13.597168457826845
+    },
+    {
+      "task_id": 282,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 900,
+      "original_score": 18.197605236675688
+    },
+    {
+      "task_id": 283,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 284,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 120032,
+      "original_score": 13.304486347118386
+    },
+    {
+      "task_id": 285,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 99837739,
+      "original_score": 6.580943183905013,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ],
+      "candidate_cost": 99785539,
+      "candidate_score": 6.581466169016895,
+      "save": 52200,
+      "delta": 0.0005229851118819795
+    },
+    {
+      "task_id": 286,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 168431,
+      "original_score": 12.965718550640606
+    },
+    {
+      "task_id": 287,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 22567,
+      "original_score": 14.97575605882809
+    },
+    {
+      "task_id": 288,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 31807,
+      "original_score": 14.632558329669694,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'x9__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 289,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 25332,
+      "original_score": 14.86017630236368,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 290,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 110852,
+      "original_score": 13.384048742718665,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_44) of node (safe_name_44) does not match expected type (tensor(float16)).')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_44) of node (safe_name_44) does not match expected type (tensor(float16)).')"
+        }
+      ]
+    },
+    {
+      "task_id": 291,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4327,
+      "original_score": 16.627370259775116,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 292,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7785,
+      "original_score": 16.040045915731902
+    },
+    {
+      "task_id": 293,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 25285,
+      "original_score": 14.862033386485917
+    },
+    {
+      "task_id": 294,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 295,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 12226,
+      "original_score": 15.58867988941133,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_row0__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 296,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4115,
+      "original_score": 16.67760588688883
+    },
+    {
+      "task_id": 297,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11116,
+      "original_score": 15.683859209137605
+    },
+    {
+      "task_id": 298,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 14948,
+      "original_score": 15.387667209394625,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 299,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2678,
+      "original_score": 17.107174473748884
+    },
+    {
+      "task_id": 300,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 77575,
+      "original_score": 13.74099951068342
+    },
+    {
+      "task_id": 301,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 75607,
+      "original_score": 13.766695849526213,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 302,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 21341,
+      "original_score": 15.03161461588603,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 303,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": true,
+      "original_cost": 80710,
+      "original_score": 13.701382237681582
+    },
+    {
+      "task_id": 304,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 14574,
+      "original_score": 15.413005601769772,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError(\"[ShapeInferenceError] Inference error(s): (op_type:Resize, node name: 39): [ShapeInferenceError] Input 'scales' must have float element type.\\n\")"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError(\"[ShapeInferenceError] Inference error(s): (op_type:Resize, node name: 39): [ShapeInferenceError] Input 'scales' must have float element type.\\n\")"
+        }
+      ]
+    },
+    {
+      "task_id": 305,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 3952,
+      "original_score": 16.71802294113224
+    },
+    {
+      "task_id": 306,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 99243,
+      "original_score": 13.494673332905101,
+      "candidate_cost": 89643,
+      "candidate_score": 13.596409605443009,
+      "save": 9600,
+      "delta": 0.10173627253790762
+    },
+    {
+      "task_id": 307,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1800,
+      "original_score": 17.504458056115745
+    },
+    {
+      "task_id": 308,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 49022,
+      "original_score": 14.199975544076578,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 309,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10,
+      "original_score": 22.697414907005953
+    },
+    {
+      "task_id": 310,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 58874,
+      "original_score": 14.016845153963535,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 311,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 312,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9979,
+      "original_score": 15.791761836115688
+    },
+    {
+      "task_id": 313,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 84532,
+      "original_score": 13.655114560117957
+    },
+    {
+      "task_id": 314,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 8594,
+      "original_score": 15.941180435665059,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'cell_0_0__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 315,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 13779,
+      "original_score": 15.469099027006097,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError(\"[ShapeInferenceError] Inference error(s): (op_type:Resize, node name: 27): [ShapeInferenceError] Input 'scales' must have float element type.\\n\")"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError(\"[ShapeInferenceError] Inference error(s): (op_type:Resize, node name: 27): [ShapeInferenceError] Input 'scales' must have float element type.\\n\")"
+        }
+      ]
+    },
+    {
+      "task_id": 316,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 51510,
+      "original_score": 14.150468757440368,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 317,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 900,
+      "original_score": 18.197605236675688
+    },
+    {
+      "task_id": 318,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1202,
+      "original_score": 17.90825788490485
+    },
+    {
+      "task_id": 319,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 26465763,
+      "original_score": 7.908637506610479,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 320,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5190,
+      "original_score": 16.445511023840066
+    },
+    {
+      "task_id": 321,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7047,
+      "original_score": 16.139642726672978
+    },
+    {
+      "task_id": 322,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1344,
+      "original_score": 17.796594478916905
+    },
+    {
+      "task_id": 323,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30433,
+      "original_score": 14.676717175047553,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v154__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 324,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 681484,
+      "original_score": 11.56797194777977,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 325,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 43022,
+      "original_score": 14.330533108254256
+    },
+    {
+      "task_id": 326,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 166,
+      "original_score": 19.888012211643456
+    },
+    {
+      "task_id": 327,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7548,
+      "original_score": 16.07096209351156,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however '_de_inp__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 328,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 69838,
+      "original_score": 13.846066446780867
+    },
+    {
+      "task_id": 329,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10260,
+      "original_score": 15.76399188127524,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 330,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 62036,
+      "original_score": 13.964529859320656,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 284, in score_onnx |     output = session.run([\"output\"], {\"input\": encode_grid(example[\"input\"])})[0] |              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 322, in run |     return self._sess.run(output_names, input_feed, run_options) |            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.RuntimeException: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running ScatterND node. Name:\\'safe_name_34\\' Status Message: CPU execution provider: MLFloat16 data type is not supported with ScatterND opset 16 when reduction is \\'add\\'.')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 284, in score_onnx |     output = session.run([\"output\"], {\"input\": encode_grid(example[\"input\"])})[0] |              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 322, in run |     return self._sess.run(output_names, input_feed, run_options) |            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.RuntimeException: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running ScatterND node. Name:\\'safe_name_33\\' Status Message: CPU execution provider: MLFloat16 data type is not supported with ScatterND opset 16 when reduction is \\'add\\'.')"
+        }
+      ]
+    },
+    {
+      "task_id": 331,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 910,
+      "original_score": 18.186555400489105
+    },
+    {
+      "task_id": 332,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9468,
+      "original_score": 15.844327029366125,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 333,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24893,
+      "original_score": 14.877658081568091,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 334,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 973,
+      "original_score": 18.119615917813995
+    },
+    {
+      "task_id": 335,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 49362,
+      "original_score": 14.193063823603016,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 336,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 6036,
+      "original_score": 16.294503180112258
+    },
+    {
+      "task_id": 337,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10,
+      "original_score": 22.697414907005953
+    },
+    {
+      "task_id": 338,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 46899,
+      "original_score": 14.244248367754565
+    },
+    {
+      "task_id": 339,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 980,
+      "original_score": 18.112447428335383
+    },
+    {
+      "task_id": 340,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 70523,
+      "original_score": 13.836305823269957
+    },
+    {
+      "task_id": 341,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 18865,
+      "original_score": 15.15493636760159,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 342,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 13369,
+      "original_score": 15.499306127016878
+    },
+    {
+      "task_id": 343,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 29731,
+      "original_score": 14.700054448515683
+    },
+    {
+      "task_id": 344,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2510,
+      "original_score": 17.17196196787417
+    },
+    {
+      "task_id": 345,
+      "kept": true,
+      "method": "v1",
+      "error": "",
+      "excluded": false,
+      "original_cost": 51329,
+      "original_score": 14.153988826419955,
+      "candidate_cost": 45155,
+      "candidate_score": 14.2821437053151,
+      "save": 6174,
+      "delta": 0.12815487889514543
+    },
+    {
+      "task_id": 346,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 9178,
+      "original_score": 15.875435405045222
+    },
+    {
+      "task_id": 347,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1919,
+      "original_score": 17.4404405039923
+    },
+    {
+      "task_id": 348,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7307,
+      "original_score": 16.103411928208782
+    },
+    {
+      "task_id": 349,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 146782,
+      "original_score": 13.103296228159195
+    },
+    {
+      "task_id": 350,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 28729,
+      "original_score": 14.734337655454574,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 351,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 35154,
+      "original_score": 14.532506311227156
+    },
+    {
+      "task_id": 352,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 6626,
+      "original_score": 16.20124341714016
+    },
+    {
+      "task_id": 353,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5411,
+      "original_score": 16.403810802357263
+    },
+    {
+      "task_id": 354,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 31151,
+      "original_score": 14.653398373570951,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v33__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 355,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 18292,
+      "original_score": 15.185780915222054
+    },
+    {
+      "task_id": 356,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5002,
+      "original_score": 16.482406888562437,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 357,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7180,
+      "original_score": 16.12094533795773
+    },
+    {
+      "task_id": 358,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 114021,
+      "original_score": 13.355862079061728
+    },
+    {
+      "task_id": 359,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 51176,
+      "original_score": 14.156974048870026
+    },
+    {
+      "task_id": 360,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11396,
+      "original_score": 15.658982304382201
+    },
+    {
+      "task_id": 361,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 16917,
+      "original_score": 15.263925687524708
+    },
+    {
+      "task_id": 362,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 12038,
+      "original_score": 15.604176407892284,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v10__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 363,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 551943,
+      "original_score": 11.778799940942104,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('float initializer exceeds fp16 range')"
+        }
+      ]
+    },
+    {
+      "task_id": 364,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 153871,
+      "original_score": 13.056130131977039,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 284, in score_onnx |     output = session.run([\"output\"], {\"input\": encode_grid(example[\"input\"])})[0] |              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 322, in run |     return self._sess.run(output_names, input_feed, run_options) |            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.RuntimeException: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running ScatterND node. Name:\\'safe_name_76\\' Status Message: CPU execution provider: MLFloat16 data type is not supported with ScatterND opset 16 when reduction is \\'add\\'.')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 284, in score_onnx |     output = session.run([\"output\"], {\"input\": encode_grid(example[\"input\"])})[0] |              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 322, in run |     return self._sess.run(output_names, input_feed, run_options) |            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.RuntimeException: [ONNXRuntimeError] : 6 : RUNTIME_EXCEPTION : Non-zero status code returned while running ScatterND node. Name:\\'safe_name_75\\' Status Message: CPU execution provider: MLFloat16 data type is not supported with ScatterND opset 16 when reduction is \\'add\\'.')"
+        }
+      ]
+    },
+    {
+      "task_id": 365,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 59004,
+      "original_score": 14.01463948280006,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: ): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 366,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 60429553,
+      "original_score": 7.083011168677867,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: /CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        },
+        {
+          "method": "v1",
+          "error": "InferenceError('[ShapeInferenceError] (op_type:CumSum, node name: /CumSum): x typestr: T, has unsupported type: tensor(float16)')"
+        }
+      ]
+    },
+    {
+      "task_id": 367,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1027823,
+      "original_score": 11.157046468815583,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 368,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 32339,
+      "original_score": 14.615970788806473,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'inp10__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 369,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 7729,
+      "original_score": 16.04726523289313,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch5__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 370,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 354422,
+      "original_score": 12.221756427464182,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 371,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 21181,
+      "original_score": 15.039140167606002,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 372,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 11690,
+      "original_score": 15.633510945533885,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'L__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 373,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1067,
+      "original_score": 18.027393748698245
+    },
+    {
+      "task_id": 374,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 52037,
+      "original_score": 14.140289716998371
+    },
+    {
+      "task_id": 375,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 15172,
+      "original_score": 15.372793097191211
+    },
+    {
+      "task_id": 376,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 40583,
+      "original_score": 14.388895461309366,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 377,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 64881,
+      "original_score": 13.919689898259202
+    },
+    {
+      "task_id": 378,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 41000,
+      "original_score": 14.378672654313554,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_inner__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 379,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 72501,
+      "original_score": 13.80864436614891
+    },
+    {
+      "task_id": 380,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 737,
+      "original_score": 18.397412107810663
+    },
+    {
+      "task_id": 381,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 42217,
+      "original_score": 14.3494217374937,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch2__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 382,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 194026,
+      "original_score": 12.824252550315938,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 383,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 129967,
+      "original_score": 13.224964148940515
+    },
+    {
+      "task_id": 384,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 74751,
+      "original_score": 13.77808213091013
+    },
+    {
+      "task_id": 385,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30,
+      "original_score": 21.598802618337846
+    },
+    {
+      "task_id": 386,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 2639,
+      "original_score": 17.121844663496674
+    },
+    {
+      "task_id": 387,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1216104,
+      "original_score": 10.988837135833128,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 388,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10779,
+      "original_score": 15.714644924218371,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'input_6__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 389,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1898,
+      "original_score": 17.451444020830127
+    },
+    {
+      "task_id": 390,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 24721,
+      "original_score": 14.884591636172143,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'twos__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 391,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 10021,
+      "original_score": 15.787561829941671
+    },
+    {
+      "task_id": 392,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 30870,
+      "original_score": 14.662459882503795,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'v36__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 393,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 5873,
+      "original_score": 16.321879144477478
+    },
+    {
+      "task_id": 394,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 4775,
+      "original_score": 16.52885074708517
+    },
+    {
+      "task_id": 395,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1991,
+      "original_score": 17.403607695935804
+    },
+    {
+      "task_id": 396,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 168048,
+      "original_score": 12.967995068137443,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_162) of node (safe_name_162) does not match expected type (tensor(float16)).')"
+        },
+        {
+          "method": "v1",
+          "error": "ValueError('Traceback (most recent call last): |   File \"$HOME/Desktop/kaggleonnx/tools/neurogolf_local.py\", line 278, in score_onnx |     session = onnxruntime.InferenceSession(sanitized.SerializeToString(), options, providers=[\"CPUExecutionProvider\"]) |   File \"$HOME/Desktop/kaggleonnx/.venv/lib/python3.13/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py\", line 530, in __init__ |     self._create_inference_session(providers, provider_options, disabled_optimizers) |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | onnxruntime.capi.onnxruntime_pybind11_state.Fail: [ONNXRuntimeError] : 1 : FAIL : Type Error: Type (tensor(float)) of output arg (InsertedPrecisionFreeCast_safe_name_162) of node (safe_name_162) does not match expected type (tensor(float16)).')"
+        }
+      ]
+    },
+    {
+      "task_id": 397,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 21241,
+      "original_score": 15.036311444773116,
+      "candidate_errors": [
+        {
+          "method": "v2",
+          "error": "ValidationError(\"Graph must be in single static assignment (SSA) form, however 'ch1__h16' has been used as output names multiple times.\")"
+        }
+      ]
+    },
+    {
+      "task_id": 398,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 84303,
+      "original_score": 13.65782726945465
+    },
+    {
+      "task_id": 399,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 1839,
+      "original_score": 17.48302277539568
+    },
+    {
+      "task_id": 400,
+      "kept": false,
+      "method": "",
+      "error": "",
+      "excluded": false,
+      "original_cost": 35153,
+      "original_score": 14.532534757896764
+    }
+  ]
+}

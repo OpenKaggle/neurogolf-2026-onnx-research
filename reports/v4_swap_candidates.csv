@@ -1,0 +1,6 @@
+task_id,source,v4_score,src_score,delta,struct_risk,struct_flags,isolated_v4_pass,isolated_src_pass,isolated_ours_pass,decoded_match,accepted,reject_reason
+task018,afr1ste_5689,11.3239,11.6597,+0.3359,1.0,has_lookup_ops;fp16,0/266,0/266,0/266,NA,True,
+task018,biohack44_super,11.3239,11.9264,+0.6026,1.0,has_lookup_ops;fp16,0/266,0/266,0/266,NA,True,
+task018,octaviograu_6154,11.3239,11.9264,+0.6026,1.0,has_lookup_ops;fp16,0/266,0/266,0/266,NA,True,
+task249,afr1ste_5689,15.7410,15.8951,+0.1542,0.5,fp16,265/265,265/265,265/265,True,True,
+task303,biohack44_6080,13.7014,14.0230,+0.3217,0.5,fp16,265/265,240/265,265/265,,False,isolated_src_pass_below_v4(240<265)

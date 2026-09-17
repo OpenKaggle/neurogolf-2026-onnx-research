@@ -1,0 +1,23 @@
+{
+  "encodable": {
+    "arc-gen": 251,
+    "test": 1,
+    "train": 3
+  },
+  "examples": 266,
+  "full_rect_violations": 0,
+  "max_pattern_h": 7,
+  "max_pattern_w": 7,
+  "patterns": 703,
+  "source_side": {
+    "horizontal_a": 73,
+    "horizontal_b": 51,
+    "vertical_a": 68,
+    "vertical_b": 74
+  },
+  "totals": {
+    "arc-gen": 262,
+    "test": 1,
+    "train": 3
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "anchor_safe_categories": [
+    "half_turn_rotation",
+    "horizontal_reflection",
+    "main_diagonal_reflection",
+    "translate_down_one",
+    "translate_down_right_one",
+    "translate_right_one",
+    "vertical_reflection",
+    "visible_identity"
+  ],
+  "category_counts": {
+    "half_turn_rotation": 266,
+    "horizontal_reflection": 266,
+    "main_diagonal_reflection": 266,
+    "translate_down_one": 266,
+    "translate_down_right_one": 266,
+    "translate_right_one": 266,
+    "vertical_reflection": 266,
+    "visible_identity": 266
+  },
+  "metamorphic_total": 2128,
+  "models": [
+    {
+      "anchor_safe_failures": [],
+      "anchor_safe_pass": 2128,
+      "anchor_safe_total": 2128,
+      "category_results": {
+        "half_turn_rotation": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "horizontal_reflection": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "main_diagonal_reflection": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "translate_down_one": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "translate_down_right_one": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "translate_right_one": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "vertical_reflection": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        },
+        "visible_identity": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        }
+      },
+      "checker_error": "",
+      "checker_ok": true,
+      "exists": true,
+      "metamorphic_failures": [],
+      "metamorphic_pass": 2128,
+      "metamorphic_total": 2128,
+      "name": "anchor_v4_plus16",
+      "path": "submissions/candidate_v4_plus16_seddik_t001_onnx/task066.onnx",
+      "score": {
+        "cost": 99734,
+        "error": "",
+        "file_size": 16477,
+        "local_pass": 266,
+        "local_total": 266,
+        "memory": 99596,
+        "nodes": 291,
+        "params": 138,
+        "score": 13.489738079116012
+      },
+      "score_delta_vs_anchor": 0.0,
+      "source_class": "lb_verified_anchor",
+      "stageable": false,
+      "stageable_reason": "not cheaper than anchor",
+      "visible_failures": [],
+      "visible_pass": 266,
+      "visible_total": 266
+    },
+    {
+      "anchor_safe_failures": [
+        {
+          "case_id": "flip_h_000",
+          "category": "horizontal_reflection",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "flip_v_000",
+          "category": "vertical_reflection",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "rot180_000",
+          "category": "half_turn_rotation",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "transpose_000",
+          "category": "main_diagonal_reflection",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "square-grid transpose metamorphic transform"
+        },
+        {
+          "case_id": "pad_top_000",
+          "category": "translate_down_one",
+          "decoded_shape": [
+            21,
+            20
+          ],
+          "error": "",
+          "note": "one-cell top padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_left_000",
+          "category": "translate_right_one",
+          "decoded_shape": [
+            20,
+            21
+          ],
+          "error": "",
+          "note": "one-cell left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_tl_000",
+          "category": "translate_down_right_one",
+          "decoded_shape": [
+            21,
+            21
+          ],
+          "error": "",
+          "note": "one-cell top-left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "flip_h_001",
+          "category": "horizontal_reflection",
+          "decoded_shape": [
+            11,
+            10
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "flip_v_001",
+          "category": "vertical_reflection",
+          "decoded_shape": [
+            10,
+            10
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "rot180_001",
+          "category": "half_turn_rotation",
+          "decoded_shape": [
+            10,
+            10
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "transpose_001",
+          "category": "main_diagonal_reflection",
+          "decoded_shape": [
+            10,
+            10
+          ],
+          "error": "",
+          "note": "square-grid transpose metamorphic transform"
+        },
+        {
+          "case_id": "pad_top_001",
+          "category": "translate_down_one",
+          "decoded_shape": [
+            11,
+            10
+          ],
+          "error": "",
+          "note": "one-cell top padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_left_001",
+          "category": "translate_right_one",
+          "decoded_shape": [
+            10,
+            11
+          ],
+          "error": "",
+          "note": "one-cell left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_tl_001",
+          "category": "translate_down_right_one",
+          "decoded_shape": [
+            11,
+            11
+          ],
+          "error": "",
+          "note": "one-cell top-left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "flip_h_002",
+          "category": "horizontal_reflection",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "flip_v_002",
+          "category": "vertical_reflection",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "rot180_002",
+          "category": "half_turn_rotation",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "transpose_002",
+          "category": "main_diagonal_reflection",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "square-grid transpose metamorphic transform"
+        },
+        {
+          "case_id": "pad_top_002",
+          "category": "translate_down_one",
+          "decoded_shape": [
+            16,
+            15
+          ],
+          "error": "",
+          "note": "one-cell top padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_left_002",
+          "category": "translate_right_one",
+          "decoded_shape": [
+            15,
+            16
+          ],
+          "error": "",
+          "note": "one-cell left padding; preserves visible geometry"
+        }
+      ],
+      "anchor_safe_pass": 266,
+      "anchor_safe_total": 2128,
+      "category_results": {
+        "half_turn_rotation": {
+          "failures": [
+            {
+              "case_id": "rot180_000",
+              "category": "half_turn_rotation",
+              "decoded_shape": [
+                20,
+                20
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "rot180_001",
+              "category": "half_turn_rotation",
+              "decoded_shape": [
+                10,
+                10
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "rot180_002",
+              "category": "half_turn_rotation",
+              "decoded_shape": [
+                15,
+                15
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "rot180_003",
+              "category": "half_turn_rotation",
+              "decoded_shape": [
+                13,
+                13
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "rot180_004",
+              "category": "half_turn_rotation",
+              "decoded_shape": [
+                18,
+                18
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "horizontal_reflection": {
+          "failures": [
+            {
+              "case_id": "flip_h_000",
+              "category": "horizontal_reflection",
+              "decoded_shape": [
+                20,
+                20
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_h_001",
+              "category": "horizontal_reflection",
+              "decoded_shape": [
+                11,
+                10
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_h_002",
+              "category": "horizontal_reflection",
+              "decoded_shape": [
+                15,
+                15
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_h_003",
+              "category": "horizontal_reflection",
+              "decoded_shape": [
+                13,
+                13
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_h_004",
+              "category": "horizontal_reflection",
+              "decoded_shape": [
+                18,
+                18
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "main_diagonal_reflection": {
+          "failures": [
+            {
+              "case_id": "transpose_000",
+              "category": "main_diagonal_reflection",
+              "decoded_shape": [
+                20,
+                20
+              ],
+              "error": "",
+              "note": "square-grid transpose metamorphic transform"
+            },
+            {
+              "case_id": "transpose_001",
+              "category": "main_diagonal_reflection",
+              "decoded_shape": [
+                10,
+                10
+              ],
+              "error": "",
+              "note": "square-grid transpose metamorphic transform"
+            },
+            {
+              "case_id": "transpose_002",
+              "category": "main_diagonal_reflection",
+              "decoded_shape": [
+                15,
+                15
+              ],
+              "error": "",
+              "note": "square-grid transpose metamorphic transform"
+            },
+            {
+              "case_id": "transpose_003",
+              "category": "main_diagonal_reflection",
+              "decoded_shape": [
+                13,
+                13
+              ],
+              "error": "",
+              "note": "square-grid transpose metamorphic transform"
+            },
+            {
+              "case_id": "transpose_004",
+              "category": "main_diagonal_reflection",
+              "decoded_shape": [
+                18,
+                18
+              ],
+              "error": "",
+              "note": "square-grid transpose metamorphic transform"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "translate_down_one": {
+          "failures": [
+            {
+              "case_id": "pad_top_000",
+              "category": "translate_down_one",
+              "decoded_shape": [
+                21,
+                20
+              ],
+              "error": "",
+              "note": "one-cell top padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_top_001",
+              "category": "translate_down_one",
+              "decoded_shape": [
+                11,
+                10
+              ],
+              "error": "",
+              "note": "one-cell top padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_top_002",
+              "category": "translate_down_one",
+              "decoded_shape": [
+                16,
+                15
+              ],
+              "error": "",
+              "note": "one-cell top padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_top_003",
+              "category": "translate_down_one",
+              "decoded_shape": [
+                14,
+                13
+              ],
+              "error": "",
+              "note": "one-cell top padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_top_004",
+              "category": "translate_down_one",
+              "decoded_shape": [
+                19,
+                18
+              ],
+              "error": "",
+              "note": "one-cell top padding; preserves visible geometry"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "translate_down_right_one": {
+          "failures": [
+            {
+              "case_id": "pad_tl_000",
+              "category": "translate_down_right_one",
+              "decoded_shape": [
+                21,
+                21
+              ],
+              "error": "",
+              "note": "one-cell top-left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_tl_001",
+              "category": "translate_down_right_one",
+              "decoded_shape": [
+                11,
+                11
+              ],
+              "error": "",
+              "note": "one-cell top-left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_tl_002",
+              "category": "translate_down_right_one",
+              "decoded_shape": [
+                16,
+                16
+              ],
+              "error": "",
+              "note": "one-cell top-left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_tl_003",
+              "category": "translate_down_right_one",
+              "decoded_shape": [
+                14,
+                14
+              ],
+              "error": "",
+              "note": "one-cell top-left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_tl_004",
+              "category": "translate_down_right_one",
+              "decoded_shape": [
+                19,
+                19
+              ],
+              "error": "",
+              "note": "one-cell top-left padding; preserves visible geometry"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "translate_right_one": {
+          "failures": [
+            {
+              "case_id": "pad_left_000",
+              "category": "translate_right_one",
+              "decoded_shape": [
+                20,
+                21
+              ],
+              "error": "",
+              "note": "one-cell left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_left_001",
+              "category": "translate_right_one",
+              "decoded_shape": [
+                10,
+                11
+              ],
+              "error": "",
+              "note": "one-cell left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_left_002",
+              "category": "translate_right_one",
+              "decoded_shape": [
+                15,
+                16
+              ],
+              "error": "",
+              "note": "one-cell left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_left_003",
+              "category": "translate_right_one",
+              "decoded_shape": [
+                13,
+                14
+              ],
+              "error": "",
+              "note": "one-cell left padding; preserves visible geometry"
+            },
+            {
+              "case_id": "pad_left_004",
+              "category": "translate_right_one",
+              "decoded_shape": [
+                18,
+                19
+              ],
+              "error": "",
+              "note": "one-cell left padding; preserves visible geometry"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "vertical_reflection": {
+          "failures": [
+            {
+              "case_id": "flip_v_000",
+              "category": "vertical_reflection",
+              "decoded_shape": [
+                20,
+                20
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_v_001",
+              "category": "vertical_reflection",
+              "decoded_shape": [
+                10,
+                10
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_v_002",
+              "category": "vertical_reflection",
+              "decoded_shape": [
+                15,
+                15
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_v_003",
+              "category": "vertical_reflection",
+              "decoded_shape": [
+                13,
+                13
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            },
+            {
+              "case_id": "flip_v_004",
+              "category": "vertical_reflection",
+              "decoded_shape": [
+                18,
+                18
+              ],
+              "error": "",
+              "note": "metamorphic transform of train/test/arc-gen case"
+            }
+          ],
+          "pass": 0,
+          "total": 266
+        },
+        "visible_identity": {
+          "failures": [],
+          "pass": 266,
+          "total": 266
+        }
+      },
+      "checker_error": "",
+      "checker_ok": true,
+      "exists": true,
+      "metamorphic_failures": [
+        {
+          "case_id": "flip_h_000",
+          "category": "horizontal_reflection",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "flip_v_000",
+          "category": "vertical_reflection",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "rot180_000",
+          "category": "half_turn_rotation",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "transpose_000",
+          "category": "main_diagonal_reflection",
+          "decoded_shape": [
+            20,
+            20
+          ],
+          "error": "",
+          "note": "square-grid transpose metamorphic transform"
+        },
+        {
+          "case_id": "pad_top_000",
+          "category": "translate_down_one",
+          "decoded_shape": [
+            21,
+            20
+          ],
+          "error": "",
+          "note": "one-cell top padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_left_000",
+          "category": "translate_right_one",
+          "decoded_shape": [
+            20,
+            21
+          ],
+          "error": "",
+          "note": "one-cell left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_tl_000",
+          "category": "translate_down_right_one",
+          "decoded_shape": [
+            21,
+            21
+          ],
+          "error": "",
+          "note": "one-cell top-left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "flip_h_001",
+          "category": "horizontal_reflection",
+          "decoded_shape": [
+            11,
+            10
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "flip_v_001",
+          "category": "vertical_reflection",
+          "decoded_shape": [
+            10,
+            10
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "rot180_001",
+          "category": "half_turn_rotation",
+          "decoded_shape": [
+            10,
+            10
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "transpose_001",
+          "category": "main_diagonal_reflection",
+          "decoded_shape": [
+            10,
+            10
+          ],
+          "error": "",
+          "note": "square-grid transpose metamorphic transform"
+        },
+        {
+          "case_id": "pad_top_001",
+          "category": "translate_down_one",
+          "decoded_shape": [
+            11,
+            10
+          ],
+          "error": "",
+          "note": "one-cell top padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_left_001",
+          "category": "translate_right_one",
+          "decoded_shape": [
+            10,
+            11
+          ],
+          "error": "",
+          "note": "one-cell left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_tl_001",
+          "category": "translate_down_right_one",
+          "decoded_shape": [
+            11,
+            11
+          ],
+          "error": "",
+          "note": "one-cell top-left padding; preserves visible geometry"
+        },
+        {
+          "case_id": "flip_h_002",
+          "category": "horizontal_reflection",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "flip_v_002",
+          "category": "vertical_reflection",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "rot180_002",
+          "category": "half_turn_rotation",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "metamorphic transform of train/test/arc-gen case"
+        },
+        {
+          "case_id": "transpose_002",
+          "category": "main_diagonal_reflection",
+          "decoded_shape": [
+            15,
+            15
+          ],
+          "error": "",
+          "note": "square-grid transpose metamorphic transform"
+        },
+        {
+          "case_id": "pad_top_002",
+          "category": "translate_down_one",
+          "decoded_shape": [
+            16,
+            15
+          ],
+          "error": "",
+          "note": "one-cell top padding; preserves visible geometry"
+        },
+        {
+          "case_id": "pad_left_002",
+          "category": "translate_right_one",
+          "decoded_shape": [
+            15,
+            16
+          ],
+          "error": "",
+          "note": "one-cell left padding; preserves visible geometry"
+        }
+      ],
+      "metamorphic_pass": 266,
+      "metamorphic_total": 2128,
+      "name": "konbu_blend_task066",
+      "path": "data/konbu17_v36/task066.onnx",
+      "score": {
+        "cost": 21408,
+        "error": "",
+        "file_size": 22387,
+        "local_pass": 266,
+        "local_total": 266,
+        "memory": 16962,
+        "nodes": 70,
+        "params": 4446,
+        "score": 15.028480037072045
+      },
+      "score_delta_vs_anchor": 1.5387419579560326,
+      "source_class": "konbu_blend_public_family",
+      "stageable": false,
+      "stageable_reason": "fails anchor-safe metamorphic contracts",
+      "visible_failures": [],
+      "visible_pass": 266,
+      "visible_total": 266
+    }
+  ],
+  "task_id": 66,
+  "visible_total": 266
+}

@@ -1,0 +1,2 @@
+task_id,rule,kept,applied,note,current_cost,candidate_cost,cost_save,current_score,candidate_score,score_gain,current_local,candidate_local,candidate_memory,candidate_params,candidate_nodes,candidate_file_size,equiv_train,equiv_test,equiv_arc_gen,error
+286,exact Cast-chain collapse,False,False,compose bool->FLOAT16 Cast,160931,160931,0,13.011269019324953,13.011269019324953,0.0,3/3,3/3,159629,1302,168,13636,,,,no n=3 score improvement

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/
+downloads/
+public_kernels/
+submissions/
+/submission.zip
+iso_*.json
+onnxruntime_profile*.json
+tmp*/

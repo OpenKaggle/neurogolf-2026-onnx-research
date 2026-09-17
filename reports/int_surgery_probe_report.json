@@ -1,0 +1,46 @@
+[
+  {
+    "task_id": 285,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Equal): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 255,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] (op_type:Div, node name: /Div): B has inconsistent type tensor(int32)')"
+  },
+  {
+    "task_id": 219,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:ArgMin, node name: /ArgMin): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_1): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_2): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_3): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n(op_type:ArgMin, node name: /ArgMin_4): [TypeInferenceError] Inferred elem type differs from existing elem type: (7) vs (6)\\n')"
+  },
+  {
+    "task_id": 157,
+    "kept": true,
+    "error": "",
+    "original_cost": 3963271,
+    "original_score": 9.807419747626927,
+    "candidate_cost": 3963251,
+    "candidate_score": 9.807424793976384,
+    "save": 20,
+    "delta": 5.0463494574159995e-06,
+    "same": true
+  },
+  {
+    "task_id": 44,
+    "kept": false,
+    "error": "InferenceError('[ShapeInferenceError] Inference error(s): (op_type:Col2Im, node name: /Col2Im): [ShapeInferenceError] ParseData type mismatch for tensor: onnx::Col2Im_4889. Expected:int64 Actual:int32\\n')"
+  },
+  {
+    "task_id": 25,
+    "kept": false,
+    "error": "",
+    "original_cost": 6012933,
+    "original_score": 9.390576792564902,
+    "candidate_cost": 6012933,
+    "candidate_score": 9.390576792564902,
+    "save": 0,
+    "delta": 0.0,
+    "same": false
+  }
+]

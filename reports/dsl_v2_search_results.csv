@@ -1,0 +1,13 @@
+task_id,depth,program_str,visible_train_pass,visible_test_pass,dsl_cost,dsl_status,dsl_train_pass,dsl_test_pass,dsl_arcgen_pass,baseline_cost,baseline_pass,cost_ratio,in_phase4
+87,1,"rotate180_static(h=3,w=3)",True,True,1110,ok,4/4,1/1,261/261,368,3,0.332,True
+129,1,dominant_color,True,True,9136,ok,3/3,1/1,261/261,818,3,0.09,False
+140,1,"rotate180_static(h=3,w=3)",True,True,1110,ok,2/2,1/1,262/262,368,3,0.332,True
+150,1,flip_h,True,True,948,ok,3/3,1/1,262/262,1014,3,1.07,True
+155,1,flip_v,True,True,948,ok,3/3,1/1,262/262,1014,3,1.07,True
+179,1,transpose,True,True,0,ok,4/4,1/1,262/262,0,3,1.0,True
+241,1,transpose,True,True,0,ok,3/3,1/1,262/262,0,3,1.0,True
+249,1,tile_h(n=2),True,True,41966,ok,3/3,1/1,261/261,8999,3,0.214,False
+276,1,"swap_colors(c1=2,c2=6)",True,True,10,ok,3/3,1/1,262/262,10,3,1.0,True
+309,1,"swap_colors(c1=5,c2=7)",True,True,10,ok,3/3,1/1,261/261,10,3,1.0,True
+337,1,"swap_colors(c1=5,c2=8)",True,True,10,ok,3/3,1/1,262/262,10,3,1.0,True
+380,1,"rotate90_static(h=3,w=3)",True,True,1107,ok,4/4,1/1,262/262,728,3,0.658,False

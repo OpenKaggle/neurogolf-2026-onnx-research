@@ -1,0 +1,10 @@
+{
+  "anchor": "submissions/candidate_v4_plus9_compiler_onnx/task191.onnx",
+  "candidate": "submissions/handbuilds/task191_v2.onnx",
+  "decoded_equivalence_failures": [],
+  "decoded_equivalence_pass": 267,
+  "decoded_equivalence_total": 267,
+  "python_semantic_failures": [],
+  "python_semantic_pass": 267,
+  "python_semantic_total": 267
+}

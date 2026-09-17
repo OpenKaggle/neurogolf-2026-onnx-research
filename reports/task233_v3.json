@@ -1,0 +1,17 @@
+{
+  "source": "submissions/handbuilds",
+  "n_runs": 0,
+  "results": [
+    {
+      "task": 233,
+      "score": 11.021676955629996,
+      "cost": 1176816,
+      "memory": 1161948,
+      "params": 14868,
+      "local_pass": 0,
+      "local_total": 266,
+      "nodes": 251,
+      "error": ""
+    }
+  ]
+}

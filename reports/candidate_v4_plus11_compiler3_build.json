@@ -1,0 +1,14 @@
+{
+  "anchor": "submissions/candidate_v4_plus10_compiler2_onnx",
+  "compiler_overlay": "submissions/compiler_backend_sweep_v3_onnx",
+  "candidate": "submissions/candidate_v4_plus11_compiler3_onnx",
+  "zip": "submissions/submission_candidate_v4_plus11_compiler3.zip",
+  "zip_sha256": "57f2f90bebcb526176db84d3dad59a2bc67fbd36f6c9c7c6996afaeb594cdc43",
+  "task_count": 400,
+  "changed_count": 2,
+  "changed_tasks": [
+    "task157",
+    "task295"
+  ],
+  "strict_checked_changed_models": 2
+}

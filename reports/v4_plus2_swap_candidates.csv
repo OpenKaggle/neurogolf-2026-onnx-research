@@ -1,0 +1,12 @@
+task_id,source,v4plus_cost,src_cost,cost_save,v4plus_visible_pass,src_visible_pass,struct_risk,accepted,reject_reason
+task018,afr1ste_5689,476185,621736,-145551,0/266,0/266,1.0,False,no_cost_save(-145551)
+task018,biohack44_6067,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,biohack44_6080,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,biohack44_6113,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,biohack44_super,476185,476185,0,0/266,0/266,1.0,False,no_cost_save(0)
+task018,current_best_6122,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,haoranran_6100,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,massimiliano_eda111,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,nadeem_6252,476185,476185,0,0/266,0/266,1.0,False,no_cost_save(0)
+task018,octavi_6042,476185,869893,-393708,0/266,0/266,1.0,False,no_cost_save(-393708)
+task018,octaviograu_6154,476185,476185,0,0/266,0/266,1.0,False,no_cost_save(0)

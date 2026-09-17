@@ -1,0 +1,7 @@
+source,risk_label,task_id,sha256,file_size,nodes,local_score
+cdeotte,untested-public,task026,d7df7bec062761d807666a7d97c10c47b1746124c6e2a8510a5e39a66e40f49b,1551,23,
+cdeotte,untested-public,task032,2bc7da69b5de5ce93ee735931ef0d38ffcd77c817d20d8b0c7fbae8f92799250,1659,25,
+cdeotte,untested-public,task038,51cac4cf5df344efbb24f900905917ff0019d2528c1b31d22e12647fe2480b0a,1699,33,
+cdeotte,untested-public,task083,eff0c4ea55332b54aaa6fce27495387f08fccef047a38c32b18cc500d8f87f94,1492,24,
+cdeotte,untested-public,task116,aa2ac3da05565fdd1546095fc451cbea97b9c3cce26b31c02a30abe63cda397e,485,4,
+cdeotte,untested-public,task129,f1ad78298d27dfb00cee41bb8599076e7fef4b8d356407ca6b450a8ec4597bd2,3970,6,

@@ -1,0 +1,2 @@
+task_id,score,cost,memory,params,local_pass,local_total,nodes,file_size,path,error
+84,14.685197814566816,30176,26510,3666,175,175,21,31565,submissions/handbuilds/task084.onnx,

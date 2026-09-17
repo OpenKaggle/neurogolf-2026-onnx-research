@@ -1,0 +1,21 @@
+{
+  "anchor": "submissions/candidate_v4_plus9_compiler_onnx",
+  "candidate": "submissions/candidate_v4_plus10_compiler2_onnx",
+  "zip": "submissions/submission_candidate_v4_plus10_compiler2.zip",
+  "zip_sha256": "31895cd79b62e1d22298746a675d522337d06eea8a14f810936543f369e8a1b5",
+  "task_count": 400,
+  "changed_count": 10,
+  "changed_tasks": [
+    "task092",
+    "task138",
+    "task191",
+    "task192",
+    "task205",
+    "task209",
+    "task215",
+    "task376",
+    "task377",
+    "task396"
+  ],
+  "strict_checked_changed_models": 10
+}

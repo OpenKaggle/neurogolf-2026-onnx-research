@@ -1,0 +1,401 @@
+task_id,file_size,node_count,init_count,init_bytes,init_byte_ratio,biggest_init_bytes,biggest_init_name,biggest_init_size,biggest_init_dtype,big_init_count_4k,big_init_count_64k,big_init_count_512k,has_fp16,has_lookup_ops,ops_top,ops_total,risk_score,risk_flags
+task157,837536,415,34,795546,0.9499,783000,plac_idx_963,195750,int32,2,1,1,1,1,"Slice:83, Pad:82, Mul:67, Cast:30, Max:20",415,4.0,high_init_ratio;huge_init>=512KB;has_lookup_ops;fp16
+task076,490164,221,44,459476,0.9374,456976,perm_flat,228488,float16,1,1,0,1,1,"Mul:28, Cast:25, Unsqueeze:21, Greater:16, Slice:12",221,3.0,high_init_ratio;big_init>=64KB;has_lookup_ops;fp16
+task233,938648,804,105,818606,0.8721,125000,combo,15625,int64,24,1,0,1,1,"Gather:221, Reshape:117, Mul:111, MaxPool:69, ScatterND:53",804,3.0,high_init_ratio;big_init>=64KB;has_lookup_ops;fp16
+task133,783434,368,167,1177928,1.5035,324000,anchor_vector_bank,81000,float32,4,4,0,0,0,"Slice:108, Mul:80, Pad:69, Conv:30, Equal:17",368,2.0,high_init_ratio;big_init>=64KB
+task363,176806,240,49,155128,0.8774,144400,wk,36100,float32,1,1,0,0,0,"Mul:62, Add:34, Sub:27, Cast:22, Slice:20",240,2.0,high_init_ratio;big_init>=64KB
+task009,30956,22,6,29306,0.9467,28800,v0,3600,int64,1,0,0,1,1,"MatMul:4, Greater:4, Cast:2, And:2, Transpose:2",22,2.0,high_init_ratio;has_lookup_ops;fp16
+task061,17030,9,12,15754,0.9251,15552,label_bank,1944,int64,1,0,0,1,1,"ReduceSum:2, Slice:1, Greater:1, Cast:1, Sub:1",9,2.0,high_init_ratio;has_lookup_ops;fp16
+task175,12985,22,12,10926,0.8414,7200,cast_15,900,int64,1,0,0,1,1,"Cast:4, Mul:3, ReduceSum:2, Add:2, Conv:1",22,2.0,high_init_ratio;has_lookup_ops;fp16
+task290,42089,87,42,31842,0.7565,7200,out_r_grid,900,int64,3,0,0,1,1,"Reshape:18, Gather:16, Cast:6, ArgMax:5, And:5",87,2.0,high_init_ratio;has_lookup_ops;fp16
+task301,17629,49,10,14692,0.8334,7200,row_grid,900,int64,2,0,0,1,1,"Cast:11, ReduceSum:4, Greater:4, Less:4, ReduceMax:3",49,2.0,high_init_ratio;has_lookup_ops;fp16
+task330,12033,21,12,9578,0.796,4000,hist_init,1000,float32,0,0,0,1,1,"Where:7, MaxPool:4, Slice:2, Greater:1, Neg:1",21,2.0,high_init_ratio;has_lookup_ops;fp16
+task366,1247277,12414,79,208952,0.1675,68440,/Constant_721_output_0,17110,float32,5,1,0,0,1,"Mul:2421, Cast:1400, Add:1287, Sub:1169, Less:1068",12414,1.5,big_init>=64KB;has_lookup_ops
+task058,14221,16,11,13008,0.9147,12800,table_f,6400,float16,1,0,0,1,0,"And:3, Cast:2, Greater:2, Slice:1, ReduceMax:1",16,1.5,high_init_ratio;fp16
+task027,16205,25,13,14532,0.8968,12600,zeros7,6300,float16,1,0,0,1,0,"Slice:6, Mul:4, Sub:4, Cast:3, Pad:2",25,1.5,high_init_ratio;fp16
+task105,18785,52,12,14572,0.7757,12600,zero_rest,6300,float16,1,0,0,1,0,"Mul:14, Sub:8, Slice:6, MaxPool:4, Pad:4",52,1.5,high_init_ratio;fp16
+task123,8805,17,13,7526,0.8547,7200,level_map,900,int64,1,0,0,1,0,"Cast:4, Slice:3, Gather:3, ReduceSum:2, Max:1",17,1.5,high_init_ratio;fp16
+task037,20424,27,13,16760,0.8206,6498,identity_conv_sum_group_others_main_w,3249,float16,2,0,0,1,0,"Relu:7, Conv:6, Mul:5, Slice:2, Cast:1",27,1.5,high_init_ratio;fp16
+task313,21754,34,12,18178,0.8356,3600,row_grid,900,int32,0,0,0,1,0,"Add:5, Cast:4, ReduceMax:4, Sub:4, Mul:4",34,1.5,high_init_ratio;fp16
+task059,7062,21,19,5322,0.7536,2420,lines_const,1210,float16,0,0,0,1,0,"Slice:2, Cast:2, Conv:2, Sub:2, Greater:2",21,1.5,high_init_ratio;fp16
+task004,2522,4,4,2040,0.8089,1800,W1,900,float16,0,0,0,1,0,"Conv:2, Cast:1, Relu:1",4,1.5,high_init_ratio;fp16
+task107,31694,52,30,27694,0.8738,1800,v12,900,float16,0,0,0,1,0,"Where:19, Gather:9, Less:7, Sub:4, Mul:4",52,1.5,high_init_ratio;fp16
+task180,2525,6,5,1916,0.7588,1800,W,900,float16,0,0,0,1,0,"Slice:1, Cast:1, Conv:1, ReduceMax:1, Mul:1",6,1.5,high_init_ratio;fp16
+task221,13313,28,26,10198,0.766,1800,G2,900,float16,0,0,0,1,0,"Where:10, Equal:5, Slice:3, Cast:3, ReduceSum:2",28,1.5,high_init_ratio;fp16
+task099,19839,1,2,19640,0.99,19600,W,4900,float32,1,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task122,10236,1,2,10040,0.9809,10000,W,2500,float32,1,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task344,10236,1,2,10040,0.9809,10000,W,2500,float32,1,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task083,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task101,39301,206,38,9696,0.2467,7200,/Constant_188_output_0,3600,float16,1,0,0,1,1,"Cast:42, Mul:23, ConvTranspose:19, Conv:18, Slice:14",206,1.0,has_lookup_ops;fp16
+task108,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task142,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task152,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task194,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task211,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task214,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task223,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task307,7454,1,1,7200,0.9659,7200,grid,1800,float32,1,0,0,0,0,GridSample:1,1,1.0,high_init_ratio
+task396,148123,407,160,98424,0.6645,7200,out_r_grid,900,int64,3,0,0,1,1,"Reshape:64, Gather:55, Conv:48, And:36, Equal:33",407,1.0,has_lookup_ops;fp16
+task364,16744,62,21,9966,0.5952,4000,hist_init,1000,float32,0,0,0,1,1,"Where:11, MaxPool:10, And:7, Slice:6, Cast:6",62,1.0,has_lookup_ops;fp16
+task015,3798,1,1,3600,0.9479,3600,conv_weight,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task021,30917,215,20,7416,0.2399,3600,row_grid,900,int32,0,0,0,1,1,"Cast:53, ReduceMax:33, Equal:27, ReduceSum:20, Greater:19",215,1.0,has_lookup_ops;fp16
+task073,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task095,3950,1,2,3640,0.9215,3600,net.weight,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task098,3836,1,2,3640,0.9489,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task118,160396,1163,39,7546,0.047,3600,posrank,900,float32,0,0,0,1,1,"Cast:278, Mul:151, Greater:150, Conv:120, Add:115",1163,1.0,has_lookup_ops;fp16
+task120,3836,1,2,3640,0.9489,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task127,3772,1,1,3600,0.9544,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task147,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task151,3880,1,2,3640,0.9381,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task171,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task220,3798,1,1,3600,0.9479,3600,conv_weight,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task230,3798,1,1,3600,0.9479,3600,conv_weight,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task266,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task272,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task282,3798,1,1,3600,0.9479,3600,conv_weight,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task283,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task294,3825,1,2,3640,0.9516,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task317,3798,1,1,3600,0.9479,3600,conv_weight,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task331,3836,1,2,3640,0.9489,3600,W,900,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task018,32157,219,31,2316,0.072,1800,pos_idx,900,float16,0,0,0,1,1,"Cast:38, Mul:34, Slice:17, Add:14, MaxPool:13",219,1.0,has_lookup_ops;fp16
+task154,5741,44,8,2000,0.3484,1800,grid_mask,900,float16,0,0,0,1,1,"Mul:8, Sub:8, ReduceMax:4, Where:4, Cast:3",44,1.0,has_lookup_ops;fp16
+task203,6433,36,15,2850,0.443,1296,row_grid,324,int32,0,0,0,1,1,"Unsqueeze:5, Cast:4, ReduceSum:3, Squeeze:3, Where:3",36,1.0,has_lookup_ops;fp16
+task096,64252,480,42,6732,0.1048,1210,outside,605,float16,0,0,0,1,1,"Mul:106, Cast:72, Sub:62, ReduceSum:33, Add:25",480,1.0,has_lookup_ops;fp16
+task261,995,1,1,800,0.804,800,conv_weight,200,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task328,16275,121,27,6244,0.3837,648,v6,324,float16,0,0,0,1,1,"Less:18, Mul:16, And:16, Sum:13, Where:9",121,1.0,has_lookup_ops;fp16
+task258,880,1,2,640,0.7273,600,W,150,float32,0,0,0,0,0,Conv:1,1,1.0,high_init_ratio
+task343,8142,86,16,1472,0.1808,600,v111,150,float32,0,0,0,1,1,"Gather:15, Mul:12, Cast:10, Where:9, Greater:8",86,1.0,has_lookup_ops;fp16
+task239,4143,33,19,898,0.2168,540,col_oh_3d,270,float16,0,0,0,1,1,"Reshape:8, Less:4, Cast:3, ReduceSum:2, Slice:2",33,1.0,has_lookup_ops;fp16
+task124,5397,52,16,1410,0.2613,400,v11,100,int32,0,0,0,1,1,"Slice:7, Gather:6, Sub:6, Mul:6, ReduceSum:6",52,1.0,has_lookup_ops;fp16
+task053,175,1,1,240,1.3714,240,v0,30,int64,0,0,0,0,0,Gather:1,1,1.0,high_init_ratio
+task332,3735,30,15,714,0.1912,240,row_grid,60,int32,0,0,0,1,1,"Cast:6, ReduceSum:3, Greater:3, Where:3, ReduceMax:2",30,1.0,has_lookup_ops;fp16
+task385,175,1,1,240,1.3714,240,v0,30,int64,0,0,0,0,0,Gather:1,1,1.0,high_init_ratio
+task069,32543,380,43,4766,0.1465,200,v32,100,float16,0,0,0,1,1,"Mul:176, Gather:74, ReduceSum:28, Where:25, Sub:23",380,1.0,has_lookup_ops;fp16
+task339,1588,13,11,360,0.2267,162,mask_bank,81,float16,0,0,0,1,1,"Cast:2, ReduceSum:2, Slice:1, Sub:1, ArgMax:1",13,1.0,has_lookup_ops;fp16
+task086,4384,42,19,488,0.1113,128,v10,64,float16,0,0,0,1,1,"Cast:7, Conv:6, ConvTranspose:6, Where:4, Sum:4",42,1.0,has_lookup_ops;fp16
+task235,4028,35,19,478,0.1187,128,template,64,float16,0,0,0,1,1,"Slice:3, Reshape:3, Cast:3, Mul:3, Sub:3",35,1.0,has_lookup_ops;fp16
+task007,1320,14,13,236,0.1788,64,pads,8,int64,0,0,0,1,1,"Reshape:4, Slice:2, Cast:1, ArgMax:1, Concat:1",14,1.0,has_lookup_ops;fp16
+task048,5917,52,15,326,0.0551,64,pads,8,int64,0,0,0,1,1,"Greater:13, Conv:12, Where:12, Cast:4, Slice:2",52,1.0,has_lookup_ops;fp16
+task129,1048,8,10,222,0.2118,64,pads,8,int64,0,0,0,1,1,"Slice:1, Cast:1, ReduceSum:1, ArgMax:1, OneHot:1",8,1.0,has_lookup_ops;fp16
+task340,6409,72,25,530,0.0827,64,v20,8,int64,0,0,0,1,1,"Where:11, Cast:10, ReduceSum:8, Equal:8, Sub:7",72,1.0,has_lookup_ops;fp16
+task191,132233,1037,39,608,0.0046,60,idxr,30,float16,0,0,0,1,1,"Unsqueeze:140, Cast:137, Mul:119, Gather:112, ScatterND:84",1037,1.0,has_lookup_ops;fp16
+task255,92333,648,30,41110,0.4452,27900,MEMB,13950,float16,1,0,0,1,0,"Cast:108, Mul:108, Unsqueeze:73, Sub:68, Add:37",648,0.5,fp16
+task071,12082,49,12,7308,0.6049,7200,ipj,900,int64,1,0,0,1,0,"Mul:8, Sub:8, ArgMax:6, Cast:5, ReduceMax:5",49,0.5,fp16
+task243,22685,149,7,14438,0.6365,7200,zero_ch_idx,900,int64,2,0,0,1,0,"And:30, Cast:29, Greater:29, Conv:28, Or:28",149,0.5,fp16
+task159,12966,57,16,8444,0.6512,3920,v18,1960,float16,0,0,0,1,0,"Gather:12, Pad:8, Cast:7, Add:6, Sub:4",57,0.5,fp16
+task019,10686,35,12,7298,0.6829,3600,diffs,900,int32,0,0,0,1,0,"Cast:6, MatMul:6, Slice:4, ReduceMax:3, Sum:3",35,0.5,fp16
+task398,7459,44,26,3232,0.4333,2500,RPC,625,int32,0,0,0,1,0,"And:7, Slice:6, Where:6, Equal:5, Add:4",44,0.5,fp16
+task011,10170,52,22,4734,0.4655,2420,sep_mask,1210,float16,0,0,0,1,0,"Mul:18, Slice:10, Conv:10, ReduceMax:9, Cast:1",52,0.5,fp16
+task163,10270,68,22,3988,0.3883,2420,ch5_contrib,1210,float16,0,0,0,1,0,"Reshape:14, Sub:9, Cast:7, Mul:7, And:6",68,0.5,fp16
+task088,10372,58,18,4964,0.4786,2304,diffs_rc_i,576,int32,0,0,0,1,0,"Mul:13, Cast:9, Sub:8, Sum:5, ReduceMax:4",58,0.5,fp16
+task044,148684,1054,59,4876,0.0328,2048,/Add_117_output_0,256,int64,0,0,0,1,0,"Mul:198, Add:173, Slice:131, Pad:121, Sub:86",1054,0.5,fp16
+task256,5118,40,17,2644,0.5166,2028,zeros_6,1014,float16,0,0,0,1,0,"Mul:10, Sub:7, Relu:5, ReduceSum:4, Min:4",40,0.5,fp16
+task030,5857,57,13,2394,0.4087,1800,zero_channel,900,float16,0,0,0,1,0,"Greater:8, Where:6, Cast:5, ReduceSum:4, Not:4",57,0.5,fp16
+task034,11293,87,16,4854,0.4298,1800,v29,900,float16,0,0,0,1,0,"And:21, Less:16, Sub:9, ReduceSum:8, Where:7",87,0.5,fp16
+task055,13497,166,37,2168,0.1606,1800,zero_map,900,float16,0,0,0,1,0,"Gather:62, Sum:59, Mul:11, Equal:10, Sub:7",166,0.5,fp16
+task131,7860,103,17,2184,0.2779,1800,zeros_1ch,900,float16,0,0,0,1,0,"Where:20, Sub:16, Cast:13, ArgMax:6, Less:6",103,0.5,fp16
+task145,31434,325,34,2046,0.0651,1800,zero_map,900,float16,0,0,0,1,0,"Sum:120, Mul:120, Gather:62, Sub:6, Concat:5",325,0.5,fp16
+task156,7856,65,15,2012,0.2561,1800,zero_ch,900,float16,0,0,0,1,0,"Cast:10, Sub:10, Mul:8, Reshape:6, Greater:5",65,0.5,fp16
+task165,4910,25,15,2168,0.4415,1800,logical_mask,900,float16,0,0,0,1,0,"Cast:5, Conv:3, Reshape:3, Mul:3, Slice:2",25,0.5,fp16
+task198,6979,51,14,1886,0.2702,1800,zero_slab,900,float16,0,0,0,1,0,"Mul:16, Slice:10, MaxPool:5, ReduceSum:4, Sub:4",51,0.5,fp16
+task217,7268,34,12,3714,0.511,1800,nine_by_nine_mask,900,float16,0,0,0,1,0,"Gather:6, ReduceMax:4, Cast:3, Where:3, Mul:3",34,0.5,fp16
+task234,8285,96,8,2902,0.3503,1800,v2,900,float16,0,0,0,1,0,"Greater:14, And:14, Where:14, ReduceSum:12, Sub:10",96,0.5,fp16
+task251,6906,53,13,1952,0.2827,1800,ones_30x30,900,float16,0,0,0,1,0,"Max:9, Mul:9, Slice:7, Sub:7, MaxPool:7",53,0.5,fp16
+task275,24193,253,27,5962,0.2464,1800,v2,900,float16,0,0,0,1,0,"Gather:63, Reshape:52, Sum:28, Mul:24, MatMul:16",253,0.5,fp16
+task277,5549,58,12,2034,0.3666,1800,neg_idx,900,float16,0,0,0,1,0,"Where:11, Equal:8, Cast:7, Pad:5, MaxPool:5",58,0.5,fp16
+task285,44221,467,37,4504,0.1019,1800,coord_labels,900,float16,0,0,0,1,0,"Reshape:96, Mul:89, Cast:53, Greater:42, Slice:37",467,0.5,fp16
+task345,3896,31,13,1936,0.4969,1800,zero_ch,900,float16,0,0,0,1,0,"Slice:6, Mul:4, Cast:3, Sub:3, Pad:3",31,0.5,fp16
+task381,3435,24,9,1910,0.556,1800,Z,900,float16,0,0,0,1,0,"Mul:6, Slice:4, Cast:4, Concat:3, Sub:3",24,0.5,fp16
+task382,34556,325,27,21948,0.6351,1800,v8,900,float16,0,0,0,1,0,"Where:60, Reshape:52, Mul:49, MatMul:44, Less:42",325,0.5,fp16
+task383,6805,57,11,1892,0.278,1800,v2,900,float16,0,0,0,1,0,"Greater:9, And:7, Cast:6, Where:6, ReduceSum:6",57,0.5,fp16
+task390,4970,43,11,2390,0.4809,1800,grid_mask,900,float16,0,0,0,1,0,"Add:6, Where:5, Sub:5, ArgMax:4, Gather:4",43,0.5,fp16
+task392,8330,51,35,5390,0.6471,1800,v7,900,float16,0,0,0,1,0,"Slice:11, Mul:10, Concat:5, Cast:4, Sub:4",51,0.5,fp16
+task367,120773,654,291,46198,0.3825,1568,gate_left_1_1,784,float16,0,0,0,1,0,"Conv:225, Cast:87, Add:76, Greater:76, Sub:76",654,0.5,fp16
+task286,19603,168,20,2763,0.1409,1250,even_mask,625,float16,0,0,0,1,0,"MaxPool:59, Min:59, Gather:10, Or:9, Cast:8",168,0.5,fp16
+task338,5846,38,9,2061,0.3525,1250,border_mask_f,625,float16,0,0,0,1,0,"Mul:12, MaxPool:12, Cast:5, Slice:2, Sub:1",38,0.5,fp16
+task080,18484,93,31,7842,0.4243,1240,cand_pid,155,int64,0,0,0,1,0,"Equal:13, Where:13, Gather:11, Cast:8, Clip:8",93,0.5,fp16
+task374,16450,144,27,1458,0.0886,1000,zeros_5_10,500,float16,0,0,0,1,0,"Mul:45, Slice:37, Pad:37, Sum:6, Relu:6",144,0.5,fp16
+task104,3667,21,16,2236,0.6098,972,zeros_6ch,486,float16,0,0,0,1,0,"Mul:8, Sub:4, Slice:3, ReduceMax:2, Cast:1",21,0.5,fp16
+task097,2494,11,6,1016,0.4074,900,tail_false_30,900,bool,0,0,0,1,0,"Cast:3, ReduceSum:2, Greater:2, Slice:1, Conv:1",11,0.5,fp16
+task109,5237,39,14,1306,0.2494,900,tail_false_30,900,bool,0,0,0,1,0,"Cast:5, Reshape:5, Gather:5, Sub:4, ReduceSum:3",39,0.5,fp16
+task137,3852,36,9,1050,0.2726,900,tail_false_30,900,bool,0,0,0,1,0,"Cast:7, ReduceSum:5, Sub:4, Mul:4, Div:4",36,0.5,fp16
+task187,5768,88,14,984,0.1706,900,border_b,900,bool,0,0,0,1,0,"Greater:25, And:17, Cast:15, MaxPool:14, Gather:10",88,0.5,fp16
+task195,5381,33,10,2154,0.4003,900,tail_false_30,900,bool,0,0,0,1,0,"ReduceSum:4, Sub:4, Cast:3, Clip:3, Reshape:3",33,0.5,fp16
+task245,6141,47,16,1540,0.2508,900,tail_false_30,900,bool,0,0,0,1,0,"Cast:6, Reshape:6, ReduceMax:4, ArgMax:4, Sub:4",47,0.5,fp16
+task281,7659,64,15,1512,0.1974,900,tail_false_30,900,bool,0,0,0,1,0,"Cast:7, Reshape:6, And:6, Less:5, Greater:5",64,0.5,fp16
+task325,5072,39,22,2094,0.4129,900,diag_line,900,bool,0,0,0,1,0,"Equal:7, And:6, Slice:5, Cast:5, ReduceSum:4",39,0.5,fp16
+task110,21494,163,51,3438,0.16,841,zero_label29,841,uint8,0,0,0,1,0,"Equal:29, Gather:21, Cast:16, ReduceMax:15, Reshape:14",163,0.5,fp16
+task077,9860,72,20,4759,0.4827,840,v21,420,float16,0,0,0,1,0,"Mul:15, Sub:9, MaxPool:8, Cast:7, Reshape:6",72,0.5,fp16
+task377,19220,208,17,4879,0.2539,810,v11,405,float16,0,0,0,1,0,"ArgMax:27, Gather:23, ReduceMax:19, Squeeze:19, Cast:17",208,0.5,fp16
+task002,15506,95,32,1472,0.0949,800,canvas20,400,float16,0,0,0,1,0,"Conv:24, Greater:23, Where:21, Slice:11, Sub:6",95,0.5,fp16
+task020,31378,245,25,2136,0.0681,800,row_grid,100,int64,0,0,0,1,0,"Gather:71, Cast:67, Add:24, Sub:12, Greater:10",245,0.5,fp16
+task046,5299,73,26,1906,0.3597,800,v14,400,float16,0,0,0,1,0,"Slice:9, Mul:9, Sub:9, Pad:7, Abs:6",73,0.5,fp16
+task204,19610,119,68,11590,0.591,800,kdet_20,400,float16,0,0,0,1,0,"Sub:19, Conv:18, Relu:18, Mul:18, ConvTranspose:18",119,0.5,fp16
+task369,2940,26,11,1166,0.3966,800,zeros_4_10,400,float16,0,0,0,1,0,"Mul:6, Sub:6, Relu:3, Slice:2, Cast:2",26,0.5,fp16
+task379,9996,107,29,3634,0.3635,800,v13,400,float16,0,0,0,1,0,"Greater:16, Where:16, Sub:13, Mul:11, ReduceSum:9",107,0.5,fp16
+task186,1781,7,8,886,0.4975,720,output_bank,360,float16,0,0,0,1,0,"Cast:2, Slice:1, ReduceSum:1, Sub:1, Gather:1",7,0.5,fp16
+task278,2285,16,13,888,0.3886,648,zero_ch,324,float16,0,0,0,1,0,"Sub:3, Slice:2, Cast:2, Mul:2, Conv:1",16,0.5,fp16
+task148,6750,110,16,868,0.1286,576,v1,288,float16,0,0,0,1,0,"Where:28, Greater:18, Slice:15, ReduceSum:15, Pad:13",110,0.5,fp16
+task167,1673,9,9,726,0.434,540,output_bank,270,float16,0,0,0,1,0,"Cast:2, ReduceSum:2, Slice:1, Greater:1, Sub:1",9,0.5,fp16
+task334,1456,6,8,718,0.4931,540,output_bank,270,float16,0,0,0,1,0,"Slice:1, Cast:1, ReduceSum:1, ArgMax:1, Gather:1",6,0.5,fp16
+task013,18384,91,16,4538,0.2468,522,identity_conv_sum_group_col_stripes_d2_sum_7_w,261,float16,0,0,0,1,0,"Conv:20, ReduceMax:18, Greater:14, Where:13, Mul:10",91,0.5,fp16
+task279,3082,43,8,692,0.2245,512,v1,256,float16,0,0,0,1,0,"Mul:16, MaxPool:11, Sub:4, Conv:4, Slice:2",43,0.5,fp16
+task158,94356,823,101,2712,0.0287,500,K_ones_5x5,250,float16,0,0,0,1,0,"Mul:315, Slice:253, ReduceSum:71, Greater:38, Cast:36",823,0.5,fp16
+task252,3651,38,19,1182,0.3237,450,parity_mask,225,float16,0,0,0,1,0,"Slice:11, Cast:11, Mul:10, Sub:2, ReduceSum:1",38,0.5,fp16
+task270,7597,60,21,1240,0.1632,450,canvas15,225,float16,0,0,0,1,0,"Greater:11, Sub:9, Where:8, Conv:8, Cast:7",60,0.5,fp16
+task017,8620,67,27,1796,0.2084,441,zero_label21,441,uint8,0,0,0,1,0,"Equal:11, Gather:10, Cast:7, ReduceMax:6, Slice:5",67,0.5,fp16
+task249,1990,21,14,772,0.3879,400,zero4,200,float16,0,0,0,1,0,"Slice:6, Cast:4, Concat:3, ReduceSum:2, Greater:2",21,0.5,fp16
+task319,270216,2696,712,23660,0.0876,400,eye10,100,float32,0,0,0,0,1,"Slice:684, Mul:497, Expand:457, ReduceSum:454, Sub:247",2696,0.5,has_lookup_ops
+task178,6748,126,30,1384,0.2051,392,v12,196,float16,0,0,0,1,0,"Mul:36, Where:14, Sub:12, ReduceSum:12, Less:12",126,0.5,fp16
+task201,10924,135,20,2314,0.2118,338,v1,169,float16,0,0,0,1,0,"Squeeze:16, Mul:15, Gather:13, Cast:12, Less:12",135,0.5,fp16
+task323,7913,59,17,550,0.0695,338,v2,169,float16,0,0,0,1,0,"Conv:48, Gather:2, Slice:2, Cast:2, Max:1",59,0.5,fp16
+task346,2236,13,12,532,0.2379,324,density_kernel,81,float32,0,0,0,0,1,"Add:2, Slice:1, Conv:1, ReduceMax:1, ReduceSum:1",13,0.5,has_lookup_ops
+task102,22167,149,12,798,0.036,288,canvas12,144,float16,0,0,0,1,0,"Mul:79, Conv:53, Greater:5, Cast:3, Or:3",149,0.5,fp16
+task119,25915,165,27,3944,0.1522,288,zero12,144,float16,0,0,0,1,0,"Greater:47, Conv:42, And:20, Cast:17, Or:16",165,0.5,fp16
+task206,20303,224,33,790,0.0389,288,v2,144,float16,0,0,0,1,0,"Mul:51, Slice:41, Pad:41, ReduceSum:37, Where:36",224,0.5,fp16
+task225,3427,33,17,1408,0.4109,288,v15,144,float16,0,0,0,1,0,"Mul:10, Slice:6, Pad:5, Conv:4, Cast:2",33,0.5,fp16
+task378,6343,96,17,1124,0.1772,288,row_grid,144,float16,0,0,0,1,0,"And:22, Where:14, ReduceMax:9, Greater:7, Sub:7",96,0.5,fp16
+task029,13589,88,15,808,0.0595,240,task029_shift_range,30,int64,0,0,0,1,0,"Cast:12, Sub:12, Greater:9, Add:9, ArgMax:8",88,0.5,fp16
+task033,1510,16,6,320,0.2119,240,v5,30,int64,0,0,0,1,0,"Gather:5, Cast:3, Mul:2, ReduceSum:1, Pad:1",16,0.5,fp16
+task036,5866,56,17,1140,0.1943,240,offsets30,30,int64,0,0,0,1,0,"Gather:8, Add:8, Sub:7, Reshape:6, Cast:5",56,0.5,fp16
+task051,3372,58,12,558,0.1655,240,row_coord,30,int64,0,0,0,1,0,"And:10, ReduceMax:7, Unsqueeze:7, Equal:7, ArgMax:6",58,0.5,fp16
+task054,9728,118,16,900,0.0925,240,v10,30,int64,0,0,0,1,0,"Mul:20, Where:17, Gather:14, Sub:14, Cast:10",118,0.5,fp16
+task128,3365,28,13,804,0.2389,240,reverse_idx,30,int64,0,0,0,1,0,"Reshape:4, Cast:3, ReduceMax:3, Sub:3, Mul:3",28,0.5,fp16
+task138,11562,143,11,654,0.0566,240,v7,30,int64,0,0,0,1,0,"ReduceSum:22, Greater:18, Where:16, Sub:12, Cast:10",143,0.5,fp16
+task185,18881,242,19,528,0.028,240,rng30,30,int64,0,0,0,0,1,"Equal:64, And:45, Gather:23, Cast:20, Not:20",242,0.5,has_lookup_ops
+task216,20396,286,10,788,0.0386,240,v2,30,int64,0,0,0,1,0,"Cast:68, Less:38, Gather:22, Add:18, Unsqueeze:18",286,0.5,fp16
+task300,4688,43,14,976,0.2082,240,offsets30,30,int64,0,0,0,1,0,"Reshape:6, Sub:5, ArgMax:5, Gather:5, Add:5",43,0.5,fp16
+task308,4088,60,17,862,0.2109,240,r_idx30,30,int64,0,0,0,1,0,"Cast:11, Sub:10, Mul:8, ArgMax:5, Add:5",60,0.5,fp16
+task351,3049,25,7,314,0.103,240,flip_idx,30,int64,0,0,0,1,0,"Gather:6, Cast:5, Slice:2, ReduceMax:2, Reshape:2",25,0.5,fp16
+task359,3909,32,9,706,0.1806,240,row_pos_i,30,int64,0,0,0,1,0,"ReduceMax:6, ReduceSum:5, And:4, Cast:3, Less:3",32,0.5,fp16
+task365,17605,242,12,556,0.0316,240,v3,30,int64,0,0,0,1,0,"Cast:59, Less:30, Gather:25, Add:16, Unsqueeze:14",242,0.5,fp16
+task376,1741,27,7,300,0.1723,240,r_idx,30,int64,0,0,0,1,0,"Cast:5, Sub:4, Mul:4, ReduceSum:2, Reshape:2",27,0.5,fp16
+task400,3021,25,6,306,0.1013,240,row_flip_idx,30,int64,0,0,0,1,0,"Gather:6, Cast:5, Slice:2, ReduceMax:2, Reshape:2",25,0.5,fp16
+task060,2458,20,18,590,0.24,220,mul_chain_const_14,110,float16,0,0,0,1,0,"Mul:7, Slice:4, Cast:4, Sub:3, Sum:1",20,0.5,fp16
+task298,4436,35,19,1222,0.2755,220,v17,110,float16,0,0,0,1,0,"Gather:6, Where:6, Cast:5, Sum:4, Mul:3",35,0.5,fp16
+task005,10910,106,19,708,0.0649,200,v4,100,float16,0,0,0,1,0,"Conv:19, Greater:18, Where:16, Mul:9, ReduceMax:8",106,0.5,fp16
+task028,1867,13,11,712,0.3814,200,a_mask,100,float16,0,0,0,1,0,"Slice:4, Cast:2, ReduceMax:2, Mul:2, Add:1",13,0.5,fp16
+task035,8818,107,32,846,0.0959,200,v5,100,float16,0,0,0,1,0,"Mul:19, Cast:18, Greater:17, Conv:16, Slice:9",107,0.5,fp16
+task042,6156,55,18,452,0.0734,200,one10,100,float16,0,0,0,1,0,"Conv:18, Where:13, Mul:9, Greater:3, Sum:3",55,0.5,fp16
+task062,14479,217,26,1960,0.1354,200,P_0,100,float16,0,0,0,1,0,"Mul:56, Slice:46, ReduceMax:38, Cast:23, Sum:20",217,0.5,fp16
+task136,4284,33,17,962,0.2246,200,canvas10,100,float16,0,0,0,1,0,"Conv:8, Cast:6, Mul:6, Greater:4, Add:3",33,0.5,fp16
+task168,5052,45,11,690,0.1366,200,canvas10,100,float16,0,0,0,1,0,"Mul:13, Conv:12, Greater:5, ReduceMax:3, Or:3",45,0.5,fp16
+task169,16353,180,71,3200,0.1957,200,canvas10,100,float16,0,0,0,1,0,"Pad:67, Equal:29, Conv:28, Cast:24, And:19",180,0.5,fp16
+task212,4712,53,16,678,0.1439,200,canvas10,100,float16,0,0,0,1,0,"Cast:13, Where:5, Sum:5, Greater:5, ReduceSum:4",53,0.5,fp16
+task226,3203,39,15,470,0.1467,200,zero10,100,float16,0,0,0,1,0,"Cast:8, Equal:8, ReduceSum:6, Where:5, Mul:3",39,0.5,fp16
+task250,8113,129,19,665,0.082,200,r_idx,100,float16,0,0,0,1,0,"And:48, Greater:16, Cast:14, ReduceSum:14, Or:11",129,0.5,fp16
+task260,2263,28,15,386,0.1706,200,diag_grid,100,float16,0,0,0,1,0,"ReduceMax:4, Where:4, Greater:3, Equal:3, Slice:2",28,0.5,fp16
+task321,1733,22,11,354,0.2043,200,w_no0,100,float16,0,0,0,1,0,"Conv:6, Mul:5, Slice:3, Cast:3, Sub:3",22,0.5,fp16
+task342,3200,40,16,587,0.1834,200,r_idx,100,float16,0,0,0,1,0,"Where:7, ReduceSum:6, Conv:5, And:4, Cast:3",40,0.5,fp16
+task354,2948,42,24,622,0.211,200,v15,100,float16,0,0,0,1,0,"Cast:8, Conv:8, Greater:8, Slice:4, And:4",42,0.5,fp16
+task362,1896,28,11,414,0.2184,200,v7,100,float16,0,0,0,1,0,"Cast:6, ReduceSum:3, ReduceMax:3, Greater:2, ArgMax:2",28,0.5,fp16
+task397,7345,86,30,576,0.0784,200,canvas10,100,float16,0,0,0,1,0,"Cast:25, Conv:18, Greater:16, Gather:9, Pad:5",86,0.5,fp16
+task064,5809,48,12,740,0.1274,192,rev24,24,int64,0,0,0,1,0,"MaxPool:8, Gather:8, Mul:6, ReduceSum:4, Where:4",48,0.5,fp16
+task387,15072,137,26,844,0.056,180,stamp_w,90,float16,0,0,0,1,0,"Or:36, Equal:34, And:23, Cast:10, Greater:6",137,0.5,fp16
+task047,2151,33,11,422,0.1962,162,zero_map,81,float16,0,0,0,1,0,"Cast:6, Or:5, Mul:4, ReduceSum:4, Equal:4",33,0.5,fp16
+task254,4960,49,27,760,0.1532,162,zeros_1130,81,float16,0,0,0,1,0,"Slice:10, Cast:10, Sub:7, Mul:6, Sum:5",49,0.5,fp16
+task264,10074,115,38,2382,0.2365,162,v2,81,float16,0,0,0,1,0,"Mul:74, Slice:24, ReduceSum:10, Gather:2, Sum:2",115,0.5,fp16
+task280,16655,138,11,350,0.021,160,v3,20,int64,0,0,0,1,0,"Conv:60, Mul:31, Sub:14, Gather:11, Sum:10",138,0.5,fp16
+task176,1126,7,9,384,0.341,150,MASK,75,float16,0,0,0,1,0,"Mul:2, Slice:1, Cast:1, Conv:1, Sum:1",7,0.5,fp16
+task265,3110,32,13,382,0.1228,144,v0,18,int64,0,0,0,1,0,"Cast:6, Sub:5, Gather:4, Mul:4, Conv:3",32,0.5,fp16
+task292,1146,7,9,354,0.3089,120,col_mask,60,float16,0,0,0,1,0,"Conv:2, Slice:1, Cast:1, Mul:1, Sum:1",7,0.5,fp16
+task182,70465,522,57,1984,0.0282,98,s0_target2_p0_target_w,49,float16,0,0,0,1,0,"And:171, Cast:100, Greater:83, Less:60, Conv:44",522,0.5,fp16
+task208,15885,196,39,1284,0.0808,98,v113,49,float16,0,0,0,1,0,"And:45, Where:32, Equal:22, Cast:18, Greater:18",196,0.5,fp16
+task238,11927,102,40,3060,0.2566,98,v9,49,float16,0,0,0,1,0,"Where:29, Mul:19, Sum:12, ReduceMax:9, Gather:8",102,0.5,fp16
+task267,1306,11,13,364,0.2787,98,one_map,49,float16,0,0,0,1,0,"Mul:3, Slice:2, Cast:2, Sub:1, ReduceSum:1",11,0.5,fp16
+task022,43895,363,24,410,0.0093,88,idx11,11,int64,0,0,0,1,0,"Greater:81, Mul:72, ReduceSum:72, Where:72, Gather:27",363,0.5,fp16
+task173,10108,69,23,535,0.0529,81,non_diag_u8,81,uint8,0,0,0,1,0,"QLinearMatMul:15, Cast:13, Reshape:10, Transpose:7, Conv:7",69,0.5,fp16
+task222,2578,21,11,318,0.1234,80,W_2x2,40,float16,0,0,0,1,0,"Cast:3, Greater:3, ReduceSum:3, Mul:3, Conv:2",21,0.5,fp16
+task228,2649,61,15,414,0.1563,80,v12,10,int64,0,0,0,1,0,"Mul:19, Gather:12, Conv:9, Sub:4, Cast:3",61,0.5,fp16
+task229,1379,14,12,288,0.2088,80,idx_vec,10,int64,0,0,0,1,0,"ReduceSum:2, Reshape:2, Where:2, Slice:1, Cast:1",14,0.5,fp16
+task231,4473,50,13,382,0.0854,80,v10,20,int32,0,0,0,1,0,"Cast:10, Gather:9, Sub:6, Less:5, Abs:4",50,0.5,fp16
+task335,2757,38,17,414,0.1502,80,conv_W,40,float16,0,0,0,1,0,"Mul:7, Cast:5, ReduceSum:5, Sub:4, Equal:4",38,0.5,fp16
+task001,1137,14,4,126,0.1108,72,blk_idx,9,int64,0,0,0,1,0,"Slice:3, Cast:3, Gather:2, ReduceMax:1, Concat:1",14,0.5,fp16
+task189,6774,110,55,1280,0.189,72,v1,36,float16,0,0,0,1,0,"Mul:36, Slice:24, Cast:24, Sum:9, ReduceSum:4",110,0.5,fp16
+task299,1405,21,8,280,0.1993,72,zero_map,36,float16,0,0,0,1,0,"Cast:8, And:3, Slice:2, ReduceMax:2, Not:2",21,0.5,fp16
+task006,1124,12,10,250,0.2224,64,pads_c,8,int64,0,0,0,1,0,"Mul:3, Slice:2, Cast:2, ReduceMax:2, Sub:1",12,0.5,fp16
+task010,4038,60,26,358,0.0887,64,pad_to_external,8,int64,0,0,0,1,0,"Cast:19, Greater:17, Slice:6, Sum:5, Mul:5",60,0.5,fp16
+task012,1406,16,13,323,0.2297,64,v12,8,int64,0,0,0,1,0,"Conv:5, Cast:2, Mul:2, Slice:1, ReduceSum:1",16,0.5,fp16
+task040,2791,37,20,284,0.1018,64,pad_to_30,8,int64,0,0,0,1,0,"Slice:8, Where:5, ReduceMax:4, ReduceMin:4, Sub:4",37,0.5,fp16
+task052,986,11,12,188,0.1907,64,pads_c,8,int64,0,0,0,1,0,"Mul:2, Slice:1, Cast:1, ReduceSum:1, ReduceMax:1",11,0.5,fp16
+task082,1645,20,10,230,0.1398,64,pad_to_30,8,int64,0,0,0,1,0,"Mul:5, ReduceSum:3, Slice:2, Cast:2, Conv:2",20,0.5,fp16
+task085,2547,20,14,420,0.1649,64,pad_to_external,8,int64,0,0,0,1,0,"Mul:8, Conv:3, Sub:3, Cast:1, Slice:1",20,0.5,fp16
+task089,17792,181,25,780,0.0438,64,pad_to_30_185,8,int64,0,0,0,1,0,"Mul:29, Conv:28, Cast:25, Gather:21, Sub:15",181,0.5,fp16
+task090,19660,246,41,334,0.017,64,v5,8,int64,0,0,0,1,0,"Relu:50, Mul:46, ConvTranspose:46, Conv:28, Sum:25",246,0.5,fp16
+task093,3727,52,15,390,0.1046,64,io_only_pad_to_external,8,int64,0,0,0,1,0,"Sub:11, ReduceSum:5, Mul:5, Conv:5, MaxPool:4",52,0.5,fp16
+task094,2954,41,21,708,0.2397,64,legacy_pad_7_pads,8,int64,0,0,0,1,0,"Slice:8, Mul:8, Sub:7, Cast:6, Conv:3",41,0.5,fp16
+task100,4954,28,14,292,0.0589,64,pads,8,int64,0,0,0,0,1,"ArgMax:5, ReduceSum:3, Greater:3, Cast:3, Add:3",28,0.5,has_lookup_ops
+task103,1447,13,12,324,0.2239,64,pads,8,int64,0,0,0,1,0,"Gather:3, Cast:3, Slice:1, Reshape:1, Sub:1",13,0.5,fp16
+task115,5069,34,20,349,0.0688,64,Constant_20_output,8,int64,0,0,0,0,1,"Cast:5, Slice:3, Where:3, Reshape:3, Equal:3",34,0.5,has_lookup_ops
+task121,3339,24,17,320,0.0958,64,pads,8,int64,0,0,0,0,1,"Gather:5, Add:4, Slice:3, ReduceSum:3, ArgMax:3",24,0.5,has_lookup_ops
+task132,2585,38,16,302,0.1168,64,pad_to_30,8,int64,0,0,0,1,0,"Mul:7, Sub:7, ReduceMax:4, Cast:3, Sum:3",38,0.5,fp16
+task143,2144,24,15,384,0.1791,64,cand_idx,8,int64,0,0,0,1,0,"ReduceSum:5, Cast:4, Slice:3, Equal:2, Greater:2",24,0.5,fp16
+task146,1894,29,10,179,0.0945,64,pads_to_30,8,int64,0,0,0,1,0,"Cast:6, Slice:3, ArgMax:3, Transpose:3, Equal:3",29,0.5,fp16
+task160,1758,19,13,334,0.19,64,pad_to_external,8,int64,0,0,0,1,0,"Conv:6, Greater:3, Cast:2, Where:2, Sub:2",19,0.5,fp16
+task161,6008,51,18,308,0.0513,64,pad_to_external,8,int64,0,0,0,1,0,"Cast:11, And:11, ReduceSum:9, Greater:9, Equal:3",51,0.5,fp16
+task166,1318,11,8,230,0.1745,64,pad_to_external,8,int64,0,0,0,1,0,"ReduceMax:3, Mul:2, Slice:1, Cast:1, Split:1",11,0.5,fp16
+task184,4876,52,15,177,0.0363,64,output_pads,8,int64,0,0,0,1,0,"Cast:9, Equal:7, And:7, ReduceSum:4, Greater:3",52,0.5,fp16
+task188,3259,46,15,264,0.081,64,pad_to_external,8,int64,0,0,0,1,0,"Cast:7, Where:6, Slice:5, ReduceSum:4, Less:4",46,0.5,fp16
+task192,2511,21,12,266,0.1059,64,pad_to_external,8,int64,0,0,0,1,0,"Cast:4, Conv:4, Greater:3, Mul:3, Slice:1",21,0.5,fp16
+task193,1925,14,12,266,0.1382,64,pad_to_external,8,int64,0,0,0,1,0,"Conv:4, Cast:2, Greater:2, Where:2, Slice:1",14,0.5,fp16
+task196,2417,31,14,278,0.115,64,pad_to_external,8,int64,0,0,0,1,0,"Conv:8, Greater:7, Where:7, Mul:2, Slice:1",31,0.5,fp16
+task200,2444,39,19,220,0.09,64,pad_to_30,8,int64,0,0,0,1,0,"Less:9, And:7, Mul:4, Div:3, Sub:3",39,0.5,fp16
+task207,1979,25,15,268,0.1354,64,pads,8,int64,0,0,0,1,0,"Slice:4, Cast:4, Where:4, ReduceSum:4, Concat:2",25,0.5,fp16
+task215,2619,39,19,316,0.1207,64,pad_to_30,8,int64,0,0,0,1,0,"Mul:16, Sum:7, Slice:6, Cast:2, Greater:2",39,0.5,fp16
+task218,9594,137,21,284,0.0296,64,v6,8,int64,0,0,0,0,1,"Mul:20, Concat:15, Reshape:15, Cast:13, ReduceSum:10",137,0.5,has_lookup_ops
+task224,4199,55,17,508,0.121,64,io_only_pad_to_external,8,int64,0,0,0,1,0,"Greater:10, Conv:9, Cast:8, Where:7, Sub:5",55,0.5,fp16
+task227,1135,14,10,250,0.2203,64,pads_c,8,int64,0,0,0,1,0,"Sub:3, Mul:3, Slice:2, Cast:2, ReduceMax:2",14,0.5,fp16
+task237,1637,25,11,250,0.1527,64,v9,8,int64,0,0,0,1,0,"Mul:4, ReduceMax:3, Slice:2, Cast:2, Sub:2",25,0.5,fp16
+task268,13356,180,30,642,0.0481,64,pad_to_external,8,int64,0,0,0,1,0,"And:37, Greater:20, Cast:16, Sub:15, Not:13",180,0.5,fp16
+task288,5948,54,15,304,0.0511,64,pad_to_30,8,int64,0,0,0,1,0,"Conv:16, ReduceMax:7, Mul:5, Slice:4, Sub:4",54,0.5,fp16
+task289,2041,28,17,340,0.1666,64,pad_to_external,8,int64,0,0,0,1,0,"Cast:5, Less:4, Slice:2, ReduceSum:2, Where:2",28,0.5,fp16
+task295,1956,23,11,226,0.1155,64,pad_to_external,8,int64,0,0,0,1,0,"ReduceSum:4, Mul:4, Cast:3, Less:3, Where:2",23,0.5,fp16
+task297,3400,26,18,276,0.0812,64,pad_to_30,8,int64,0,0,0,1,0,"Where:4, Slice:3, ReduceSum:3, Cast:2, Mul:2",26,0.5,fp16
+task302,2639,36,10,226,0.0856,64,pad_to_external,8,int64,0,0,0,1,0,"MaxPool:8, Sub:7, Mul:6, Slice:3, Cast:3",36,0.5,fp16
+task306,2983,34,32,539,0.1807,64,pad_col_30,8,int64,0,0,0,1,0,"Slice:14, Or:5, Concat:3, Cast:2, Greater:2",34,0.5,fp16
+task314,24532,282,83,1358,0.0554,64,pad_to_30,8,int64,0,0,0,1,0,"Mul:76, Slice:64, Cast:64, ReduceSum:24, Sub:24",282,0.5,fp16
+task322,892,9,6,162,0.1816,64,pads_c,8,int64,0,0,0,1,0,"Cast:3, Slice:1, MaxPool:1, ReduceMax:1, Sub:1",9,0.5,fp16
+task329,1652,21,10,236,0.1429,64,pad_to_external,8,int64,0,0,0,1,0,"Sub:4, Mul:3, ReduceSum:2, Relu:2, Sum:2",21,0.5,fp16
+task341,8743,101,52,2234,0.2555,64,legacy_pad_14_pads,8,int64,0,0,0,1,0,"Slice:26, Pad:25, Max:24, Mul:9, Sub:5",101,0.5,fp16
+task347,1129,12,10,250,0.2214,64,pads_c,8,int64,0,0,0,1,0,"Slice:2, Cast:2, ReduceMax:2, Mul:2, Max:1",12,0.5,fp16
+task358,10971,132,37,994,0.0906,64,pad_to_external,8,int64,0,0,0,1,0,"Mul:60, ReduceSum:17, Cast:14, Where:14, Equal:9",132,0.5,fp16
+task360,1271,13,15,282,0.2219,64,pads_c,8,int64,0,0,0,1,0,"Slice:4, Cast:3, Mul:2, ReduceMax:1, Sub:1",13,0.5,fp16
+task370,25060,319,134,4636,0.185,64,pad_ch0,8,int64,0,0,0,1,0,"Or:99, Slice:54, Pad:53, And:48, Greater:21",319,0.5,fp16
+task371,1810,23,14,346,0.1912,64,pad_to_external,8,int64,0,0,0,1,0,"ReduceSum:3, Mul:3, Sub:3, Slice:2, Cast:2",23,0.5,fp16
+task373,960,8,8,210,0.2188,64,pads,8,int64,0,0,0,1,0,"Concat:3, Slice:2, Cast:2, Pad:1",8,0.5,fp16
+task386,1171,14,10,250,0.2135,64,pads_c,8,int64,0,0,0,1,0,"Sub:3, Mul:3, Slice:2, Cast:2, ReduceMax:2",14,0.5,fp16
+task388,4820,50,30,1310,0.2718,64,pad_TL,8,int64,0,0,0,1,0,"Pad:19, Where:12, Equal:5, Slice:2, Cast:2",50,0.5,fp16
+task391,2841,26,12,216,0.076,64,pads,8,int64,0,0,0,0,1,"OneHot:6, ArgMax:4, Mul:3, Sub:3, Add:3",26,0.5,has_lookup_ops
+task393,2433,22,12,216,0.0888,64,pads,8,int64,0,0,0,0,1,"OneHot:5, ArgMax:3, Add:3, Unsqueeze:3, Mul:2",22,0.5,has_lookup_ops
+task395,1179,14,10,250,0.212,64,pads_c,8,int64,0,0,0,1,0,"Sub:3, Mul:3, Slice:2, Cast:2, ReduceMax:2",14,0.5,fp16
+task025,4825,69,8,148,0.0307,60,row,30,float16,0,0,0,1,0,"And:16, Greater:10, Cast:9, ReduceSum:8, Or:6",69,0.5,fp16
+task065,2835,37,12,290,0.1023,60,v0,15,int32,0,0,0,1,0,"ReduceSum:6, Cast:5, Greater:4, Mul:4, Add:3",37,0.5,fp16
+task066,180173,1642,29,314,0.0017,60,idxH,30,float16,0,0,0,1,0,"Mul:346, Cast:277, Add:197, Sub:169, Less:128",1642,0.5,fp16
+task072,1347,11,8,264,0.196,60,hc_one,30,float16,0,0,0,1,0,"Sub:4, Slice:2, Cast:2, Abs:1, Concat:1",11,0.5,fp16
+task112,3987,44,18,458,0.1149,60,f32_10,30,float16,0,0,0,1,0,"Mul:6, Sub:6, Cast:5, Slice:5, Less:4",44,0.5,fp16
+task269,2336,31,18,324,0.1387,60,pos_r,30,float16,0,0,0,1,0,"Slice:8, Less:6, Where:5, Cast:2, Mul:2",31,0.5,fp16
+task213,25133,385,18,444,0.0177,48,v5,24,float16,0,0,0,1,0,"Mul:96, Cast:93, Less:59, ReduceSum:40, Where:24",385,0.5,fp16
+task262,1329,8,11,224,0.1685,48,pads,6,int64,0,0,0,0,1,"Slice:1, ArgMax:1, Squeeze:1, Gather:1, Unsqueeze:1",8,0.5,has_lookup_ops
+task389,1421,13,9,208,0.1464,40,mask_nonfive,10,float32,0,0,0,0,1,"Reshape:5, Mul:3, ReduceMax:1, ArgMax:1, OneHot:1",13,0.5,has_lookup_ops
+task070,11844,71,16,180,0.0152,34,shift_max_bool_conv_w_18,17,float16,0,0,0,1,0,"Conv:20, Greater:20, Cast:19, Mul:3, Slice:2",71,0.5,fp16
+task126,2765,29,11,300,0.1085,32,s19,4,int64,0,0,0,1,0,"Slice:7, Mul:7, Pad:6, Cast:2, ReduceSum:2",29,0.5,fp16
+task144,1358,13,8,208,0.1532,32,hc_one,16,float16,0,0,0,1,0,"Sub:5, Slice:2, Cast:2, Mul:1, Sum:1",13,0.5,fp16
+task236,1291,11,8,208,0.1611,32,hc_one,16,float16,0,0,0,1,0,"Sub:4, Slice:2, Cast:2, Abs:1, Concat:1",11,0.5,fp16
+task240,3165,32,20,466,0.1472,32,axes_all,4,int64,0,0,0,1,0,"Slice:8, Pad:6, Mul:6, Cast:4, Max:2",32,0.5,fp16
+task257,1369,20,11,322,0.2352,32,int64_2,4,int64,0,0,0,1,0,"Mul:6, Slice:4, Cast:4, Sub:4, Concat:1",20,0.5,fp16
+task318,1319,12,8,208,0.1577,32,hc_one,16,float16,0,0,0,1,0,"Sub:4, Slice:2, Cast:2, Mul:1, Sum:1",12,0.5,fp16
+task394,3787,80,14,274,0.0724,32,shape3100,4,int64,0,0,0,1,0,"Cast:16, Add:10, Unsqueeze:8, Mod:7, Mul:5",80,0.5,fp16
+task026,1345,13,8,204,0.1517,30,hc_one,15,float16,0,0,0,1,0,"Sub:5, Slice:2, Cast:2, Mul:1, Sum:1",13,0.5,fp16
+task232,1616,29,14,204,0.1262,28,v1,14,float16,0,0,0,1,0,"Mul:9, ReduceSum:5, Slice:4, Sub:4, Cast:2",29,0.5,fp16
+task068,1602,24,11,150,0.0936,24,slice_chain_starts_1,3,int64,0,0,0,1,0,"Sub:5, Slice:4, Relu:4, Sum:3, ReduceSum:2",24,0.5,fp16
+task075,6812,57,30,450,0.0661,24,slice_chain_starts_3_1,3,int64,0,0,0,1,0,"Slice:21, Cast:11, Pad:9, Mul:9, Sum:2",57,0.5,fp16
+task078,1974,25,11,216,0.1094,24,slice_chain_starts_1,3,int64,0,0,0,1,0,"Sub:8, Relu:5, Slice:3, Cast:3, ReduceSum:2",25,0.5,fp16
+task162,2268,19,11,140,0.0617,24,anc_diag_s0_starts,3,int64,0,0,0,1,0,"Conv:5, Sub:3, Cast:2, Greater:2, Where:2",19,0.5,fp16
+task263,7427,159,27,398,0.0536,24,v3,3,int64,0,0,0,1,0,"Cast:34, Mul:20, Slice:19, ReduceSum:19, Sub:19",159,0.5,fp16
+task349,8755,89,22,176,0.0201,24,v45,12,float16,0,0,0,1,0,"MaxPool:20, Conv:16, Less:10, Sub:9, Cast:8",89,0.5,fp16
+task368,8950,186,32,354,0.0396,24,slice_chain_starts_2_1,3,int64,0,0,0,1,0,"Mul:36, Sub:28, ReduceSum:21, Where:20, Abs:18",186,0.5,fp16
+task092,4299,42,9,64,0.0149,20,color_weight,10,float16,0,0,0,1,0,"Cast:9, ReduceSum:6, Where:6, And:5, Greater:4",42,0.5,fp16
+task197,1223,18,7,50,0.0409,20,W_NZ,10,float16,0,0,0,1,0,"ReduceSum:2, Sub:2, Transpose:2, MatMul:2, Cast:1",18,0.5,fp16
+task327,1638,18,9,124,0.0757,20,_de_ch_mask,10,float16,0,0,0,1,0,"Pad:7, Slice:3, Mul:3, Sum:3, Cast:1",18,0.5,fp16
+task153,753294,13700,97,1372,0.0018,18,k_0,9,float16,0,0,0,1,0,"And:4131, Cast:3753, Mul:3744, Sub:423, Abs:423",13700,0.5,fp16
+task202,3582,31,5,36,0.0101,10,tail_bg_template_u8,10,uint8,0,0,0,1,0,"ReduceMax:10, Mul:7, Cast:2, Slice:2, ReduceSum:2",31,0.5,fp16
+task003,3120,44,10,56,0.0179,8,_pt69_c1s,1,int64,0,0,0,1,0,"Mul:10, Slice:7, Cast:7, Sub:7, Concat:4",44,0.5,fp16
+task023,19054,372,13,64,0.0034,8,c_7,1,int64,0,0,0,1,0,"Cast:75, Conv:72, Mul:72, Greater:67, Add:41",372,0.5,fp16
+task209,329423,2217,73,134720,0.409,14112,ic_prior_2,3528,float32,13,0,0,0,0,"Mul:330, And:276, Cast:237, Add:218, Sub:215",2217,0.0,
+task324,34875,241,36,14644,0.4199,13924,x_kernel,3481,float32,1,0,0,0,0,"Mul:55, Cast:42, Greater:34, ReduceSum:29, Add:27",241,0.0,
+task284,30975,145,19,16142,0.5211,7200,row_grid,900,int64,2,0,0,0,0,"And:27, Not:20, Greater:13, Equal:13, Add:11",145,0.0,
+task219,87016,532,99,13446,0.1545,3600,lower_tri,900,float32,0,0,0,0,0,"Unsqueeze:95, Mul:65, Gather:56, Cast:50, Slice:37",532,0.0,
+task291,6009,22,9,3800,0.6324,3600,one_00,900,float32,0,0,0,0,0,"ArgMax:5, Sub:3, ReduceMax:2, Add:2, Reshape:2",22,0.0,
+task170,64849,681,33,15440,0.2381,3136,v13,784,float32,0,0,0,0,0,"Concat:135, Mul:112, Where:93, Slice:66, Add:58",681,0.0,
+task014,10787,44,18,7008,0.6497,3060,zero_u8,3060,uint8,0,0,0,0,0,"Reshape:7, Add:7, Cast:6, ArgMax:5, Sub:3",44,0.0,
+task274,3619,16,11,1668,0.4609,1440,output_bank,360,float32,0,0,0,0,0,"Slice:2, ReduceSum:2, Squeeze:2, Greater:2, Cast:2",16,0.0,
+task296,2843,10,11,1524,0.5361,1260,projection,315,float32,0,0,0,0,0,"Reshape:2, Slice:1, MatMul:1, Greater:1, Cast:1",10,0.0,
+task305,1865,6,4,1168,0.6263,1024,pos,256,float32,0,0,0,0,0,"ReduceMax:2, Mul:1, Mod:1, Equal:1, Pad:1",6,0.0,
+task079,2695,20,7,1056,0.3918,900,v4,225,float32,0,0,0,0,0,"Gather:4, ArgMax:3, Squeeze:3, Add:2, Slice:1",20,0.0,
+task293,8093,52,20,2077,0.2566,900,row_grid,225,int32,0,0,0,0,0,"Cast:13, Equal:11, And:11, ReduceSum:3, ReduceMax:2",52,0.0,
+task399,1907,8,4,1235,0.6476,810,out_bank,810,uint8,0,0,0,0,0,"ReduceSum:2, Sub:1, Abs:1, Neg:1, ArgMax:1",8,0.0,
+task253,3510,17,13,1968,0.5607,640,v2,160,float32,0,0,0,0,0,"Gather:6, Where:4, Cast:2, Conv:1, ReduceMax:1",17,0.0,
+task310,5449,44,18,1684,0.309,640,zero_u8,640,uint8,0,0,0,0,0,"Reshape:7, Add:7, Cast:6, ArgMax:5, Sub:3",44,0.0,
+task350,2670,19,9,824,0.3086,624,zero_map_b,624,bool,0,0,0,0,0,"Cast:6, CumSum:4, And:3, Slice:2, Or:1",19,0.0,
+task043,1966,9,14,638,0.3245,400,mul_chain_const_5,100,float32,0,0,0,0,0,"Slice:3, Mul:2, Greater:1, Cast:1, Where:1",9,0.0,
+task049,3516,29,12,792,0.2253,400,_mc_id10,100,float32,0,0,0,0,0,"Cast:5, Reshape:5, ReduceSum:3, Where:3, Greater:2",29,0.0,
+task246,3824,31,11,648,0.1695,400,zero_map_b,400,bool,0,0,0,0,0,"Cast:9, And:5, ReduceMax:4, CumSum:4, Slice:3",31,0.0,
+task303,2084,8,4,1240,0.595,400,Wl,100,float32,0,0,0,0,0,"Conv:3, ReduceMax:3, Sum:1, Mul:1",8,0.0,
+task361,6086,61,20,1217,0.2,400,sigma_rr,100,int32,0,0,0,0,0,"Cast:11, Mul:10, ReduceSum:5, Equal:5, Add:4",61,0.0,
+task304,2136,17,9,440,0.206,324,ones_9,81,float32,0,0,0,0,0,"Slice:3, ReduceMax:3, Sub:2, Mul:2, ReduceSum:1",17,0.0,
+task315,1520,10,10,452,0.2974,324,ones_9,81,float32,0,0,0,0,0,"Slice:3, Tile:1, Resize:1, Mul:1, ReduceMax:1",10,0.0,
+task130,1293,10,5,500,0.3867,320,v4,80,float32,0,0,0,0,0,"Gather:3, MaxPool:1, ReduceMax:1, Sub:1, Conv:1",10,0.0,
+task091,4627,43,14,856,0.185,240,offsets30,30,int64,0,0,0,0,0,"Cast:5, Sub:5, Reshape:4, ArgMax:4, Gather:4",43,0.0,
+task113,499,1,1,240,0.481,240,idx,30,int64,0,0,0,0,0,Gather:1,1,0.0,
+task116,479,1,1,240,0.501,240,idx,30,int64,0,0,0,0,0,Gather:1,1,0.0,
+task150,1031,11,6,284,0.2755,240,range_i,30,int64,0,0,0,0,0,"ReduceSum:2, Cast:2, Sub:2, Greater:1, Less:1",11,0.0,
+task155,1031,11,6,284,0.2755,240,range_i,30,int64,0,0,0,0,0,"ReduceSum:2, Cast:2, Sub:2, Greater:1, Less:1",11,0.0,
+task164,479,1,1,240,0.501,240,idx,30,int64,0,0,0,0,0,Gather:1,1,0.0,
+task172,479,1,1,240,0.501,240,idx,30,int64,0,0,0,0,0,Gather:1,1,0.0,
+task177,4180,37,12,840,0.201,240,offsets30,30,int64,0,0,0,0,0,"Cast:5, Sub:5, Reshape:4, ArgMax:4, Gather:4",37,0.0,
+task210,479,1,1,240,0.501,240,idx,30,int64,0,0,0,0,0,Gather:1,1,0.0,
+task242,2031,16,5,288,0.1418,240,flip_idx,30,int64,0,0,0,0,0,"Cast:3, Gather:3, ReduceMax:2, Reshape:2, ArgMax:2",16,0.0,
+task311,479,1,1,240,0.501,240,idx,30,int64,0,0,0,0,0,Gather:1,1,0.0,
+task355,4506,45,12,933,0.2071,240,v4,30,int64,0,0,0,0,0,"ArgMax:6, Greater:5, Sub:5, Cast:5, Where:4",45,0.0,
+task384,4542,39,13,1080,0.2378,240,offsets30,30,int64,0,0,0,0,0,"Cast:5, Reshape:4, ArgMax:4, Gather:4, Sub:4",39,0.0,
+task024,3233,27,11,505,0.1562,225,zero_map_b,225,bool,0,0,0,0,0,"Cast:7, And:5, Slice:4, Or:4, ReduceMax:3",27,0.0,
+task050,2006,21,9,425,0.2119,225,zero_map_b,225,bool,0,0,0,0,0,"Cast:8, CumSum:4, And:3, Slice:2, Or:1",21,0.0,
+task117,10734,74,40,1454,0.1355,225,Constant_6_output,225,uint8,0,0,0,0,0,"Slice:12, Equal:12, And:10, Cast:8, Where:8",74,0.0,
+task125,3032,28,10,397,0.1309,225,zero_b,225,bool,0,0,0,0,0,"And:7, Greater:6, Sub:4, Not:3, CumSum:2",28,0.0,
+task271,1993,22,10,376,0.1887,168,v6,21,int64,0,0,0,0,0,"Gather:6, Conv:4, Where:2, Squeeze:2, Greater:1",22,0.0,
+task353,3244,31,13,520,0.1603,168,zero_b,168,bool,0,0,0,0,0,"ReduceSum:8, Mul:4, Slice:3, Cast:3, Sub:2",31,0.0,
+task038,2357,16,13,416,0.1765,160,zeros_8ch,40,float32,0,0,0,0,0,"Slice:4, Mul:3, Sub:2, Relu:2, ReduceSum:1",16,0.0,
+task056,1515,7,10,492,0.3248,160,output_bank,40,float32,0,0,0,0,0,"Slice:1, ReduceSum:1, Reshape:1, MatMul:1, ArgMax:1",7,0.0,
+task032,2347,19,10,340,0.1449,144,zero_data,36,float32,0,0,0,0,0,"Sub:3, ReduceSum:2, Cast:2, Slice:1, Conv:1",19,0.0,
+task106,2939,13,16,621,0.2113,144,Constant_10_output,36,int32,0,0,0,0,0,"Reshape:3, Slice:2, Equal:2, ArgMax:1, Cast:1",13,0.0,
+task134,7220,68,25,520,0.072,144,ar18,18,int64,0,0,0,0,0,"Where:8, Slice:6, Reshape:6, Sub:6, Equal:6",68,0.0,
+task067,892,7,4,132,0.148,120,W_cum,30,float32,0,0,0,0,0,"ReduceMax:1, Conv:1, ReduceSum:1, Div:1, Sum:1",7,0.0,
+task205,48510,671,58,892,0.0184,120,ridx30,30,float32,0,0,0,0,0,"Mul:205, Sub:84, ReduceMax:80, Sum:58, ReduceMin:50",671,0.0,
+task114,4719,26,21,771,0.1634,100,Constant_13_output,25,int32,0,0,0,0,0,"Cast:5, Reshape:4, Slice:3, Equal:3, Where:3",26,0.0,
+task336,5276,54,12,369,0.0699,100,zero_chan,100,bool,0,0,0,0,0,"And:10, Equal:8, Greater:7, ReduceMax:6, Cast:5",54,0.0,
+task348,3000,29,12,324,0.108,100,zero_b,100,bool,0,0,0,0,0,"And:4, ReduceMax:3, Mul:3, Sub:3, Not:3",29,0.0,
+task356,2344,21,10,272,0.116,100,zero_b,100,bool,0,0,0,0,0,"Greater:5, Sub:4, CumSum:2, ReduceSum:2, And:2",21,0.0,
+task320,2183,19,11,424,0.1942,99,zero_chan,99,bool,0,0,0,0,0,"And:3, Slice:2, Greater:2, CumSum:2, Gather:2",19,0.0,
+task084,2820,23,14,386,0.1369,84,row_idx_21,21,float32,0,0,0,0,0,"And:4, Where:4, Less:3, Equal:3, Sub:2",23,0.0,
+task141,2345,21,10,340,0.145,84,pos_r,21,float32,0,0,0,0,0,"ReduceSum:4, Cast:2, Mul:2, Sub:2, Abs:2",21,0.0,
+task139,3865,33,22,814,0.2106,81,zero_chan,81,bool,0,0,0,0,0,"Slice:9, Pad:9, Or:9, And:2, Not:2",33,0.0,
+task016,158,1,1,80,0.5063,80,idx_val,10,int64,0,0,0,0,0,Gather:1,1,0.0,
+task174,61839,790,24,540,0.0087,80,v9,10,int64,0,0,0,0,0,"Gather:100, Sub:74, Mul:73, Less:64, Unsqueeze:54",790,0.0,
+task247,2056,25,6,208,0.1012,80,v2,10,int64,0,0,0,0,0,"Less:4, Gather:3, Cast:3, ReduceSum:2, ReduceMax:2",25,0.0,
+task276,217,1,1,80,0.3687,80,idx,10,int64,0,0,0,0,0,Gather:1,1,0.0,
+task309,217,1,1,80,0.3687,80,idx,10,int64,0,0,0,0,0,Gather:1,1,0.0,
+task333,4379,55,19,340,0.0776,80,v6,10,int64,0,0,0,0,0,"Gather:9, CumSum:8, Equal:8, Cast:8, Less:4",55,0.0,
+task337,159,1,1,80,0.5031,80,idx_val,10,int64,0,0,0,0,0,Gather:1,1,0.0,
+task041,2228,18,6,216,0.0969,72,split_9x1,9,int64,0,0,0,0,0,"Or:8, CumSum:2, Cast:2, Slice:1, And:1",18,0.0,
+task008,7667,78,21,321,0.0419,64,pad_to_30,8,int64,0,0,0,0,0,"Sub:12, ReduceMax:8, Mul:8, Sum:8, Less:8",78,0.0,
+task031,3417,26,13,412,0.1206,64,col_offsets,8,int64,0,0,0,0,0,"ArgMax:4, Where:3, ReduceSum:2, Greater:2, Cast:2",26,0.0,
+task039,1913,14,9,220,0.115,64,pads,8,int64,0,0,0,0,0,"ReduceSum:2, Greater:2, Cast:2, ArgMax:2, Add:2",14,0.0,
+task045,1438,11,12,212,0.1474,64,pad_to_30,8,int64,0,0,0,0,0,"Slice:3, Mul:2, Cast:2, ReduceSum:1, Greater:1",11,0.0,
+task063,3709,34,13,244,0.0658,64,pad_to_external,8,int64,0,0,0,0,0,"Slice:5, Sub:5, ReduceMax:4, Sum:4, Relu:4",34,0.0,
+task074,1824,18,13,276,0.1513,64,pad_shift_w,8,int64,0,0,0,0,0,"Slice:6, Transpose:4, Pad:3, ArgMax:1, Cast:1",18,0.0,
+task081,3749,35,17,518,0.1382,64,pad_to_30,8,int64,0,0,0,0,0,"Slice:9, Pad:9, And:9, Or:4, Not:2",35,0.0,
+task087,474,2,5,128,0.27,64,output_pads,8,int64,0,0,0,0,0,"Slice:1, Pad:1",2,0.0,
+task111,1499,15,8,200,0.1334,64,pads_27,8,int64,0,0,0,0,0,"Add:3, Slice:2, ReduceSum:2, ArgMax:2, Reshape:2",15,0.0,
+task140,474,2,5,128,0.27,64,output_pads,8,int64,0,0,0,0,0,"Slice:1, Pad:1",2,0.0,
+task181,3083,21,21,586,0.1901,64,pad_left_mirror,8,int64,0,0,0,0,0,"Slice:5, Greater:4, Pad:3, And:2, Or:2",21,0.0,
+task190,8781,63,40,1360,0.1549,64,pad_block_TL,8,int64,0,0,0,0,0,"Pad:18, Slice:17, Or:16, And:4, Conv:2",63,0.0,
+task199,2948,22,14,324,0.1099,64,pad_shift_down,8,int64,0,0,0,0,0,"Cast:3, ReduceSum:3, Slice:2, ReduceMax:2, Equal:2",22,0.0,
+task248,2328,23,11,222,0.0954,64,pad_to_30,8,int64,0,0,0,0,0,"Sub:5, And:3, ReduceSum:2, Mul:2, Abs:2",23,0.0,
+task259,3882,30,15,332,0.0855,64,pads,8,int64,0,0,0,0,0,"ArgMax:4, Where:4, Gather:3, Slice:2, ReduceSum:2",30,0.0,
+task273,2414,22,13,233,0.0965,64,pad_to_30,8,int64,0,0,0,0,0,"CumSum:6, Greater:5, And:4, Slice:1, Not:1",22,0.0,
+task287,1686,22,13,209,0.124,64,pad_to_30,8,int64,0,0,0,0,0,"Slice:7, Or:3, Equal:2, And:2, ArgMax:1",22,0.0,
+task312,1202,8,9,152,0.1265,64,pad_to_30,8,int64,0,0,0,0,0,"Slice:3, Cast:3, Where:1, Pad:1",8,0.0,
+task316,5537,49,15,228,0.0412,64,pads,8,int64,0,0,0,0,0,"Mul:11, ReduceSum:11, Equal:9, Where:9, Concat:4",49,0.0,
+task352,1398,11,7,208,0.1488,64,pad_to_30,8,int64,0,0,0,0,0,"Slice:3, Cast:3, MaxPool:1, And:1, Xor:1",11,0.0,
+task357,2328,23,11,222,0.0954,64,pad_to_30,8,int64,0,0,0,0,0,"Sub:5, And:3, ReduceSum:2, Mul:2, Abs:2",23,0.0,
+task375,2214,19,12,308,0.1391,64,pad_to_30,8,int64,0,0,0,0,0,"ReduceSum:4, Slice:2, Mul:2, Sub:2, Abs:2",19,0.0,
+task380,531,3,6,132,0.2486,64,pads,8,int64,0,0,0,0,0,"Slice:1, Transpose:1, Pad:1",3,0.0,
+task057,1880,18,4,88,0.0468,48,_beh_ti,6,int64,0,0,0,0,0,"Cast:3, ReduceMax:3, Transpose:3, Gather:3, ArgMax:2",18,0.0,
+task149,1404,13,7,188,0.1339,40,v0,10,float32,0,0,0,0,0,"Conv:4, Gather:2, Greater:1, Less:1, And:1",13,0.0,
+task183,4690,55,9,152,0.0324,40,v2,10,float32,0,0,0,0,0,"Cast:12, Gather:12, Mul:12, ReduceSum:6, Sub:3",55,0.0,
+task244,6790,66,31,340,0.0501,36,v12,9,int32,0,0,0,0,0,"Gather:23, Cast:15, Equal:9, Where:8, ReduceSum:3",66,0.0,
+task372,1214,14,9,240,0.1977,32,ho_l_s,4,int64,0,0,0,0,0,"Slice:5, Cast:4, Mul:2, Sum:1, Concat:1",14,0.0,
+task135,381,2,3,48,0.126,16,crop_starts,2,int64,0,0,0,0,0,"Slice:1, Pad:1",2,0.0,
+task326,388,2,3,48,0.1237,16,crop_starts,2,int64,0,0,0,0,0,"Slice:1, Pad:1",2,0.0,
+task179,170,1,0,0,0.0,0,,0,,0,0,0,0,0,Transpose:1,1,0.0,
+task241,170,1,0,0,0.0,0,,0,,0,0,0,0,0,Transpose:1,1,0.0,

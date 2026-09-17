@@ -1,0 +1,18 @@
+task_id,depth,program_str,visible_train_pass,visible_test_pass,dsl_cost,dsl_status,dsl_train_pass,dsl_test_pass,dsl_arcgen_pass,baseline_cost,baseline_pass,cost_ratio
+48,2,"replace_color(dst=8,src=2) | crop(c0=2,h=1,r0=2,w=1)",True,False,36164,ok,6/6,0/2,154/262,5605,3,0.155
+53,1,shift_down(k=1),True,True,37274,ok,0/4,0/2,0/54,30,3,0.001
+87,1,"rotate180_static(h=3,w=3)",True,True,1110,ok,4/4,1/1,261/261,368,3,0.332
+129,1,dominant_color,True,True,8236,ok,3/3,1/1,261/261,818,3,0.099
+140,1,"rotate180_static(h=3,w=3)",True,True,1110,ok,2/2,1/1,262/262,368,3,0.332
+150,1,flip_h,True,True,948,ok,3/3,1/1,262/262,1014,3,1.07
+155,1,flip_v,True,True,948,ok,3/3,1/1,262/262,1014,3,1.07
+179,1,transpose,True,True,0,ok,4/4,1/1,262/262,0,3,1.0
+241,1,transpose,True,True,0,ok,3/3,1/1,262/262,0,3,1.0
+249,1,tile_h(n=2),True,True,41966,ok,3/3,1/1,261/261,8999,3,0.214
+261,2,"swap_colors(c1=2,c2=8) | shift_down(k=1)",True,True,73284,ok,0/3,0/1,0/261,200,3,0.003
+276,1,"swap_colors(c1=2,c2=6)",True,True,10,ok,3/3,1/1,262/262,10,3,1.0
+309,1,"swap_colors(c1=5,c2=7)",True,True,10,ok,3/3,1/1,261/261,10,3,1.0
+326,1,"crop(c0=0,h=2,r0=0,w=2)",True,True,184,ok,3/3,1/1,262/262,160,3,0.87
+337,1,"swap_colors(c1=5,c2=8)",True,True,10,ok,3/3,1/1,262/262,10,3,1.0
+346,2,"replace_color(dst=8,src=0) | crop(c0=0,h=1,r0=0,w=1)",True,False,36164,ok,4/4,0/1,48/262,9178,3,0.254
+380,1,"rotate90_static(h=3,w=3)",True,True,1107,ok,4/4,1/1,262/262,728,3,0.658

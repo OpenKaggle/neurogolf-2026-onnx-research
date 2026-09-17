@@ -1,0 +1,14 @@
+{
+  "leave_one_out": {
+    "failed": 0,
+    "passed": 33,
+    "skipped": 2,
+    "total": 35
+  },
+  "pseudo_hidden": {
+    "failed": 0,
+    "passed": 1785,
+    "skipped": 84,
+    "total": 1869
+  }
+}

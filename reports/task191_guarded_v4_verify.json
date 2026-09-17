@@ -1,0 +1,1344 @@
+{
+  "source": "submissions/massim_6254_onnx/task191.onnx",
+  "models": {
+    "public_compact": {
+      "path": "submissions/handbuilds/task191_guarded_v4_public_compact.onnx",
+      "local_pass": 227,
+      "local_total": 267,
+      "cost": 89072,
+      "memory": 88932,
+      "params": 140,
+      "nodes": 212,
+      "file_size": 13530,
+      "score": 13.602799689576711,
+      "error": ""
+    },
+    "guarded_v4": {
+      "path": "submissions/handbuilds/task191_guarded_v4.onnx",
+      "local_pass": 211,
+      "local_total": 267,
+      "cost": 143028,
+      "memory": 142888,
+      "params": 140,
+      "nodes": 222,
+      "file_size": 14834,
+      "score": 13.12920430572929,
+      "error": ""
+    },
+    "current_exact_anchor": {
+      "path": "submissions/candidate_v4_plus10_compiler2_onnx/task191.onnx",
+      "local_pass": 267,
+      "local_total": 267,
+      "cost": 691342,
+      "memory": 691177,
+      "params": 165,
+      "nodes": 1036,
+      "file_size": 95203,
+      "score": 11.553610084813071,
+      "error": ""
+    }
+  },
+  "public_guarded_overlap": {
+    "public_False_guarded_False": 40,
+    "public_True_guarded_False": 16,
+    "public_True_guarded_True": 211
+  },
+  "public_failure_summary": {
+    "count": 40,
+    "stamp_shape_counts": {
+      "5x4": 30,
+      "5x5": 10
+    },
+    "source_hole_counts": {
+      "3": 40
+    },
+    "clipped_placement_count_histogram": {
+      "0": 21,
+      "1": 15,
+      "2": 4
+    },
+    "first_failures": [
+      {
+        "split": "arc-gen",
+        "index": 6,
+        "diff_bits": 34,
+        "pred_color1": 17,
+        "target_color1": 34,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 0,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 22,
+        "diff_bits": 34,
+        "pred_color1": 17,
+        "target_color1": 34,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 16,
+            "left": 18,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 35,
+        "diff_bits": 122,
+        "pred_color1": 22,
+        "target_color1": 83,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 14,
+            "left": 0,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 6,
+            "left": 19,
+            "clip": [
+              "right"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 14,
+            "left": 9,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 41,
+        "diff_bits": 102,
+        "pred_color1": 17,
+        "target_color1": 68,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 11,
+            "left": 16,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 14,
+            "left": 8,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 19,
+            "left": 0,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 43,
+        "diff_bits": 188,
+        "pred_color1": 17,
+        "target_color1": 111,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 13,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 4,
+            "left": 6,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 19,
+            "left": 20,
+            "clip": [
+              "bottom",
+              "right"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 8,
+            "left": 8,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 19,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 1,
+            "left": 1,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 56,
+        "diff_bits": 68,
+        "pred_color1": 17,
+        "target_color1": 51,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 9,
+            "left": 1,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 16,
+            "left": 2,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 60,
+        "diff_bits": 176,
+        "pred_color1": 22,
+        "target_color1": 110,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 5,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 16,
+            "left": 2,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 11,
+            "left": 1,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "mirror_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 11,
+            "left": 8,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 69,
+        "diff_bits": 148,
+        "pred_color1": 22,
+        "target_color1": 96,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 5,
+            "left": 6,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": -1,
+            "left": 1,
+            "clip": [
+              "top"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 19,
+            "left": 19,
+            "clip": [
+              "bottom",
+              "right"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 2,
+            "left": 18,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 75,
+        "diff_bits": 14,
+        "pred_color1": 88,
+        "target_color1": 83,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 7,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": -1,
+            "left": 12,
+            "clip": [
+              "top"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "mirror_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 16,
+            "left": 6,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 90,
+        "diff_bits": 60,
+        "pred_color1": 17,
+        "target_color1": 47,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 19,
+            "left": 17,
+            "clip": [
+              "bottom"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 7,
+            "left": 0,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 112,
+        "diff_bits": 58,
+        "pred_color1": 17,
+        "target_color1": 46,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 2,
+            "left": -1,
+            "clip": [
+              "left"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 17,
+            "left": 0,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 122,
+        "diff_bits": 68,
+        "pred_color1": 17,
+        "target_color1": 51,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 14,
+            "left": 3,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 15,
+            "left": 9,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      }
+    ]
+  },
+  "guarded_failure_summary": {
+    "count": 56,
+    "stamp_shape_counts": {
+      "5x4": 42,
+      "5x5": 14
+    },
+    "source_hole_counts": {
+      "3": 56
+    },
+    "clipped_placement_count_histogram": {
+      "1": 19,
+      "0": 33,
+      "2": 4
+    },
+    "first_failures": [
+      {
+        "split": "train",
+        "index": 3,
+        "diff_bits": 58,
+        "pred_color1": 17,
+        "target_color1": 46,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id_rot90",
+            "shape": [
+              4,
+              5
+            ],
+            "top": -1,
+            "left": 1,
+            "clip": [
+              "top"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 4,
+            "left": 15,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 6,
+        "diff_bits": 34,
+        "pred_color1": 17,
+        "target_color1": 34,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 0,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 22,
+        "diff_bits": 34,
+        "pred_color1": 17,
+        "target_color1": 34,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 16,
+            "left": 18,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 27,
+        "diff_bits": 88,
+        "pred_color1": 22,
+        "target_color1": 66,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 9,
+            "left": 18,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "mirror_rot270",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 13,
+            "left": 7,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 35,
+        "diff_bits": 122,
+        "pred_color1": 22,
+        "target_color1": 83,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 14,
+            "left": 0,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 6,
+            "left": 19,
+            "clip": [
+              "right"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 14,
+            "left": 9,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 40,
+        "diff_bits": 78,
+        "pred_color1": 22,
+        "target_color1": 61,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 9,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 19,
+            "left": 9,
+            "clip": [
+              "bottom"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 41,
+        "diff_bits": 102,
+        "pred_color1": 17,
+        "target_color1": 68,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 11,
+            "left": 16,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 14,
+            "left": 8,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 19,
+            "left": 0,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 43,
+        "diff_bits": 188,
+        "pred_color1": 17,
+        "target_color1": 111,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 13,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 4,
+            "left": 6,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 19,
+            "left": 20,
+            "clip": [
+              "bottom",
+              "right"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 8,
+            "left": 8,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 19,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot270",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 1,
+            "left": 1,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 56,
+        "diff_bits": 68,
+        "pred_color1": 17,
+        "target_color1": 51,
+        "stamp_shape": [
+          5,
+          4
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              4
+            ],
+            "top": 9,
+            "left": 1,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              4,
+              5
+            ],
+            "top": 16,
+            "left": 2,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 17
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 60,
+        "diff_bits": 176,
+        "pred_color1": 22,
+        "target_color1": 110,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "mirror",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 5,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 16,
+            "left": 2,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 11,
+            "left": 1,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "mirror_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 11,
+            "left": 8,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 69,
+        "diff_bits": 148,
+        "pred_color1": 22,
+        "target_color1": 96,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 5,
+            "left": 6,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": -1,
+            "left": 1,
+            "clip": [
+              "top"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 19,
+            "left": 19,
+            "clip": [
+              "bottom",
+              "right"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id_rot90",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 2,
+            "left": 18,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      },
+      {
+        "split": "arc-gen",
+        "index": 75,
+        "diff_bits": 12,
+        "pred_color1": 86,
+        "target_color1": 83,
+        "stamp_shape": [
+          5,
+          5
+        ],
+        "source_holes": 3,
+        "placements": [
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 7,
+            "left": 4,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "id",
+            "shape": [
+              5,
+              5
+            ],
+            "top": -1,
+            "left": 12,
+            "clip": [
+              "top"
+            ],
+            "holes": 3,
+            "fill": 22
+          },
+          {
+            "variant": "mirror_rot180",
+            "shape": [
+              5,
+              5
+            ],
+            "top": 16,
+            "left": 6,
+            "clip": [
+              "none"
+            ],
+            "holes": 3,
+            "fill": 22
+          }
+        ]
+      }
+    ]
+  }
+}

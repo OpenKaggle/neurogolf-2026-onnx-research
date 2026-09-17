@@ -1,0 +1,42 @@
+{
+  "anchor_dir": "submissions/candidate_v4_plus16_seddik_t001_onnx",
+  "output_dir": "submissions/compiler_backend_sweep_v4_on_v16_onnx",
+  "candidate_count": 1,
+  "gate_passed_count": 0,
+  "applied_count": 0,
+  "applied_tasks": [],
+  "applied_by_rule": {},
+  "anchor_total_n3": 6260.896515372427,
+  "final_total_n3": 6260.896515372427,
+  "total_gain_n3": 0.0,
+  "theory": [
+    {
+      "rule": "same-shape Transpose",
+      "candidate_count": 74,
+      "estimated_intermediate_bytes": 89699,
+      "note": "rejected: same shape is not a semantic proof",
+      "task_count": 13
+    },
+    {
+      "rule": "exact Cast-chain collapse",
+      "candidate_count": 1,
+      "estimated_intermediate_bytes": 625,
+      "note": "active: bool source has all-values cast proof",
+      "task_count": 1
+    },
+    {
+      "rule": "unsafe Cast-chain collapse",
+      "candidate_count": 16,
+      "estimated_intermediate_bytes": 33486,
+      "note": "rejected: rounding/overflow/domain effects possible",
+      "task_count": 12
+    },
+    {
+      "rule": "unsafe/shared ReduceSum chain",
+      "candidate_count": 9,
+      "estimated_intermediate_bytes": 5532,
+      "note": "rejected: shared inner or rank-changing keepdims",
+      "task_count": 5
+    }
+  ]
+}
