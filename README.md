@@ -4,6 +4,13 @@ Sanitized research workspace for the Kaggle competition
 `neurogolf-2026`. The project treats each ARC-style task as compact program
 synthesis and compiles candidate rules into cost-conscious ONNX graphs.
 
+## Publication status
+
+This repository is public for research inspection and reproducibility. It is a
+sanitized research archive, not yet a uniformly licensed software package.
+No blanket open-source license is asserted over files whose authorship or
+upstream license has not been verified.
+
 ## Included
 
 - first-party ONNX/DSL tooling and tests;
@@ -23,3 +30,9 @@ synthesis and compiles candidate rules into cost-conscious ONNX graphs.
 The excluded artifacts remain in the private local workspace. See
 `reports/HANDOFF_NEXT_AGENT.md` and `reports/research.md` for the technical
 history and current direction.
+
+## Backup status
+
+GitHub `main` is the verified remote copy of this sanitized archive. A separate
+Kaggle Dataset upload was attempted, but it never appeared in the account's
+dataset listing, so it is not counted as a verified backup.
