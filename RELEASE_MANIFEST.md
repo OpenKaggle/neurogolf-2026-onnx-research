@@ -29,6 +29,11 @@ retained because they contain validation metrics and compact diagnostics, not
 literal competition rows. Files at or above 10 MiB were also checked; none
 remain.
 
+The twelve JSON receipts in `evidence/derived-runs/` were added after the
+history cleanup. They are first-party local evaluator metrics for two candidate
+families. They contain no task grids, inputs, outputs, ONNX payloads, or
+submission artifacts; the accompanying README explains their fields and limits.
+
 The remaining code may refer to ignored local paths in order to support an
 authorized reproducibility workflow. Such references are instructions, not
 bundled data. Anyone reusing the code is responsible for complying with Kaggle
