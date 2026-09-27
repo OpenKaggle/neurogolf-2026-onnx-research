@@ -105,9 +105,13 @@ Artifacts:
 - `reports/task255_v2_split_summary.csv`
 - `reports/task255_v2_split_examples.csv`
 - `reports/task255_v2_rectangles.csv`
+- `reports/task255_v2_pseudo_hidden_summary.csv`
+- `reports/task255_v2_pseudo_hidden.csv`
 - `reports/task255_v2_summary.json`
+- `reports/task255_v2_pseudo_hidden.json`
 
-The per-case pseudo-hidden matrices and detailed record JSON are deliberately
-local-only because they are generated from competition-derived examples. The
-published discussion above retains the aggregate conclusion and the generator
-code remains available in `tools/prototype_task255_v2.py`.
+The per-case pseudo-hidden records are first-party validation evidence. They
+contain check names, source-order handles, variants, pass/fail metrics, and
+compact diagnostic details—not copied input/output grids or downloaded task
+records. The generator code remains available in
+`tools/prototype_task255_v2.py`.

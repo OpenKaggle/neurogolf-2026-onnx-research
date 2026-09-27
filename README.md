@@ -17,7 +17,8 @@ research writing are shared here; competition data, leaderboard exports,
 submission bundles, and third-party artifacts stay with their source. See
 [DATA_SOURCES.md](DATA_SOURCES.md) for retrieval and provenance, and
 [RELEASE_MANIFEST.md](RELEASE_MANIFEST.md) for the release boundary and
-validation record.
+validation record. [PUBLICATION_BOUNDARY.md](PUBLICATION_BOUNDARY.md) records
+the detailed review of retained research evidence versus excluded source files.
 
 ## Included
 

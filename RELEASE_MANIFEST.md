@@ -14,7 +14,7 @@ a mirror of public kernels.
 - generated submission ZIPs, ONNX bundles, checkpoints, and caches;
 - third-party kernels, model weights, and copied artifacts;
 - credentials, environment files, and machine-specific paths;
-- per-case pseudo-hidden matrices derived from competition records.
+- literal competition records, including downloaded input/output grids.
 
 `DATA_SOURCES.md` is the canonical guide for retrieving authorized source
 material and for the historic leaderboard-export checksums.
@@ -22,10 +22,12 @@ material and for the historic leaderboard-export checksums.
 ## Publication checks
 
 Before this release was published, the tree was checked for tracked `data/`,
-`submissions/`, `.onnx`, and `.zip` assets; none remain. The targeted
-per-case pseudo-hidden CSVs, one detailed JSON artifact, and both leaderboard
-ZIP exports were removed from the working tree and from reachable `main`
-history. Files at or above 10 MiB were also checked; none remain.
+`submissions/`, `.onnx`, and `.zip` assets; none remain. The two downloaded
+leaderboard ZIP exports were removed from the working tree and from reachable
+`main` history. First-party per-case pseudo-hidden records were reviewed and
+retained because they contain validation metrics and compact diagnostics, not
+literal competition rows. Files at or above 10 MiB were also checked; none
+remain.
 
 The remaining code may refer to ignored local paths in order to support an
 authorized reproducibility workflow. Such references are instructions, not

@@ -7,10 +7,6 @@ downloads/
 public_kernels/
 submissions/
 /submission.zip
-# Generated per-case stress-test matrices can contain exact competition-derived
-# records. Keep their code and aggregate conclusions, not the matrices.
-/reports/*pseudo_hidden*.csv
-/reports/task255_v2_pseudo_hidden.json
 # Leaderboard exports are downloaded competition artifacts, never source assets.
 /reports/leaderboard/**/*.zip
 /reports/leaderboard/*.zip
