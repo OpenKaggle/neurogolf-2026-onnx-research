@@ -1,0 +1,14 @@
+check,split,eligible,total_rows,exact,exact_rate,pixel_errors,false_positive_3,false_negative_3
+clipped_zero_padded_translation,arc-gen,2088,2088,245,0.11733716475095786,56240,39732,16508
+clipped_zero_padded_translation,test,8,8,0,0.0,150,150,0
+clipped_zero_padded_translation,train,24,24,3,0.125,460,460,0
+far_additive_foreground_noise,arc-gen,601,783,473,0.7870216306156406,5487,34,5453
+far_additive_foreground_noise,test,3,3,3,1.0,0,0,0
+far_additive_foreground_noise,train,8,9,8,1.0,0,0,0
+foreground_color_permutation,arc-gen,1827,1827,1463,0.8007662835249042,15484,98,15386
+foreground_color_permutation,test,7,7,7,1.0,0,0,0
+foreground_color_permutation,train,21,21,21,1.0,0,0,0
+leave_one_out_fixed_geometry,train,3,3,3,1.0,0,0,0
+safe_zero_padded_translation,arc-gen,0,2088,0,0.0,0,0,0
+safe_zero_padded_translation,test,0,8,0,0.0,0,0,0
+safe_zero_padded_translation,train,0,24,0,0.0,0,0,0

@@ -1,0 +1,1863 @@
+source_index,source_label,contract_name,passed,skipped,reason,input_shape,expected_shape,actual_shape,mismatch_count,rule_label
+0,ex0,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+0,ex0,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+0,ex0,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+0,ex0,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+0,ex0,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+0,ex0,task366_shift_panels_down_right,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+0,ex0,task366_shift_panels_up_left,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+1,ex1,original,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+1,ex1,task366_color_bijection,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+1,ex1,task366_swap_panels,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+1,ex1,task366_transpose,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+1,ex1,task366_mirror_each_panel_lr,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+1,ex1,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(11, 20)","(11, 10)",,,
+1,ex1,task366_shift_panels_up_left,False,True,output_would_clip,"(11, 20)","(11, 10)",,,
+2,ex2,original,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+2,ex2,task366_color_bijection,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+2,ex2,task366_swap_panels,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+2,ex2,task366_transpose,True,False,ok,"(16, 10)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+2,ex2,task366_mirror_each_panel_lr,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+2,ex2,task366_shift_panels_down_right,False,True,output_would_clip,"(10, 16)","(10, 8)",,,
+2,ex2,task366_shift_panels_up_left,False,True,output_would_clip,"(10, 16)","(10, 8)",,,
+3,ex3,original,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+3,ex3,task366_color_bijection,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+3,ex3,task366_swap_panels,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+3,ex3,task366_transpose,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+3,ex3,task366_mirror_each_panel_lr,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+3,ex3,task366_shift_panels_down_right,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+3,ex3,task366_shift_panels_up_left,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+4,ex4,original,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+4,ex4,task366_color_bijection,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+4,ex4,task366_swap_panels,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+4,ex4,task366_transpose,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+4,ex4,task366_mirror_each_panel_lr,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+4,ex4,task366_shift_panels_down_right,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+4,ex4,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+5,ex5,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+5,ex5,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+5,ex5,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+5,ex5,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+5,ex5,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+5,ex5,task366_shift_panels_down_right,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+5,ex5,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 10)","(10, 10)",,,
+6,ex6,original,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+6,ex6,task366_color_bijection,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+6,ex6,task366_swap_panels,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+6,ex6,task366_transpose,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+6,ex6,task366_mirror_each_panel_lr,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+6,ex6,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 11)","(10, 11)",,,
+6,ex6,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 11)","(10, 11)",,,
+7,ex7,original,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+7,ex7,task366_color_bijection,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+7,ex7,task366_swap_panels,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+7,ex7,task366_transpose,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+7,ex7,task366_mirror_each_panel_lr,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+7,ex7,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(24, 11)","(12, 11)",,,
+7,ex7,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 11)","(12, 11)",,,
+8,ex8,original,False,True,"input_shape_exceeds_limit:(15, 32)>(30, 30)","(15, 32)","(15, 16)",,,
+8,ex8,task366_color_bijection,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+8,ex8,task366_swap_panels,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+8,ex8,task366_transpose,True,False,ok,"(32, 15)","(16, 15)","(16, 15)",0,bounded_rectangles_max7
+8,ex8,task366_mirror_each_panel_lr,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+8,ex8,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 32)","(15, 16)",,,
+8,ex8,task366_shift_panels_up_left,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+9,ex9,original,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+9,ex9,task366_color_bijection,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+9,ex9,task366_swap_panels,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+9,ex9,task366_transpose,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+9,ex9,task366_mirror_each_panel_lr,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+9,ex9,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 26)","(12, 13)",,,
+9,ex9,task366_shift_panels_up_left,False,True,output_would_clip,"(12, 26)","(12, 13)",,,
+10,ex10,original,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+10,ex10,task366_color_bijection,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+10,ex10,task366_swap_panels,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+10,ex10,task366_transpose,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+10,ex10,task366_mirror_each_panel_lr,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+10,ex10,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(15, 28)","(15, 14)",,,
+10,ex10,task366_shift_panels_up_left,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+11,ex11,original,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+11,ex11,task366_color_bijection,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+11,ex11,task366_swap_panels,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+11,ex11,task366_transpose,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+11,ex11,task366_mirror_each_panel_lr,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+11,ex11,task366_shift_panels_down_right,False,True,output_would_clip,"(20, 12)","(10, 12)",,,
+11,ex11,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 12)","(10, 12)",,,
+12,ex12,original,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+12,ex12,task366_color_bijection,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+12,ex12,task366_swap_panels,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+12,ex12,task366_transpose,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+12,ex12,task366_mirror_each_panel_lr,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+12,ex12,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 24)","(13, 12)",,,
+12,ex12,task366_shift_panels_up_left,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+13,ex13,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+13,ex13,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+13,ex13,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+13,ex13,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+13,ex13,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+13,ex13,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 10)","(10, 10)",,,
+13,ex13,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 10)","(10, 10)",,,
+14,ex14,original,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+14,ex14,task366_color_bijection,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+14,ex14,task366_swap_panels,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+14,ex14,task366_transpose,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+14,ex14,task366_mirror_each_panel_lr,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+14,ex14,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(24, 11)","(12, 11)",,,
+14,ex14,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 11)","(12, 11)",,,
+15,ex15,original,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+15,ex15,task366_color_bijection,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+15,ex15,task366_swap_panels,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+15,ex15,task366_transpose,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+15,ex15,task366_mirror_each_panel_lr,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+15,ex15,task366_shift_panels_down_right,False,True,output_would_clip,"(20, 12)","(10, 12)",,,
+15,ex15,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 12)","(10, 12)",,,
+16,ex16,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+16,ex16,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+16,ex16,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+16,ex16,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+16,ex16,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+16,ex16,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+16,ex16,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+17,ex17,original,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+17,ex17,task366_color_bijection,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+17,ex17,task366_swap_panels,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+17,ex17,task366_transpose,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+17,ex17,task366_mirror_each_panel_lr,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+17,ex17,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 11)","(10, 11)",,,
+17,ex17,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 11)","(10, 11)",,,
+18,ex18,original,False,True,"input_shape_exceeds_limit:(15, 34)>(30, 30)","(15, 34)","(15, 17)",,,
+18,ex18,task366_color_bijection,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+18,ex18,task366_swap_panels,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+18,ex18,task366_transpose,True,False,ok,"(34, 15)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+18,ex18,task366_mirror_each_panel_lr,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+18,ex18,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 34)","(15, 17)",,,
+18,ex18,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 34)","(15, 17)",,,
+19,ex19,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+19,ex19,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+19,ex19,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+19,ex19,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+19,ex19,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+19,ex19,task366_shift_panels_down_right,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+19,ex19,task366_shift_panels_up_left,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+20,ex20,original,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+20,ex20,task366_color_bijection,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+20,ex20,task366_swap_panels,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+20,ex20,task366_transpose,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+20,ex20,task366_mirror_each_panel_lr,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+20,ex20,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 22)","(10, 11)",,,
+20,ex20,task366_shift_panels_up_left,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+21,ex21,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+21,ex21,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+21,ex21,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+21,ex21,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+21,ex21,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+21,ex21,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(24, 14)","(12, 14)",,,
+21,ex21,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 14)","(12, 14)",,,
+22,ex22,original,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+22,ex22,task366_color_bijection,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+22,ex22,task366_swap_panels,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+22,ex22,task366_transpose,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+22,ex22,task366_mirror_each_panel_lr,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+22,ex22,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 15)","(13, 15)",,,
+22,ex22,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 15)","(13, 15)",,,
+23,ex23,original,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+23,ex23,task366_color_bijection,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+23,ex23,task366_swap_panels,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+23,ex23,task366_transpose,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+23,ex23,task366_mirror_each_panel_lr,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+23,ex23,task366_shift_panels_down_right,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+23,ex23,task366_shift_panels_up_left,False,True,output_would_clip,"(10, 20)","(10, 10)",,,
+24,ex24,original,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+24,ex24,task366_color_bijection,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+24,ex24,task366_swap_panels,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+24,ex24,task366_transpose,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+24,ex24,task366_mirror_each_panel_lr,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+24,ex24,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(11, 24)","(11, 12)",,,
+24,ex24,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(11, 24)","(11, 12)",,,
+25,ex25,original,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+25,ex25,task366_color_bijection,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+25,ex25,task366_swap_panels,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+25,ex25,task366_transpose,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+25,ex25,task366_mirror_each_panel_lr,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+25,ex25,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 15)","(14, 15)",,,
+25,ex25,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 15)","(14, 15)",,,
+26,ex26,original,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+26,ex26,task366_color_bijection,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+26,ex26,task366_swap_panels,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+26,ex26,task366_transpose,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+26,ex26,task366_mirror_each_panel_lr,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+26,ex26,task366_shift_panels_down_right,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+26,ex26,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 28)","(15, 14)",,,
+27,ex27,original,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+27,ex27,task366_color_bijection,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+27,ex27,task366_swap_panels,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+27,ex27,task366_transpose,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+27,ex27,task366_mirror_each_panel_lr,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+27,ex27,task366_shift_panels_down_right,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+27,ex27,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 13)","(12, 13)",,,
+28,ex28,original,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+28,ex28,task366_color_bijection,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+28,ex28,task366_swap_panels,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+28,ex28,task366_transpose,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+28,ex28,task366_mirror_each_panel_lr,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+28,ex28,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(28, 14)","(14, 14)",,,
+28,ex28,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(28, 14)","(14, 14)",,,
+29,ex29,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+29,ex29,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+29,ex29,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+29,ex29,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+29,ex29,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+29,ex29,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(14, 28)","(14, 14)",,,
+29,ex29,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(14, 28)","(14, 14)",,,
+30,ex30,original,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+30,ex30,task366_color_bijection,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+30,ex30,task366_swap_panels,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+30,ex30,task366_transpose,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+30,ex30,task366_mirror_each_panel_lr,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+30,ex30,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 12)","(11, 12)",,,
+30,ex30,task366_shift_panels_up_left,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+31,ex31,original,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+31,ex31,task366_color_bijection,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+31,ex31,task366_swap_panels,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+31,ex31,task366_transpose,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+31,ex31,task366_mirror_each_panel_lr,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+31,ex31,task366_shift_panels_down_right,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+31,ex31,task366_shift_panels_up_left,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+32,ex32,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+32,ex32,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+32,ex32,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+32,ex32,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+32,ex32,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+32,ex32,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+32,ex32,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+33,ex33,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+33,ex33,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+33,ex33,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+33,ex33,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+33,ex33,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+33,ex33,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 13)","(11, 13)",,,
+33,ex33,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(22, 13)","(11, 13)",,,
+34,ex34,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+34,ex34,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+34,ex34,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+34,ex34,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+34,ex34,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+34,ex34,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+34,ex34,task366_shift_panels_up_left,False,True,output_would_clip,"(22, 11)","(11, 11)",,,
+35,ex35,original,False,True,"input_shape_exceeds_limit:(15, 32)>(30, 30)","(15, 32)","(15, 16)",,,
+35,ex35,task366_color_bijection,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+35,ex35,task366_swap_panels,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+35,ex35,task366_transpose,True,False,ok,"(32, 15)","(16, 15)","(16, 15)",0,bounded_rectangles_max7
+35,ex35,task366_mirror_each_panel_lr,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+35,ex35,task366_shift_panels_down_right,False,True,output_would_clip,"(15, 32)","(15, 16)",,,
+35,ex35,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 32)","(15, 16)",,,
+36,ex36,original,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+36,ex36,task366_color_bijection,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+36,ex36,task366_swap_panels,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+36,ex36,task366_transpose,True,False,ok,"(18, 11)","(9, 11)","(9, 11)",0,bounded_rectangles_max7
+36,ex36,task366_mirror_each_panel_lr,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+36,ex36,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(11, 18)","(11, 9)",,,
+36,ex36,task366_shift_panels_up_left,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+37,ex37,original,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+37,ex37,task366_color_bijection,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+37,ex37,task366_swap_panels,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+37,ex37,task366_transpose,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+37,ex37,task366_mirror_each_panel_lr,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+37,ex37,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 11)","(13, 11)",,,
+37,ex37,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(26, 11)","(13, 11)",,,
+38,ex38,original,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+38,ex38,task366_color_bijection,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+38,ex38,task366_swap_panels,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+38,ex38,task366_transpose,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+38,ex38,task366_mirror_each_panel_lr,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+38,ex38,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 14)","(14, 14)",,,
+38,ex38,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 14)","(14, 14)",,,
+39,ex39,original,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+39,ex39,task366_color_bijection,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+39,ex39,task366_swap_panels,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+39,ex39,task366_transpose,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+39,ex39,task366_mirror_each_panel_lr,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+39,ex39,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 24)","(12, 12)",,,
+39,ex39,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 24)","(12, 12)",,,
+40,ex40,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+40,ex40,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+40,ex40,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+40,ex40,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+40,ex40,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+40,ex40,task366_shift_panels_down_right,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+40,ex40,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+41,ex41,original,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+41,ex41,task366_color_bijection,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+41,ex41,task366_swap_panels,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+41,ex41,task366_transpose,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+41,ex41,task366_mirror_each_panel_lr,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+41,ex41,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 10)","(11, 10)",,,
+41,ex41,task366_shift_panels_up_left,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+42,ex42,original,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+42,ex42,task366_color_bijection,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+42,ex42,task366_swap_panels,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+42,ex42,task366_transpose,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+42,ex42,task366_mirror_each_panel_lr,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+42,ex42,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(15, 30)","(15, 15)",,,
+42,ex42,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(15, 30)","(15, 15)",,,
+43,ex43,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+43,ex43,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+43,ex43,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+43,ex43,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+43,ex43,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+43,ex43,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 17)","(15, 17)",,,
+43,ex43,task366_shift_panels_up_left,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+44,ex44,original,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+44,ex44,task366_color_bijection,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+44,ex44,task366_swap_panels,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+44,ex44,task366_transpose,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+44,ex44,task366_mirror_each_panel_lr,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+44,ex44,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 26)","(15, 13)",,,
+44,ex44,task366_shift_panels_up_left,False,True,output_would_clip,"(15, 26)","(15, 13)",,,
+45,ex45,original,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+45,ex45,task366_color_bijection,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+45,ex45,task366_swap_panels,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+45,ex45,task366_transpose,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+45,ex45,task366_mirror_each_panel_lr,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+45,ex45,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 24)","(10, 12)",,,
+45,ex45,task366_shift_panels_up_left,False,True,output_would_clip,"(10, 24)","(10, 12)",,,
+46,ex46,original,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+46,ex46,task366_color_bijection,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+46,ex46,task366_swap_panels,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+46,ex46,task366_transpose,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+46,ex46,task366_mirror_each_panel_lr,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+46,ex46,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(15, 26)","(15, 13)",,,
+46,ex46,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(15, 26)","(15, 13)",,,
+47,ex47,original,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+47,ex47,task366_color_bijection,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+47,ex47,task366_swap_panels,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+47,ex47,task366_transpose,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+47,ex47,task366_mirror_each_panel_lr,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+47,ex47,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 12)","(12, 12)",,,
+47,ex47,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 12)","(12, 12)",,,
+48,ex48,original,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+48,ex48,task366_color_bijection,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+48,ex48,task366_swap_panels,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+48,ex48,task366_transpose,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+48,ex48,task366_mirror_each_panel_lr,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+48,ex48,task366_shift_panels_down_right,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+48,ex48,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 11)","(13, 11)",,,
+49,ex49,original,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+49,ex49,task366_color_bijection,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+49,ex49,task366_swap_panels,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+49,ex49,task366_transpose,True,False,ok,"(18, 10)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+49,ex49,task366_mirror_each_panel_lr,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+49,ex49,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 18)","(10, 9)",,,
+49,ex49,task366_shift_panels_up_left,False,True,output_would_clip,"(10, 18)","(10, 9)",,,
+50,ex50,original,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+50,ex50,task366_color_bijection,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+50,ex50,task366_swap_panels,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+50,ex50,task366_transpose,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+50,ex50,task366_mirror_each_panel_lr,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+50,ex50,task366_shift_panels_down_right,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+50,ex50,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+51,ex51,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+51,ex51,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+51,ex51,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+51,ex51,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+51,ex51,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+51,ex51,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+51,ex51,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+52,ex52,original,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+52,ex52,task366_color_bijection,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+52,ex52,task366_swap_panels,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+52,ex52,task366_transpose,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+52,ex52,task366_mirror_each_panel_lr,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+52,ex52,task366_shift_panels_down_right,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+52,ex52,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 30)","(15, 15)",,,
+53,ex53,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+53,ex53,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+53,ex53,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+53,ex53,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+53,ex53,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+53,ex53,task366_shift_panels_down_right,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+53,ex53,task366_shift_panels_up_left,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+54,ex54,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+54,ex54,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+54,ex54,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+54,ex54,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+54,ex54,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+54,ex54,task366_shift_panels_down_right,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+54,ex54,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+55,ex55,original,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+55,ex55,task366_color_bijection,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+55,ex55,task366_swap_panels,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+55,ex55,task366_transpose,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+55,ex55,task366_mirror_each_panel_lr,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+55,ex55,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 24)","(12, 12)",,,
+55,ex55,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 24)","(12, 12)",,,
+56,ex56,original,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+56,ex56,task366_color_bijection,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+56,ex56,task366_swap_panels,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+56,ex56,task366_transpose,True,False,ok,"(18, 10)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+56,ex56,task366_mirror_each_panel_lr,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+56,ex56,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 18)","(10, 9)",,,
+56,ex56,task366_shift_panels_up_left,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+57,ex57,original,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+57,ex57,task366_color_bijection,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+57,ex57,task366_swap_panels,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+57,ex57,task366_transpose,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+57,ex57,task366_mirror_each_panel_lr,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+57,ex57,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(26, 12)","(13, 12)",,,
+57,ex57,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 12)","(13, 12)",,,
+58,ex58,original,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+58,ex58,task366_color_bijection,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+58,ex58,task366_swap_panels,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+58,ex58,task366_transpose,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+58,ex58,task366_mirror_each_panel_lr,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+58,ex58,task366_shift_panels_down_right,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+58,ex58,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 22)","(10, 11)",,,
+59,ex59,original,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+59,ex59,task366_color_bijection,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+59,ex59,task366_swap_panels,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+59,ex59,task366_transpose,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+59,ex59,task366_mirror_each_panel_lr,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+59,ex59,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 12)","(13, 12)",,,
+59,ex59,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 12)","(13, 12)",,,
+60,ex60,original,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+60,ex60,task366_color_bijection,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+60,ex60,task366_swap_panels,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+60,ex60,task366_transpose,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+60,ex60,task366_mirror_each_panel_lr,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+60,ex60,task366_shift_panels_down_right,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+60,ex60,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 26)","(15, 13)",,,
+61,ex61,original,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+61,ex61,task366_color_bijection,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+61,ex61,task366_swap_panels,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+61,ex61,task366_transpose,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+61,ex61,task366_mirror_each_panel_lr,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+61,ex61,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 24)","(10, 12)",,,
+61,ex61,task366_shift_panels_up_left,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+62,ex62,original,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+62,ex62,task366_color_bijection,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+62,ex62,task366_swap_panels,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+62,ex62,task366_transpose,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+62,ex62,task366_mirror_each_panel_lr,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+62,ex62,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 13)","(13, 13)",,,
+62,ex62,task366_shift_panels_up_left,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+63,ex63,original,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+63,ex63,task366_color_bijection,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+63,ex63,task366_swap_panels,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+63,ex63,task366_transpose,True,False,ok,"(9, 20)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+63,ex63,task366_mirror_each_panel_lr,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+63,ex63,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 9)","(10, 9)",,,
+63,ex63,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+64,ex64,original,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+64,ex64,task366_color_bijection,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+64,ex64,task366_swap_panels,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+64,ex64,task366_transpose,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+64,ex64,task366_mirror_each_panel_lr,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+64,ex64,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(30, 15)","(15, 15)",,,
+64,ex64,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(30, 15)","(15, 15)",,,
+65,ex65,original,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+65,ex65,task366_color_bijection,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+65,ex65,task366_swap_panels,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+65,ex65,task366_transpose,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+65,ex65,task366_mirror_each_panel_lr,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+65,ex65,task366_shift_panels_down_right,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+65,ex65,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 10)","(11, 10)",,,
+66,ex66,original,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+66,ex66,task366_color_bijection,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+66,ex66,task366_swap_panels,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+66,ex66,task366_transpose,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+66,ex66,task366_mirror_each_panel_lr,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+66,ex66,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 30)","(14, 15)",,,
+66,ex66,task366_shift_panels_up_left,False,True,output_would_clip,"(14, 30)","(14, 15)",,,
+67,ex67,original,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+67,ex67,task366_color_bijection,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+67,ex67,task366_swap_panels,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+67,ex67,task366_transpose,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+67,ex67,task366_mirror_each_panel_lr,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+67,ex67,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 11)","(13, 11)",,,
+67,ex67,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(26, 11)","(13, 11)",,,
+68,ex68,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+68,ex68,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+68,ex68,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+68,ex68,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+68,ex68,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+68,ex68,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+68,ex68,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+69,ex69,original,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+69,ex69,task366_color_bijection,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+69,ex69,task366_swap_panels,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+69,ex69,task366_transpose,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+69,ex69,task366_mirror_each_panel_lr,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+69,ex69,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 26)","(12, 13)",,,
+69,ex69,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 26)","(12, 13)",,,
+70,ex70,original,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+70,ex70,task366_color_bijection,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+70,ex70,task366_swap_panels,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+70,ex70,task366_transpose,True,False,ok,"(16, 30)","(16, 15)","(16, 15)",0,bounded_rectangles_max7
+70,ex70,task366_mirror_each_panel_lr,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+70,ex70,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(30, 16)","(15, 16)",,,
+70,ex70,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 16)","(15, 16)",,,
+71,ex71,original,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+71,ex71,task366_color_bijection,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+71,ex71,task366_swap_panels,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+71,ex71,task366_transpose,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+71,ex71,task366_mirror_each_panel_lr,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+71,ex71,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(26, 15)","(13, 15)",,,
+71,ex71,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(26, 15)","(13, 15)",,,
+72,ex72,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+72,ex72,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+72,ex72,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+72,ex72,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+72,ex72,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+72,ex72,task366_shift_panels_down_right,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+72,ex72,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 10)","(10, 10)",,,
+73,ex73,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+73,ex73,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+73,ex73,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+73,ex73,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+73,ex73,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+73,ex73,task366_shift_panels_down_right,False,True,output_would_clip,"(14, 28)","(14, 14)",,,
+73,ex73,task366_shift_panels_up_left,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+74,ex74,original,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+74,ex74,task366_color_bijection,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+74,ex74,task366_swap_panels,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+74,ex74,task366_transpose,True,False,ok,"(8, 20)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+74,ex74,task366_mirror_each_panel_lr,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+74,ex74,task366_shift_panels_down_right,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+74,ex74,task366_shift_panels_up_left,False,True,output_would_clip,"(20, 8)","(10, 8)",,,
+75,ex75,original,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+75,ex75,task366_color_bijection,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+75,ex75,task366_swap_panels,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+75,ex75,task366_transpose,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+75,ex75,task366_mirror_each_panel_lr,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+75,ex75,task366_shift_panels_down_right,False,True,output_would_clip,"(10, 24)","(10, 12)",,,
+75,ex75,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 24)","(10, 12)",,,
+76,ex76,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+76,ex76,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+76,ex76,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+76,ex76,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+76,ex76,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+76,ex76,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+76,ex76,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+77,ex77,original,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+77,ex77,task366_color_bijection,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+77,ex77,task366_swap_panels,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+77,ex77,task366_transpose,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+77,ex77,task366_mirror_each_panel_lr,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+77,ex77,task366_shift_panels_down_right,False,True,output_would_clip,"(26, 12)","(13, 12)",,,
+77,ex77,task366_shift_panels_up_left,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+78,ex78,original,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+78,ex78,task366_color_bijection,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+78,ex78,task366_swap_panels,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+78,ex78,task366_transpose,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+78,ex78,task366_mirror_each_panel_lr,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+78,ex78,task366_shift_panels_down_right,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+78,ex78,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 26)","(12, 13)",,,
+79,ex79,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+79,ex79,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+79,ex79,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+79,ex79,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+79,ex79,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+79,ex79,task366_shift_panels_down_right,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+79,ex79,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 28)","(12, 14)",,,
+80,ex80,original,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+80,ex80,task366_color_bijection,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+80,ex80,task366_swap_panels,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+80,ex80,task366_transpose,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+80,ex80,task366_mirror_each_panel_lr,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+80,ex80,task366_shift_panels_down_right,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+80,ex80,task366_shift_panels_up_left,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+81,ex81,original,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+81,ex81,task366_color_bijection,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+81,ex81,task366_swap_panels,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+81,ex81,task366_transpose,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+81,ex81,task366_mirror_each_panel_lr,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+81,ex81,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(11, 26)","(11, 13)",,,
+81,ex81,task366_shift_panels_up_left,False,True,output_would_clip,"(11, 26)","(11, 13)",,,
+82,ex82,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+82,ex82,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+82,ex82,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+82,ex82,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+82,ex82,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+82,ex82,task366_shift_panels_down_right,False,True,output_would_clip,"(22, 13)","(11, 13)",,,
+82,ex82,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+83,ex83,original,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+83,ex83,task366_color_bijection,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+83,ex83,task366_swap_panels,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+83,ex83,task366_transpose,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+83,ex83,task366_mirror_each_panel_lr,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+83,ex83,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(26, 15)","(13, 15)",,,
+83,ex83,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 15)","(13, 15)",,,
+84,ex84,original,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+84,ex84,task366_color_bijection,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+84,ex84,task366_swap_panels,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+84,ex84,task366_transpose,True,False,ok,"(9, 20)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+84,ex84,task366_mirror_each_panel_lr,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+84,ex84,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+84,ex84,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+85,ex85,original,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+85,ex85,task366_color_bijection,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+85,ex85,task366_swap_panels,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+85,ex85,task366_transpose,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+85,ex85,task366_mirror_each_panel_lr,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+85,ex85,task366_shift_panels_down_right,False,True,output_would_clip,"(12, 22)","(12, 11)",,,
+85,ex85,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+86,ex86,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+86,ex86,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+86,ex86,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+86,ex86,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+86,ex86,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+86,ex86,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 30)","(13, 15)",,,
+86,ex86,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(13, 30)","(13, 15)",,,
+87,ex87,original,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+87,ex87,task366_color_bijection,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+87,ex87,task366_swap_panels,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+87,ex87,task366_transpose,True,False,ok,"(9, 20)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+87,ex87,task366_mirror_each_panel_lr,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+87,ex87,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+87,ex87,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 9)","(10, 9)",,,
+88,ex88,original,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+88,ex88,task366_color_bijection,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+88,ex88,task366_swap_panels,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+88,ex88,task366_transpose,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+88,ex88,task366_mirror_each_panel_lr,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+88,ex88,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 26)","(12, 13)",,,
+88,ex88,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 26)","(12, 13)",,,
+89,ex89,original,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+89,ex89,task366_color_bijection,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+89,ex89,task366_swap_panels,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+89,ex89,task366_transpose,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+89,ex89,task366_mirror_each_panel_lr,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+89,ex89,task366_shift_panels_down_right,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+89,ex89,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 11)","(10, 11)",,,
+90,ex90,original,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+90,ex90,task366_color_bijection,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+90,ex90,task366_swap_panels,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+90,ex90,task366_transpose,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+90,ex90,task366_mirror_each_panel_lr,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+90,ex90,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 20)","(10, 10)",,,
+90,ex90,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 20)","(10, 10)",,,
+91,ex91,original,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+91,ex91,task366_color_bijection,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+91,ex91,task366_swap_panels,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+91,ex91,task366_transpose,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+91,ex91,task366_mirror_each_panel_lr,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+91,ex91,task366_shift_panels_down_right,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+91,ex91,task366_shift_panels_up_left,False,True,output_would_clip,"(11, 20)","(11, 10)",,,
+92,ex92,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+92,ex92,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+92,ex92,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+92,ex92,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+92,ex92,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+92,ex92,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+92,ex92,task366_shift_panels_up_left,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+93,ex93,original,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+93,ex93,task366_color_bijection,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+93,ex93,task366_swap_panels,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+93,ex93,task366_transpose,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+93,ex93,task366_mirror_each_panel_lr,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+93,ex93,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(14, 26)","(14, 13)",,,
+93,ex93,task366_shift_panels_up_left,False,True,output_would_clip,"(14, 26)","(14, 13)",,,
+94,ex94,original,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+94,ex94,task366_color_bijection,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+94,ex94,task366_swap_panels,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+94,ex94,task366_transpose,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+94,ex94,task366_mirror_each_panel_lr,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+94,ex94,task366_shift_panels_down_right,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+94,ex94,task366_shift_panels_up_left,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+95,ex95,original,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+95,ex95,task366_color_bijection,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+95,ex95,task366_swap_panels,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+95,ex95,task366_transpose,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+95,ex95,task366_mirror_each_panel_lr,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+95,ex95,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 14)","(13, 14)",,,
+95,ex95,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(26, 14)","(13, 14)",,,
+96,ex96,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+96,ex96,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+96,ex96,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+96,ex96,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+96,ex96,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+96,ex96,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 11)","(11, 11)",,,
+96,ex96,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+97,ex97,original,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+97,ex97,task366_color_bijection,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+97,ex97,task366_swap_panels,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+97,ex97,task366_transpose,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+97,ex97,task366_mirror_each_panel_lr,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+97,ex97,task366_shift_panels_down_right,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+97,ex97,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 15)","(14, 15)",,,
+98,ex98,original,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+98,ex98,task366_color_bijection,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+98,ex98,task366_swap_panels,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+98,ex98,task366_transpose,True,False,ok,"(18, 11)","(9, 11)","(9, 11)",0,bounded_rectangles_max7
+98,ex98,task366_mirror_each_panel_lr,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+98,ex98,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(11, 18)","(11, 9)",,,
+98,ex98,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(11, 18)","(11, 9)",,,
+99,ex99,original,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+99,ex99,task366_color_bijection,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+99,ex99,task366_swap_panels,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+99,ex99,task366_transpose,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+99,ex99,task366_mirror_each_panel_lr,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+99,ex99,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 14)","(13, 14)",,,
+99,ex99,task366_shift_panels_up_left,False,True,output_would_clip,"(26, 14)","(13, 14)",,,
+100,ex100,original,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+100,ex100,task366_color_bijection,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+100,ex100,task366_swap_panels,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+100,ex100,task366_transpose,True,False,ok,"(16, 30)","(16, 15)","(16, 15)",0,bounded_rectangles_max7
+100,ex100,task366_mirror_each_panel_lr,True,False,ok,"(30, 16)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+100,ex100,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 16)","(15, 16)",,,
+100,ex100,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 16)","(15, 16)",,,
+101,ex101,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+101,ex101,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+101,ex101,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+101,ex101,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+101,ex101,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+101,ex101,task366_shift_panels_down_right,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+101,ex101,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+102,ex102,original,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+102,ex102,task366_color_bijection,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+102,ex102,task366_swap_panels,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+102,ex102,task366_transpose,True,False,ok,"(18, 11)","(9, 11)","(9, 11)",0,bounded_rectangles_max7
+102,ex102,task366_mirror_each_panel_lr,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+102,ex102,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(11, 18)","(11, 9)",,,
+102,ex102,task366_shift_panels_up_left,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+103,ex103,original,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+103,ex103,task366_color_bijection,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+103,ex103,task366_swap_panels,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+103,ex103,task366_transpose,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+103,ex103,task366_mirror_each_panel_lr,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+103,ex103,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 12)","(10, 12)",,,
+103,ex103,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 12)","(10, 12)",,,
+104,ex104,original,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+104,ex104,task366_color_bijection,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+104,ex104,task366_swap_panels,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+104,ex104,task366_transpose,True,False,ok,"(9, 20)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+104,ex104,task366_mirror_each_panel_lr,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+104,ex104,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+104,ex104,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 9)","(10, 9)",,,
+105,ex105,original,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+105,ex105,task366_color_bijection,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+105,ex105,task366_swap_panels,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+105,ex105,task366_transpose,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+105,ex105,task366_mirror_each_panel_lr,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+105,ex105,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 12)","(11, 12)",,,
+105,ex105,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 12)","(11, 12)",,,
+106,ex106,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+106,ex106,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+106,ex106,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+106,ex106,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+106,ex106,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+106,ex106,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 11)","(11, 11)",,,
+106,ex106,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+107,ex107,original,False,True,"input_shape_exceeds_limit:(15, 32)>(30, 30)","(15, 32)","(15, 16)",,,
+107,ex107,task366_color_bijection,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+107,ex107,task366_swap_panels,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+107,ex107,task366_transpose,True,False,ok,"(32, 15)","(16, 15)","(16, 15)",0,bounded_rectangles_max7
+107,ex107,task366_mirror_each_panel_lr,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+107,ex107,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 32)","(15, 16)",,,
+107,ex107,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 32)","(15, 16)",,,
+108,ex108,original,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+108,ex108,task366_color_bijection,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+108,ex108,task366_swap_panels,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+108,ex108,task366_transpose,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+108,ex108,task366_mirror_each_panel_lr,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+108,ex108,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(13, 22)","(13, 11)",,,
+108,ex108,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(13, 22)","(13, 11)",,,
+109,ex109,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+109,ex109,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+109,ex109,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+109,ex109,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+109,ex109,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+109,ex109,task366_shift_panels_down_right,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+109,ex109,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 10)","(10, 10)",,,
+110,ex110,original,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+110,ex110,task366_color_bijection,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+110,ex110,task366_swap_panels,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+110,ex110,task366_transpose,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+110,ex110,task366_mirror_each_panel_lr,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+110,ex110,task366_shift_panels_down_right,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+110,ex110,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(13, 26)","(13, 13)",,,
+111,ex111,original,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+111,ex111,task366_color_bijection,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+111,ex111,task366_swap_panels,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+111,ex111,task366_transpose,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+111,ex111,task366_mirror_each_panel_lr,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+111,ex111,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(14, 24)","(14, 12)",,,
+111,ex111,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+112,ex112,original,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+112,ex112,task366_color_bijection,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+112,ex112,task366_swap_panels,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+112,ex112,task366_transpose,True,False,ok,"(9, 22)","(9, 11)","(9, 11)",0,bounded_rectangles_max7
+112,ex112,task366_mirror_each_panel_lr,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+112,ex112,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 9)","(11, 9)",,,
+112,ex112,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 9)","(11, 9)",,,
+113,ex113,original,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+113,ex113,task366_color_bijection,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+113,ex113,task366_swap_panels,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+113,ex113,task366_transpose,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+113,ex113,task366_mirror_each_panel_lr,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+113,ex113,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 14)","(14, 14)",,,
+113,ex113,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 14)","(14, 14)",,,
+114,ex114,original,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+114,ex114,task366_color_bijection,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+114,ex114,task366_swap_panels,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+114,ex114,task366_transpose,True,False,ok,"(16, 28)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+114,ex114,task366_mirror_each_panel_lr,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+114,ex114,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 16)","(14, 16)",,,
+114,ex114,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 16)","(14, 16)",,,
+115,ex115,original,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+115,ex115,task366_color_bijection,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+115,ex115,task366_swap_panels,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+115,ex115,task366_transpose,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+115,ex115,task366_mirror_each_panel_lr,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+115,ex115,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 14)","(15, 14)",,,
+115,ex115,task366_shift_panels_up_left,False,True,output_would_clip,"(30, 14)","(15, 14)",,,
+116,ex116,original,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+116,ex116,task366_color_bijection,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+116,ex116,task366_swap_panels,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+116,ex116,task366_transpose,True,False,ok,"(16, 28)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+116,ex116,task366_mirror_each_panel_lr,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+116,ex116,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(28, 16)","(14, 16)",,,
+116,ex116,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 16)","(14, 16)",,,
+117,ex117,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+117,ex117,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+117,ex117,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+117,ex117,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+117,ex117,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+117,ex117,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 30)","(13, 15)",,,
+117,ex117,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(13, 30)","(13, 15)",,,
+118,ex118,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+118,ex118,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+118,ex118,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+118,ex118,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+118,ex118,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+118,ex118,task366_shift_panels_down_right,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+118,ex118,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(30, 17)","(15, 17)",,,
+119,ex119,original,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+119,ex119,task366_color_bijection,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+119,ex119,task366_swap_panels,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+119,ex119,task366_transpose,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+119,ex119,task366_mirror_each_panel_lr,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+119,ex119,task366_shift_panels_down_right,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+119,ex119,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 13)","(14, 13)",,,
+120,ex120,original,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+120,ex120,task366_color_bijection,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+120,ex120,task366_swap_panels,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+120,ex120,task366_transpose,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+120,ex120,task366_mirror_each_panel_lr,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+120,ex120,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 26)","(13, 13)",,,
+120,ex120,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(13, 26)","(13, 13)",,,
+121,ex121,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+121,ex121,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+121,ex121,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+121,ex121,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+121,ex121,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+121,ex121,task366_shift_panels_down_right,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+121,ex121,task366_shift_panels_up_left,False,True,output_would_clip,"(13, 30)","(13, 15)",,,
+122,ex122,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+122,ex122,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+122,ex122,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+122,ex122,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+122,ex122,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+122,ex122,task366_shift_panels_down_right,False,True,output_would_clip,"(22, 11)","(11, 11)",,,
+122,ex122,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(22, 11)","(11, 11)",,,
+123,ex123,original,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+123,ex123,task366_color_bijection,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+123,ex123,task366_swap_panels,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+123,ex123,task366_transpose,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+123,ex123,task366_mirror_each_panel_lr,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+123,ex123,task366_shift_panels_down_right,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+123,ex123,task366_shift_panels_up_left,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+124,ex124,original,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+124,ex124,task366_color_bijection,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+124,ex124,task366_swap_panels,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+124,ex124,task366_transpose,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+124,ex124,task366_mirror_each_panel_lr,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+124,ex124,task366_shift_panels_down_right,False,True,output_would_clip,"(26, 11)","(13, 11)",,,
+124,ex124,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 11)","(13, 11)",,,
+125,ex125,original,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+125,ex125,task366_color_bijection,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+125,ex125,task366_swap_panels,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+125,ex125,task366_transpose,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+125,ex125,task366_mirror_each_panel_lr,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+125,ex125,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 12)","(14, 12)",,,
+125,ex125,task366_shift_panels_up_left,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+126,ex126,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+126,ex126,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+126,ex126,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+126,ex126,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+126,ex126,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+126,ex126,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 30)","(13, 15)",,,
+126,ex126,task366_shift_panels_up_left,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+127,ex127,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+127,ex127,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+127,ex127,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+127,ex127,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+127,ex127,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+127,ex127,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 28)","(14, 14)",,,
+127,ex127,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(14, 28)","(14, 14)",,,
+128,ex128,original,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+128,ex128,task366_color_bijection,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+128,ex128,task366_swap_panels,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+128,ex128,task366_transpose,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+128,ex128,task366_mirror_each_panel_lr,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+128,ex128,task366_shift_panels_down_right,False,True,output_would_clip,"(13, 24)","(13, 12)",,,
+128,ex128,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(13, 24)","(13, 12)",,,
+129,ex129,original,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+129,ex129,task366_color_bijection,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+129,ex129,task366_swap_panels,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+129,ex129,task366_transpose,True,False,ok,"(16, 10)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+129,ex129,task366_mirror_each_panel_lr,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+129,ex129,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 16)","(10, 8)",,,
+129,ex129,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(10, 16)","(10, 8)",,,
+130,ex130,original,False,True,"input_shape_exceeds_limit:(15, 32)>(30, 30)","(15, 32)","(15, 16)",,,
+130,ex130,task366_color_bijection,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+130,ex130,task366_swap_panels,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+130,ex130,task366_transpose,True,False,ok,"(32, 15)","(16, 15)","(16, 15)",0,bounded_rectangles_max7
+130,ex130,task366_mirror_each_panel_lr,True,False,ok,"(15, 32)","(15, 16)","(15, 16)",0,bounded_rectangles_max7
+130,ex130,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 32)","(15, 16)",,,
+130,ex130,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 32)","(15, 16)",,,
+131,ex131,original,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+131,ex131,task366_color_bijection,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+131,ex131,task366_swap_panels,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+131,ex131,task366_transpose,True,False,ok,"(9, 20)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+131,ex131,task366_mirror_each_panel_lr,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+131,ex131,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+131,ex131,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+132,ex132,original,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+132,ex132,task366_color_bijection,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+132,ex132,task366_swap_panels,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+132,ex132,task366_transpose,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+132,ex132,task366_mirror_each_panel_lr,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+132,ex132,task366_shift_panels_down_right,False,True,output_would_clip,"(30, 15)","(15, 15)",,,
+132,ex132,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 15)","(15, 15)",,,
+133,ex133,original,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+133,ex133,task366_color_bijection,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+133,ex133,task366_swap_panels,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+133,ex133,task366_transpose,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+133,ex133,task366_mirror_each_panel_lr,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+133,ex133,task366_shift_panels_down_right,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+133,ex133,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 15)","(14, 15)",,,
+134,ex134,original,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+134,ex134,task366_color_bijection,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+134,ex134,task366_swap_panels,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+134,ex134,task366_transpose,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+134,ex134,task366_mirror_each_panel_lr,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+134,ex134,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 20)","(12, 10)",,,
+134,ex134,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 20)","(12, 10)",,,
+135,ex135,original,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+135,ex135,task366_color_bijection,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+135,ex135,task366_swap_panels,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+135,ex135,task366_transpose,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+135,ex135,task366_mirror_each_panel_lr,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+135,ex135,task366_shift_panels_down_right,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+135,ex135,task366_shift_panels_up_left,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+136,ex136,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+136,ex136,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+136,ex136,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+136,ex136,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+136,ex136,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+136,ex136,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 17)","(15, 17)",,,
+136,ex136,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(30, 17)","(15, 17)",,,
+137,ex137,original,False,True,"input_shape_exceeds_limit:(14, 32)>(30, 30)","(14, 32)","(14, 16)",,,
+137,ex137,task366_color_bijection,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+137,ex137,task366_swap_panels,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+137,ex137,task366_transpose,True,False,ok,"(32, 14)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+137,ex137,task366_mirror_each_panel_lr,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+137,ex137,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 32)","(14, 16)",,,
+137,ex137,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 32)","(14, 16)",,,
+138,ex138,original,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+138,ex138,task366_color_bijection,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+138,ex138,task366_swap_panels,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+138,ex138,task366_transpose,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+138,ex138,task366_mirror_each_panel_lr,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+138,ex138,task366_shift_panels_down_right,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+138,ex138,task366_shift_panels_up_left,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+139,ex139,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+139,ex139,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+139,ex139,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+139,ex139,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+139,ex139,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+139,ex139,task366_shift_panels_down_right,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+139,ex139,task366_shift_panels_up_left,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+140,ex140,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+140,ex140,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+140,ex140,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+140,ex140,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+140,ex140,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+140,ex140,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 30)","(13, 15)",,,
+140,ex140,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(13, 30)","(13, 15)",,,
+141,ex141,original,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+141,ex141,task366_color_bijection,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+141,ex141,task366_swap_panels,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+141,ex141,task366_transpose,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+141,ex141,task366_mirror_each_panel_lr,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+141,ex141,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(11, 26)","(11, 13)",,,
+141,ex141,task366_shift_panels_up_left,False,True,output_would_clip,"(11, 26)","(11, 13)",,,
+142,ex142,original,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+142,ex142,task366_color_bijection,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+142,ex142,task366_swap_panels,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+142,ex142,task366_transpose,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+142,ex142,task366_mirror_each_panel_lr,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+142,ex142,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+142,ex142,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+143,ex143,original,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+143,ex143,task366_color_bijection,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+143,ex143,task366_swap_panels,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+143,ex143,task366_transpose,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+143,ex143,task366_mirror_each_panel_lr,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+143,ex143,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 24)","(10, 12)",,,
+143,ex143,task366_shift_panels_up_left,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+144,ex144,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+144,ex144,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+144,ex144,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+144,ex144,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+144,ex144,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+144,ex144,task366_shift_panels_down_right,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+144,ex144,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+145,ex145,original,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+145,ex145,task366_color_bijection,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+145,ex145,task366_swap_panels,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+145,ex145,task366_transpose,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+145,ex145,task366_mirror_each_panel_lr,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+145,ex145,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 26)","(13, 13)",,,
+145,ex145,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(13, 26)","(13, 13)",,,
+146,ex146,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+146,ex146,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+146,ex146,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+146,ex146,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+146,ex146,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+146,ex146,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 13)","(11, 13)",,,
+146,ex146,task366_shift_panels_up_left,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+147,ex147,original,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+147,ex147,task366_color_bijection,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+147,ex147,task366_swap_panels,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+147,ex147,task366_transpose,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+147,ex147,task366_mirror_each_panel_lr,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+147,ex147,task366_shift_panels_down_right,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+147,ex147,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(28, 13)","(14, 13)",,,
+148,ex148,original,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+148,ex148,task366_color_bijection,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+148,ex148,task366_swap_panels,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+148,ex148,task366_transpose,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+148,ex148,task366_mirror_each_panel_lr,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+148,ex148,task366_shift_panels_down_right,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+148,ex148,task366_shift_panels_up_left,False,True,output_would_clip,"(30, 14)","(15, 14)",,,
+149,ex149,original,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+149,ex149,task366_color_bijection,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+149,ex149,task366_swap_panels,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+149,ex149,task366_transpose,True,False,ok,"(8, 20)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+149,ex149,task366_mirror_each_panel_lr,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+149,ex149,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 8)","(10, 8)",,,
+149,ex149,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 8)","(10, 8)",,,
+150,ex150,original,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+150,ex150,task366_color_bijection,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+150,ex150,task366_swap_panels,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+150,ex150,task366_transpose,True,False,ok,"(11, 24)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+150,ex150,task366_mirror_each_panel_lr,True,False,ok,"(24, 11)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+150,ex150,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 11)","(12, 11)",,,
+150,ex150,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 11)","(12, 11)",,,
+151,ex151,original,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+151,ex151,task366_color_bijection,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+151,ex151,task366_swap_panels,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+151,ex151,task366_transpose,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+151,ex151,task366_mirror_each_panel_lr,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+151,ex151,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(11, 26)","(11, 13)",,,
+151,ex151,task366_shift_panels_up_left,False,True,output_would_clip,"(11, 26)","(11, 13)",,,
+152,ex152,original,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+152,ex152,task366_color_bijection,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+152,ex152,task366_swap_panels,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+152,ex152,task366_transpose,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+152,ex152,task366_mirror_each_panel_lr,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+152,ex152,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 26)","(15, 13)",,,
+152,ex152,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(15, 26)","(15, 13)",,,
+153,ex153,original,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+153,ex153,task366_color_bijection,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+153,ex153,task366_swap_panels,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+153,ex153,task366_transpose,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+153,ex153,task366_mirror_each_panel_lr,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+153,ex153,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 13)","(12, 13)",,,
+153,ex153,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 13)","(12, 13)",,,
+154,ex154,original,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+154,ex154,task366_color_bijection,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+154,ex154,task366_swap_panels,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+154,ex154,task366_transpose,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+154,ex154,task366_mirror_each_panel_lr,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+154,ex154,task366_shift_panels_down_right,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+154,ex154,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(11, 26)","(11, 13)",,,
+155,ex155,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+155,ex155,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+155,ex155,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+155,ex155,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+155,ex155,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+155,ex155,task366_shift_panels_down_right,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+155,ex155,task366_shift_panels_up_left,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+156,ex156,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+156,ex156,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+156,ex156,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+156,ex156,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+156,ex156,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+156,ex156,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+156,ex156,task366_shift_panels_up_left,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+157,ex157,original,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+157,ex157,task366_color_bijection,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+157,ex157,task366_swap_panels,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+157,ex157,task366_transpose,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+157,ex157,task366_mirror_each_panel_lr,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+157,ex157,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(14, 30)","(14, 15)",,,
+157,ex157,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 30)","(14, 15)",,,
+158,ex158,original,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+158,ex158,task366_color_bijection,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+158,ex158,task366_swap_panels,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+158,ex158,task366_transpose,True,False,ok,"(18, 10)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+158,ex158,task366_mirror_each_panel_lr,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+158,ex158,task366_shift_panels_down_right,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+158,ex158,task366_shift_panels_up_left,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+159,ex159,original,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+159,ex159,task366_color_bijection,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+159,ex159,task366_swap_panels,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+159,ex159,task366_transpose,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+159,ex159,task366_mirror_each_panel_lr,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+159,ex159,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 20)","(12, 10)",,,
+159,ex159,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 20)","(12, 10)",,,
+160,ex160,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+160,ex160,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+160,ex160,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+160,ex160,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+160,ex160,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+160,ex160,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 10)","(10, 10)",,,
+160,ex160,task366_shift_panels_up_left,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+161,ex161,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+161,ex161,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+161,ex161,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+161,ex161,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+161,ex161,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+161,ex161,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 10)","(10, 10)",,,
+161,ex161,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 10)","(10, 10)",,,
+162,ex162,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+162,ex162,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+162,ex162,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+162,ex162,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+162,ex162,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+162,ex162,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 28)","(12, 14)",,,
+162,ex162,task366_shift_panels_up_left,False,True,output_would_clip,"(12, 28)","(12, 14)",,,
+163,ex163,original,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+163,ex163,task366_color_bijection,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+163,ex163,task366_swap_panels,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+163,ex163,task366_transpose,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+163,ex163,task366_mirror_each_panel_lr,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+163,ex163,task366_shift_panels_down_right,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+163,ex163,task366_shift_panels_up_left,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+164,ex164,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+164,ex164,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+164,ex164,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+164,ex164,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+164,ex164,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+164,ex164,task366_shift_panels_down_right,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+164,ex164,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(14, 28)","(14, 14)",,,
+165,ex165,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+165,ex165,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+165,ex165,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+165,ex165,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+165,ex165,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+165,ex165,task366_shift_panels_down_right,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+165,ex165,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 13)","(11, 13)",,,
+166,ex166,original,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+166,ex166,task366_color_bijection,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+166,ex166,task366_swap_panels,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+166,ex166,task366_transpose,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+166,ex166,task366_mirror_each_panel_lr,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+166,ex166,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+166,ex166,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 22)","(12, 11)",,,
+167,ex167,original,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+167,ex167,task366_color_bijection,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+167,ex167,task366_swap_panels,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+167,ex167,task366_transpose,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+167,ex167,task366_mirror_each_panel_lr,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+167,ex167,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(28, 12)","(14, 12)",,,
+167,ex167,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 12)","(14, 12)",,,
+168,ex168,original,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+168,ex168,task366_color_bijection,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+168,ex168,task366_swap_panels,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+168,ex168,task366_transpose,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+168,ex168,task366_mirror_each_panel_lr,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+168,ex168,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 12)","(13, 12)",,,
+168,ex168,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(26, 12)","(13, 12)",,,
+169,ex169,original,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+169,ex169,task366_color_bijection,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+169,ex169,task366_swap_panels,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+169,ex169,task366_transpose,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+169,ex169,task366_mirror_each_panel_lr,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+169,ex169,task366_shift_panels_down_right,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+169,ex169,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(30, 14)","(15, 14)",,,
+170,ex170,original,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+170,ex170,task366_color_bijection,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+170,ex170,task366_swap_panels,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+170,ex170,task366_transpose,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+170,ex170,task366_mirror_each_panel_lr,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+170,ex170,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 12)","(10, 12)",,,
+170,ex170,task366_shift_panels_up_left,False,True,output_would_clip,"(20, 12)","(10, 12)",,,
+171,ex171,original,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+171,ex171,task366_color_bijection,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+171,ex171,task366_swap_panels,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+171,ex171,task366_transpose,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+171,ex171,task366_mirror_each_panel_lr,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+171,ex171,task366_shift_panels_down_right,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+171,ex171,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 26)","(15, 13)",,,
+172,ex172,original,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+172,ex172,task366_color_bijection,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+172,ex172,task366_swap_panels,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+172,ex172,task366_transpose,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+172,ex172,task366_mirror_each_panel_lr,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+172,ex172,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+172,ex172,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+173,ex173,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+173,ex173,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+173,ex173,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+173,ex173,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+173,ex173,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+173,ex173,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(30, 17)","(15, 17)",,,
+173,ex173,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 17)","(15, 17)",,,
+174,ex174,original,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+174,ex174,task366_color_bijection,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+174,ex174,task366_swap_panels,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+174,ex174,task366_transpose,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+174,ex174,task366_mirror_each_panel_lr,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+174,ex174,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 10)","(12, 10)",,,
+174,ex174,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 10)","(12, 10)",,,
+175,ex175,original,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+175,ex175,task366_color_bijection,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+175,ex175,task366_swap_panels,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+175,ex175,task366_transpose,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+175,ex175,task366_mirror_each_panel_lr,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+175,ex175,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 12)","(11, 12)",,,
+175,ex175,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(22, 12)","(11, 12)",,,
+176,ex176,original,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+176,ex176,task366_color_bijection,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+176,ex176,task366_swap_panels,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+176,ex176,task366_transpose,True,False,ok,"(16, 28)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+176,ex176,task366_mirror_each_panel_lr,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+176,ex176,task366_shift_panels_down_right,False,True,output_would_clip,"(28, 16)","(14, 16)",,,
+176,ex176,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 16)","(14, 16)",,,
+177,ex177,original,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+177,ex177,task366_color_bijection,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+177,ex177,task366_swap_panels,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+177,ex177,task366_transpose,True,False,ok,"(8, 20)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+177,ex177,task366_mirror_each_panel_lr,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+177,ex177,task366_shift_panels_down_right,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+177,ex177,task366_shift_panels_up_left,False,True,output_would_clip,"(20, 8)","(10, 8)",,,
+178,ex178,original,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+178,ex178,task366_color_bijection,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+178,ex178,task366_swap_panels,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+178,ex178,task366_transpose,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+178,ex178,task366_mirror_each_panel_lr,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+178,ex178,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(28, 12)","(14, 12)",,,
+178,ex178,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(28, 12)","(14, 12)",,,
+179,ex179,original,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+179,ex179,task366_color_bijection,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+179,ex179,task366_swap_panels,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+179,ex179,task366_transpose,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+179,ex179,task366_mirror_each_panel_lr,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+179,ex179,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 14)","(13, 14)",,,
+179,ex179,task366_shift_panels_up_left,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+180,ex180,original,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+180,ex180,task366_color_bijection,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+180,ex180,task366_swap_panels,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+180,ex180,task366_transpose,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+180,ex180,task366_mirror_each_panel_lr,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+180,ex180,task366_shift_panels_down_right,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+180,ex180,task366_shift_panels_up_left,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+181,ex181,original,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+181,ex181,task366_color_bijection,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+181,ex181,task366_swap_panels,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+181,ex181,task366_transpose,True,False,ok,"(9, 20)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+181,ex181,task366_mirror_each_panel_lr,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+181,ex181,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 9)","(10, 9)",,,
+181,ex181,task366_shift_panels_up_left,True,False,ok,"(20, 9)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+182,ex182,original,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+182,ex182,task366_color_bijection,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+182,ex182,task366_swap_panels,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+182,ex182,task366_transpose,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+182,ex182,task366_mirror_each_panel_lr,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+182,ex182,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 22)","(10, 11)",,,
+182,ex182,task366_shift_panels_up_left,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+183,ex183,original,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+183,ex183,task366_color_bijection,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+183,ex183,task366_swap_panels,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+183,ex183,task366_transpose,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+183,ex183,task366_mirror_each_panel_lr,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+183,ex183,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(30, 13)","(15, 13)",,,
+183,ex183,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(30, 13)","(15, 13)",,,
+184,ex184,original,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+184,ex184,task366_color_bijection,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+184,ex184,task366_swap_panels,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+184,ex184,task366_transpose,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+184,ex184,task366_mirror_each_panel_lr,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+184,ex184,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+184,ex184,task366_shift_panels_up_left,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+185,ex185,original,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+185,ex185,task366_color_bijection,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+185,ex185,task366_swap_panels,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+185,ex185,task366_transpose,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+185,ex185,task366_mirror_each_panel_lr,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+185,ex185,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 26)","(14, 13)",,,
+185,ex185,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 26)","(14, 13)",,,
+186,ex186,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+186,ex186,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+186,ex186,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+186,ex186,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+186,ex186,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+186,ex186,task366_shift_panels_down_right,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+186,ex186,task366_shift_panels_up_left,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+187,ex187,original,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+187,ex187,task366_color_bijection,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+187,ex187,task366_swap_panels,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+187,ex187,task366_transpose,True,False,ok,"(13, 24)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+187,ex187,task366_mirror_each_panel_lr,True,False,ok,"(24, 13)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+187,ex187,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 13)","(12, 13)",,,
+187,ex187,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 13)","(12, 13)",,,
+188,ex188,original,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+188,ex188,task366_color_bijection,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+188,ex188,task366_swap_panels,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+188,ex188,task366_transpose,True,False,ok,"(13, 22)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+188,ex188,task366_mirror_each_panel_lr,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+188,ex188,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 13)","(11, 13)",,,
+188,ex188,task366_shift_panels_up_left,True,False,ok,"(22, 13)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+189,ex189,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+189,ex189,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+189,ex189,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+189,ex189,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+189,ex189,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+189,ex189,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 28)","(14, 14)",,,
+189,ex189,task366_shift_panels_up_left,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+190,ex190,original,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+190,ex190,task366_color_bijection,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+190,ex190,task366_swap_panels,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+190,ex190,task366_transpose,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+190,ex190,task366_mirror_each_panel_lr,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+190,ex190,task366_shift_panels_down_right,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+190,ex190,task366_shift_panels_up_left,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+191,ex191,original,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+191,ex191,task366_color_bijection,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+191,ex191,task366_swap_panels,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+191,ex191,task366_transpose,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+191,ex191,task366_mirror_each_panel_lr,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+191,ex191,task366_shift_panels_down_right,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+191,ex191,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 10)","(10, 10)",,,
+192,ex192,original,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+192,ex192,task366_color_bijection,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+192,ex192,task366_swap_panels,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+192,ex192,task366_transpose,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+192,ex192,task366_mirror_each_panel_lr,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+192,ex192,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+192,ex192,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+193,ex193,original,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+193,ex193,task366_color_bijection,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+193,ex193,task366_swap_panels,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+193,ex193,task366_transpose,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+193,ex193,task366_mirror_each_panel_lr,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+193,ex193,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 15)","(14, 15)",,,
+193,ex193,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(28, 15)","(14, 15)",,,
+194,ex194,original,False,True,"input_shape_exceeds_limit:(15, 34)>(30, 30)","(15, 34)","(15, 17)",,,
+194,ex194,task366_color_bijection,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+194,ex194,task366_swap_panels,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+194,ex194,task366_transpose,True,False,ok,"(34, 15)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+194,ex194,task366_mirror_each_panel_lr,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+194,ex194,task366_shift_panels_down_right,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+194,ex194,task366_shift_panels_up_left,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+195,ex195,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+195,ex195,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+195,ex195,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+195,ex195,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+195,ex195,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+195,ex195,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+195,ex195,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(22, 11)","(11, 11)",,,
+196,ex196,original,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+196,ex196,task366_color_bijection,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+196,ex196,task366_swap_panels,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+196,ex196,task366_transpose,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+196,ex196,task366_mirror_each_panel_lr,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+196,ex196,task366_shift_panels_down_right,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+196,ex196,task366_shift_panels_up_left,False,True,output_would_clip,"(15, 30)","(15, 15)",,,
+197,ex197,original,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+197,ex197,task366_color_bijection,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+197,ex197,task366_swap_panels,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+197,ex197,task366_transpose,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+197,ex197,task366_mirror_each_panel_lr,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+197,ex197,task366_shift_panels_down_right,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+197,ex197,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 14)","(15, 14)",,,
+198,ex198,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+198,ex198,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+198,ex198,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+198,ex198,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+198,ex198,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+198,ex198,task366_shift_panels_down_right,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+198,ex198,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+199,ex199,original,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+199,ex199,task366_color_bijection,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+199,ex199,task366_swap_panels,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+199,ex199,task366_transpose,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+199,ex199,task366_mirror_each_panel_lr,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+199,ex199,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 24)","(10, 12)",,,
+199,ex199,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(10, 24)","(10, 12)",,,
+200,ex200,original,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+200,ex200,task366_color_bijection,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+200,ex200,task366_swap_panels,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+200,ex200,task366_transpose,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+200,ex200,task366_mirror_each_panel_lr,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+200,ex200,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(15, 30)","(15, 15)",,,
+200,ex200,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 30)","(15, 15)",,,
+201,ex201,original,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+201,ex201,task366_color_bijection,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+201,ex201,task366_swap_panels,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+201,ex201,task366_transpose,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+201,ex201,task366_mirror_each_panel_lr,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+201,ex201,task366_shift_panels_down_right,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+201,ex201,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 12)","(12, 12)",,,
+202,ex202,original,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+202,ex202,task366_color_bijection,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+202,ex202,task366_swap_panels,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+202,ex202,task366_transpose,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+202,ex202,task366_mirror_each_panel_lr,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+202,ex202,task366_shift_panels_down_right,False,True,output_would_clip,"(13, 30)","(13, 15)",,,
+202,ex202,task366_shift_panels_up_left,False,True,output_would_clip,"(13, 30)","(13, 15)",,,
+203,ex203,original,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+203,ex203,task366_color_bijection,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+203,ex203,task366_swap_panels,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+203,ex203,task366_transpose,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+203,ex203,task366_mirror_each_panel_lr,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+203,ex203,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(11, 22)","(11, 11)",,,
+203,ex203,task366_shift_panels_up_left,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+204,ex204,original,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+204,ex204,task366_color_bijection,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+204,ex204,task366_swap_panels,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+204,ex204,task366_transpose,True,False,ok,"(18, 10)","(9, 10)","(9, 10)",0,bounded_rectangles_max7
+204,ex204,task366_mirror_each_panel_lr,True,False,ok,"(10, 18)","(10, 9)","(10, 9)",0,bounded_rectangles_max7
+204,ex204,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 18)","(10, 9)",,,
+204,ex204,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(10, 18)","(10, 9)",,,
+205,ex205,original,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+205,ex205,task366_color_bijection,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+205,ex205,task366_swap_panels,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+205,ex205,task366_transpose,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+205,ex205,task366_mirror_each_panel_lr,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+205,ex205,task366_shift_panels_down_right,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+205,ex205,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(15, 26)","(15, 13)",,,
+206,ex206,original,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+206,ex206,task366_color_bijection,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+206,ex206,task366_swap_panels,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+206,ex206,task366_transpose,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+206,ex206,task366_mirror_each_panel_lr,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+206,ex206,task366_shift_panels_down_right,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+206,ex206,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+207,ex207,original,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+207,ex207,task366_color_bijection,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+207,ex207,task366_swap_panels,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+207,ex207,task366_transpose,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+207,ex207,task366_mirror_each_panel_lr,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+207,ex207,task366_shift_panels_down_right,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+207,ex207,task366_shift_panels_up_left,False,True,output_would_clip,"(24, 12)","(12, 12)",,,
+208,ex208,original,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+208,ex208,task366_color_bijection,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+208,ex208,task366_swap_panels,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+208,ex208,task366_transpose,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+208,ex208,task366_mirror_each_panel_lr,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+208,ex208,task366_shift_panels_down_right,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+208,ex208,task366_shift_panels_up_left,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+209,ex209,original,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+209,ex209,task366_color_bijection,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+209,ex209,task366_swap_panels,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+209,ex209,task366_transpose,True,False,ok,"(16, 10)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+209,ex209,task366_mirror_each_panel_lr,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+209,ex209,task366_shift_panels_down_right,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+209,ex209,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 16)","(10, 8)",,,
+210,ex210,original,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+210,ex210,task366_color_bijection,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+210,ex210,task366_swap_panels,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+210,ex210,task366_transpose,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+210,ex210,task366_mirror_each_panel_lr,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+210,ex210,task366_shift_panels_down_right,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+210,ex210,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(15, 28)","(15, 14)",,,
+211,ex211,original,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+211,ex211,task366_color_bijection,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+211,ex211,task366_swap_panels,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+211,ex211,task366_transpose,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+211,ex211,task366_mirror_each_panel_lr,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+211,ex211,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 20)","(12, 10)",,,
+211,ex211,task366_shift_panels_up_left,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+212,ex212,original,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+212,ex212,task366_color_bijection,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+212,ex212,task366_swap_panels,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+212,ex212,task366_transpose,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+212,ex212,task366_mirror_each_panel_lr,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+212,ex212,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 24)","(12, 12)",,,
+212,ex212,task366_shift_panels_up_left,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+213,ex213,original,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+213,ex213,task366_color_bijection,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+213,ex213,task366_swap_panels,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+213,ex213,task366_transpose,True,False,ok,"(15, 28)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+213,ex213,task366_mirror_each_panel_lr,True,False,ok,"(28, 15)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+213,ex213,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 15)","(14, 15)",,,
+213,ex213,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(28, 15)","(14, 15)",,,
+214,ex214,original,False,True,"input_shape_exceeds_limit:(14, 32)>(30, 30)","(14, 32)","(14, 16)",,,
+214,ex214,task366_color_bijection,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+214,ex214,task366_swap_panels,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+214,ex214,task366_transpose,True,False,ok,"(32, 14)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+214,ex214,task366_mirror_each_panel_lr,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+214,ex214,task366_shift_panels_down_right,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+214,ex214,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 32)","(14, 16)",,,
+215,ex215,original,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+215,ex215,task366_color_bijection,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+215,ex215,task366_swap_panels,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+215,ex215,task366_transpose,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+215,ex215,task366_mirror_each_panel_lr,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+215,ex215,task366_shift_panels_down_right,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+215,ex215,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 11)","(13, 11)",,,
+216,ex216,original,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+216,ex216,task366_color_bijection,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+216,ex216,task366_swap_panels,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+216,ex216,task366_transpose,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+216,ex216,task366_mirror_each_panel_lr,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+216,ex216,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+216,ex216,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 24)","(14, 12)",,,
+217,ex217,original,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+217,ex217,task366_color_bijection,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+217,ex217,task366_swap_panels,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+217,ex217,task366_transpose,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+217,ex217,task366_mirror_each_panel_lr,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+217,ex217,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(22, 12)","(11, 12)",,,
+217,ex217,task366_shift_panels_up_left,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+218,ex218,original,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+218,ex218,task366_color_bijection,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+218,ex218,task366_swap_panels,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+218,ex218,task366_transpose,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+218,ex218,task366_mirror_each_panel_lr,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+218,ex218,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+218,ex218,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+219,ex219,original,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+219,ex219,task366_color_bijection,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+219,ex219,task366_swap_panels,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+219,ex219,task366_transpose,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+219,ex219,task366_mirror_each_panel_lr,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+219,ex219,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(28, 12)","(14, 12)",,,
+219,ex219,task366_shift_panels_up_left,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+220,ex220,original,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+220,ex220,task366_color_bijection,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+220,ex220,task366_swap_panels,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+220,ex220,task366_transpose,True,False,ok,"(10, 24)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+220,ex220,task366_mirror_each_panel_lr,True,False,ok,"(24, 10)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+220,ex220,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(24, 10)","(12, 10)",,,
+220,ex220,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 10)","(12, 10)",,,
+221,ex221,original,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+221,ex221,task366_color_bijection,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+221,ex221,task366_swap_panels,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+221,ex221,task366_transpose,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+221,ex221,task366_mirror_each_panel_lr,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+221,ex221,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 22)","(12, 11)",,,
+221,ex221,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 22)","(12, 11)",,,
+222,ex222,original,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+222,ex222,task366_color_bijection,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+222,ex222,task366_swap_panels,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+222,ex222,task366_transpose,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+222,ex222,task366_mirror_each_panel_lr,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+222,ex222,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 28)","(13, 14)",,,
+222,ex222,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(13, 28)","(13, 14)",,,
+223,ex223,original,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+223,ex223,task366_color_bijection,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+223,ex223,task366_swap_panels,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+223,ex223,task366_transpose,True,False,ok,"(16, 10)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+223,ex223,task366_mirror_each_panel_lr,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+223,ex223,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 16)","(10, 8)",,,
+223,ex223,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 16)","(10, 8)",,,
+224,ex224,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+224,ex224,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+224,ex224,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+224,ex224,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+224,ex224,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+224,ex224,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 11)","(11, 11)",,,
+224,ex224,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+225,ex225,original,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+225,ex225,task366_color_bijection,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+225,ex225,task366_swap_panels,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+225,ex225,task366_transpose,True,False,ok,"(14, 26)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+225,ex225,task366_mirror_each_panel_lr,True,False,ok,"(26, 14)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+225,ex225,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(26, 14)","(13, 14)",,,
+225,ex225,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 14)","(13, 14)",,,
+226,ex226,original,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+226,ex226,task366_color_bijection,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+226,ex226,task366_swap_panels,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+226,ex226,task366_transpose,True,False,ok,"(26, 11)","(13, 11)","(13, 11)",0,bounded_rectangles_max7
+226,ex226,task366_mirror_each_panel_lr,True,False,ok,"(11, 26)","(11, 13)","(11, 13)",0,bounded_rectangles_max7
+226,ex226,task366_shift_panels_down_right,False,True,output_would_clip,"(11, 26)","(11, 13)",,,
+226,ex226,task366_shift_panels_up_left,False,True,output_would_clip,"(11, 26)","(11, 13)",,,
+227,ex227,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+227,ex227,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+227,ex227,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+227,ex227,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+227,ex227,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+227,ex227,task366_shift_panels_down_right,False,True,output_would_clip,"(30, 17)","(15, 17)",,,
+227,ex227,task366_shift_panels_up_left,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+228,ex228,original,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+228,ex228,task366_color_bijection,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+228,ex228,task366_swap_panels,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+228,ex228,task366_transpose,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+228,ex228,task366_mirror_each_panel_lr,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+228,ex228,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 12)","(10, 12)",,,
+228,ex228,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 12)","(10, 12)",,,
+229,ex229,original,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+229,ex229,task366_color_bijection,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+229,ex229,task366_swap_panels,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+229,ex229,task366_transpose,True,False,ok,"(8, 20)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+229,ex229,task366_mirror_each_panel_lr,True,False,ok,"(20, 8)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+229,ex229,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 8)","(10, 8)",,,
+229,ex229,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(20, 8)","(10, 8)",,,
+230,ex230,original,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+230,ex230,task366_color_bijection,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+230,ex230,task366_swap_panels,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+230,ex230,task366_transpose,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+230,ex230,task366_mirror_each_panel_lr,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+230,ex230,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(20, 11)","(10, 11)",,,
+230,ex230,task366_shift_panels_up_left,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+231,ex231,original,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+231,ex231,task366_color_bijection,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+231,ex231,task366_swap_panels,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+231,ex231,task366_transpose,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+231,ex231,task366_mirror_each_panel_lr,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+231,ex231,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 20)","(10, 10)",,,
+231,ex231,task366_shift_panels_up_left,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+232,ex232,original,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+232,ex232,task366_color_bijection,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+232,ex232,task366_swap_panels,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+232,ex232,task366_transpose,True,False,ok,"(20, 12)","(10, 12)","(10, 12)",0,bounded_rectangles_max7
+232,ex232,task366_mirror_each_panel_lr,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+232,ex232,task366_shift_panels_down_right,True,False,ok,"(12, 20)","(12, 10)","(12, 10)",0,bounded_rectangles_max7
+232,ex232,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(12, 20)","(12, 10)",,,
+233,ex233,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+233,ex233,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+233,ex233,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+233,ex233,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+233,ex233,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+233,ex233,task366_shift_panels_down_right,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+233,ex233,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(24, 14)","(12, 14)",,,
+234,ex234,original,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+234,ex234,task366_color_bijection,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+234,ex234,task366_swap_panels,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+234,ex234,task366_transpose,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+234,ex234,task366_mirror_each_panel_lr,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+234,ex234,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(22, 11)","(11, 11)",,,
+234,ex234,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(22, 11)","(11, 11)",,,
+235,ex235,original,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+235,ex235,task366_color_bijection,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+235,ex235,task366_swap_panels,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+235,ex235,task366_transpose,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+235,ex235,task366_mirror_each_panel_lr,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+235,ex235,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 11)","(10, 11)",,,
+235,ex235,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(20, 11)","(10, 11)",,,
+236,ex236,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+236,ex236,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+236,ex236,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+236,ex236,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+236,ex236,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+236,ex236,task366_shift_panels_down_right,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+236,ex236,task366_shift_panels_up_left,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+237,ex237,original,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+237,ex237,task366_color_bijection,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+237,ex237,task366_swap_panels,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+237,ex237,task366_transpose,True,False,ok,"(22, 10)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+237,ex237,task366_mirror_each_panel_lr,True,False,ok,"(10, 22)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+237,ex237,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(10, 22)","(10, 11)",,,
+237,ex237,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 22)","(10, 11)",,,
+238,ex238,original,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+238,ex238,task366_color_bijection,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+238,ex238,task366_swap_panels,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+238,ex238,task366_transpose,True,False,ok,"(20, 10)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+238,ex238,task366_mirror_each_panel_lr,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+238,ex238,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 20)","(10, 10)",,,
+238,ex238,task366_shift_panels_up_left,True,False,ok,"(10, 20)","(10, 10)","(10, 10)",0,bounded_rectangles_max7
+239,ex239,original,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+239,ex239,task366_color_bijection,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+239,ex239,task366_swap_panels,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+239,ex239,task366_transpose,True,False,ok,"(13, 28)","(13, 14)","(13, 14)",0,bounded_rectangles_max7
+239,ex239,task366_mirror_each_panel_lr,True,False,ok,"(28, 13)","(14, 13)","(14, 13)",0,bounded_rectangles_max7
+239,ex239,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(28, 13)","(14, 13)",,,
+239,ex239,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 13)","(14, 13)",,,
+240,ex240,original,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+240,ex240,task366_color_bijection,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+240,ex240,task366_swap_panels,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+240,ex240,task366_transpose,True,False,ok,"(22, 11)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+240,ex240,task366_mirror_each_panel_lr,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+240,ex240,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(11, 22)","(11, 11)",,,
+240,ex240,task366_shift_panels_up_left,True,False,ok,"(11, 22)","(11, 11)","(11, 11)",0,bounded_rectangles_max7
+241,ex241,original,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+241,ex241,task366_color_bijection,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+241,ex241,task366_swap_panels,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+241,ex241,task366_transpose,True,False,ok,"(16, 28)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+241,ex241,task366_mirror_each_panel_lr,True,False,ok,"(28, 16)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+241,ex241,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(28, 16)","(14, 16)",,,
+241,ex241,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(28, 16)","(14, 16)",,,
+242,ex242,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+242,ex242,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+242,ex242,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+242,ex242,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+242,ex242,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+242,ex242,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 28)","(12, 14)",,,
+242,ex242,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 28)","(12, 14)",,,
+243,ex243,original,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+243,ex243,task366_color_bijection,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+243,ex243,task366_swap_panels,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+243,ex243,task366_transpose,True,False,ok,"(26, 13)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+243,ex243,task366_mirror_each_panel_lr,True,False,ok,"(13, 26)","(13, 13)","(13, 13)",0,bounded_rectangles_max7
+243,ex243,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(13, 26)","(13, 13)",,,
+243,ex243,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(13, 26)","(13, 13)",,,
+244,ex244,original,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+244,ex244,task366_color_bijection,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+244,ex244,task366_swap_panels,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+244,ex244,task366_transpose,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+244,ex244,task366_mirror_each_panel_lr,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+244,ex244,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+244,ex244,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+245,ex245,original,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+245,ex245,task366_color_bijection,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+245,ex245,task366_swap_panels,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+245,ex245,task366_transpose,True,False,ok,"(13, 30)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+245,ex245,task366_mirror_each_panel_lr,True,False,ok,"(30, 13)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+245,ex245,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+245,ex245,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 13)","(15, 13)",,,
+246,ex246,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+246,ex246,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+246,ex246,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+246,ex246,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+246,ex246,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+246,ex246,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 17)","(15, 17)",,,
+246,ex246,task366_shift_panels_up_left,False,True,output_would_clip,"(30, 17)","(15, 17)",,,
+247,ex247,original,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+247,ex247,task366_color_bijection,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+247,ex247,task366_swap_panels,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+247,ex247,task366_transpose,True,False,ok,"(28, 14)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+247,ex247,task366_mirror_each_panel_lr,True,False,ok,"(14, 28)","(14, 14)","(14, 14)",0,bounded_rectangles_max7
+247,ex247,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 28)","(14, 14)",,,
+247,ex247,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 28)","(14, 14)",,,
+248,ex248,original,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+248,ex248,task366_color_bijection,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+248,ex248,task366_swap_panels,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+248,ex248,task366_transpose,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+248,ex248,task366_mirror_each_panel_lr,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+248,ex248,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(26, 12)","(13, 12)",,,
+248,ex248,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 12)","(13, 12)",,,
+249,ex249,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+249,ex249,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+249,ex249,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+249,ex249,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+249,ex249,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+249,ex249,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+249,ex249,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+250,ex250,original,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+250,ex250,task366_color_bijection,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+250,ex250,task366_swap_panels,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+250,ex250,task366_transpose,True,False,ok,"(9, 22)","(9, 11)","(9, 11)",0,bounded_rectangles_max7
+250,ex250,task366_mirror_each_panel_lr,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+250,ex250,task366_shift_panels_down_right,True,False,ok,"(22, 9)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+250,ex250,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(22, 9)","(11, 9)",,,
+251,ex251,original,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+251,ex251,task366_color_bijection,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+251,ex251,task366_swap_panels,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+251,ex251,task366_transpose,True,False,ok,"(15, 26)","(15, 13)","(15, 13)",0,bounded_rectangles_max7
+251,ex251,task366_mirror_each_panel_lr,True,False,ok,"(26, 15)","(13, 15)","(13, 15)",0,bounded_rectangles_max7
+251,ex251,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(26, 15)","(13, 15)",,,
+251,ex251,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(26, 15)","(13, 15)",,,
+252,ex252,original,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+252,ex252,task366_color_bijection,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+252,ex252,task366_swap_panels,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+252,ex252,task366_transpose,True,False,ok,"(22, 12)","(11, 12)","(11, 12)",0,bounded_rectangles_max7
+252,ex252,task366_mirror_each_panel_lr,True,False,ok,"(12, 22)","(12, 11)","(12, 11)",0,bounded_rectangles_max7
+252,ex252,task366_shift_panels_down_right,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+252,ex252,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(12, 22)","(12, 11)",,,
+253,ex253,original,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+253,ex253,task366_color_bijection,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+253,ex253,task366_swap_panels,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+253,ex253,task366_transpose,True,False,ok,"(14, 24)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+253,ex253,task366_mirror_each_panel_lr,True,False,ok,"(24, 14)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+253,ex253,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+253,ex253,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 14)","(12, 14)",,,
+254,ex254,original,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+254,ex254,task366_color_bijection,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+254,ex254,task366_swap_panels,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+254,ex254,task366_transpose,True,False,ok,"(18, 11)","(9, 11)","(9, 11)",0,bounded_rectangles_max7
+254,ex254,task366_mirror_each_panel_lr,True,False,ok,"(11, 18)","(11, 9)","(11, 9)",0,bounded_rectangles_max7
+254,ex254,task366_shift_panels_down_right,False,True,output_would_clip,"(11, 18)","(11, 9)",,,
+254,ex254,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(11, 18)","(11, 9)",,,
+255,ex255,original,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+255,ex255,task366_color_bijection,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+255,ex255,task366_swap_panels,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+255,ex255,task366_transpose,True,False,ok,"(11, 20)","(11, 10)","(11, 10)",0,bounded_rectangles_max7
+255,ex255,task366_mirror_each_panel_lr,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+255,ex255,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(20, 11)","(10, 11)",,,
+255,ex255,task366_shift_panels_up_left,True,False,ok,"(20, 11)","(10, 11)","(10, 11)",0,bounded_rectangles_max7
+256,ex256,original,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+256,ex256,task366_color_bijection,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+256,ex256,task366_swap_panels,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+256,ex256,task366_transpose,True,False,ok,"(12, 24)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+256,ex256,task366_mirror_each_panel_lr,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+256,ex256,task366_shift_panels_down_right,True,False,ok,"(24, 12)","(12, 12)","(12, 12)",0,bounded_rectangles_max7
+256,ex256,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(24, 12)","(12, 12)",,,
+257,ex257,original,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+257,ex257,task366_color_bijection,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+257,ex257,task366_swap_panels,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+257,ex257,task366_transpose,True,False,ok,"(30, 15)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+257,ex257,task366_mirror_each_panel_lr,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+257,ex257,task366_shift_panels_down_right,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+257,ex257,task366_shift_panels_up_left,True,False,ok,"(15, 30)","(15, 15)","(15, 15)",0,bounded_rectangles_max7
+258,ex258,original,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+258,ex258,task366_color_bijection,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+258,ex258,task366_swap_panels,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+258,ex258,task366_transpose,True,False,ok,"(12, 26)","(12, 13)","(12, 13)",0,bounded_rectangles_max7
+258,ex258,task366_mirror_each_panel_lr,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+258,ex258,task366_shift_panels_down_right,True,False,ok,"(26, 12)","(13, 12)","(13, 12)",0,bounded_rectangles_max7
+258,ex258,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(26, 12)","(13, 12)",,,
+259,ex259,original,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+259,ex259,task366_color_bijection,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+259,ex259,task366_swap_panels,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+259,ex259,task366_transpose,True,False,ok,"(14, 30)","(14, 15)","(14, 15)",0,bounded_rectangles_max7
+259,ex259,task366_mirror_each_panel_lr,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+259,ex259,task366_shift_panels_down_right,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+259,ex259,task366_shift_panels_up_left,True,False,ok,"(30, 14)","(15, 14)","(15, 14)",0,bounded_rectangles_max7
+260,ex260,original,False,True,"input_shape_exceeds_limit:(14, 32)>(30, 30)","(14, 32)","(14, 16)",,,
+260,ex260,task366_color_bijection,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+260,ex260,task366_swap_panels,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+260,ex260,task366_transpose,True,False,ok,"(32, 14)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+260,ex260,task366_mirror_each_panel_lr,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+260,ex260,task366_shift_panels_down_right,False,True,output_would_clip,"(14, 32)","(14, 16)",,,
+260,ex260,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(14, 32)","(14, 16)",,,
+261,ex261,original,False,True,"input_shape_exceeds_limit:(15, 34)>(30, 30)","(15, 34)","(15, 17)",,,
+261,ex261,task366_color_bijection,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+261,ex261,task366_swap_panels,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+261,ex261,task366_transpose,True,False,ok,"(34, 15)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+261,ex261,task366_mirror_each_panel_lr,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+261,ex261,task366_shift_panels_down_right,True,False,ok,"(15, 34)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+261,ex261,task366_shift_panels_up_left,False,True,panel_b_would_clip,"(15, 34)","(15, 17)",,,
+262,ex262,original,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+262,ex262,task366_color_bijection,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+262,ex262,task366_swap_panels,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+262,ex262,task366_transpose,True,False,ok,"(17, 30)","(17, 15)","(17, 15)",0,bounded_rectangles_max7
+262,ex262,task366_mirror_each_panel_lr,True,False,ok,"(30, 17)","(15, 17)","(15, 17)",0,bounded_rectangles_max7
+262,ex262,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(30, 17)","(15, 17)",,,
+262,ex262,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(30, 17)","(15, 17)",,,
+263,ex263,original,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+263,ex263,task366_color_bijection,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+263,ex263,task366_swap_panels,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+263,ex263,task366_transpose,True,False,ok,"(16, 10)","(8, 10)","(8, 10)",0,bounded_rectangles_max7
+263,ex263,task366_mirror_each_panel_lr,True,False,ok,"(10, 16)","(10, 8)","(10, 8)",0,bounded_rectangles_max7
+263,ex263,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(10, 16)","(10, 8)",,,
+263,ex263,task366_shift_panels_up_left,False,True,panel_a_would_clip,"(10, 16)","(10, 8)",,,
+264,ex264,original,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+264,ex264,task366_color_bijection,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+264,ex264,task366_swap_panels,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+264,ex264,task366_transpose,True,False,ok,"(28, 12)","(14, 12)","(14, 12)",0,bounded_rectangles_max7
+264,ex264,task366_mirror_each_panel_lr,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+264,ex264,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(12, 28)","(12, 14)",,,
+264,ex264,task366_shift_panels_up_left,True,False,ok,"(12, 28)","(12, 14)","(12, 14)",0,bounded_rectangles_max7
+265,ex265,original,False,True,"input_shape_exceeds_limit:(14, 32)>(30, 30)","(14, 32)","(14, 16)",,,
+265,ex265,task366_color_bijection,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+265,ex265,task366_swap_panels,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+265,ex265,task366_transpose,True,False,ok,"(32, 14)","(16, 14)","(16, 14)",0,bounded_rectangles_max7
+265,ex265,task366_mirror_each_panel_lr,True,False,ok,"(14, 32)","(14, 16)","(14, 16)",0,bounded_rectangles_max7
+265,ex265,task366_shift_panels_down_right,False,True,panel_a_would_clip,"(14, 32)","(14, 16)",,,
+265,ex265,task366_shift_panels_up_left,False,True,output_would_clip,"(14, 32)","(14, 16)",,,

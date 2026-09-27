@@ -36,8 +36,14 @@ available.
 
 ## Derived research records
 
-Aggregate metrics, source citations, and first-party analysis may be published
-when they do not reveal exact competition records. Per-case pseudo-hidden test
-matrices remain local-only. The code that generates those matrices is public,
-so a participant with authorized data can reproduce the evaluation under the
-competition's terms.
+First-party validation and replay evidence is published when it is not a copy
+of Competition Data. The `reports/*pseudo_hidden*` records contain source-order
+handles, test-contract names, variants, pass/fail metrics, shape summaries, and
+compact diagnostic statistics; they do not contain downloaded input/output
+grids or JSON task records. The generator code is public, so a participant with
+authorized data can reproduce the evaluation under the competition's terms.
+
+The distinction matters: a detailed record of *our test result* is not a
+rehosted competition file. Conversely, a downloaded leaderboard export remains
+an external, third-party record and is only documented above by source URL,
+date, and checksum.
