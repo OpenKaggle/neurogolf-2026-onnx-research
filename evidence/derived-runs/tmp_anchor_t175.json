@@ -1,0 +1,1 @@
+{"source":"submissions/candidate_v4_plus16_seddik_t001_onnx","n_runs":0,"results":[{"task":175,"score":13.619909027688353,"cost":87561,"memory":84812,"params":2749,"local_pass":266,"local_total":266,"nodes":21,"error":""}]}
