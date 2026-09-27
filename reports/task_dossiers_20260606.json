@@ -34302,12 +34302,10 @@
       ],
       "known_reports": [
         "task133_semantic_v2.md",
-        "task133_v2_anchor_pseudo_hidden.csv",
         "task133_v2_anchor_pseudo_hidden_summary.json",
         "task133_v2_components.csv",
         "task133_v2_eval.csv",
         "task133_v2_leave_one_out.csv",
-        "task133_v2_pseudo_hidden.csv",
         "task133_v2_pseudo_hidden_summary.json",
         "task133_v2_stats.json",
         "task133_v2_summary.csv"
@@ -34320,9 +34318,7 @@
         "failed": 1293,
         "passed": 4062,
         "reports": [
-          "task133_v2_anchor_pseudo_hidden.csv",
           "task133_v2_anchor_pseudo_hidden_summary.json",
-          "task133_v2_pseudo_hidden.csv",
           "task133_v2_pseudo_hidden_summary.json"
         ],
         "skipped": 252,
@@ -65120,9 +65116,6 @@
       ],
       "known_reports": [
         "task255_semantic_v2.md",
-        "task255_v2_pseudo_hidden.csv",
-        "task255_v2_pseudo_hidden.json",
-        "task255_v2_pseudo_hidden_summary.csv",
         "task255_v2_rectangles.csv",
         "task255_v2_split_examples.csv",
         "task255_v2_split_summary.csv",
@@ -65136,9 +65129,6 @@
         "failed": 2364,
         "passed": 2226,
         "reports": [
-          "task255_v2_pseudo_hidden.csv",
-          "task255_v2_pseudo_hidden.json",
-          "task255_v2_pseudo_hidden_summary.csv"
         ],
         "skipped": 2303,
         "status": "stress_mixed",
@@ -72747,7 +72737,6 @@
         "task285_semantic_v2.md",
         "task285_v2_hypotheses.csv",
         "task285_v2_leave_one_out.csv",
-        "task285_v2_pseudo_hidden.csv",
         "task285_v2_structure.csv",
         "task285_v2_summary.json"
       ],
@@ -72759,7 +72748,6 @@
         "failed": 0,
         "passed": 3375,
         "reports": [
-          "task285_v2_pseudo_hidden.csv"
         ],
         "skipped": 70,
         "status": "stress_clean",
@@ -93190,7 +93178,6 @@
         "task366_v2_equivalence.csv",
         "task366_v2_existing_onnx.csv",
         "task366_v2_hypotheses.csv",
-        "task366_v2_pseudo_hidden.csv",
         "task366_v2_pseudo_hidden_failures.txt",
         "task366_v2_pseudo_hidden_summary.json",
         "task366_v2_stats.json"
@@ -93203,7 +93190,6 @@
         "failed": 0,
         "passed": 1456,
         "reports": [
-          "task366_v2_pseudo_hidden.csv",
           "task366_v2_pseudo_hidden_summary.json"
         ],
         "skipped": 406,
