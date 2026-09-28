@@ -5,7 +5,7 @@ message: >-
 title: NeuroGolf 2026 ONNX Research Archive
 type: software
 authors:
-  - name: OpenKaggle contributors
+  - name: Jah-yee
 repository-code: https://github.com/OpenKaggle/neurogolf-2026-onnx-research
 url: https://github.com/OpenKaggle/neurogolf-2026-onnx-research/tree/snapshot-2026-09
 version: snapshot-2026-09
