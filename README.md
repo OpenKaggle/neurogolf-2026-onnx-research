@@ -1,8 +1,15 @@
-# NeuroGolf 2026 ONNX Research Archive
+# [2026-09] NeuroGolf 2026 ONNX Research Archive
 
 Sanitized research workspace for the Kaggle competition
 `neurogolf-2026`. The project treats each ARC-style task as compact program
 synthesis and compiles candidate rules into cost-conscious ONNX graphs.
+
+## Contribution summary
+
+This snapshot contributes first-party ONNX/DSL tooling, compact program-
+synthesis experiments, tests, and reproducibility notes. Competition inputs,
+generated submission bundles, and third-party artifacts remain at their
+original sources.
 
 ## What this repository is
 
@@ -53,3 +60,21 @@ they are often the shortest path to a better next experiment.
 GitHub `main` is the verified remote copy of this sanitized archive. A separate
 Kaggle Dataset upload was attempted, but it never appeared in the account's
 dataset listing, so it is not counted as a verified backup.
+
+## Cite this repository
+
+For this source snapshot, cite [`CITATION.cff`](CITATION.cff) or
+[`CITATION.bib`](CITATION.bib) and use the tagged
+[`snapshot-2026-09`](https://github.com/OpenKaggle/neurogolf-2026-onnx-research/tree/snapshot-2026-09)
+source state. Cite the separate ONNX artifact dataset independently when using
+those reviewed model bytes.
+
+## References
+
+- [NeuroGolf 2026 competition](https://www.kaggle.com/competitions/neurogolf-2026)
+- [OpenKaggle publishing guide](https://github.com/OpenKaggle/.github/blob/main/PUBLISHING.md)
+
+## Release
+
+- Snapshot: [`snapshot-2026-09`](https://github.com/OpenKaggle/neurogolf-2026-onnx-research/tree/snapshot-2026-09)
+- Boundary and verification: [`RELEASE_MANIFEST.md`](RELEASE_MANIFEST.md)
