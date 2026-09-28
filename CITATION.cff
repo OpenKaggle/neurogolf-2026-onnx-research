@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If you use this snapshot, please cite the versioned source archive and
+  review the publication boundary before obtaining official inputs.
+title: NeuroGolf 2026 ONNX Research Archive
+type: software
+authors:
+  - name: OpenKaggle contributors
+repository-code: https://github.com/OpenKaggle/neurogolf-2026-onnx-research
+url: https://github.com/OpenKaggle/neurogolf-2026-onnx-research/tree/snapshot-2026-09
+version: snapshot-2026-09
+date-released: 2026-09-28
+abstract: >-
+  Source archive for compact ONNX program-synthesis tooling, experiments,
+  tests, and reproducibility notes for NeuroGolf 2026.
+keywords:
+  - Kaggle
+  - ONNX
+  - program synthesis
+  - reproducibility
