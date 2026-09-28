@@ -1,4 +1,4 @@
-# [2026-09] NeuroGolf 2026 ONNX Research Archive
+# [2026-07] NeuroGolf 2026 ONNX Research Archive
 
 Sanitized research workspace for the Kaggle competition
 `neurogolf-2026`. The project treats each ARC-style task as compact program
