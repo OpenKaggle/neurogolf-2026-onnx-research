@@ -20,15 +20,19 @@ issues, pull requests, or releases.
 
 ## Historical leaderboard-export provenance
 
-Two downloaded leaderboard ZIP snapshots were previously present in this
-repository. They were removed from the working tree and rewritten out of the
-public `main` history on 2026-09-27. The table retains only reproducibility
-metadata, not the exports themselves.
+Four downloaded leaderboard exports were previously present in this
+repository: two ZIP snapshots and two standalone CSV exports. The ZIP
+snapshots were removed from the working tree and rewritten out of the public
+`main` history on 2026-09-27. The two CSV exports were removed from the
+working tree and rewritten out of the public `main` history on 2026-10-16.
+The table retains only reproducibility metadata, not the exports themselves.
 
 | Former local path | Canonical source | Source snapshot date | SHA-256 before removal |
 | --- | --- | --- | --- |
 | `reports/leaderboard/neurogolf-2026.zip` | [NeuroGolf leaderboard](https://www.kaggle.com/competitions/neurogolf-2026/leaderboard) | 2026-09-17 (archive commit date) | `eccbd6ce25b2d98db2096c60e3ebc153d844de033e4de753a8f02978bdab9c2b` |
 | `reports/leaderboard/current/neurogolf-2026.zip` | [NeuroGolf leaderboard](https://www.kaggle.com/competitions/neurogolf-2026/leaderboard) | 2026-09-17 (archive commit date) | `a7ad4f29fcf99ace76470a90de69ce316f0e1e86342605b328ffaaa55538c212` |
+| `reports/leaderboard/current/neurogolf-2026-publicleaderboard-2026-05-31T18:12:59.csv` | [NeuroGolf leaderboard](https://www.kaggle.com/competitions/neurogolf-2026/leaderboard) | 2026-05-31 (export timestamp) | `9fc53b11e8b2de4a218c5eb9616f3817fa1426c30c2b151a4ae2764ead4d5a34` |
+| `reports/leaderboard/current/neurogolf-2026-publicleaderboard-2026-06-02T08:52:30.csv` | [NeuroGolf leaderboard](https://www.kaggle.com/competitions/neurogolf-2026/leaderboard) | 2026-06-02 (export timestamp) | `a95099ac888beda21679ded1ed3d3cf49f46d7369441ef3c8fcf738bec838cd6` |
 
 The checksums identify the historic local snapshots; they do not create a
 right to redistribute them or guarantee that a signed-in Kaggle export remains

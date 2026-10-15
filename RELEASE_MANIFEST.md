@@ -24,7 +24,9 @@ material and for the historic leaderboard-export checksums.
 Before this release was published, the tree was checked for tracked `data/`,
 `submissions/`, `.onnx`, and `.zip` assets; none remain. The two downloaded
 leaderboard ZIP exports were removed from the working tree and from reachable
-`main` history. First-party per-case pseudo-hidden records were reviewed and
+`main` history. The two residual leaderboard CSV copies were also removed from
+the working tree and reachable history on 2026-10-16. First-party per-case
+pseudo-hidden records were reviewed and
 retained because they contain validation metrics and compact diagnostics, not
 literal competition rows. Files at or above 10 MiB were also checked; none
 remain.
