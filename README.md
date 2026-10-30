@@ -1,5 +1,7 @@
 # [2026-07] NeuroGolf 2026 ONNX Research Archive
 
+> **Status: Final official score 6260.89, line closed 2026-06.**
+
 Sanitized research workspace for the Kaggle competition
 `neurogolf-2026`. The project treats each ARC-style task as compact program
 synthesis and compiles candidate rules into cost-conscious ONNX graphs.
