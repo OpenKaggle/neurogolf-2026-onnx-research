@@ -2,6 +2,8 @@
 
 > **Status: Final official score 6260.89, line closed 2026-06.**
 
+**Publication gate: 2026-07-15T23:59Z** (= neurogolf-2026 submission end; already elapsed — repo is public-eligible; visibility decision is separate)
+
 Sanitized research workspace for the Kaggle competition
 `neurogolf-2026`. The project treats each ARC-style task as compact program
 synthesis and compiles candidate rules into cost-conscious ONNX graphs.
